@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="viewbuilder-controls" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="controls">
+        <translation key="zone-control">
+            <note>The iVuExpress Zone Control</note>
+            <variant>Zone</variant>
+        </translation>
+        <translation key="equipment-color-control">
+            <note>The iVuExpress Equipment Color Control</note>
+            <variant>Equipment Color</variant>
+        </translation>
+        <translation key="webapp-control">
+            <variant>Add-on Content</variant>
+        </translation>
+    </section>
+    <section id="control-editors">
+        <translation key="label-control-text-field">
+            <variant>Text: </variant>
+        </translation>
+        <translation key="show-prime-variable">
+            <variant>Show Prime Variable:</variant>
+        </translation>
+        <translation key="show-color-block">
+            <variant>Show Color Block:</variant>
+        </translation>
+        <translation key="equipment-path">
+            <variant>Equipment Path:</variant>
+        </translation>
+        <translation key="size">
+            <variant>Size</variant>
+        </translation>
+        <translation key="size.large">
+            <variant>Large</variant>
+        </translation>
+        <translation key="size.small">
+            <variant>Small</variant>
+        </translation>
+        <translation key="webapp.name">
+            <variant>Add-on Name:</variant>
+        </translation>
+        <translation key="webapp.content.path">
+            <variant>Content Path:</variant>
+        </translation>
+        <translation key="webapp.location">
+            <variant>Location</variant>
+        </translation>
+        <translation key="webapp.location.attached">
+            <variant>Attached</variant>
+        </translation>
+        <translation key="webapp.location.alternate">
+            <variant>Alternate</variant>
+        </translation>
+        <translation key="webapp.size">
+            <variant>Size</variant>
+        </translation>
+        <translation key="webapp.size.width">
+            <variant>Width:</variant>
+        </translation>
+        <translation key="webapp.size.height">
+            <variant>Height:</variant>
+        </translation>
+        <translation key="webapp.parameters">
+            <variant>Parameters</variant>
+        </translation>
+        <translation key="webapp.parameters.name">
+            <variant>Name</variant>
+        </translation>
+        <translation key="webapp.parameters.value">
+            <variant>Value</variant>
+        </translation>
+    </section>
+    <section id="control-edit-validators">
+        <translation key="value-cannot-be-zero">
+            <variant>Value cannot be zero</variant>
+        </translation>
+    </section>
+</resource-base>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="ManagementTool" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="webroot/index.rhtml">
+        <note>The main management tool page</note>
+        <translation key="system_tobe_stopped_restarted_proceed">
+            <note>The main management tool page</note>
+            <note>System stop to be restarted confirmation prompt.</note>
+            <variant>The system will be stopped and restarted. Do you wish to proceed?</variant>
+        </translation>
+        <translation key="management_tool">
+            <note>The main management tool page</note>
+            <note>main title</note>
+            <variant>Management Tool</variant>
+        </translation>
+        <translation key="apply_changes">
+            <note>The main management tool page</note>
+            <note>Apply changes button text</note>
+            <variant>Apply Changes</variant>
+        </translation>
+        <translation key="cancel_changes">
+            <note>The main management tool page</note>
+            <note>Cancel changes button text</note>
+            <variant>Cancel Changes</variant>
+        </translation>
+        <translation key="ivu_is">
+            <note>The main management tool page</note>
+            <note>url title prefix</note>
+            <variant>i-Vu is</variant>
+        </translation>
+        <translation key="running_at">
+            <note>The main management tool page</note>
+            <note>url title</note>
+            <variant>running at</variant>
+        </translation>
+        <translation key="currently">
+            <note>The main management tool page</note>
+            <note>url title</note>
+            <variant>currently</variant>
+        </translation>
+        <translation key="stopped">
+            <note>The main management tool page</note>
+            <note>url title</note>
+            <variant>stopped</variant>
+        </translation>
+        <translation key="stop_server">
+            <note>The main management tool page</note>
+            <note>Stop server button text</note>
+            <variant>Stop Server</variant>
+        </translation>
+        <translation key="start_server">
+            <note>The main management tool page</note>
+            <note>Stop server button text</note>
+            <variant>Start Server</variant>
+        </translation>
+        <translation key="weekley_system_logs">
+            <note>The main management tool page</note>
+            <note>system log dropdown title</note>
+            <variant>Weekly system logs</variant>
+        </translation>
+        <translation key="download_logs">
+            <note>The main management tool page</note>
+            <note>Download logs button text</note>
+            <variant>Download logs</variant>
+        </translation>
+        <translation key="addressing">
+            <note>The main management tool page</note>
+            <note>Addressing section header title</note>
+            <variant>Addressing</variant>
+        </translation>
+        <translation key="system_status">
+            <note>The main management tool page</note>
+            <note>System status section header title</note>
+            <variant>System Status</variant>
+        </translation>
+        <translation key="operation_status">
+            <note>The main management tool page</note>
+            <note>Operation status section header title</note>
+            <variant>Operation Status</variant>
+        </translation>
+        <translation key="name">
+            <note>The main management tool page</note>
+            <note>Name field title</note>
+            <variant>Name</variant>
+        </translation>
+        <translation key="obtain_ip_address_automatically">
+            <note>The main management tool page</note>
+            <note>Obtain ip address label</note>
+            <variant>Obtain an IP address automatically</variant>
+        </translation>
+        <translation key="ivu_address">
+            <note>The main management tool page</note>
+            <note>Ivu address label</note>
+            <variant>i-Vu Address</variant>
+        </translation>
+        <translation key="subnet_mask">
+            <note>The main management tool page</note>
+            <note>Subnet mask label</note>
+            <variant>Subnet Mask</variant>
+        </translation>
+        <translation key="ip_gateway_address">
+            <note>The main management tool page</note>
+            <note>Ip gateway address label</note>
+            <variant>Default Gateway</variant>
+        </translation>
+        <translation key="dns_address">
+            <note>The main management tool page</note>
+            <note>dns address label</note>
+            <variant>DNS Address</variant>
+        </translation>
+        <translation key="embedded_device_address">
+            <note>The main management tool page</note>
+            <note>address label for the embedded device (firmware)</note>
+            <variant>USB Network Address</variant>
+        </translation>
+        <translation key="embedded_device_type">
+            <note>The main management tool page</note>
+            <note>type of the embedded device (firmware)</note>
+            <variant>USB Network Type</variant>
+        </translation>
+        <translation key="connector_not_detected">
+            <note>The main management tool page</note>
+            <note>warning message that the USB dongle is not connected</note>
+            <variant>Connector Not Detected</variant>
+        </translation>
+        <translation key="bacnet">
+            <note>The main management tool page</note>
+            <note>Building automation and control networks protocol</note>
+            <variant>BACnet</variant>
+        </translation>
+        <translation key="ccn">
+            <note>The main management tool page</note>
+            <note>Carrier control network protocol</note>
+            <variant>CCN</variant>
+        </translation>
+        <translation key="domain_name">
+            <note>The main management tool page</note>
+            <note>Domain name label</note>
+            <variant>Domain</variant>
+        </translation>
+        <translation key="manage_server_data">
+            <note>The main management tool page</note>
+            <note>Manager server data section header title</note>
+            <variant>Manage Server Data</variant>
+        </translation>
+        <translation key="backup">
+            <note>The main management tool page</note>
+            <note>Backup button text</note>
+            <variant>PC Backup ...</variant>
+        </translation>
+        <translation key="usb_backup">
+            <note>The main management tool page</note>
+            <note>Backup button text</note>
+            <variant>USB Backup ...</variant>
+        </translation>
+        <translation key="backup_help_text">
+            <note>The main management tool page</note>
+            <note>Backup button help text</note>
+            <variant>Backup i-Vu server data to your PC</variant>
+        </translation>
+        <translation key="usb_backup_help_text">
+            <note>The main management tool page</note>
+            <note>USB Backup button help text</note>
+            <variant>Backup i-Vu server data to a USB drive connected to the server</variant>
+        </translation>
+        <translation key="restore">
+            <note>The main management tool page</note>
+            <note>Restore button text</note>
+            <variant>PC Restore ...</variant>
+        </translation>
+        <translation key="usb_restore">
+            <note>The main management tool page</note>
+            <note>Restore button text</note>
+            <variant>USB Restore ...</variant>
+        </translation>
+        <translation key="restore_help_text">
+            <note>The main management tool page</note>
+            <note>Restore button help text</note>
+            <variant>Replace the current server data with a backup file from your PC</variant>
+        </translation>
+        <translation key="usb_restore_help_text">
+            <note>The main management tool page</note>
+            <note>USB Restore button help text</note>
+            <variant>Replace the current server data with a backup file from a USB drive connected to the server</variant>
+        </translation>
+        <translation key="factory_defaults">
+            <note>The main management tool page</note>
+            <note>Factory defaults button text</note>
+            <variant>Factory Defaults ...</variant>
+        </translation>
+        <translation key="factory_defaults_help_text">
+            <note>The main management tool page</note>
+            <note>Factory defaults button help text</note>
+            <variant>Delete all server data and reset the device to the original factory default values.</variant>
+        </translation>
+        <translation key="ivu_port_configuration">
+            <note>The main management tool page</note>
+            <note>Ivu port configuration section header title</note>
+            <variant>i-Vu Port Configuration</variant>
+        </translation>
+        <translation key="http">
+            <note>The main management tool page</note>
+            <note>Http port label</note>
+            <variant>HTTP</variant>
+        </translation>
+        <translation key="https">
+            <note>The main management tool page</note>
+            <note>Https port label</note>
+            <variant>HTTPS</variant>
+        </translation>
+        <translation key="ivu_port_warning_note">
+            <note>The main management tool page</note>
+            <note>A note to user that changing ports has side effects</note>
+            <variant>Note: Changing these values forces a webserver restart.</variant>
+        </translation>
+        <translation key="machine_maintenance">
+            <note>The main management tool page</note>
+            <note>Machine maintenance section header title</note>
+            <variant>Machine Maintenance</variant>
+        </translation>
+        <translation key="management_version">
+            <note>The main management tool page</note>
+            <note>Management version label, just the label not the number</note>
+            <variant>Management Version</variant>
+        </translation>
+        <translation key="apply_update">
+            <note>The main management tool page</note>
+            <note>Apply update button text ...</note>
+            <variant>Apply Update ...</variant>
+        </translation>
+        <translation key="reboot_restart">
+            <note>The main management tool page</note>
+            <note>reboot and restart label text.</note>
+            <variant>Reboot (restart)</variant>
+        </translation>
+        <translation key="reboot">
+            <note>The main management tool page</note>
+            <note>Reboot button text ...</note>
+            <variant>Reboot</variant>
+        </translation>
+        <!-- main page is done, continue here with other pages... -->
+        <translation key="applying_changes_to_system">
+            <note>The main management tool page</note>
+            <note>Informational message</note>
+            <variant>Applying requested changes to the system...</variant>
+        </translation>
+        <translation key="correct_problems_in_red">
+            <note>The main management tool page</note>
+            <note>Informational message</note>
+            <variant>Please correct any problem marked in red below.</variant>
+        </translation>
+        <translation key="command_not_active">
+            <note>The main management tool page</note>
+            <note>Informational message</note>
+            <variant>No Background Operations Currently Active</variant>
+        </translation>
+        <translation key="compress_system">
+            <note>The main management tool page</note>
+            <note>Compress system button text</note>
+            <variant>Compress System ...</variant>
+        </translation>
+        <translation key="compress_system_help_text">
+            <note>The main management tool page</note>
+            <note>Compress system button help text</note>
+            <variant>Compress the system on the server to reclaim storage space.</variant>
+        </translation>
+        <translation key="command_in_progress_please_try_again">
+            <note>The main management tool page</note>
+            <note>Warning message text</note>
+            <variant>A background command is currently in progress. Please try again once the current command is complete.</variant>
+        </translation>
+        <translation key="manually_configure_ip_for_embedded_to_non_loopback">
+            <note>The main management tool page</note>
+            <note>Warning message text</note>
+            <variant>Warning: You must manually configure the IP address for the USB Network to a non-loopback address if that device is to communicate with other devices over an IP network.</variant>
+        </translation>
+        <translation key="server_and_embedded_device_should_be_on_same_subnet">
+            <note>The main management tool page</note>
+            <note>IP address setup error message text</note>
+            <variant>Warning: Server and USB Network IP addresses should be on the same subnet.</variant>
+        </translation>
+        <translation key="invalid_subnet_mask">
+            <note>The main management tool page</note>
+            <note>Invalid subnet mask error message text</note>
+            <variant>Warning: Subnet mask is invalid.</variant>
+        </translation>
+        <translation key="javascript_disabled">
+            <note>The main management tool page</note>
+            <note>Warning message text</note>
+            <variant>Javascript is not executable within this application - The security zone for the URL may not allow Javascript execution.</variant>
+        </translation>
+        <translation key="activex_disabled">
+            <note>The main management tool page</note>
+            <note>Warning message text</note>
+            <variant>ActiveX controls are not executable within this application - The security zone for the URL may not allow ActiveX execution.</variant>
+        </translation>
+        <translation key="ntp_configuration">
+            <note>The main management tool page</note>
+            <note>Section header label</note>
+            <variant>NTP Configuration</variant>
+        </translation>
+        <translation key="enable_time_sync">
+            <note>The main management tool page</note>
+            <note>Checkbox label</note>
+            <variant>Enable time synchronization from an NTP server</variant>
+        </translation>
+        <translation key="system_assigned_ntp_address">
+            <note>The main management tool page</note>
+            <note>Disabled input box label</note>
+            <variant>System Assigned NTP Server Address</variant>
+        </translation>
+        <translation key="user_assigned_ntp_address">
+            <note>The main management tool page</note>
+            <note>Disabled input box label</note>
+            <variant>User Assigned NTP Server Address</variant>
+        </translation>
+        <translation key="system_assigned_ntp_address_dhcp_info_note">
+            <note>The main management tool page</note>
+            <note>A note to user that getting system assigned NTP server addersses requires DHCP to be enabled</note>
+            <variant>Note: System assigned NTP server addresses require that 'Obtain an IP address automatically' be selected.</variant>
+        </translation>
+        <translation key="ntp_server_not_running">
+            <note>The main management tool page</note>
+            <note>A message indicating that the NTP server is not running</note>
+            <variant>Status: Local NTP server is not detected as running, system time may not be updated automatically.</variant>
+        </translation>
+        <translation key="ntp_server_not_communicating">
+            <note>The main management tool page</note>
+            <note>A message indicating that the NTP server is running but not communicating</note>
+            <variant>Status: Local NTP server is active, but not communicating, system time may not be updated automatically.</variant>
+        </translation>
+        <translation key="ntp_server_running">
+            <note>The main management tool page</note>
+            <note>A message indicating that the NTP server is running</note>
+            <variant>Status: Local NTP server is running.</variant>
+        </translation>
+        <translation key="ntp_last_poll_interval">
+            <note>The main management tool page</note>
+            <note>A message indicating when the last NTP server was polled</note>
+            <variant>Seconds since the last NTP time sync:</variant>
+        </translation>
+        <translation key="ntp_last_time_offset">
+            <note>The main management tool page</note>
+            <note>A message indicating when the last NTP server time offset from local machine time</note>
+            <variant>Estimated time drift in 1000's of a second:</variant>
+        </translation>
+    </section>
+    <section id="webroot/forward.rhtml">
+        <note>The forward page</note>
+        <translation key="address_changing_forward_msg">
+            <note>The forward page</note>
+            <note>Informational message</note>
+            <variant>Address is changing.  Forwarding to</variant>
+        </translation>
+    </section>
+    <section id="webroot/progress.rhtml">
+        <note>The progress page</note>
+        <translation key="management_tool_status_page">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>Management Tool Status Page</variant>
+        </translation>
+        <translation key="system_backup_in_progress">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>System backup in progress...</variant>
+        </translation>
+        <translation key="system_usb_backup_in_progress">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>System backup to the USB device in progress...</variant>
+        </translation>
+        <translation key="system_restore_in_progress">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>System restore in progress...</variant>
+        </translation>
+        <translation key="system_update_in_progress">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>System update in progress...</variant>
+        </translation>
+        <translation key="initial_system_config_reset">
+            <note>The progress page</note>
+            <note>Header message</note>
+            <variant>Resetting the system to the initial configuration...</variant>
+        </translation>
+        <translation key="back_to_main_page_redirect_message">
+            <note>The progress page</note>
+            <note>Informational message</note>
+            <variant>You will be redirected back to the Management Tool when the operation is complete</variant>
+        </translation>
+        <translation key="back_to_main_page_button">
+            <note>The progress page</note>
+            <note>Button text</note>
+            <variant>Back to Main Screen</variant>
+        </translation>
+        <translation key="downloadbackupfile">
+            <note>The progress page</note>
+            <note>Link text</note>
+            <variant>Save/Download Backup File to Your Local Harddrive</variant>
+        </translation>
+        <translation key="option_to_return">
+            <note>The progress page</note>
+            <note>Informational message</note>
+            <variant>You will have the option to return to the main screen once the backup file download operation is complete</variant>
+        </translation>
+    </section>
+    <section id="webroot/resetsystem.rhtml">
+        <note>The resetsystem page</note>
+        <translation key="system_reset_to_orig_configuration">
+            <note>The resetsystem page</note>
+            <note>Informational message</note>
+            <variant>The system was successfully reset to the original configuration.</variant>
+        </translation>
+        <translation key="system_not_reset_to_orig_configuration">
+            <note>The resetsystem page</note>
+            <note>Informational message</note>
+            <variant>The system was &lt;B&gt;not&lt;/B&gt; successfully reset to the original configuration.</variant>
+        </translation>
+    </section>
+    <section id="webroot/restoresystem.rhtml">
+        <note>The resetsystem page</note>
+        <translation key="specify_system_backup_file">
+            <note>The resetsystem page</note>
+            <note>Informational message</note>
+            <variant>Please specify a i-Vu system backup file.</variant>
+        </translation>
+        <translation key="file_upload_in_progress_wait">
+            <note>The resetsystem page</note>
+            <note>Informational message</note>
+            <variant>File upload in progress, please wait.</variant>
+        </translation>
+        <translation key="close">
+            <note>The resetsystem page</note>
+            <note>Close button text</note>
+            <variant>Close</variant>
+        </translation>
+        <translation key="apply">
+            <note>The resetsystem page</note>
+            <note>Apply button text</note>
+            <variant>Apply</variant>
+        </translation>
+        <translation key="system_restore_successful">
+            <note>The resetsystem page</note>
+            <note>Informational message</note>
+            <variant>The system has been successfully restored.</variant>
+        </translation>
+        <translation key="select_file_to_upload">
+            <note>The resetsystem page</note>
+            <note>Input label</note>
+            <variant>Browse the local filesystem and select a backup archive file to restore from</variant>
+        </translation>
+        <translation key="upload_file">
+            <note>The resetsystem page</note>
+            <note>Button label</note>
+            <variant>Upload File</variant>
+        </translation>
+        <translation key="cancel_upload">
+            <note>The resetsystem page</note>
+            <note>Cancel button text</note>
+            <variant>Cancel File Upload</variant>
+        </translation>
+        <translation key="perform_restore">
+            <note>The resetsystem page</note>
+            <note> button text</note>
+            <variant>Perform Restore</variant>
+        </translation>
+        <translation key="cancel_restore">
+            <note>The resetsystem page</note>
+            <note>Button text</note>
+            <variant>Cancel Restore</variant>
+        </translation>
+        <translation key="file_upload_successful">
+            <note>The resetsystem page</note>
+            <note>Instructional text</note>
+            <variant>The restore file has been successfully uploaded to the system. Proceed with or cancel the system restore process.</variant>
+        </translation>
+    </section>
+    <section id="webroot/showlog.rhtml">
+        <note>The showlog page</note>
+        <translation key="logfile_does_not_exist">
+            <note>The showlog page</note>
+            <note>Informational message</note>
+            <variant>Log File [ {0} ] does not exist or is empty.</variant>
+        </translation>
+    </section>
+    <section id="webroot/upgradesystem.rhtml">
+        <note>The showlog page</note>
+        <translation key="specify_managment_update_file">
+            <note>The showlog page</note>
+            <note>Informational message</note>
+            <variant>Please specify a Management Update file.</variant>
+        </translation>
+        <translation key="managment_update_bad_file">
+            <note>The showlog page</note>
+            <note>Informational Error message</note>
+            <variant>Management Update requires a file with ".mgtupdate" extension. Please choose a file with ".mgtupdate" extension.</variant>
+        </translation>
+        <translation key="system_upgrade_in_progress">
+            <note>The showlog page</note>
+            <note>Informational message</note>
+            <variant>System upgrade in progress, please wait.</variant>
+        </translation>
+        <translation key="system_update_in_progress_dot">
+            <note>The showlog page</note>
+            <note>Informational message</note>
+            <variant>System update in progress.</variant>
+        </translation>
+        <translation key="done">
+            <note>The showlog page</note>
+            <note>Informational message</note>
+            <variant>Done</variant>
+        </translation>
+    </section>
+    <section id="webroot/usbpreparerestoresystem.rhtml">
+        <note>The usb restore start page to avoid a blank screen while the USB drive loads.</note>
+        <translation key="mounting_and_initializing_usb_drive_please_wait">
+            <note>The usb restore start page to avoid a blank screen while the USB drive loads.</note>
+            <note>Informational message</note>
+            <variant>Please wait while the USB drive is mounted and initialized..</variant>
+        </translation>
+    </section>
+    <section id="webroot/usbrestoresystem.rhtml">
+        <note>The usb restore page.</note>
+        <translation key="usb_mount_failure_message">
+            <note>The usb restore page.</note>
+            <note>Instructional message</note>
+            <variant>The USB device failed to mount and initialize properly. Connect the USB device to the first USB port.</variant>
+        </translation>
+        <translation key="select_file_from_usb_drive">
+            <note>The usb restore page.</note>
+            <note>Instructional message</note>
+            <variant>Select a backup file to replace the current server data.</variant>
+        </translation>
+        <translation key="no_files_found_on_usb_device">
+            <note>The usb restore page.</note>
+            <note>Informational message</note>
+            <variant>No files have been found on the root directory of the USB device.</variant>
+        </translation>
+        <translation key="usb_specify_system_backup_file">
+            <note>The usb restore page.</note>
+            <note>Informational message</note>
+            <variant>Please select an i-Vu system backup file from the list of file choices.</variant>
+        </translation>
+    </section>
+    <section id="asynccommandstatusservlet.rb">
+        <note>Error messages that come from the async. commands.</note>
+        <translation key="invalid_backup_info_file">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore failed: the 'info' file in the backup archive is invalid.</variant>
+        </translation>
+        <translation key="mismatched_product">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore failed: the backup file is not compatible with the target product.</variant>
+        </translation>
+        <translation key="major_version_too_large">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore failed: the major version number in the backup archive is too large.</variant>
+        </translation>
+        <translation key="minor_version_too_large">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore failed: the minor version number in the backup archive is too large.</variant>
+        </translation>
+        <translation key="insufficient_space_for_operation">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore failed: there is insufficient space on the server hard disk drive to perform the restore operation successfully.</variant>
+        </translation>
+        <translation key="potentially_critical_postgres_error_detected">
+            <note>Error messages that come from the async. commands.</note>
+            <note>Restoral error message</note>
+            <variant>Database restore may have failed: A potentially critical Postgres migration error was encountered when upgrading the system from a previous version of Postgres. It is likely that the system will not properly run.</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

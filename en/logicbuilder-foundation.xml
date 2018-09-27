@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="logicbuilder-foundation" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="foundation">
+        <translation key="multiblock-binary-input">
+            <variant>Custom Microblock Binary Input</variant>
+        </translation>
+        <translation key="multiblock-analog-input">
+            <variant>Custom Microblock Analog Input</variant>
+        </translation>
+        <translation key="multiblock-analog-output">
+            <variant>Custom Microblock Analog Output</variant>
+        </translation>
+        <translation key="multiblock-binary-output">
+            <variant>Custom Microblock Binary Output</variant>
+        </translation>
+        <translation key="multiblock-base">
+            <variant>Custom Microblock</variant>
+        </translation>
+        <translation key="binary-input-test">
+            <variant>Binary Input Test</variant>
+        </translation>
+        <translation key="binary-pass-through-test">
+            <variant>Binary Pass Through Test</variant>
+        </translation>
+        <translation key="enth-test">
+            <variant>Enthalpy Test</variant>
+        </translation>
+        <translation key="analog-output-test">
+            <variant>Analog Output Test</variant>
+        </translation>
+        <translation key="analog-pass-through-test">
+            <variant>Analog Pass Through Test</variant>
+        </translation>
+        <translation key="binary-output-test">
+            <variant>Binary Output Test</variant>
+        </translation>
+        <translation key="analog-input-test">
+            <variant>Analog Input Test</variant>
+        </translation>
+        <translation key="file-filter-image-file-description">
+            <variant>Image Files (*.eiw; *.sym)</variant>
+        </translation>
+        <translation key="logic-symbol-file-description">
+            <variant>Symbol (*.logicsymbol) </variant>
+        </translation>
+        <translation key="control-program-file-description">
+            <variant>Control Program (*.equipment)</variant>
+        </translation>
+        <translation key="gen5_control-program-file-description">
+            <variant>Gen5 Control Program (*.equipment)</variant>
+        </translation>
+        <translation key="file-filter-directories-description">
+            <variant>Directories</variant>
+        </translation>
+        <translation key="file-filter-compiled-file-description">
+            <variant>Equipment Files (*.equipment)</variant>
+        </translation>
+        <translation key="file-filter-eikon-file-description">
+            <variant>(*.eiw; *.sym)</variant>
+        </translation>
+        <translation key="Arc">
+            <note>an arc figure (part of a circle)</note>
+            <variant>Arc</variant>
+        </translation>
+        <translation key="Ellipse">
+            <note>an ellipse figure</note>
+            <variant>Ellipse</variant>
+        </translation>
+        <translation key="line">
+            <note>line figure</note>
+            <variant>Line</variant>
+        </translation>
+        <translation key="Point">
+            <note>Point figure (just a dot)</note>
+            <variant>Point</variant>
+        </translation>
+        <translation key="Polygon">
+            <note>Polygon figure</note>
+            <variant>Polygon</variant>
+        </translation>
+        <translation key="Rectangle">
+            <note>rectangle figure</note>
+            <variant>Rectangle</variant>
+        </translation>
+        <translation key="conditional-figure">
+            <note>conditional figure</note>
+            <variant>Conditional Region</variant>
+        </translation>
+        <translation key="Image">
+            <note>Image figure</note>
+            <variant>Image</variant>
+        </translation>
+        <translation key="Text">
+            <note>text figure</note>
+            <variant>Text</variant>
+        </translation>
+        <translation key="Plain">
+            <note/>
+            <variant>Plain</variant>
+        </translation>
+        <translation key="Separator">
+            <variant>Separator</variant>
+        </translation>
+        <translation key="Bold">
+            <variant>Bold</variant>
+        </translation>
+        <translation key="ExpandableBeginClosed">
+            <variant>Expand Begin Closed</variant>
+        </translation>
+        <translation key="ExpandableBeginOpen">
+            <variant>Expand Begin Opened</variant>
+        </translation>
+        <translation key="ExpandableEnd">
+            <variant>Expand End</variant>
+        </translation>
+        <translation key="TableBegin">
+            <variant>Table Begin</variant>
+        </translation>
+        <translation key="TableEnd">
+            <variant>Table End</variant>
+        </translation>
+        <translation key="ConditionalHideBegin">
+            <variant>Conditional Hide Begin</variant>
+        </translation>
+        <translation key="ConditionalHideEnd">
+            <variant>Conditional Hide End</variant>
+        </translation>
+        <translation key="ImportantBegin">
+            <variant>Important Begin</variant>
+        </translation>
+        <translation key="ImportantEnd">
+            <variant>Important End</variant>
+        </translation>
+        <translation key="Input_Label">
+            <note>label with the input on the left side.</note>
+            <variant>Input Label</variant>
+        </translation>
+        <translation key="Output_Label">
+            <note>label with the input on the right side.</note>
+            <variant>Output Label</variant>
+        </translation>
+        <translation key="Wire">
+            <note>The name shown to add a wire</note>
+            <variant>Wire</variant>
+        </translation>
+        <translation key="reference-name">
+            <note>unique name for each object</note>
+            <variant>Reference Name</variant>
+        </translation>
+        <translation key="label-direction">
+            <note>Whether or not a label is an input vs an output</note>
+            <variant>Direction</variant>
+        </translation>
+        <translation key="Label_Text">
+            <note>This is a header for the field to edit a label's text</note>
+            <variant>Label Text</variant>
+        </translation>
+        <translation key="analog">
+            <variant>analog</variant>
+        </translation>
+        <translation key="binary">
+            <variant>binary</variant>
+        </translation>
+        <!-- Figure attribute names -->
+        <translation key="foreground">
+            <note>Header for figure foreground color</note>
+            <variant>Foreground</variant>
+        </translation>
+        <translation key="background">
+            <note>Header for figure background color</note>
+            <variant>Background</variant>
+        </translation>
+        <translation key="transparent-background">
+            <note>Header for whether or not a figure has a transparent background color</note>
+            <variant>Transparent Background</variant>
+        </translation>
+        <translation key="font">
+            <note>Header for text font</note>
+            <variant>Font</variant>
+        </translation>
+        <translation key="size">
+            <note>Header for text font size</note>
+            <variant>Font Size</variant>
+        </translation>
+        <translation key="style">
+            <note>Header for text font style</note>
+            <variant>Font Style</variant>
+        </translation>
+        <translation key="normal">
+            <note>Header for normal text direction ( horizontal )</note>
+            <variant>Normal</variant>
+        </translation>
+        <translation key="vertical">
+            <note>Header for vertical text direction</note>
+            <variant>Vertical</variant>
+        </translation>
+        <translation key="ascending">
+            <note>Header for text direction that is ascending ( climbing from left to right )</note>
+            <variant>Ascending</variant>
+        </translation>
+        <translation key="descending">
+            <note>Header for text direction that is descending ( going down from left to right )</note>
+            <variant>Descending</variant>
+        </translation>
+        <!-- End figure attribute names -->
+        <translation key="Rename_single_label">
+            <note>Text for undo/redo when a single label is renamed. Note: The dual single quotes below must be preserved.</note>
+            <variant>Rename single label from ''{0}'' to ''{1}''</variant>
+        </translation>
+        <translation key="Rename_multiple_labels">
+            <note>Text for undo/redo when multiple labels are renamed. Note: The dual single quotes below must be preserved.</note>
+            <variant>Rename multiple labels from ''{0}'' to ''{1}''</variant>
+        </translation>
+        <translation key="Changed_pattern">
+            <variant>Changed pattern</variant>
+        </translation>
+        <translation key="Changed_Color">
+            <variant>Changed Color</variant>
+        </translation>
+        <translation key="Changed_Color">
+            <variant>Changed Color</variant>
+        </translation>
+        <translation key="changed-font-size">
+            <variant>Changed Font Size</variant>
+        </translation>
+        <translation key="changed-font">
+            <variant>Changed Font</variant>
+        </translation>
+        <translation key="changed-font-style">
+            <variant>Changed Font Style</variant>
+        </translation>
+        <translation key="changed-text-direction">
+            <variant>Changed Text Direction</variant>
+        </translation>
+        <translation key="changed-text">
+            <variant>Changed Text</variant>
+        </translation>
+        <translation key="set-figure-properties">
+            <note>Undo list message for setting the color values of selected figures</note>
+            <variant>Set Figure Properties</variant>
+        </translation>
+        <translation key="Turned_Fill_On">
+            <variant>Turned Fill On</variant>
+        </translation>
+        <translation key="Turned_Fill_Off">
+            <variant>Turned Fill Off</variant>
+        </translation>
+        <translation key="Edited_Wire">
+            <variant>Edited Wire</variant>
+        </translation>
+        <translation key="Untitled_0">
+            <note>The name of a new control program that has not been saved yet. [Untitled X].</note>
+            <variant>[ Untitled {0} ]</variant>
+        </translation>
+        <translation key="Microblock_0_1">
+            <note>short description of a single microblock. The first parameter is for the short name. The second is the type. There's nothing here to translate.</note>
+            <variant>{0} - {1}</variant>
+        </translation>
+        <translation key="Multiblock_0_1">
+            <variant>{0} {1}</variant>
+        </translation>
+        <translation key="Label_0_1">
+            <note>Short description of a single label. The first argument is the name. The second is whether or not its an input or an output</note>
+            <variant>{1} Label ''{0}''</variant>
+        </translation>
+        <translation key="Wire_0">
+            <note>Short description of a wire. The argument is the type (analog or binary).</note>
+            <variant>Wire: {0}</variant>
+        </translation>
+        <translation key="imported_symbol_0">
+            <note>Description shown for undo/redo when a symbol is imported.</note>
+            <variant>Imported symbol: {0}</variant>
+        </translation>
+        <translation key="paste_undo_redo">
+            <note>Description shown for undo/redo when something is pasted.</note>
+            <variant>Paste</variant>
+        </translation>
+        <translation key="imported_favorite_undo_redo">
+            <note>Description shown for undo/redo when a favorite something is inserted.</note>
+            <variant>Imported favorite symbol: {0}</variant>
+        </translation>
+        <translation key="Receptacle_description_with_name">
+            <note>Short description of a receptacle. This version includes input/ouput, the type, the name, and its index</note>
+            <variant>Receptacle: {0} {1} {2} {3}</variant>
+        </translation>
+        <translation key="Receptacle_description_without_name">
+            <note>Short description of a receptacle. This version includes input/ouput, the type, (NO NAME) and its index</note>
+            <variant>Receptacle: {0} {1} {2}</variant>
+        </translation>
+        <translation key="input">
+            <note>description of something that is an input vs an output.</note>
+            <variant>input</variant>
+        </translation>
+        <translation key="output">
+            <note>description of something that is an output vs an input.</note>
+            <variant>output</variant>
+        </translation>
+        <translation key="default-value-set">
+            <note>The name of the default value set. It cannot be renamed (by the user) and must always exist. This is basically the baseline values that must always be present.</note>
+            <variant>Default</variant>
+        </translation>
+        <translation key="Symbol_successfully_saved_to_0">
+            <note>status message notifying the user that the symbol was successfully saved and where it was saved.</note>
+            <variant>Symbol successfully saved to ''{0}''</variant>
+        </translation>
+        <translation key="Control_Program_successfully_s">
+            <note>status message notifying the user that the control was successfully saved and where it was saved.</note>
+            <variant>Control Program successfully saved to ''{0}''</variant>
+        </translation>
+        <translation key="Equipment_successfully_built_t">
+            <note>status message notifying the user that the control program was successfully compiled to an equipment file and where it was saved.</note>
+            <variant>Equipment successfully built to  ''{0}'' </variant>
+        </translation>
+        <translation key="unknown-microblock-definition">
+            <note>This is for a microblock that we read in and do not know what type it is. This is for forward compatibility so current versions can at least open files created by future version of the application.</note>
+            <variant>Unknown Microblock</variant>
+        </translation>
+        <translation key="add-msg-singular">
+            <note>message that 1 item has been added.</note>
+            <variant>Add 1 item.</variant>
+        </translation>
+        <translation key="add-msg-plural">
+            <note> "added x items." message for when multiple (or no) items have been added (just not 1). where x is the number of items added.</note>
+            <variant>Add {0} items.</variant>
+        </translation>
+        <translation key="edit-ellipse-msg">
+            <variant>Edite ellipse.</variant>
+        </translation>
+        <translation key="remove-vertex-msg">
+            <note>"Delete point (x,y)" where x and y are the coordinates of the point deleted.</note>
+            <variant>Delete point ( {0}, {1} )
+        </variant>
+        </translation>
+        <translation key="figures-not-implemented">
+            <variant>Figures aren't implemented yet.</variant>
+        </translation>
+        <translation key="set-linecolor-msg">
+            <variant>Change line color.</variant>
+        </translation>
+        <translation key="delete-msg-plural">
+            <note>"Deleted x items." where x is the number of items deleted. This is for deleting multiple or no items (just not 1).</note>
+            <variant>Delete {0} items. </variant>
+        </translation>
+        <translation key="move-many-message">
+            <note>"message that mulitple things were moved</note>
+            <variant>Move items</variant>
+        </translation>
+        <translation key="move-microblock-message">
+            <note>"message that a microblock was moved</note>
+            <variant>Move ''{0}'' Microblock</variant>
+        </translation>
+        <translation key="move-label-message">
+            <note>"message that a label was moved</note>
+            <variant>Move Label</variant>
+        </translation>
+        <translation key="move-figure-message">
+            <note>"message that a figure was moved</note>
+            <variant>Move ''{0}'' Figure</variant>
+        </translation>
+        <translation key="move-wire-message">
+            <note>"message that a wire was moved</note>
+            <variant>Move Wire</variant>
+        </translation>
+        <translation key="add-vertex-msg">
+            <note>"New point (x,y)." message that a new point was created at x,y coordinates.</note>
+            <variant>New point ( {0}, {1} )</variant>
+        </translation>
+        <translation key="clipboard-msg">
+            <variant>The code is on the clipboard.</variant>
+        </translation>
+        <translation key="edit-rect-msg">
+            <variant>Edit rectangle</variant>
+        </translation>
+        <translation key="edit-line-msg">
+            <variant>Edit line</variant>
+        </translation>
+        <translation key="Deleted_Microblock">
+            <variant>Delete ''{0}'' Microblock</variant>
+        </translation>
+        <translation key="Deleted_Label">
+            <variant>Delete Label</variant>
+        </translation>
+        <translation key="Deleted_Wire">
+            <variant>Delete Wire</variant>
+        </translation>
+        <translation key="Added_Microblock">
+            <variant>Add ''{0}'' Microblock</variant>
+        </translation>
+        <translation key="Added_Wire">
+            <variant>Add Wire</variant>
+        </translation>
+        <translation key="Added_Label">
+            <variant>Add Label</variant>
+        </translation>
+        <translation key="Added_Figure">
+            <variant>Add ''{0}'' Figure</variant>
+        </translation>
+        <translation key="Deleted_Figure">
+            <variant>Delete ''{0}'' Figure</variant>
+        </translation>
+        <translation key="error-improper-flow-direction">
+            <variant>Improper flow direction</variant>
+        </translation>
+        <translation key="error-too-many-label-inputs">
+            <variant>2 or more outputs are connected</variant>
+        </translation>
+        <translation key="error-no-label-inputs">
+            <variant>Missing input label</variant>
+        </translation>
+        <translation key="error-no-inputs">
+            <variant>Missing input</variant>
+        </translation>
+        <translation key="unknown_figure_0">
+            <variant>Unknown Figure: {0}</variant>
+        </translation>
+        <translation key="error-invalid-reference-name-too-long">
+            <variant>The reference name ''{0}'' is too long. Reference names can only be {1} characters long.</variant>
+        </translation>
+        <translation approved="false" key="error-duplicate-reference-name" new="true">
+            <variant>The reference name ''{0}'' is used multiple times. Reference names must be unique.<nbsp/>
+            </variant>
+        </translation>
+        <translation approved="false" key="invalid_duration_error_0" new="true">
+            <variant>The duration ''{0}'' is not valid. Durations can only contain number digits.<nbsp/>
+            </variant>
+        </translation>
+        <translation key="reference_name_cannot_start_with_number">
+            <variant>A reference name cannot begin with a number.</variant>
+        </translation>
+        <translation key="reference_name_rules">
+            <variant>A reference name can contain only letters, digits and underscores and cannot begin with a number.</variant>
+        </translation>
+        <translation key="reference_name_is_reserved">
+            <variant>The reference name ''{0}'' is reserved and cannot be used.</variant>
+        </translation>
+        <translation key="restricted_microblock_mistake">
+            <variant>This microblock is not allowed in a control program with this equipment classification.</variant>
+        </translation>
+        <translation key="not_allowed_for_equipment_classification_microblock_mistake">
+            <variant>Microblock [{0}] is not allowed for this equipment classification.</variant>
+        </translation>
+        <translation key="parameter_not_closed">
+            <variant>One or more parameters are not properly closed.</variant>
+        </translation>
+        <translation key="error-type-mismatch">
+            <variant>Type mismatch</variant>
+        </translation>
+        <translation key="error-io-mismatch">
+            <variant>I/O mismatch</variant>
+        </translation>
+        <translation key="error-too-many-inputs">
+            <variant>2 or more outputs are connected.</variant>
+        </translation>
+        <translation approved="false" key="An_unknown_error_occured_" new="true">
+            <variant>An unknown error occurred.<nbsp/>
+            </variant>
+        </translation>
+        <translation key="unknown_error_compiling_native_equipment">
+            <variant>An unknown internal compile error occurred. This file will not be attachable in SiteBuilder.</variant>
+        </translation>
+        <translation key="error_retrieving_simulation_values">
+            <variant>Failed to retrieve simulation values.</variant>
+        </translation>
+        <translation key="error_setting_simulation_values">
+            <variant>Failed to update simulation values.</variant>
+        </translation>
+        <translation key="Not_a_valid_file">
+            <note>Generic error message when a file is not valid.</note>
+            <variant>Not a valid file.</variant>
+        </translation>
+        <translation approved="false" key="gateway_generated_equipment_file" new="true">
+            <variant>This equipment was generated by a gateway device and is currently not supported.</variant>
+        </translation>
+        <translation key="missing_correct_root">
+            <variant>Missing correct root tag.</variant>
+        </translation>
+        <translation key="Invalid_version">
+            <variant>Invalid version.</variant>
+        </translation>
+        <translation key="Failed_to_create_file_File_co">
+            <variant>Failed to create file. File could not be saved.</variant>
+        </translation>
+        <translation key="An_unknown_error_occured_while">
+            <variant>An unknown error occurred while trying to write the file.</variant>
+        </translation>
+        <translation key="no_source_file">
+            <variant>Missing source file.</variant>
+        </translation>
+        <translation key="failed-to-create-preview">
+            <variant>Failed to create preview image.</variant>
+        </translation>
+        <translation key="failed-to-create-equipment-icon">
+            <variant>Failed to create equipment icon.</variant>
+        </translation>
+        <translation key="none-specified">
+            <note>this is for a list of images but the user can chose nothing. If they do, we display [none specified]</note>
+            <variant>[None Specified]</variant>
+        </translation>
+        <translation key="Failed_to_read_in_microblock_s">
+            <variant>Failed to read in microblock's location. Reference Name: {0} ( type: {1} )</variant>
+        </translation>
+        <translation key="Failed_to_read_in_unknown_micr">
+            <variant>Failed to read in unknown microblock type ( {0} ) {1}</variant>
+        </translation>
+        <translation key="Failed_to_save_resource_0">
+            <variant>Failed to save resource ''{0}''</variant>
+        </translation>
+        <translation key="Failed_to_load_an_unknown_reso">
+            <variant>Failed to load an unknown resource</variant>
+        </translation>
+        <translation key="Failed_to_load_0_resource">
+            <variant>Failed to load ''{0}'' resource.</variant>
+        </translation>
+        <translation key="Failed_to_load_0_resource_data">
+            <variant>Failed to load ''{0}'' resource data.</variant>
+        </translation>
+        <translation key="Failed_to_write_microblock_pro">
+            <variant>Failed to write microblock property ( {0} )</variant>
+        </translation>
+        <translation key="Failed_to_read_in_unknown_micr2">
+            <variant>Failed to read in unknown microblock ( {0} )</variant>
+        </translation>
+        <translation key="Failed_to_read_in_microblock">
+            <variant>Failed to read in microblock ( {0} )</variant>
+        </translation>
+        <translation key="An_unknown_error_occured">
+            <variant>An unknown error occurred.</variant>
+        </translation>
+        <translation key="Failed_to_add_0_wire">
+            <variant>Failed to add {0} wire</variant>
+        </translation>
+        <translation key="Failed_to_read_in_an_object">
+            <variant>Failed to read in an object.</variant>
+        </translation>
+        <translation key="Failed_to_write_file">
+            <variant>Failed to write file</variant>
+        </translation>
+        <translation key="Failed_to_read_file">
+            <variant>Failed to read file</variant>
+        </translation>
+        <translation key="Cannot_determine_correct_forma">
+            <variant>Cannot determine correct format.</variant>
+        </translation>
+        <translation key="Save_failed_See_0_for_more">
+            <variant>Save failed. See {0} for more information.</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_file_Cann">
+            <variant>{0} is not a valid file. (Cannot determine file type)</variant>
+        </translation>
+        <translation key="invalid-format-cannot-determine-type">
+            <note>error message when we can't determine what type of file this is so we can't read it in.</note>
+            <variant>Invalid format. Cannot determine type.</variant>
+        </translation>
+        <translation key="An_error_occured_while_trying">
+            <variant>An error occurred while trying to write out an error file. No error file was generated</variant>
+        </translation>
+        <translation key="Duplicate_reference_names_0">
+            <variant>Duplicate reference names: ''{0}''</variant>
+        </translation>
+        <translation key="Too_many_MBs_of_type_0">
+            <variant>There may be too many MBs of type ''{0}'' ( {1} )</variant>
+        </translation>
+        <translation key="This_cannot_be_blank">
+            <variant>This cannot be blank</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_integer">
+            <variant>{0} is not a valid integer.</variant>
+        </translation>
+        <translation key="Must_be_between_0_and_1">
+            <variant>The value must be between {0} and {1}</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_real_number">
+            <variant>{0} is not a valid real number.</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_unsigned_in">
+            <variant>{0} is not a valid unsigned integer.</variant>
+        </translation>
+        <translation key="Failed_to_read_location_of_0_1">
+            <note>Error that will say 'failed to read location of [input/output label] [name].</note>
+            <variant>Failed to read location of {0} ''{1}''.</variant>
+        </translation>
+        <translation key="File_not_found">
+            <note>Generic error meaning the user tried to open a file that doesn't exist. It will be followed by a newline and the file pathInstance.</note>
+            <variant>File not found.</variant>
+        </translation>
+        <translation key="This_is_not_a_valid_value_This">
+            <variant>This is not a valid value. This should be either 'true' or 'false'.</variant>
+        </translation>
+        <translation key="This_is_not_a_valid_value_Bit_OneZero">
+            <variant>This is not a valid value. This should be either '1' or '0'.</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_choice">
+            <variant>{0} is not a valid choice.</variant>
+        </translation>
+        <translation key="Simulation_failed">
+            <note>Generic error meaning the user tried to simulate a control program and an unspecified error occurred.</note>
+            <variant>Simulation failed.</variant>
+        </translation>
+        <translation key="0_is_not_a_valid_URL">
+            <variant>{0} is not a valid URL.
+         </variant>
+        </translation>
+        <translation key="0_invalid_template_value">
+            <variant>{0} is not a valid template value. Valid characters are letters, numbers, or underscore '_'. Template names must start with a letter.</variant>
+        </translation>
+        <translation key="edit-order-name">
+            <note>the name field on the edit order list. Shows the name of the microblock. This is not editable.</note>
+            <variant>Name</variant>
+        </translation>
+        <translation key="edit-order-description">
+            <note>the description field on the edit order list. Shows the description of the microblock (if it has one). This is not editable.</note>
+            <variant>Description</variant>
+        </translation>
+        <translation key="edit-order-reference-name">
+            <note>the reference name field on the edit order list. Shows the reference name of the microblock. This is not editable.</note>
+            <variant>Reference Name</variant>
+        </translation>
+        <translation key="edit-order-property-page-text">
+            <note>the property page text field on the edit order list. Shows the property page text of the microblock if is has a field (may be blank). This is not editable.</note>
+            <variant>Property</variant>
+        </translation>
+        <translation key="ocl-text-label">
+            <note>Label for OCL programming language text.</note>
+            <variant>OCL Text</variant>
+        </translation>
+        <translation key="active-text-label">
+            <note>Label for active text.</note>
+            <variant>Active Text</variant>
+        </translation>
+        <translation key="inactive-text-label">
+            <note>Label for inactive text.</note>
+            <variant>Inactive Text</variant>
+        </translation>
+        <translation key="name-ovr-label">
+            <note>Label abbreviation for Name Override</note>
+            <variant>Name Ovr</variant>
+        </translation>
+        <translation key="Failed_to_read_in_image">
+            <note>Error message that occurs when an image fails to load</note>
+            <variant>Failed to read in image:</variant>
+        </translation>
+        <translation key="embedded_images_are_not_supported_in_this_version">
+            <note>Error message to notify the user that embedded images are not supported.</note>
+            <variant>This file contains embedded images which are not supported in this version.</variant>
+        </translation>
+        <translation key="unknown_property_for_path">
+            <note>Error message to notify that the property for the supplied path wasn't found.</note>
+            <variant>Unknown property for path: </variant>
+        </translation>
+        <translation key="Printing">
+            <note>Heading for dialog to notify the user that their document is printing.</note>
+            <variant>Printing</variant>
+        </translation>
+        <translation key="signature-mismatch-exception">
+            <note>Error message thrown when a signed file fails validation.</note>
+            <variant>The file is not valid. It's signature is invalid.</variant>
+        </translation>
+        <translation key="signature-does-not-exist">
+            <note>Error message thrown when a signed file has missing signatures.</note>
+            <variant>This file is not valid. Its signatures is missing.</variant>
+        </translation>
+        <translation key="internal-simulation-error">
+            <note>Error thrown when the simulator detects an error during run time.</note>
+            <variant>An unrecoverable error has occured during the simulation.</variant>
+        </translation>
+        <translation key="simulation-run-tooltip">
+            <note>Tooltip that appears when the cursor hovers over the button to run the simulation.</note>
+            <variant>Runs the simulation using preset time intervals.</variant>
+        </translation>
+        <translation key="simulation-step-tooltip">
+            <note>Tooltip that appears when the cursor hovers over the button to step the simulation through one execution cycle.</note>
+            <variant>Steps the simulation through a single execution cycle.</variant>
+        </translation>
+        <translation key="simulation-stop-tooltip">
+            <note>Tooltip that appears when the cursor hovers over the button to stop a running simulation.</note>
+            <variant>Stops a currently running simulation.</variant>
+        </translation>
+        <translation key="file-name-cannot-be-empty">
+            <note>Warning to the user informing them why a file name they selected (when they tried to save a control program) is empty and thus illegal. They didn't really pick a name.</note>
+            <variant>Missing file name</variant>
+        </translation>
+        <translation key="file-name-cannot-exceed-x-characters">
+            <note>Warning to the user informing them why a file name they selected (when they tried to save a control program) is too long and thus illegal.</note>
+            <variant>File names cannot exceed {0} characters</variant>
+        </translation>
+        <translation key="file-name-rules">
+            <note>Warning to the user informing them why a file name they selected (when they tried to save a control program) is invalid.</note>
+            <variant>File names can only contain alphanumeric characters, dashes, and underscores ( no spaces ) and they cannot start with a number.</variant>
+        </translation>
+        <translation key="logic-builder-plugin-description">
+            <note>File description for plugins that only shows up in the file chooser dialog.</note>
+            <variant>{0} plugins</variant>
+        </translation>
+        <translation key="Failed-to-convert-type">
+            <note>Error message for failing to convert a property from one type to another ( i.e. from bit '0','1' to boolean 'true','false' )</note>
+            <variant>Failed to convert type</variant>
+        </translation>
+        <translation key="Internal-Error">
+            <note>Generic error message where the problem is not known.</note>
+            <variant>Internal Error</variant>
+        </translation>
+        <translation key="Definition-may-be-out-of-synch">
+            <note>Error message that occurs when the conversion table is out of sync with the definitions.</note>
+            <variant>Internal error. Definition may be out of synch with conversion information.</variant>
+        </translation>
+        <translation key="Failed-to-read-unknown-property-for-0-1">
+            <note>Error message generated when we try to read in a property that is undefined.</note>
+            <variant>Failed to read unknown property for {0} ( {1} )</variant>
+        </translation>
+        <translation key="Invalid-Fill-Type">
+            <note>Error message generated if we try to fill a figure with an unknown fill pattern.</note>
+            <variant>Invalid Fill Type</variant>
+        </translation>
+        <translation key="No-font-exists-with-the-name-0">
+            <note>Error message generated when an unknown font name if found.</note>
+            <variant>No font exists with the name {0}</variant>
+        </translation>
+        <translation key="Invalid-value">
+            <note>Error message generated when a bad color is found</note>
+            <variant>Invalid color (Possible internal error)</variant>
+        </translation>
+        <translation key="Illegal-style-argument">
+            <note>Error message generated when a bad font stle is found</note>
+            <variant>Illegal style argument</variant>
+        </translation>
+        <translation key="0-is-not-a-valid-font-size">
+            <note>Error message generated when an illegal font size for a font is found.</note>
+            <variant>{0} is not a valid font size for this font</variant>
+        </translation>
+        <translation key="Invalid-Line-Type">
+            <note>Error message generated when an illegal line type is found.</note>
+            <variant>Invalid Line Type</variant>
+        </translation>
+        <translation key="Changed-background-transparency">
+            <note>Message generated whenever the background transparency is modified.</note>
+            <variant>Changed background transparency</variant>
+        </translation>
+        <translation key="Not-a-valid-wire-type">
+            <note>Message generated when an invalid wire type is found.</note>
+            <variant>Not a valid wire type</variant>
+        </translation>
+        <translation key="Changed-microblock-0-property-1-from-2-to-3">
+            <note>Message seen in undo list that shows a microblock property has changed values.</note>
+            <variant>Changed microblock ({0}) property ''{1}'' from ''{2}'' to ''{3}''</variant>
+        </translation>
+        <translation key="Failed-to-build-equipment">
+            <note>Error message generated when we save the source, but could not compile it during the save.</note>
+            <variant>Internal Error. Failed to build equipment. The source file is NOT corrupt unless other errors occur.</variant>
+        </translation>
+        <translation key="Cannot-determine-file-version">
+            <note>Error message generated when we read in a file but can't find the file version information</note>
+            <variant>Cannot determine file version.</variant>
+        </translation>
+        <translation key="Failed-to-read-property-for-0-1">
+            <note>Error message generated when we try to read in a property that is undefined.</note>
+            <variant>Failed to read property for {0} ({1})</variant>
+        </translation>
+        <translation key="The-following-properties-were-not-read-in-correctly-0-1">
+            <note>Error message generated when we try to read in properties and they could not be read correctly.</note>
+            <variant>The following properties were not read in correctly {0}: {1}</variant>
+        </translation>
+        <translation key="Illegal-Location-Error-Details">
+            <note>Error message generated when the user ( or program ) tries to place a microblock in an illegal location.</note>
+            <variant>Probable cause: {0} doesn't allow Microblocks on top of other microblocks or wire/label endpoints. EIKON for WebCTRL allowed this, but this sometimes lead to inadvertantly hiding a connection making locating problems difficult and sometimes lead to unexpected behavior. Press the Correct button to place it again.</variant>
+        </translation>
+        <translation key="Error-Corrected">
+            <note>Message displayed when an error has been fixed</note>
+            <variant>Error Corrected</variant>
+        </translation>
+        <translation key="attempted-to-set-to">
+            <note>This is a partial message generated when an attempt is made to set a property to an illegal value.</note>
+            <variant>attempted to set to </variant>
+        </translation>
+        <translation key="Error-">
+            <note>This is a partial message generated when an attempt is made to set a property to an illegal value.</note>
+            <variant>Error:</variant>
+        </translation>
+        <translation key="Replace-0-with-1">
+            <note>Message displayed for a search and replace.</note>
+            <variant>Replace {0} with {1}</variant>
+        </translation>
+        <translation key="Changed-wire-from-0">
+            <note>Message displayed when a wire changes type, for example from analog to binary.</note>
+            <variant>Changed wire from  {0}</variant>
+        </translation>
+        <translation key="Internal-error-Invalid-property-0">
+            <note>Error message for a bad property value. Not really meant for the end user to see.</note>
+            <variant>Internal error. Invalid property: {0}</variant>
+        </translation>
+        <translation key="ocl-too-many-inputs-error">
+            <note>Error message for an OCL microblock that has had too many inputs created.</note>
+            <variant>Too many inputs defined. 16 is the maximum number of allowed inputs.</variant>
+        </translation>
+        <translation key="ocl-tagged-for-zn-error">
+            <note>Error message for an OCL microblock used in ZN classification that was not tagged.</note>
+            <variant>An OCL microblock used in a ZN control program must be tagged.</variant>
+        </translation>
+        <translation key="0-at-index-1-invalid-character">
+            <note>Error message for an invalid character in a label.</note>
+            <variant>'{0}' at index {1} is not a valid character for labels.</variant>
+        </translation>
+        <translation key="Illegal-time-value-for-0">
+            <note>Message displayed when a bad time value is found. It either has illegal characters or an incorrect format.</note>
+            <variant>Illegal time value: {0}</variant>
+        </translation>
+        <translation key="There-are-no-details-for-this-error">
+            <note>Message displayed when an error has no detailed information to display.</note>
+            <variant>There are no details for this error.</variant>
+        </translation>
+        <translation key="Show-properties-typically-shown-on-graphics">
+            <note>Message for an option to show typical or common properties on graphics.</note>
+            <variant>Show properties typically shown on graphics.</variant>
+        </translation>
+        <translation key="Too-Many-Microblocks-for-ZN">
+            <note>Error message displayed when trying to compile the control program for ZN, but having more microblocks than are allowed. It says what the max is and how many you've exceeded it by some amount. It also points out that not all types of microblocks are included in the count.</note>
+            <variant>A ZN control program can have a maximum of {0} microblocks (excluding labels, text, status microblocks, and I/O microblocks inside of custom microblocks). This control program exceeds the maximum by {1} microblocks.</variant>
+        </translation>
+        <translation key="Microblock-0-is-not-allowed">
+            <note>Error message displayed when trying to compile the control program for ZN, but having a microblocks that is not allowed.</note>
+            <variant>Microblock {0} is not allowed in ZN equipment.</variant>
+        </translation>
+        <translation key="Missing-required-microblocks-for-ZN">
+            <note>Error message displayed when trying to compile the control program for ZN, but not having the required microblocks.</note>
+            <variant>Missing required microblocks for ZN. ZN requires a BACnet time clock, a setpoint and either a Logistat or RS Zone Sensor, or an input named 'zone temp'.</variant>
+        </translation>
+        <translation key="Too-many-PID-loop-microblocks-0">
+            <note>Error message displayed when trying to compile the control program for ZN, but having too many PID microblocks.</note>
+            <variant>Too many PID loop microblocks. ZN modules can only contain  {0}</variant>
+        </translation>
+        <translation key="Too-many-set-color-microblocks-0">
+            <note>Error message displayed when trying to compile the control program for ZN, but having too many Set Color.</note>
+            <variant>Too many Set Color microblocks. ZN modules can only contain  {0}</variant>
+        </translation>
+        <translation key="Required-microblocks-not-within-bounds-0">
+            <note>Error message displayed when trying to compile the control program for ZN, but having microblocks outside the allowed bounds.</note>
+            <variant>Required microblocks must be between ({0}, {1}) and ({2}, {3}) bounds for ZN.</variant>
+        </translation>
+        <translation key="Missing-required-input">
+            <note>Error message displayed when trying to compile the control program for ZN, but not having the required microblocks.</note>
+            <variant>Missing required input for the setpoint. The setpoint's 'zone' input must be either an analog input, analog network input, Logistat zone sensor, RS zone sensor (with or without fan control) or a label named 'zone temp'. If the input comes from the Logistat it must be tied to the 'zone temp' output. If the input comes from an RS or RSF sensor it must be tied to the 'zone' output.</variant>
+        </translation>
+        <translation key="Missing-required-microblocks-for-UNI">
+            <note>Error message displayed when trying to compile the control program for ZN, but not having the required microblocks.</note>
+            <variant>Missing required microblock(s) for UNI. UNI requires a BACnet time clock and a setpoint.</variant>
+        </translation>
+        <translation key="Microblock-0-is-not-allowed-UNI">
+            <note>Error message displayed when trying to compile the control program for UNI, but having a microblocks that is not allowed.</note>
+            <variant>Microblock {0} is not allowed in UNI equipment.</variant>
+        </translation>
+        <translation key="All-0-microblocks-must-be-connected-to-setpoints-1-output-UNI">
+            <note>Error message displayed when trying to compile the control program for UNI, but having a microblocks that is not allowed.</note>
+            <variant>All {0} microblocks must connect to the setpoint''s {1} output for UNI.</variant>
+        </translation>
+        <translation key="image-0-could-not-be-loaded">
+            <note>Error message displayed when an image could not be loaded because the image file wasn't found.</note>
+            <variant>''{0}'' could not be read because the image is either missing or corrupted.</variant>
+        </translation>
+        <translation key="LABEL">
+            <note>Default label name for a new label.</note>
+            <variant>LABEL</variant>
+        </translation>
+        <translation key="comments-appendage">
+            <note>Label when general comments when present (and optional) for something in a list. The item will be displayed. If it has comments, this text will be shown followed by the comments.</note>
+            <variant>Comments: </variant>
+        </translation>
+        <translation key="property-errors-exist">
+            <note>Error messages stating that a specific microblock has at least 1 property that is in error.</note>
+            <variant>Property errors exist for microblock ''{0}''</variant>
+        </translation>
+        <translation key="image-files-description">
+            <note>Description of image files in the 'file type' combo box of a file chooser dialog</note>
+            <variant>Image Files</variant>
+        </translation>
+        <translation key="value-set-blank-error">
+            <note>This is displayed if the user adds or renames a Program Defaults (value set) name so its blank (or just whitespace).</note>
+            <variant>Program Default names cannot be blank.</variant>
+        </translation>
+        <translation key="value-set-too-long-error">
+            <note>This is displayed if the user adds or renames a Program Defaults (value set) name that has too many characters. The parameter here is for the maximum number of characters</note>
+            <variant>Program Default names can only be {0} characters max.</variant>
+        </translation>
+        <translation key="unsupported-microblock">
+            <note>This is displayed if the user tries to open a file containing (or other operations using) an unsupported microblocks.</note>
+            <variant>{0} is not a supported microblock.</variant>
+        </translation>
+        <translation key="Unsupported_Control_Program">
+            <note>General error message for a control program that is not supported in this version/brand of LogicBuilder.</note>
+            <variant>Unsupported Control Program</variant>
+        </translation>
+        <translation key="multiple_program_defaults_not_supported">
+            <note>These are details to an error. It specifies that the control program that was attempted to be opened contains multiple 'program defaults'. This features is not supported in this version/brand of LogicBuilder -- which doesn't even present the user with the feature.</note>
+            <variant>This contains multiple program defaults. This feature is not supported.</variant>
+        </translation>
+        <translation key="third-party-bacnet-utility-file-type-description">
+            <note>This is the description for files that are created by the Third Party BACnet Utility. This shows up in File dialogs when a user tries to select a file.</note>
+            <variant>Third Party BACnet Utility Files</variant>
+        </translation>
+        <translation key="bacnet-export-file-type-description">
+            <note>This is the description for files that contain information about BACnet objects. This file is generated by WebCTRL and imported by the Third Party BACnet Utility. This shows up in File dialogs when a user tries to select a file.</note>
+            <variant>BACnet Export Files</variant>
+        </translation>
+    </section>
+</resource-base>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="TrendApplet" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="Properties">
+        <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+        <translation key="browser_cant_run_applet">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>This browser does not have the java plugin.</variant>
+        </translation>
+        <translation key="download_java_plugin">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Download java plugin</variant>
+        </translation>
+        <translation key="Loading_trend_graph">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Loading trend graph</variant>
+        </translation>
+        <translation key="Loading_trend_data">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Loading trend data</variant>
+        </translation>
+        <translation key="No_trend_points_to_display">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>No trend points to display</variant>
+        </translation>
+        <translation key="Add_trend_points">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Adding trend points</variant>
+        </translation>
+        <translation key="Add_subgraphs_for_trends">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Add subgraph for trends</variant>
+        </translation>
+        <translation key="Add_dataseries_to_subgraph">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Add dataseries to subgraph</variant>
+        </translation>
+        <translation key="Trend_Graph_Error">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Trend Graph Error</variant>
+        </translation>
+        <translation key="Log_Disabled">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Log Disabled</variant>
+        </translation>
+        <translation key="Log_Enabled">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Log Enabled</variant>
+        </translation>
+        <translation key="and_Buffer_purged">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>&amp; Buffer purged</variant>
+        </translation>
+        <translation key="Historian_Enabled">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Historian Enabled</variant>
+        </translation>
+        <translation key="Historian_Disabled">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Historian Disabled</variant>
+        </translation>
+        <translation key="Trend_source_changed">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Trend source changed</variant>
+        </translation>
+        <translation key="Fatal_Error_Trend_Applet">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Fatal Error in Trend Applet</variant>
+        </translation>
+        <translation key="Gateway_Down">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>No Response From Gateway</variant>
+        </translation>
+        <translation key="Field_Communications_Down">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>System Has No Field Communications</variant>
+        </translation>
+        <translation key="Dead">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Module Didn't Respond To This Poll For Colors</variant>
+        </translation>
+        <translation key="Unknown_Value">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Unknown Value</variant>
+        </translation>
+        <translation key="Manual_Save_Start">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Manual save start</variant>
+        </translation>
+        <translation key="Manual_Save_End">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Manual save end</variant>
+        </translation>
+        <translation key="Time_Synchronization">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Time Synchronization</variant>
+        </translation>
+        <translation key="Failure">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Failed to record data</variant>
+        </translation>
+        <translation key="sec">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>sec</variant>
+        </translation>
+        <translation key="In_Alarm">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>In Alarm</variant>
+        </translation>
+        <translation key="Overridden">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Overridden</variant>
+        </translation>
+        <translation key="In_Fault">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>In Fault</variant>
+        </translation>
+        <translation key="Out_Of_Service">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - item is Out of Service</note>
+            <variant>Out of Service</variant>
+        </translation>
+        <translation key="Day">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Day</variant>
+        </translation>
+        <translation key="Month">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Month</variant>
+        </translation>
+        <translation key="Year">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Year</variant>
+        </translation>
+        <translation key="Date_is_invalid">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Date is invalid</variant>
+        </translation>
+        <translation key="Go">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <variant>Go</variant>
+        </translation>
+        <translation key="Pan_left">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - scroll viewable area left - appears if right click on trend graph </note>
+            <variant>Pan left  (Lt arrow)</variant>
+        </translation>
+        <translation key="Pan_right">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - scroll viewable area right - appears if right click on trend graph </note>
+            <variant>Pan right (Rt arrow)</variant>
+        </translation>
+        <translation key="Pan_up">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - scroll viewable area up - appears if right click on trend graph </note>
+            <variant>Pan up    (Up arrow)</variant>
+        </translation>
+        <translation key="Pan_down">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - scroll viewable area down - appears if right click on trend graph </note>
+            <variant>Pan down  (Dn arrow)</variant>
+        </translation>
+        <translation key="Zoom_in">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - enlarge viewable area  - appears if right click on trend graph </note>
+            <variant>Zoom in   (Page Down)</variant>
+        </translation>
+        <translation key="Zoom_out">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - shrink viewable area - appears if right click on trend graph </note>
+            <variant>Zoom out  (Page Up)</variant>
+        </translation>
+        <translation key="Zoom_to_extents">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - expand viewable area to extended range - appears if right click on trend graph </note>
+            <variant>Zoom to extents  (Home)</variant>
+        </translation>
+        <translation key="Reset_view">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - reset viewable area  - appears if right click on trend graph </note>
+            <variant>Reset view  (End)</variant>
+        </translation>
+        <translation key="Undo">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - undo last command - appears if right click on trend graph </note>
+            <variant>Undo  (ESC)</variant>
+        </translation>
+        <translation key="Toggle_jump">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - toggle jump feature on/off - appears if right click on trend graph </note>
+            <variant>Set start date (J)</variant>
+        </translation>
+        <translation key="Toggle_autoupdate">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - toggle automatic update of values - appears if right click on trend graph </note>
+            <variant>Auto Update (U)</variant>
+        </translation>
+        <translation key="Toggle_Historical_only">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - toggle showing data that is only stored in the historical database not current data - appears if right click on trend graph </note>
+            <variant>History only (H)</variant>
+        </translation>
+        <translation key="Toggle_Markers">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - toggle showing markers - appears if right click on trend graph </note>
+            <variant>Point markers (M)</variant>
+        </translation>
+        <translation key="Copy_data_to_clipboard">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - puts a copy of data into clipboard - appears if right click on trend graph </note>
+            <variant>Copy data to clipboard (CTRL-C)</variant>
+        </translation>
+        <translation key="Auto_update">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - enable auto update of values - appears if right click on trend graph </note>
+            <variant>Auto</variant>
+        </translation>
+        <translation key="">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for a color on a color trend</note>
+            <variant/>
+        </translation>
+        <translation key="Mustard">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color -1 on a color trend</note>
+            <variant>Unknown</variant>
+        </translation>
+        <translation key="Purple">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for colors 0 or 15 on a color trend</note>
+            <variant>Communications Error</variant>
+        </translation>
+        <translation key="Gray">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 1 on a color trend</note>
+            <variant>Unoccupied</variant>
+        </translation>
+        <translation key="Red_Heating">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 2 on a color trend</note>
+            <variant>Heating Alarm</variant>
+        </translation>
+        <translation key="Dark_Blue">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 3 on a color trend</note>
+            <variant>Heating 2</variant>
+        </translation>
+        <translation key="Light_Blue">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 4 on a color trend</note>
+            <variant>Heating 1</variant>
+        </translation>
+        <translation key="Green">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 5 on a color trend</note>
+            <variant>Green</variant>
+        </translation>
+        <translation key="Speckled_Green">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 6 on a color trend</note>
+            <variant>Free Cooling</variant>
+        </translation>
+        <translation key="Yellow">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 7 on a color trend</note>
+            <variant>Cooling 1</variant>
+        </translation>
+        <translation key="Orange">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 8 on a color trend</note>
+            <variant>Cooling 2</variant>
+        </translation>
+        <translation key="Red_Cooling">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 9 on a color trend</note>
+            <variant>Cooling Alarm</variant>
+        </translation>
+        <translation key="White">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 10 on a color trend</note>
+            <variant>Occupied</variant>
+        </translation>
+        <translation key="Coral">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 13 on a color trend</note>
+            <variant>Control program error</variant>
+        </translation>
+        <translation key="Charcoal">
+            <note>Location: In GEO tree, select a piece of equipment that displays a Trends action button. Click the button to view the trend.</note>
+            <note> label - name for color 14 on a color trend</note>
+            <variant>Download required</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

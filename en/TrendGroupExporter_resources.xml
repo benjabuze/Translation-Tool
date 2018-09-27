@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="resources" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="resources">
+        <!--  Edit Group Page Translations-->
+        <translation approved="false" key="Edit_Group_Type" new="true">
+            <note/>
+            <variant>Data Type</variant>
+        </translation>
+        <translation approved="false" key="Edit_Group_Size" new="true">
+            <note/>
+            <variant>Buffer Size</variant>
+        </translation>
+        <translation approved="false" key="Edit_Group_Trigger" new="true">
+            <note/>
+            <variant>Report Trigger</variant>
+        </translation>
+        <translation approved="false" key="Edit_Group_Lookup" new="true">
+            <note/>
+            <variant>Lookup Key</variant>
+        </translation>
+        <translation approved="false" key="Edit_Source_Group_Details" new="true">
+            <note/>
+            <variant>Trend Source Group Details</variant>
+        </translation>
+        <translation approved="false" key="Edit_Select_All_Sources" new="true">
+            <note/>
+            <variant>Select All Sources</variant>
+        </translation>
+        <translation approved="false" key="TrendSources_Configured" new="true">
+            <note/>
+            <variant>Trend Sources Configured for Export in Group</variant>
+        </translation>
+        <translation approved="false" key="Edit_Source_Assignment" new="true">
+            <note/>
+            <variant>Trend Source Assignment</variant>
+        </translation>
+        <translation approved="false" key="Source_Selection_Per_Scope" new="true">
+            <note/>
+            <variant>Source Selection per Scope</variant>
+        </translation>
+        <translation approved="false" key="Edit_Scope_Selection" new="true">
+            <note/>
+            <variant>Trend Scope Selection</variant>
+        </translation>
+        <translation approved="false" key="Edit_Filter_Sources" new="true">
+            <note/>
+            <variant>Filter Sources</variant>
+        </translation>
+        <translation approved="false" key="Edit_Auto_Filter_Source" new="true">
+            <note/>
+            <variant>Auto Filter Sources</variant>
+        </translation>
+        <translation approved="false" key="Edit_Group_Definition" new="true">
+            <note/>
+            <variant>Edit Group Definition</variant>
+        </translation>
+        <translation approved="false" key="CloneOf" new="true">
+            <note/>
+            <variant>Clone Of</variant>
+        </translation>
+        <translation approved="false" key="Edit_Tree_Scope" new="true">
+            <note/>
+            <variant>Tree Scope</variant>
+        </translation>
+        <translation approved="false" key="Selected_Trend_Scopes" new="true">
+            <note/>
+            <variant>
+                Selected Trend Scopes
+            </variant>
+        </translation>
+        <translation approved="false" key="Edit_Initial_Export_Range" new="true">
+            <note/>
+            <variant>Initial Export Range</variant>
+        </translation>
+        <translation approved="false" key="Edit_Show_Select_Sources" new="true">
+            <note/>
+            <variant>Show Selected Trend Sources</variant>
+        </translation>
+        <translation approved="false" key="Edit_Hide_Select_Sources" new="true">
+            <note/>
+            <variant>Hide Selected Trend Sources</variant>
+        </translation>
+        <translation approved="false" key="Edit_Export_Format" new="true">
+            <note/>
+            <variant>Export Format</variant>
+        </translation>
+        <translation approved="false" key="Edit_Export_All_Trends_Radio" new="true">
+            <note/>
+            <variant>Export all sources within selected scope</variant>
+        </translation>
+        <translation approved="false" key="Edit_Export_Specific_Trends_Radio" new="true">
+            <note/>
+            <variant>Select sources to export within selected scope</variant>
+        </translation>
+        <translation approved="false" key="Color_Trends" new="true">
+            <note/>
+            <variant>Color Trends</variant>
+        </translation>
+        <!--  Manage Group Page Translations-->
+        <translation approved="false" key="Create_New_Group" new="true">
+            <note/>
+            <variant>Create New Group</variant>
+        </translation>
+        <translation approved="false" key="Copy_Group" new="true">
+            <note/>
+            <variant>Copy Group</variant>
+        </translation>
+        <translation approved="false" key="Trend_Group_Definitions " new="true">
+            <note/>
+            <variant>Trend Group Definitions</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Edit" new="true">
+            <note/>
+            <variant>Edit</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Id" new="true">
+            <note/>
+            <variant>Id</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Format" new="true">
+            <note/>
+            <variant>Export Format</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Delete" new="true">
+            <note/>
+            <variant>Delete</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Export" new="true">
+            <note/>
+            <variant>Manual Export</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Sources_List" new="true">
+            <note/>
+            <variant>List all exporting trend sources for group</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group_Artifacts_List" new="true">
+            <note/>
+            <variant>List all export artifacts for group</variant>
+        </translation>
+        <translation approved="false" key="Add_Scope_To_Group" new="true">
+            <note/>
+            <variant>Add selected scope to group</variant>
+        </translation>
+        <translation approved="false" key="Delete_Export_Scope_Tags_For" new="true">
+            <note/>
+            <variant>Delete export scope for</variant>
+        </translation>
+        <translation approved="false" key="Edit_Scope_Tags_For" new="true">
+            <note/>
+            <variant>Edit export scope for</variant>
+        </translation>
+        <translation approved="false" key="Id_Unique_Among_Definitions" new="true">
+            <note/>
+            <variant>The group id must be unique among all group definitions.</variant>
+        </translation>
+        <translation approved="false" key="Name_Unique_Among_Definitions" new="true">
+            <note/>
+            <variant>The group name must be unique among all group definitions.</variant>
+        </translation>
+        <translation approved="false" key="Group_Saved" new="true">
+            <note/>
+            <variant>New trend export group has been saved:</variant>
+        </translation>
+        <translation approved="false" key="Group_Updated" new="true">
+            <note/>
+            <variant>Trend export group has been updated:</variant>
+        </translation>
+        <!--  Settings Page Translations-->
+        <translation approved="false" key="Settings_System" new="true">
+            <note/>
+            <variant>System Settings</variant>
+        </translation>
+        <translation approved="false" key="Settings_Save" new="true">
+            <note/>
+            <variant>Save Settings</variant>
+        </translation>
+        <translation approved="false" key="Settings_Export_Process" new="true">
+            <note/>
+            <variant>Export Process Settings</variant>
+        </translation>
+        <translation approved="false" key="Site_Identifier" new="true">
+            <note/>
+            <variant>Site identifier</variant>
+        </translation>
+        <translation approved="false" key="Hour_Schedule_Step" new="true">
+            <note/>
+            <variant>Hourly schedules:  minutes after the hour start</variant>
+        </translation>
+        <translation approved="false" key="Daily_Schedule_Step" new="true">
+            <note/>
+            <variant>Daily schedules:  start hour</variant>
+        </translation>
+        <translation approved="false" key="Settings_Deletion" new="true">
+            <note/>
+            <variant>Enable artifact auto-deletion</variant>
+        </translation>
+        <translation approved="false" key="Settings_Delete_Older" new="true">
+            <note/>
+            <variant>Delete artifacts on disk older than specified # of days</variant>
+        </translation>
+        <translation approved="false" key="Settings_Schedule_Definitions" new="true">
+            <note/>
+            <variant>Schedule Definitions</variant>
+        </translation>
+        <translation approved="false" key="2Years_of_Data" new="true">
+            <note/>
+            <variant>2 years of data</variant>
+        </translation>
+        <translation approved="false" key="1Year_of_Data" new="true">
+            <note/>
+            <variant>1 year of data</variant>
+        </translation>
+        <translation approved="false" key="3Months_of_Data" new="true">
+            <note/>
+            <variant>3 months of data</variant>
+        </translation>
+        <translation approved="false" key="30Days_of_Data" new="true">
+            <note/>
+            <variant>30 days of data</variant>
+        </translation>
+        <translation approved="false" key="7Days_of_Data" new="true">
+            <note/>
+            <variant>7 days of data</variant>
+        </translation>
+        <translation approved="false" key="1Day_of_Data" new="true">
+            <note/>
+            <variant>1 day of data</variant>
+        </translation>
+        <translation approved="false" key="1Hour_of_Data" new="true">
+            <note/>
+            <variant>1 hour of data</variant>
+        </translation>
+        <translation approved="false" key="Setting_Export_Priority" new="true">
+            <note/>                                                                                                                       .
+            <variant>Export process priority</variant>
+        </translation>
+        <translation approved="false" key="Settings_Suspend_Export" new="true">
+            <note/>
+            <variant>Suspend export process</variant>
+        </translation>
+        <translation approved="false" key="Setting_Artifact_Dir" new="true">
+            <note/>
+            <variant>Export artifact directory</variant>
+        </translation>
+        <!--  Artifacts Page Translations-->
+        <translation approved="false" key="Artifact_Success" new="true">
+            <note/>
+            <variant>Successful</variant>
+        </translation>
+        <translation approved="false" key="Artifact_Progressing" new="true">
+            <note/>
+            <variant>In Progress</variant>
+        </translation>
+        <translation approved="false" key="Artifact_Failed" new="true">
+            <note/>
+            <variant>Failed</variant>
+        </translation>
+        <translation approved="false" key="Artifact_Suspended" new="true">
+            <note/>
+            <variant>Suspended</variant>
+        </translation>
+        <translation approved="false" key="Artifact_Preempted" new="true">
+            <note/>
+            <variant>Blocked</variant>
+        </translation>
+        <translation approved="false" key="Artifact_Trend_Data_History" new="true">
+            <note/>
+            <variant>Trend Data Export History</variant>
+        </translation>
+        <translation approved="false" key="Schedule_Time" new="true">
+            <note/>
+            <variant>Schedule Time</variant>
+        </translation>
+        <translation approved="false" key="Schedule_Id" new="true">
+            <note/>
+            <variant>Schedule</variant>
+        </translation>
+        <!--  Commonly Used Translations-->
+        <translation approved="false" key="Unscheduled" new="true">
+            <note/>
+            <variant>Unscheduled</variant>
+        </translation>
+        <translation approved="false" key="OnDemand" new="true">
+            <note/>
+            <variant>On Demand</variant>
+        </translation>
+        <translation approved="false" key="Daily" new="true">
+            <note/>
+            <variant>Daily</variant>
+        </translation>
+        <translation approved="false" key="Hourly" new="true">
+            <note/>
+            <variant>Hourly</variant>
+        </translation>
+        <translation approved="false" key="Cron" new="true">
+            <note/>
+            <variant>Cron</variant>
+        </translation>
+        <translation approved="false" key="Hourly_Definition" new="true">
+            <note/>
+            <variant>This is a default schedule that runs every hour indefinitely to export trend samples from the
+                current time back to the last known exported sample.
+            </variant>
+        </translation>
+        <translation approved="false" key="Daily_Definition" new="true">
+            <note/>
+            <variant>This is a default schedule that runs every 24 hours to export trend samples from the current time
+                back to the last known exported sample
+            </variant>
+        </translation>
+        <translation approved="false" key="OnDemand_Definition" new="true">
+            <note/>
+            <variant>This is a default schedule that runs on user demand to export trend samples from the current time
+                back to the last known exported sample.
+            </variant>
+        </translation>
+        <translation approved="false" key="Cron_Definition" new="true">
+            <note/>
+            <variant>This is a default schedule that never runs and means that a schedule should likely be assigned or
+                run only on demand.
+            </variant>
+        </translation>
+        <translation approved="false" key="Unscheduled_Definition" new="true">
+            <note/>
+            <variant>This is a default schedule that never runs and means that a schedule should likely be assigned or
+                run only on demand.
+            </variant>
+        </translation>
+        <translation approved="false" key="SingleSourceCSV" new="true">
+            <note/>
+            <variant>csv per source</variant>
+        </translation>
+        <translation approved="false" key="CombinedSourceCSV" new="true">
+            <note/>
+            <variant>csv per group</variant>
+        </translation>
+        <translation approved="false" key="combined" new="true">
+            <note/>
+            <variant>combined</variant>
+        </translation>
+        <translation approved="false" key="csv" new="true">
+            <note/>
+            <variant>csv</variant>
+        </translation>
+        <translation approved="false" key="Unique" new="true">
+            <note/>
+            <variant>Unique</variant>
+        </translation>
+        <translation approved="false" key="Schedule" new="true">
+            <note/>
+            <variant>Schedule</variant>
+        </translation>
+        <translation approved="false" key="Save" new="true">
+            <note/>
+            <variant>Save</variant>
+        </translation>
+        <translation approved="false" key="Update" new="true">
+            <note/>
+            <variant>Update Data</variant>
+        </translation>
+        <translation approved="false" key="Logout" new="true">
+            <note/>
+            <variant>Logout</variant>
+        </translation>
+        <translation approved="false" key="Help" new="true">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation approved="false" key="Edit_Group" new="true">
+            <note/>
+            <variant>Edit Group</variant>
+        </translation>
+        <translation approved="false" key="Save_Cloned_Group" new="true">
+            <note/>
+            <variant>Save Cloned Group</variant>
+        </translation>
+        <translation approved="false" key="Manage_Group" new="true">
+            <note/>
+            <variant>Manage Groups</variant>
+        </translation>
+        <translation approved="false" key="Trend_Group_Definitions" new="true">
+            <note/>
+            <variant>Trend Group Definitions</variant>
+        </translation>
+        <translation approved="false" key="Settings" new="true">
+            <note/>
+            <variant>Settings</variant>
+        </translation>
+        <translation approved="false" key="Artifacts" new="true">
+            <note/>
+            <variant>Artifacts</variant>
+        </translation>
+        <translation approved="false" key="Export_History" new="true">
+            <note/>
+            <variant>Export History</variant>
+        </translation>
+        <translation approved="false" key="Unique" new="true">
+            <note/>
+            <variant>unique</variant>
+        </translation>
+        <translation approved="false" key="True" new="true">
+            <note/>
+            <variant>True</variant>
+        </translation>
+        <translation approved="false" key="Talse" new="true">
+            <note/>
+            <variant>False</variant>
+        </translation>
+        <translation approved="false" key="Display" new="true">
+            <note/>
+            <variant>Display</variant>
+        </translation>
+        <translation approved="false" key="Status" new="true">
+            <note/>
+            <variant>Status</variant>
+        </translation>
+        <translation approved="false" key="Group_Id" new="true">
+            <note/>
+            <variant>Group Id</variant>
+        </translation>
+        <translation approved="false" key="Group_Name" new="true">
+            <note/>
+            <variant>Group Name</variant>
+        </translation>
+        <translation approved="false" key="Sources" new="true">
+            <note/>
+            <variant>Sources</variant>
+        </translation>
+        <translation approved="false" key="Failed_Sources" new="true">
+            <note/>
+            <variant>Failed Sources</variant>
+        </translation>
+        <translation approved="false" key="Apply" new="true">
+            <note/>
+            <variant>Apply</variant>
+        </translation>
+        <translation approved="false" key="Actions" new="true">
+            <note/>
+            <variant>Actions</variant>
+        </translation>
+        <translation approved="false" key="Start_Time" new="true">
+            <note/>
+            <variant>Start Time</variant>
+        </translation>
+        <translation approved="false" key="Run_Time" new="true">
+            <note/>
+            <variant>Run Time</variant>
+        </translation>
+        <translation approved="false" key="End_Time" new="true">
+            <note/>
+            <variant>End Time</variant>
+        </translation>
+        <translation approved="false" key="Sample_Count" new="true">
+            <note/>
+            <variant>Sample Count</variant>
+        </translation>
+        <translation approved="false" key="Download" new="true">
+            <note/>
+            <variant>Download</variant>
+        </translation>
+        <translation approved="false" key="Name" new="true">
+            <note/>
+            <variant>Name</variant>
+        </translation>
+        <translation approved="false" key="Time" new="true">
+            <note/>
+            <variant>Time</variant>
+        </translation>
+        <translation approved="false" key="New_Group" new="true">
+            <note/>
+            <variant>New Group</variant>
+        </translation>
+        <translation approved="false" key="NewGroup" new="true">
+            <note/>
+            <variant>NewGroup</variant>
+        </translation>
+        <translation approved="false" key="ConfirmDeleteRequest" new="true">
+            <note/>
+            <variant>Confirm Delete Request</variant>
+        </translation>
+        <translation approved="false" key="DeleteScopeConfirmation" new="true">
+            <note/>
+            <variant>The selected trend export scope definition will be deleted:</variant>
+        </translation>
+        <translation approved="false" key="DeleteArtifactConfirmation" new="true">
+            <note/>
+            <variant>The selected export artifact files and directories will be deleted. Are you sure?</variant>
+        </translation>
+        <translation approved="false" key="DeleteGroupConfirmation" new="true">
+            <note/>
+            <variant>The selected export group definition will be deleted. Are you sure?</variant>
+        </translation>
+        <translation approved="false" key="ExportSubmitInfo" new="true">
+            <note/>
+            <variant>Export Submit Information</variant>
+        </translation>
+        <translation approved="false" key="ManualExportNoSubmit" new="true">
+            <note/>
+            <variant>A manual export may not be submitted while another one is already in progress.</variant>
+        </translation>
+        <translation approved="false" key="ExportActionInfo" new="true">
+            <note/>
+            <variant>Export Action Information</variant>
+        </translation>
+        <translation approved="false" key="GroupActionInfo" new="true">
+            <note/>
+            <variant>Group Action Information</variant>
+        </translation>
+        <translation approved="false" key="Ok" new="true">
+            <note/>
+            <variant>OK</variant>
+        </translation>
+        <translation approved="false" key="Cancel" new="true">
+            <note/>
+            <variant>Cancel</variant>
+        </translation>
+        <translation approved="false" key="FieldRequired" new="true">
+            <note/>
+            <variant>This field is required</variant>
+        </translation>
+        <translation approved="false" key="BadRetentionFormat" new="true">
+            <note/>
+            <variant>Retention period must be numerical from 1 to 180</variant>
+        </translation>
+        <translation approved="false" key="MustBe6To25" new="true">
+            <note/>
+            <variant>Must be a value with no spaces between from 6 to 25 characters</variant>
+        </translation>
+        <translation approved="false" key="RequiredField" new="true">
+            <note/>
+            <variant>This field is required</variant>
+        </translation>
+        <translation approved="false" key="MultiSelect" new="true">
+            <note/>
+            <variant>Ctrl-Click multi-column Sort</variant>
+        </translation>
+        <translation approved="false" key="AreYouSure" new="true">
+            <note/>
+            <variant>Are you Sure?</variant>
+        </translation>
+    </section>
+</resource-base>

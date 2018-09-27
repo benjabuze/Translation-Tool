@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="sitebuilder-foundation" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="sitebuilder-foundation">
+        <translation approved="false" key="site-builder-plugin-description" new="true">
+            <note>File description for plugins that only shows up in the file chooser dialog.</note>
+            <variant>Complementos de SiteBuilder</variant>
+        </translation>
+    </section>
+</resource-base>

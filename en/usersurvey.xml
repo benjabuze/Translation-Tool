@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="usersurvey" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <note>This text is used on the user survey feedback form.</note>
+    <section id="User Survey Text">
+        <translation key="ContactSupport">
+            <variant>Please contact technical support.</variant>
+        </translation>
+        <translation key="ErrorTitle">
+            <variant>Error Message </variant>
+        </translation>
+        <translation key="GetReservation">
+            <variant>A error has occured getting the reservation.</variant>
+        </translation>
+        <translation key="MakeReservation">
+            <variant>A error has occured making the reservation.</variant>
+        </translation>
+        <translation key="RegistrationMessage">
+            <variant>You can help us improve Automated Logic's products by taking a short 5 question survey. Please click on the 'Take Survey' button to participate now.</variant>
+        </translation>
+        <translation key="SurveyCompleteMessage">
+            <variant>Survey already completed. Please click the Already Completed Survey button. Thank you.</variant>
+        </translation>
+        <translation key="ValidateHashcode_InvalidOperationException">
+            <variant>Invalid hashcode.</variant>
+        </translation>
+        <translation key="ValidateLicense_InactiveLicense">
+            <variant>License is not active.</variant>
+        </translation>
+        <translation key="ValidateLicense_InvalidLicenseType">
+            <variant>Invalid license type.</variant>
+        </translation>
+        <translation key="ValidateLicense_NoLicenseFound">
+            <variant>License not found on file.</variant>
+        </translation>
+        <translation key="ValidateLicenseVersion_SurveyPreviouslyTaken">
+            <variant>Survey previously taken for this license and version no.</variant>
+        </translation>
+        <translation key="ValidateParameters_missing">
+            <variant>Input parameters are missing</variant>
+        </translation>
+        <translation key="WebCtrlError_message">
+            <variant>An error was encountered in the User Feedback Survey.  Details for Support:</variant>
+        </translation>
+    </section>
+</resource-base>

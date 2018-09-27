@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="viewbuilder-mnemonics" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <!-- This file must be translated a little differently. This represents mnemonics for each menu/menu item
+        How this works is the translation (variant) must consist of a single letter from the menu and must be
+        unique for each section. This is because each letter is a hotkey to press to select a given menu.
+        Preferably, the letter should be the first character of the menu item, however, this is not always
+        possible.
+
+         Note: these must be single keyboard characters. You cannot use Chinese characters that require multiple
+         key strokes to create.-->
+    <section id="main">
+        <!-- the main/root menu. These correspond to the other menu sections. Everything in this section must be unique -->
+        <translation key="file-menu-mnemonic">
+            <note>File menu</note>
+            <variant>F</variant>
+        </translation>
+        <translation key="edit-menu-mnemonic">
+            <note>Edit menu</note>
+            <variant>E</variant>
+        </translation>
+        <translation key="configure-menu-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="window-menu-mnemonic">
+            <note>Window menu</note>
+            <variant>W</variant>
+        </translation>
+        <translation key="help-menu-mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="test-menu-mnemonic">
+            <variant>T</variant>
+        </translation>
+        <translation key="developer-menu-mnemonic">
+            <variant>D</variant>
+        </translation>
+    </section>
+    <section id="file-menu">
+        <translation key="new-view-mnemonic">
+            <variant>N</variant>
+        </translation>
+        <translation key="open-view-mnemonic">
+            <variant>O</variant>
+        </translation>
+        <translation key="close-view-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="save-view-mnemonic">
+            <variant>S</variant>
+        </translation>
+        <translation key="save-view-as-mnemonic">
+            <variant>A</variant>
+        </translation>
+        <translation key="new-view-equipment-builder-mnemonic">
+            <variant>E</variant>
+        </translation>
+        <translation key="import-submenu-mnemonic">
+            <variant>I</variant>
+        </translation>
+        <translation key="reopen-view-submenu-mnemonic">
+            <variant>R</variant>
+        </translation>
+        <translation key="exit-application-mnemonic">
+            <variant>x</variant>
+        </translation>
+    </section>
+    <section id="import-submenu">
+        <translation key="import-frontpage-jsp-mnemonic">
+            <variant>F</variant>
+        </translation>
+        <translation key="import-bacview-html-mnemonic">
+            <variant>B</variant>
+        </translation>
+    </section>
+    <section id="edit-menu">
+        <translation key="undo-mnemonic">
+            <variant>U</variant>
+        </translation>
+        <translation key="redo-mnemonic">
+            <variant>R</variant>
+        </translation>
+        <translation key="cut-mnemonic">
+            <variant>t</variant>
+        </translation>
+        <translation key="copy-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="paste-mnemonic">
+            <variant>P</variant>
+        </translation>
+        <translation key="set-path-value-mnemonic">
+            <variant>E</variant>
+        </translation>
+        <!--translation key="set-object-name-mnemonic">
+         <variant></variant>
+      </translation-->
+        <translation key="select-all-mnemonic">
+            <variant>A</variant>
+        </translation>
+        <!--translation key="deselect-all-mnemonic">
+         <variant></variant>
+      </translation-->
+        <translation key="delete-mnemonic">
+            <variant>D</variant>
+        </translation>
+        <translation key="edit-show-hide-conditional-mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="edit-enable-disable-conditional-mnemonic">
+            <variant>E</variant>
+        </translation>
+        <translation key="edit-variable-color-conditional-mnemonic">
+            <variant>V</variant>
+        </translation>
+        <translation key="edit-link-mnemonic">
+            <variant>k</variant>
+        </translation>
+        <translation key="edit-style-mnemonic">
+            <variant>S</variant>
+        </translation>
+        <translation key="lock-mnemonic">
+            <variant>L</variant>
+        </translation>
+        <translation key="unlock-mnemonic">
+            <variant>o</variant>
+        </translation>
+        <!--translation key="unlock-all-mnemonic">
+         <variant></variant>
+      </translation-->
+        <translation key="group-mnemonic">
+            <variant>G</variant>
+        </translation>
+        <translation key="ungroup-mnemonic">
+            <variant>p</variant>
+        </translation>
+        <translation key="alignment-submenu-mnemonic">
+            <variant>n</variant>
+        </translation>
+        <translation key="arrange-submenu-mnemonic">
+            <variant>A</variant>
+        </translation>
+        <translation key="move-entity-mnemonic">
+            <variant>M</variant>
+        </translation>
+        <translation key="find-replace-mnemonic">
+            <variant>F</variant>
+        </translation>
+    </section>
+    <section id="alignment-submenu">
+        <translation key="align-left-mnemonic">
+            <variant>L</variant>
+        </translation>
+        <translation key="align-horizontal-center-mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="align-right-mnemonic">
+            <variant>R</variant>
+        </translation>
+        <translation key="align-top-mnemonic">
+            <variant>T</variant>
+        </translation>
+        <translation key="align-vertical-center-mnemonic">
+            <variant>V</variant>
+        </translation>
+        <translation key="align-bottom-mnemonic">
+            <variant>B</variant>
+        </translation>
+        <!--translation key="space-evenly-horizontally-mnemonic">
+         <variant></variant>
+      </translation>
+      <translation key="space-evenly-vertically-mnemonic">
+         <variant></variant>
+      </translation-->
+    </section>
+    <section id="layering-submenu">
+        <translation key="move-to-front-mnemonic">
+            <variant>t</variant>
+        </translation>
+        <translation key="move-forward-mnemonic">
+            <variant>f</variant>
+        </translation>
+        <translation key="move-backward-mnemonic">
+            <variant>b</variant>
+        </translation>
+        <translation key="move-to-back-mnemonic">
+            <variant>s</variant>
+        </translation>
+    </section>
+    <section id="configure-menu">
+        <translation key="configure-view-properties-mnemonic">
+            <variant>V</variant>
+        </translation>
+        <translation key="configure-view-background-color-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="configure-preferences-mnemonic">
+            <variant>P</variant>
+        </translation>
+    </section>
+    <section id="window-menu">
+        <translation key="toggle-tool-properties-window-mnemonic">
+            <variant>T</variant>
+        </translation>
+        <translation key="toggle-control-properties-window-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="toggle-system-window-mnemonic">
+            <variant>S</variant>
+        </translation>
+    </section>
+    <section id="help-menu">
+        <translation key="help-mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="tip-of-the-day-mnemonic">
+            <variant>D</variant>
+        </translation>
+        <translation key="apply-update-mnemonic">
+            <variant>U</variant>
+        </translation>
+        <translation key="about-mnemonic">
+            <variant>A</variant>
+        </translation>
+    </section>
+    <section id="test-menu">
+        <translation key="generate-test-code-mnemonic">
+            <variant>G</variant>
+        </translation>
+    </section>
+    <section id="developer-menu">
+        <translation key="display-debugger-mnemonic">
+            <variant>D</variant>
+        </translation>
+        <translation key="display-memory-usage-mnemonic">
+            <variant>M</variant>
+        </translation>
+        <translation key="add-one-of-each-entity-mnemonic">
+            <variant>A</variant>
+        </translation>
+        <translation key="add-many-entities-mnemonic">
+            <variant>E</variant>
+        </translation>
+        <translation key="default-new-view-mnemonic">
+            <variant>N</variant>
+        </translation>
+        <translation key="open-view-immediately-mnemonic">
+            <variant>O</variant>
+        </translation>
+        <translation key="choose-open-view-immediately-mnemonic">
+            <variant>V</variant>
+        </translation>
+        <translation key="toggle-save-confirmation-mnemonic">
+            <variant>N</variant>
+        </translation>
+        <translation key="toggle-overwrite-confirmation-mnemonic">
+            <variant>O</variant>
+        </translation>
+        <translation key="toggle-unzip-view-on-save-mnemonic">
+            <variant>U</variant>
+        </translation>
+        <translation key="toggle-validate-cjv-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="toggle-debug-grid-mnemonic">
+            <variant>G</variant>
+        </translation>
+        <translation key="toggle-suppress-early-access-warning-mnemonic">
+            <variant>S</variant>
+        </translation>
+    </section>
+    <section id="table-editor-main">
+        <translation key="table-editor-table-menu-mnemonic">
+            <variant>T</variant>
+        </translation>
+        <translation key="table-editor-column-menu-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="table-editor-row-menu-mnemonic">
+            <variant>R</variant>
+        </translation>
+        <translation key="table-editor-cell-menu-mnemonic">
+            <variant>l</variant>
+        </translation>
+    </section>
+    <section id="table-editor-table-menu">
+        <!--<translation key="table-editor-">-->
+        <!--<variant></variant>-->
+        <!--</translation>-->
+    </section>
+    <section id="table-editor-column-menu">
+        <!--<translation key="table-editor-">-->
+        <!--<variant></variant>-->
+        <!--</translation>-->
+    </section>
+    <section id="table-editor-row-menu">
+        <!--<translation key="table-editor-">-->
+        <!--<variant></variant>-->
+        <!--</translation>-->
+    </section>
+    <section id="table-editor-cell-menu">
+        <!--<translation key="table-editor-">-->
+        <!--<variant></variant>-->
+        <!--</translation>-->
+    </section>
+</resource-base>

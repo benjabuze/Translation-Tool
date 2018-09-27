@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="touchview" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="touchview">
+        <translation key="touchview.import-alarms-file-description">
+            <variant>Control Programs (*.equipment)</variant>
+        </translation>
+        <translation key="touchview.event-descriptor.text-field-edit">
+            <variant>Text Field Edit</variant>
+        </translation>
+        <translation key="touchview.text-list-control-editor.default-value">
+            <variant>Default Value</variant>
+        </translation>
+        <translation key="touchview.text-list-control-editor.preview-text-label">
+            <variant>Preview Text For "{0}" Values:</variant>
+        </translation>
+        <translation key="touchview.control-editor.autosize-label">
+            <variant>Autosize:</variant>
+        </translation>
+        <translation key="touchview-file-too-large-error">
+            <variant>Your touch file ''{0}'' exceeds the maximum size of 512k.</variant>
+        </translation>
+        <translation key="touchview-file-too-large-uncompressed-error">
+            <variant>Your touch file ''{0}'' exceeds the maximum uncompressed size of 1Mb.</variant>
+        </translation>
+        <translation key="systemtouchview-file-too-large-uncompressed-error">
+            <variant>Your touch file ''{0}'' exceeds the maximum uncompressed size of 512K.</variant>
+        </translation>
+        <translation key="touchview-entry-too-large-error">
+            <variant>Your touch file entry ''{0}'' exceeds the maximum size of 512K.</variant>
+        </translation>
+        <translation key="touchview-screen-too-large-error">
+            <variant>Your screen named ''{0}'' exceeds the maximum size of 256k.</variant>
+        </translation>
+        <translation key="touchview-image-too-large-error">
+            <variant>Your image named ''{0}'' exceeds the maximum size of 256k.</variant>
+        </translation>
+        <translation key="view-save-error-dialog-title">
+            <variant>Your Saved View Contains Errors</variant>
+        </translation>
+        <translation key="touch.image.size.exceeded">
+            <variant>Maximum Image Size Exceeded.</variant>
+        </translation>
+        <translation key="touchview.unify-width">
+            <variant>Unify Width</variant>
+        </translation>
+        <translation key="touchview.controls.label">
+            <variant>Label</variant>
+        </translation>
+        <translation key="touchview.controls.image">
+            <variant>Image</variant>
+        </translation>
+        <translation key="touchview.controls.hotspot">
+            <variant>Hot Spot</variant>
+        </translation>
+        <translation key="touchview.controls.checkbox">
+            <variant>Checkbox</variant>
+        </translation>
+        <translation key="touchview.controls.number">
+            <variant>Number</variant>
+        </translation>
+        <translation key="touchview.controls.time">
+            <variant>Time</variant>
+        </translation>
+        <translation key="touchview.controls.duration">
+            <variant>Duration</variant>
+        </translation>
+        <translation key="touchview.controls.multi-state">
+            <variant>Multi-State</variant>
+        </translation>
+        <translation key="touchview.controls.image-list">
+            <variant>Image List</variant>
+        </translation>
+        <translation key="touchview.controls.button">
+            <variant>Button</variant>
+        </translation>
+        <translation key="touchview.controls.hot-spot">
+            <variant>Hot Spot</variant>
+        </translation>
+        <translation key="touchview.controls.view-port">
+            <variant>View Port</variant>
+        </translation>
+        <translation key="touchview.controls.duration">
+            <variant>Duration</variant>
+        </translation>
+        <translation key="touchview.controls.radio-button">
+            <variant>Radio Button</variant>
+        </translation>
+        <translation key="touchview.controls.text-list">
+            <variant>Text List</variant>
+        </translation>
+        <translation key="touchview.controls.setpoint">
+            <variant>Setpoint</variant>
+        </translation>
+        <translation key="touchview.controls.prime-value">
+            <variant>Primary Value</variant>
+        </translation>
+        <translation key="touchview.controls.text-field">
+            <variant>Text Field</variant>
+        </translation>
+        <translation key="touchview.controls.text-toggle">
+            <variant>Text Toggle</variant>
+        </translation>
+        <translation key="touchview.controls.date">
+            <variant>Date</variant>
+        </translation>
+        <translation key="touchview.controls.on-off-auto">
+            <variant>On-Off-Auto</variant>
+        </translation>
+        <translation key="touchview.controls.multi-state.previewtext">
+            <variant>Multi-State</variant>
+        </translation>
+        <translation key="touchview.controls.viewport">
+            <variant>View Port</variant>
+        </translation>
+        <translation key="touchview.controls.table">
+            <variant>Table</variant>
+        </translation>
+        <translation key="touchview.controls.time_local_override">
+            <variant>Time Local Override</variant>
+        </translation>
+        <translation key="touchview.controls.style">
+            <variant>Style</variant>
+        </translation>
+        <translation key="touchview.table.close">
+            <variant>Close Table Editor</variant>
+        </translation>
+        <translation key="touchview.viewport.close">
+            <variant>Close View Port Editor</variant>
+        </translation>
+        <translation key="touchview.viewport.min">
+            <variant>Min</variant>
+        </translation>
+        <translation key="touchview.viewport.max">
+            <variant>Max</variant>
+        </translation>
+        <translation key="touchview.viewport.width">
+            <variant>Width:</variant>
+        </translation>
+        <translation key="touchview.viewport.height">
+            <variant>Height:</variant>
+        </translation>
+        <translation key="touchview.viewport.border-color">
+            <variant>Border Color:</variant>
+        </translation>
+        <translation key="touchview.viewport.choose-border-color">
+            <variant>Choose Border Color</variant>
+        </translation>
+        <translation key="touchview.viewport.choose-background-color">
+            <variant>Choose Background Color</variant>
+        </translation>
+        <translation key="touchview.viewport.background-color">
+            <variant>Background Color:</variant>
+        </translation>
+        <translation key="touchview.viewport.border-enabled">
+            <variant>Border Enabled:</variant>
+        </translation>
+        <translation key="touchview.viewport.change">
+            <variant>Change</variant>
+        </translation>
+        <translation key="touchview.editor.enable-link">
+            <variant>Enable Link:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-screen">
+            <variant>Link to Screen:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-screen.label">
+            <variant>Screen:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-screen-data-path.label">
+            <variant>Data Path:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-screen-parameter.label">
+            <variant>Parameter:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-bacnet-device-id.label">
+            <variant>BACnet Device Id:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-bacnet-device-id.no-colon">
+            <variant>BACnet Device Id</variant>
+        </translation>
+        <translation key="touchview.editor.link-to-bacnet-device-id.label">
+            <variant>BACnet Device Id:</variant>
+        </translation>
+        <translation key="touchview.editor.link-to">
+            <variant>Link to</variant>
+        </translation>
+        <translation key="touchview.editor.use_custom_link">
+            <variant>Use Custom Link Name:</variant>
+        </translation>
+        <translation key="touchview.editor.custom_link">
+            <variant>Custom Link Name:</variant>
+        </translation>
+        <translation key="touchview.editor.previous-screen">
+            <variant>Previous Screen:</variant>
+        </translation>
+        <translation key="touchview.editor.link-text">
+            <variant>Link Text:</variant>
+        </translation>
+        <translation key="touchview.editor.button-style">
+            <variant>Button Style:</variant>
+        </translation>
+        <translation key="touchview.editor.font-size">
+            <variant>Font Size: </variant>
+        </translation>
+        <translation key="touchview.editor.font-color">
+            <variant>Font Color: </variant>
+        </translation>
+        <translation key="touchview.editor.change-button">
+            <variant>Change</variant>
+        </translation>
+        <translation key="touchview.editor.label-text">
+            <variant>Label Text: </variant>
+        </translation>
+        <translation key="touchview.editor.choose-text-color">
+            <variant>Choose Text Color</variant>
+        </translation>
+        <translation key="touchview.editor.onoffautocontrol.showstate.title">
+            <variant>Show As</variant>
+        </translation>
+        <translation key="touchview.editor.onoffautocontrol.showstate.on">
+            <variant>On</variant>
+        </translation>
+        <translation key="touchview.editor.onoffautocontrol.showstate.off">
+            <variant>Off</variant>
+        </translation>
+        <translation key="touchview.editor.onoffautocontrol.showstate.auto">
+            <variant>Auto</variant>
+        </translation>
+        <translation key="touchview.view-port-image-dialog.label1">
+            <variant>The image you have selected is larger than the View Port.</variant>
+        </translation>
+        <translation key="touchview.view-port-image-dialog.label2">
+            <variant>What do you want to do?</variant>
+        </translation>
+        <translation key="touchview.view-port-image-dialog.shrink-option">
+            <variant>Shrink image to fit</variant>
+        </translation>
+        <translation key="touchview.view-port-image-dialog.grow-option">
+            <variant>Grow View Port to fit (up to max size)</variant>
+        </translation>
+        <translation key="touchview.view-port-image-dialog.title">
+            <variant>Image Too Large</variant>
+        </translation>
+        <translation key="touchview.screen.header.aspects">
+            <variant>Header Aspects</variant>
+        </translation>
+        <translation key="touchview-event-descriptor.header.aspects">
+            <variant>Header Aspects Change</variant>
+        </translation>
+        <translation key="touchview-event-descriptor.theme">
+            <variant>Theme Change</variant>
+        </translation>
+        <translation key="touchview.font.displayname.large">
+            <variant>large</variant>
+        </translation>
+        <translation key="touchview.font.displayname.medium">
+            <variant>medium</variant>
+        </translation>
+        <translation key="touchview.font.displayname.small">
+            <variant>small</variant>
+        </translation>
+        <translation key="touchview.font.displayname.xsmall">
+            <variant>x-small</variant>
+        </translation>
+        <translation key="touchview.font.displayname.na">
+            <variant>N/A</variant>
+        </translation>
+        <translation key="touchview.tools-window-title">
+            <variant>Screens</variant>
+        </translation>
+        <translation key="touchview.control-selection-title">
+            <variant>Control Selection</variant>
+        </translation>
+        <translation key="touchview.import-alarms-window-title">
+            <variant>Import Alarms</variant>
+        </translation>
+        <translation key="touchview.import-alarms-label">
+            <variant>Import...</variant>
+        </translation>
+        <translation key="touchview.import-alarms-error">
+            <variant>An error occurred attempting to import alarms: {0}</variant>
+        </translation>
+        <translation key="conditional.name">
+            <variant>Conditional</variant>
+        </translation>
+        <translation approved="false" key="touchview.conditional.search.result.screens" new="true">
+            <variant>Also found on these screens: </variant>
+        </translation>
+        <translation key="table.cell.align.bottom">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="table.cell.align.top">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="table.cell.align.right">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="table.cell.align.middle">
+            <variant>Center Vertical</variant>
+        </translation>
+        <translation key="table.cell.align.left">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="table.cell.align.center">
+            <variant>Center Horizontal</variant>
+        </translation>
+        <translation key="table.insert.row">
+            <variant>Insert Row</variant>
+        </translation>
+        <translation key="table.delete.row">
+            <variant>Delete Row</variant>
+        </translation>
+        <translation key="table.insert.column">
+            <variant>Insert Column</variant>
+        </translation>
+        <translation key="table.delete.column">
+            <variant>Delete Column</variant>
+        </translation>
+        <translation key="editor.path-to-setpoint-microblock">
+            <variant>Path To Setpoint Microblock:</variant>
+        </translation>
+        <translation key="editor.path-to-occupied-status">
+            <variant>Path To Occupied Status:</variant>
+        </translation>
+        <translation key="editor.path-to-hvac-mode">
+            <variant>Path To HVAC Mode:</variant>
+        </translation>
+        <translation key="touchview.editor.path-to-time-clock-microblock">
+            <variant>Path To Time Clock Microblock:</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-as">
+            <variant>Show As</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-as.occupied">
+            <variant>Occupied</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-as.unoccupied">
+            <variant>Unoccupied</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-as.occupied-override">
+            <variant>Occupied Override</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-as.unoccupied-override">
+            <variant>Unoccupied Override</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.display-format">
+            <variant>Display Format:</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-time-to-next-transition">
+            <variant>Always show time to next schedule transition</variant>
+        </translation>
+        <translation key="touchview.editor.time-local-override-control.show-time-to-next-transition.parenthesis">
+            <variant>(If unchecked, this will only show when overridden)</variant>
+        </translation>
+        <translation key="touchview.editor.multi-state.use-custom-defined-states">
+            <variant>Use Custom Defined States:</variant>
+        </translation>
+        <translation key="touchview.editor.multi-state.custom-defined.value">
+            <variant>Value</variant>
+        </translation>
+        <translation key="touchview.editor.multi-state.use-custom-defined.display">
+            <variant>Display</variant>
+        </translation>
+        <translation key="touchview.custom-touch.creation-editor-dialog.title">
+            <variant>Custom Touch Initialization Properties</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-device-attributes.title">
+            <variant>Target Device</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-display-attributes.name">
+            <variant>Name</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-display-attributes.width">
+            <variant>Width</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-display-attributes.height">
+            <variant>Height</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-display-attributes.pixels-per-inch">
+            <variant>Pixels Per Inch</variant>
+        </translation>
+        <translation key="touchview.custom-touch.target-display-attributes.data-path-type">
+            <variant>Data Path Type</variant>
+        </translation>
+        <translation key="touchview.ok.button.title">
+            <variant>OK</variant>
+        </translation>
+        <translation key="touchview.cancel.button.title">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="touchview.translations.title">
+            <variant>Translations</variant>
+        </translation>
+        <translation key="touchview.header.title">
+            <variant>Header</variant>
+        </translation>
+        <translation key="touchview.aspect-name.title">
+            <variant>Aspect Name:</variant>
+        </translation>
+        <translation key="touchview.custom-button.title">
+            <variant>Custom Button</variant>
+        </translation>
+        <translation key="touchview.change-image.title">
+            <variant>Change Image</variant>
+        </translation>
+        <translation key="touchview.active-image.id.title">
+            <variant>Image Id:</variant>
+        </translation>
+        <translation key="touchview.dimension-abbr.title">
+            <variant>Dim:</variant>
+        </translation>
+        <translation key="touchview.select.title">
+            <variant>Select</variant>
+        </translation>
+        <translation key="touchview.active-images.title">
+            <variant>Active Images</variant>
+        </translation>
+        <translation key="touchview.metadata-field.title">
+            <variant>Metadata:</variant>
+        </translation>
+        <translation key="touchview.custom-header-button-alignment.title">
+            <variant>Aligned:</variant>
+        </translation>
+        <translation key="touchview.custom-header-button-alignment.left">
+            <variant>left</variant>
+        </translation>
+        <translation key="touchview.custom-header-button-alignment.right">
+            <variant>right</variant>
+        </translation>
+    </section>
+    <section id="actions">
+        <translation key="touchview.unify-width">
+            <variant>Unify Width</variant>
+        </translation>
+        <translation key="touchview.unify-width.mnemonic">
+            <variant>w</variant>
+        </translation>
+        <translation key="touchview.unify-width.tooltip">
+            <variant>All Controls Assigned The Largest Controls Width</variant>
+        </translation>
+        <translation key="touchview.unify-width.accelerator">
+            <variant>Ctrl</variant>
+        </translation>
+        <translation key="touchview.unify-width.descriptor">
+            <variant>Unify Width</variant>
+        </translation>
+        <translation key="touchview.unify-width.descriptor">
+            <variant>Unify Width</variant>
+        </translation>
+        <translation key="touchview.language">
+            <variant>Language</variant>
+        </translation>
+        <translation key="touchview.languages.title">
+            <variant>Languages</variant>
+        </translation>
+        <translation key="touchview.export-active-language.button.title">
+            <variant>Export</variant>
+        </translation>
+        <translation key="touchview.export-active-language.title">
+            <variant>Export Active Language Resource</variant>
+        </translation>
+        <translation key="touchview.export-active-language.file-exported.message">
+            <variant>The following language resource file was exported.</variant>
+        </translation>
+        <translation key="touchview.export-active-language.error-exporting-file.message">
+            <variant>Error exporting the following language resource file.</variant>
+        </translation>
+        <translation key="touchview.export-active-language.error-exporting-file.system-error-message.title">
+            <variant>System Error Message:</variant>
+        </translation>
+        <translation key="touchview.import-language-resources.button.title">
+            <variant>Import</variant>
+        </translation>
+        <translation key="touchview.import-language-resources.title">
+            <variant>Import Language Resources</variant>
+        </translation>
+        <translation key="touchview.import-language-resources.unimported-files.message">
+            <variant>Error! The following language resource files were not imported for anyone of 4 reasons - resource file is for an unsupported language, number of keys don't match the number of keys in the touch project, unrecognized language resource key found, invalid file type/format.</variant>
+        </translation>
+        <translation key="touchview.import-language-resources.imported-files-success.message">
+            <variant>All language resource files successfully imported.</variant>
+        </translation>
+        <translation key="touchview.import-language-resources.nothing-to-import.message">
+            <variant>No language resource files to import.</variant>
+        </translation>
+        <translation key="touchview.language-resource-files.location.title">
+            <variant>Location:</variant>
+        </translation>
+        <translation key="touchview.translation-files.filetype">
+            <variant>Translation Files:</variant>
+        </translation>
+    </section>
+    <section id="actuator_descriptors">
+        <translation key="time-control.set-display-format.change-descriptor">
+            <variant>Time - Set Display Format</variant>
+        </translation>
+        <translation key="event-descriptor.insert-table-row">
+            <variant>Insert Row</variant>
+        </translation>
+        <translation key="event-descriptor.delete-table-row">
+            <variant>Delete Row</variant>
+        </translation>
+        <translation key="event-descriptor.insert-table-column">
+            <variant>Insert Column</variant>
+        </translation>
+        <translation key="event-descriptor.delete-table-column">
+            <variant>Delete Column</variant>
+        </translation>
+        <translation key="event-descriptor.move-control-in-table">
+            <variant>Move Control</variant>
+        </translation>
+        <translation key="event-descriptor.move-control-in-table">
+            <variant>Copy Control</variant>
+        </translation>
+        <translation key="event-descriptor.resize-table-column">
+            <variant>Resize Column</variant>
+        </translation>
+        <translation key="button-control.use-custom-link.change-descriptor">
+            <variant>Button - Use Custom Link Name</variant>
+        </translation>
+        <translation key="button-control.set-custom-link-text.change-descriptor">
+            <variant>Button - Set Custom Link Name</variant>
+        </translation>
+        <translation key="checkbox-control.set-show-selected.change-descriptor">
+            <variant>Checkbox - Set Show Selected</variant>
+        </translation>
+        <translation key="checkbox-control.set-can-force-ccn-value.change-descriptor">
+            <variant>Checkbox - Set  - Set Can Force CCN Value</variant>
+        </translation>
+        <translation key="date-control.set-date-format.change-descriptor">
+            <variant>Date - Set Date Format</variant>
+        </translation>
+        <translation key="duration-control.set-display-format.change-descriptor">
+            <variant>Duration - Set Display Format</variant>
+        </translation>
+        <translation key="duration-control.set-microblock-units.change-descriptor">
+            <variant>Duration - Set Microblock Unit</variant>
+        </translation>
+        <translation key="image-list-control.add-conditional-image.change-descriptor">
+            <variant>Image List - Add Image</variant>
+        </translation>
+        <translation key="image-list-control.remove-conditional-image.change-descriptor">
+            <variant>Image List - Remove Image</variant>
+        </translation>
+        <translation key="image-list-control.move-up-conditional-image.change-descriptor">
+            <variant>Image List - Move Up Image</variant>
+        </translation>
+        <translation key="image-list-control.move-down-conditional-image.change-descriptor">
+            <variant>Image List - Move Down Image</variant>
+        </translation>
+        <translation key="image-resource-user.set-image-resource-user.change-descriptor">
+            <variant>Image Resource User - Set User</variant>
+        </translation>
+        <translation key="label-control.update-language-value.change-descriptor">
+            <variant>Label - Set Text</variant>
+        </translation>
+        <translation key="multi-state-control.set-preview-text.change-descriptor">
+            <variant>Multi-State - Set Preview Text</variant>
+        </translation>
+        <translation key="multi-state-control.set-use-custom-states.change-descriptor">
+            <variant>Multi-State - Set Use Custom Defined States</variant>
+        </translation>
+        <translation key="multi-state-control.custom-states.change-descriptor">
+            <variant>Multi-State - Custom Defined States Changed</variant>
+        </translation>
+        <translation key="multi-state-control.added-custom-state.change-descriptor">
+            <variant>Multi-State - Added Custom Defined State</variant>
+        </translation>
+        <translation key="multi-state-control.removed-custom-state.change-descriptor">
+            <variant>Multi-State - Removed Custom Defined State</variant>
+        </translation>
+        <translation key="multi-state-control.custom-state.value.change-descriptor">
+            <variant>Multi-State - Custom Defined State's Value Changed</variant>
+        </translation>
+        <translation key="multi-state-control.custom-state.display.change-descriptor">
+            <variant>Multi-State - Custom Defined State's Display Changed</variant>
+        </translation>
+        <translation key="multi-state-control.custom-state.sort-order.change-descriptor">
+            <variant>Multi-State - Custom Defined States Sort Order Changed</variant>
+        </translation>
+        <translation key="number-control.set-scaling-factor.change-descriptor">
+            <variant>Number - Set Scaling Factor</variant>
+        </translation>
+        <translation key="number-control.set-number-format.change-descriptor">
+            <variant>Number - Set Format</variant>
+        </translation>
+        <translation key="number-control.set-limits.change-descriptor">
+            <variant>Number - Set Limits</variant>
+        </translation>
+        <translation key="number-control.set-show-units.change-descriptor">
+            <variant>Number - Set Show Units</variant>
+        </translation>
+        <translation key="number-control.set-preview-units.change-descriptor">
+            <variant>Number - Set Preview Units</variant>
+        </translation>
+        <translation key="number-control.set-can-force-ccn-value.change-descriptor">
+            <variant>Number - Set Can Force CCN Value</variant>
+        </translation>
+        <translation key="on-off-auto-control.set-automatic-gql-path.change-descriptor">
+            <variant>On-Off-Auto - Set Automatic GQL Path</variant>
+        </translation>
+        <translation key="on-off-auto-control.set-manual-gql-path.change-descriptor">
+            <variant>On-Off-Auto - Set Manual GQL Path</variant>
+        </translation>
+        <translation key="on-off-auto-control.set-use-state-text.change-descriptor">
+            <variant>On-Off-Auto - Set Use State Text</variant>
+        </translation>
+        <translation key="on-off-auto-control.set-show-state.change-descriptor">
+            <variant>On-Off-Auto - Set Show As</variant>
+        </translation>
+        <translation key="on-off-auto-control.set-use-advanced-path.change-descriptor">
+            <variant>On-Off-Auto - Set Use Advanced Path</variant>
+        </translation>
+        <translation key="radio-button.set-value.change-descriptor">
+            <variant>Radio Button - Set Text</variant>
+        </translation>
+        <translation key="radio-button.set-show-selected.change-descriptor">
+            <variant>Radio Button - Set Show Selected</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-path-to-mb.change-descriptor">
+            <variant>Setpoint Adjust - Set Path To Microblock</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-adjustment-type.change-descriptor">
+            <variant>Setpoint Adjust - Set Adjustment Type</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-display-option.change-descriptor">
+            <variant>Setpoint Adjust - Set Display Option</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-show-effective-setpoints.change-descriptor">
+            <variant>Setpoint Adjust - Set Show Setpoints</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-hvac-mode-path.change-descriptor">
+            <variant>Setpoint Adjust - Set HVAC Mode Path</variant>
+        </translation>
+        <translation key="setpoint-adjust.set-occupied-status-path.change-descriptor">
+            <variant>Setpoint Adjust - Set Occupied Status Path</variant>
+        </translation>
+        <translation key="text-list-control.set-preview-text.change-descriptor">
+            <variant>Text List - Set Preview Text</variant>
+        </translation>
+        <translation key="text-list-control.add-conditional-value.change-descriptor">
+            <variant>Text List - Add Option</variant>
+        </translation>
+        <translation key="text-list-control.remove-conditional-value.change-descriptor">
+            <variant>Text List - Remove Option</variant>
+        </translation>
+        <translation key="text-list-control.move-up-conditional-value.change-descriptor">
+            <variant>Text List - Move Up Option</variant>
+        </translation>
+        <translation key="text-list-control.move-down-conditional-value.change-descriptor">
+            <variant>Text List - Move Down Option</variant>
+        </translation>
+        <translation key="text-list-control.set-type.change-descriptor">
+            <variant>Text List - Set Type</variant>
+        </translation>
+        <translation key="text-list-control.set-static-text-value.change-descriptor">
+            <variant>Text List - Set Static Text</variant>
+        </translation>
+        <translation key="text-list-control.set-path-value.change-descriptor">
+            <variant>Text List - Set Path Value</variant>
+        </translation>
+        <translation key="text-toggle-control.set-preview-text.change-descriptor">
+            <variant>Text Toggle - Set Preview Text</variant>
+        </translation>
+        <translation key="text-toggle-control.set-can-force-ccn-value.change-descriptor">
+            <variant>Text Toggle - Set Can Force CCN Value</variant>
+        </translation>
+        <translation key="view-port-control.update-view-port-size.change-descriptor">
+            <variant>View Port - Set View Port Size</variant>
+        </translation>
+        <translation key="view-port-control.update-border-color.change-descriptor">
+            <variant>View Port - Set Border Color</variant>
+        </translation>
+        <translation key="view-port-control.update-background-color.change-descriptor">
+            <variant>View Port - Set Background Color</variant>
+        </translation>
+        <translation key="view-port-control.set-border-enabled.change-descriptor">
+            <variant>View Port - Set Border Enabled</variant>
+        </translation>
+        <translation key="prime-value-control.set-number-format.change-descriptor">
+            <variant>Prime Value - Set Format</variant>
+        </translation>
+        <translation key="prime-value-control.set-show-units.change-descriptor">
+            <variant>Prime Value - Set Show Units</variant>
+        </translation>
+        <translation key="prime-value-control.set-preview-units.change-descriptor">
+            <variant>Prime Value - Set Preview Units</variant>
+        </translation>
+        <translation key="time-local-override-control.set-show-selected.change-descriptor">
+            <variant>Time Local Override - Set Show Selected</variant>
+        </translation>
+        <translation key="time-local-override-control.set-display-format.change-descriptor">
+            <variant>Time Local Override - Set Display Format</variant>
+        </translation>
+        <translation key="time-local-override-control.set-show-as.change-descriptor">
+            <variant>Time Local Override - Set Show As</variant>
+        </translation>
+        <translation key="time-local-override-control.show-time-to-next-transition.change-descriptor">
+            <variant>Time Local Override - Always Show Time To Next Schedule Transition</variant>
+        </translation>
+        <translation key="import-language-resources.change-descriptor">
+            <variant>Language Resources Imported</variant>
+        </translation>
+    </section>
+</resource-base>

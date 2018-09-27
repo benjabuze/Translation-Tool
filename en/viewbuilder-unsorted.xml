@@ -1,0 +1,3050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="viewbuilder-unsorted" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="viewbuilder">
+        <translation key="image-association.properties.area-id">
+            <variant>Area ID:</variant>
+        </translation>
+        <translation key="image-association.open-interaction.select-image-title">
+            <variant>Select an image from ''{0}''.</variant>
+        </translation>
+        <translation key="image-association.manual-override.copy-original">
+            <variant>Copy Original</variant>
+        </translation>
+        <translation key="file.cannot-open.invalid-view">
+            <variant>The file ''{0}'' cannot be opened. It is not a valid view file.</variant>
+        </translation>
+        <translation key="file.cannot-open.unsupported-view-type">
+            <variant>This product version doesn''t support this ( ''{0}'' ) view file. File cannot be opened.</variant>
+        </translation>
+        <translation key="file.cannot-open.unsupported-view-symbol-type">
+            <variant>This product version doesn''t support this ( ''{0}'' ) view symbol file. File cannot be opened.</variant>
+        </translation>
+        <translation key="file.cannot-open.unsupported-bacview-type">
+            <variant>This product version doesn''t support this ( ''{0}'' ) bacview file. File cannot be opened.</variant>
+        </translation>
+        <translation key="file.cannot-open.upgrade-needed.message">
+            <variant>This product version doesn''t support this ( ''{0}'' ) view file. The file will need to be upgraded.</variant>
+        </translation>
+        <translation key="file.cannot-open.upgrade-needed.prompt">
+            <variant>Would you like to upgrade the file now?</variant>
+        </translation>
+        <translation key="file.cannot-open.upgrade-needed.group-box-title">
+            <variant>Upgrade</variant>
+        </translation>
+        <translation key="general.advanced-tab">
+            <variant>Advanced</variant>
+        </translation>
+        <translation key="path.preview-text.preview-text">
+            <variant>Preview Text</variant>
+        </translation>
+        <translation key="tools.none-password-level-title">
+            <variant>None</variant>
+        </translation>
+        <translation key="editor.radio-index">
+            <variant>Radio Button Value:</variant>
+        </translation>
+        <translation key="image-association.file-types.all">
+            <variant>ColorMap Images</variant>
+        </translation>
+        <translation key="event-descriptor.add-symbol">
+            <variant>Add Symbol</variant>
+        </translation>
+        <translation key="preferences.title">
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.menu-name">
+            <variant>Zoom</variant>
+        </translation>
+        <translation key="font-justifications.center">
+            <variant>Center</variant>
+        </translation>
+        <translation key="editor.off">
+            <variant>Off</variant>
+        </translation>
+        <translation key="image-association.association-interaction.association-already-used">
+            <variant>''{0}'' ({1}) is already associated with a region. Do you want to replace the previous region or append this new region to it.</variant>
+        </translation>
+        <translation key="editor.thermostat-type">
+            <variant>Zone Sensor Type:</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.percent">
+            <variant>%</variant>
+        </translation>
+        <translation key="image-association.replace">
+            <variant>Replace</variant>
+        </translation>
+        <translation key="editor.wrapping">
+            <variant>Wrap Text:</variant>
+        </translation>
+        <translation key="event-descriptor.add-image">
+            <variant>Add Image</variant>
+        </translation>
+        <translation key="general.file.exit-confirmation-busy">
+            <variant>The application is still busy. Exiting could cause a lose of data.</variant>
+        </translation>
+        <translation key="file.locked-view.title">
+            <variant>View Locked</variant>
+        </translation>
+        <translation key="image-association.action.events">
+            <variant>Alarms</variant>
+        </translation>
+        <translation key="editor.width">
+            <variant>Width:</variant>
+        </translation>
+        <translation key="view-file-description">
+            <variant>View (*.view)</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.create-association">
+            <variant>A</variant>
+        </translation>
+        <translation key="event-descriptor.align-top">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="system.tree.bacview.decorator-point-type">
+            <variant>Point Type</variant>
+        </translation>
+        <translation key="event-descriptor.delete">
+            <variant>Delete</variant>
+        </translation>
+        <translation key="image-association.remove-interaction.all">
+            <variant>All</variant>
+        </translation>
+        <translation key="system.tree.relative-path">
+            <variant>Relative Path:</variant>
+        </translation>
+        <translation key="system.tree.microblock-path">
+            <variant>Microblock Path:</variant>
+        </translation>
+        <translation key="actions.image-association-tree.expand-tree">
+            <variant>Expand Tree</variant>
+        </translation>
+        <translation key="editor.thermostat-type.logistat-pro">
+            <variant>Logistat Pro</variant>
+        </translation>
+        <translation key="menu-mnemonics.insert.menu-name">
+            <variant>I</variant>
+        </translation>
+        <translation key="select-system-directory.create-directory">
+            <variant>Create Directory...</variant>
+        </translation>
+        <translation key="editor.custom-expression">
+            <variant>Expression:</variant>
+        </translation>
+        <translation key="event-descriptor.add-row-descriptor">
+            <variant>Add Row</variant>
+        </translation>
+        <translation key="select-system-directory.already-exists">
+            <variant>This directory already exists.</variant>
+        </translation>
+        <translation key="editor.wildcards.months">
+            <variant>months</variant>
+        </translation>
+        <translation key="actions.image-association-configure.menu-name">
+            <variant>Configure</variant>
+        </translation>
+        <translation approved="false" key="actions.image-association-window.menu-name" new="true">
+            <variant>Window</variant>
+        </translation>
+        <translation key="actions.image-association-help.menu-name">
+            <variant>Help</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-help.menu-name">
+            <variant>H</variant>
+        </translation>
+        <translation key="actions.image-association-temporary.debugger">
+            <variant>Debugger</variant>
+        </translation>
+        <translation key="actions.image-association-edit.ignore-color">
+            <variant>Ignore This Color</variant>image-association-edit.set-label-style
+      </translation>
+        <translation key="actions.image-association-edit.make-this-a-border-color">
+            <variant>Make This A Border Color</variant>
+        </translation>
+        <translation key="system.properties.logic-graphics-properties">
+            <variant>Logic Graphics Properties</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures">
+            <variant>Merge Failures</variant>
+        </translation>
+        <translation key="general.file.file-save-error-title">
+            <variant>Save Error</variant>
+        </translation>
+        <translation key="find-replace.with">
+            <variant>Replace With:</variant>
+        </translation>
+        <translation key="editor.manual-expression">
+            <variant>Manual Microblock Path:</variant>
+        </translation>
+        <translation key="general.pallets.template">
+            <variant>Templates</variant>
+        </translation>
+        <translation key="system.button.previous">
+            <variant>Previous</variant>
+        </translation>
+        <translation key="system.button.show-device">
+            <variant>Show Device</variant>
+        </translation>
+        <translation key="general.file.file-does-not-exist">
+            <variant>File ''{0}'' does not exist.</variant>
+        </translation>
+        <translation key="editor.visible-rows">
+            <variant>Visible Row Count:</variant>
+        </translation>
+        <translation key="image-association.manual-override.preview">
+            <variant>Preview:</variant>
+        </translation>
+        <translation key="actions.image-association-configure.set-default-label-color">
+            <variant>Set Default Label Color...</variant>
+        </translation>
+        <translation key="controls.date">
+            <variant>Date</variant>
+        </translation>
+        <translation key="path.preview-text.rpm">
+            <variant>RPM</variant>
+        </translation>
+        <translation key="document-definition.graphic-default">
+            <variant>graphic</variant>
+        </translation>
+        <translation key="file.bacview-html-file-type">
+            <variant>Bacview HTML files</variant>
+        </translation>
+        <translation key="image-association.navigation">
+            <variant>Hotspot</variant>
+        </translation>
+        <translation key="general.application-title-invalid-project">
+            <variant>(No Current System - Must be underneath webroot)</variant>
+        </translation>
+        <translation key="editor.orientation.vertical">
+            <variant>Vertical</variant>
+        </translation>
+        <translation key="path.preview-text.in-h2o">
+            <variant>in H2O</variant>
+        </translation>
+        <translation key="find-replace.title">
+            <variant>Find/Replace</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-tree.expand-branch">
+            <variant>B</variant>
+        </translation>
+        <translation key="preferences.error-title">
+            <variant>Error</variant>
+        </translation>
+        <translation key="tools.selection-window-title">
+            <variant>Position And Draw Objects</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.reasons.already-associated">
+            <variant>{0}({1}) failed to be associated. The region is already assigned to {2}({3}). The user chose to keep the previous association with {2}.</variant>
+        </translation>
+        <translation key="event-descriptor.find-replace">
+            <variant>Find/Replace</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.position-image">
+            <variant>Position Image</variant>
+        </translation>
+        <translation key="find-replace.search-complete-found-no-items">
+            <variant>Search for ''{0}'' complete. No matching items found.</variant>
+        </translation>
+        <translation key="editor.show-plus">
+            <variant>Show Plus Sign:</variant>
+        </translation>
+        <translation key="system.choice.database">
+            <variant>Database:</variant>
+        </translation>
+        <translation key="actions.image-association-tree.collapse-branch">
+            <variant>Collapse Branch</variant>
+        </translation>
+        <translation key="actions.tools.add-symbol.tooltip">
+            <variant>Add symbols</variant>
+        </translation>
+        <translation key="editor.snap-delta">
+            <variant>Slide By This Increment:</variant>
+        </translation>
+        <translation key="path.preview-text.off">
+            <variant>Off</variant>
+        </translation>
+        <translation key="editor.time-format.mmss">
+            <variant>MM:SS</variant>
+        </translation>
+        <translation key="file.cannot-save.file-is-read-only-title">
+            <variant>Cannot Save</variant>
+        </translation>
+        <translation key="flow-layout-editor.vertical-alignment">
+            <variant>Vertical Alignment</variant>
+        </translation>
+        <translation key="editor.show-demands">
+            <variant>Show Demands:</variant>
+        </translation>
+        <translation key="editor.show-units">
+            <variant>Show Units:</variant>
+        </translation>
+        <translation key="editor.mouseover">
+            <variant>Mouseover Image:</variant>
+        </translation>
+        <translation key="editor.hoa.type.dial">
+            <variant>Dial</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-configure.set-default-label-color">
+            <variant>L</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.title">
+            <variant>Scaled Merge</variant>
+        </translation>
+        <translation key="preferences.general.seconds-delay">
+            <variant>Seconds Delay</variant>
+        </translation>
+        <translation key="event-descriptor.flow-layout-edit">
+            <variant>Flow Layout Edit</variant>
+        </translation>
+        <translation key="event-descriptor.ungroup">
+            <variant>Ungroup</variant>
+        </translation>
+        <translation key="actions.image-association-edit.menu-name">
+            <variant>Edit</variant>
+        </translation>
+        <translation key="actions.tools.add-bitmap.tooltip">
+            <variant>Add bitmaps</variant>
+        </translation>
+        <translation key="actions.tools.layers.tooltip">
+            <variant>Layers</variant>
+        </translation>
+        <translation key="actions.image-association-edit.toggle-schematic-mode">
+            <variant>Variable Color Only</variant>
+        </translation>
+        <translation key="find-replace.find-button">
+            <variant>Find</variant>
+        </translation>
+        <translation key="select-system-directory.create-new-directory">
+            <variant>Create System Directory</variant>
+        </translation>
+        <translation key="editor.microblock">
+            <variant>Microblock Path:</variant>
+        </translation>
+        <translation key="editor.path-to-microblock-property">
+            <variant>Path To Microblock Property:</variant>
+        </translation>
+        <translation key="editor.path-to-microblock-property-no-colon">
+            <variant>Path To Microblock Property</variant>
+        </translation>
+        <translation key="editor.path-to-bacnet-property">
+            <variant>Path To BACnet Property:</variant>
+        </translation>
+        <translation key="editor.path-to-bacnet-property-no-colon">
+            <variant>Path To BACnet Property</variant>
+        </translation>
+        <translation key="simulator-tool.screen.device-id">
+            <variant>Device Id:</variant>
+        </translation>
+        <translation key="editor.path-to-binary-microblock">
+            <variant>Path To Binary Microblock:</variant>
+        </translation>
+        <translation key="editor.setpoint-adjust">
+            <variant>Adjust</variant>
+        </translation>
+        <translation key="editor.adjust-setpoint-offset">
+            <variant>Setpoint Offset</variant>
+        </translation>
+        <translation key="editor.adjust-setpoint-base">
+            <variant>Base Setpoint</variant>
+        </translation>
+        <translation key="editor.options">
+            <variant>Options</variant>
+        </translation>
+        <translation key="editor.options.show-temp-offset">
+            <variant>Show Temperature Offset</variant>
+        </translation>
+        <translation key="editor.options.show-effective-setpoint">
+            <variant>Show Effective Setpoint</variant>
+        </translation>
+        <translation key="editor.options.show-both">
+            <variant>Show Both</variant>
+        </translation>
+        <translation key="editor.show-effective-setpoint">
+            <variant>Show Effective Setpoint</variant>
+        </translation>
+        <translation key="editor.show-effective-setpoint.always">
+            <variant>Always</variant>
+        </translation>
+        <translation key="editor.show-effective-setpoint.when-adjusting">
+            <variant>When Adjusting</variant>
+        </translation>
+        <translation key="editor.condition">
+            <variant>Condition:</variant>
+        </translation>
+        <translation key="editor.value1">
+            <variant>Value 1</variant>
+        </translation>
+        <translation key="editor.operator">
+            <variant>Operator</variant>
+        </translation>
+        <translation key="editor.value2">
+            <variant>Value 2</variant>
+        </translation>
+        <translation key="editor.text.no.colon">
+            <variant>Text</variant>
+        </translation>
+        <translation key="editor.microblock.path.no.colon">
+            <variant>Microblock Path</variant>
+        </translation>
+        <translation key="editor.bacnet.path.no.colon">
+            <variant>BACnet Path</variant>
+        </translation>
+        <translation key="link.facet">
+            <variant>Tab:</variant>
+        </translation>
+        <translation key="event-descriptor.digits-right-of-decimal-descriptor">
+            <variant>Digits Left Of Decimal</variant>
+        </translation>
+        <translation key="file.graphic-file-type">
+            <variant>InterOp Graphic files</variant>
+        </translation>
+        <translation key="system.button.next">
+            <variant>Next</variant>
+        </translation>
+        <translation key="view.size.small-graphic">
+            <variant>Graphic with Navigation Tree</variant>
+        </translation>
+        <translation key="view.size.large-graphic">
+            <variant>Graphic without Navigation Tree</variant>
+        </translation>
+        <translation key="editor.show-seconds">
+            <variant>Show Seconds:</variant>
+        </translation>
+        <translation key="image-association.action.logic">
+            <variant>Logic</variant>
+        </translation>
+        <translation key="actions.image-association-tree.collapse-tree">
+            <variant>Collapse Tree</variant>
+        </translation>
+        <translation key="substition-parameter-wizard.description">
+            <variant>Description:</variant>
+        </translation>
+        <translation key="image-association.color.purple">
+            <variant>Purple</variant>
+        </translation>
+        <translation key="editor.property">
+            <variant>Property:</variant>
+        </translation>
+        <translation key="event-descriptor.value-descriptor">
+            <variant>Value</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-tree.auto-select-next-node">
+            <variant>s</variant>
+        </translation>
+        <translation key="new-file-title">
+            <variant>New File</variant>
+        </translation>
+        <translation key="actions.tools.add-bitmap">
+            <variant>Add Bitmap Tool</variant>
+        </translation>
+        <translation key="actions.tools.layers">
+            <variant>Layers</variant>
+        </translation>
+        <translation key="actions.tools.selection">
+            <variant>Selection Tool</variant>
+        </translation>
+        <translation key="add-image.copy.use-destination-option">
+            <variant>Use the one already in my system directory.</variant>
+        </translation>
+        <translation key="menu-mnemonics.window.system-control-window.show">
+            <variant>S</variant>
+        </translation>
+        <translation key="editor.type">
+            <variant>Type:</variant>
+        </translation>
+        <translation key="menu-mnemonics.view.menu-name">
+            <variant>V</variant>
+        </translation>
+        <translation key="controls.push-button">
+            <variant>Push Button</variant>
+        </translation>
+        <translation key="image-association.properties.general">
+            <variant>General</variant>
+        </translation>
+        <translation key="image-association.ignored-colors.title">
+            <variant>Ignored Colors</variant>
+        </translation>
+        <translation key="image-association.zone-detection.title">
+            <variant>Zone Detection</variant>
+        </translation>
+        <translation key="image-association.zone-detection.association-method.name">
+            <variant>Association Method</variant>
+        </translation>
+        <translation key="image-association.zone-detection.close-button.name">
+            <variant>Close</variant>
+        </translation>
+        <translation key="image-association.zone-detection.fill-color.name">
+            <variant>Fill Color</variant>
+        </translation>
+        <translation key="image-association.zone-detection.border-color.name">
+            <variant>Border Color</variant>
+        </translation>
+        <translation key="image-association.zone-detection.fill-color.description">
+            <variant>(multi-color floorplans)</variant>
+        </translation>
+        <translation key="image-association.zone-detection.border-color.description">
+            <variant>(single-color floorplans)</variant>
+        </translation>
+        <translation key="image-association.zone-detection.border-colors.name">
+            <variant>Border Colors</variant>
+        </translation>
+        <translation key="image-association.zone-detection.ignored-colors.name">
+            <variant>Ignored Colors</variant>
+        </translation>
+        <translation key="make-default-zone-detection-type">
+            <variant>Make default zone detection type</variant>
+        </translation>
+        <translation key="restore-default-colors-confirmation">
+            <variant>This will restore the default ignored and border colors. You will lose any existing colors that have been added. Are you sure you want to continue?</variant>
+        </translation>
+        <translation key="restore-default-colors-confirmation-title">
+            <variant>Confirm Restore Colors</variant>
+        </translation>
+        <translation key="image-association.zone-detection.detect-zone-by-header.name">
+            <variant>Detect a zone by:</variant>
+        </translation>
+        <translation key="find-replace.replace-complete">
+            <variant>Replacement of ''{0}'' with ''{1}'' successful.</variant>
+        </translation>
+        <translation key="find-replace.replace-failed">
+            <variant>Replacement of ''{0}'' with ''{1}'' failed.</variant>
+        </translation>
+        <translation key="find-replace.replace-partial">
+            <variant>Replacement of ''{0}'' with ''{1}'' completed with some failures.</variant>
+        </translation>
+        <translation key="document-definition.bacview">
+            <variant>Bacview</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-top">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="tools.generic-window-title">
+            <variant>Tools</variant>
+        </translation>
+        <translation key="image-association.file-types.gif">
+            <variant>GIF Files</variant>
+        </translation>
+        <translation key="password-warning.suppress-warning.message">
+            <variant>Do not show me this again</variant>
+        </translation>
+        <translation key="controls.international-text">
+            <variant>International Text</variant>
+        </translation>
+        <translation key="controls.multi-line-text">
+            <variant>Multi-line Text</variant>
+        </translation>
+        <translation key="update-with-restart-later">
+            <variant>Update with Restart Later</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-tree.collapse-tree">
+            <variant>C</variant>
+        </translation>
+        <translation key="tools.add-component-window-title">
+            <variant>Add Control</variant>
+        </translation>
+        <translation key="file.cannot-save.file-locked-prompt">
+            <variant>The file ''{0}'' is locked. You must choose a different location or name to save the file.</variant>
+        </translation>
+        <translation key="update-file-header">
+            <variant>Update File:</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-file.menu-name">
+            <variant>F</variant>
+        </translation>
+        <translation key="hardcoded.components.image-list">
+            <variant>Image List</variant>
+        </translation>
+        <translation key="tools.bacview-tool.screen-properties.hotkey">
+            <variant>Hotkey:</variant>
+        </translation>
+        <translation key="tools.add-symbol-window-title">
+            <variant>Add Symbol</variant>
+        </translation>
+        <translation key="event-descriptor.time-format-descriptor">
+            <variant>Time Format</variant>
+        </translation>
+        <translation key="tools.bacview-copy-button-label">
+            <variant>Copy</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.what-to-merge">
+            <variant>Merge</variant>
+        </translation>
+        <translation key="controls.week-and-day">
+            <variant>Month/Week/Day</variant>
+        </translation>
+        <translation key="image-association.association-interaction.region-already-used-title">
+            <variant>Already Associated</variant>
+        </translation>
+        <translation key="tools.bacview-add-button-label">
+            <variant>Add</variant>
+        </translation>
+        <translation key="editor.time-format.ssdd">
+            <variant>SS.DD</variant>
+        </translation>
+        <translation key="preferences.general.system-window-transparency">
+            <variant>System Window Transparency</variant>
+        </translation>
+        <translation key="controls.text-toggle">
+            <variant>Text Toggle</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.merge">
+            <variant>M</variant>
+        </translation>
+        <translation key="path.preview-text.percent">
+            <variant>%</variant>
+        </translation>
+        <translation key="actions.image-association-edit.set-label-style">
+            <variant>Style...</variant>
+        </translation>
+        <translation key="image-association.association-interaction.region-already-used-choice">
+            <variant>Attempting to assign ''{0}'' to a region already associated with ''{1}''. Which one do you want to keep?</variant>
+        </translation>
+        <translation key="actions.view.menu-name">
+            <variant>View</variant>
+        </translation>
+        <translation key="image-association.label-color.menu">
+            <variant>Label Color</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.import-image">
+            <variant>I</variant>
+        </translation>
+        <translation key="event-descriptor.move-to-front">
+            <variant>Move To Front</variant>
+        </translation>
+        <translation key="bacview-file-description">
+            <variant>BACview (*.bacview)</variant>
+        </translation>
+        <translation key="touchview-file-description">
+            <variant>Equipment Touch (*.touch)</variant>
+        </translation>
+        <translation key="systemtouchview-file-description">
+            <variant>System Touch (*.stv)</variant>
+        </translation>
+        <translation key="validation.gql_expression">
+            <variant>Improperly formed GQL expression.</variant>
+        </translation>
+        <translation key="validation.bacnet_path">
+            <variant>Improperly formed BACnet path.</variant>
+        </translation>
+        <translation key="validation.bacnet_device_id">
+            <variant>Improperly formed BACnet Device Id.</variant>
+        </translation>
+        <translation key="validation.password">
+            <variant>Password must contain at least one number, one capital and lowercase letter and one special character (e.g. @#$%).</variant>
+        </translation>
+        <translation key="hardcoded.components.image">
+            <variant>Image</variant>
+        </translation>
+        <translation key="image-association.open-interaction.do-what-with-existing">
+            <variant>There are currently associations with the current image. What do you want to do with them?</variant>
+        </translation>
+        <translation key="image-association.action.graphics">
+            <variant>Graphics</variant>
+        </translation>
+        <translation key="editor.wildcards.hundreds-of-seconds">
+            <variant>100s of seconds</variant>
+        </translation>
+        <translation key="editor.import.errors-warnings-dialog.title">
+            <variant>Import Messages</variant>
+        </translation>
+        <translation key="event-descriptor.display-units-descriptor">
+            <variant>Show Degree Symbol</variant>
+        </translation>
+        <translation key="event-descriptor.show-leading-zeros-descriptor">
+            <variant>Show Leading Zeros</variant>
+        </translation>
+        <translation key="editor.auto-expression">
+            <variant>Automatic Microblock Path:</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-previous">
+            <variant>Previous Tip</variant>
+        </translation>
+        <translation key="actions.edit.style.font-underline">
+            <variant>Underline:</variant>
+        </translation>
+        <translation key="editor.expected-left-digits">
+            <variant>Expected Left Digits:</variant>
+        </translation>
+        <translation key="editor.wildcards.none">
+            <variant>none</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.title">
+            <variant>Tip Of The Day</variant>
+        </translation>
+        <translation key="editor.has-day-of-week">
+            <variant>Show Day Of Week:</variant>
+        </translation>
+        <translation key="event-descriptor.footer-descriptor">
+            <variant>Footer</variant>
+        </translation>
+        <translation key="select-system-directory.title">
+            <variant>Select System Directory</variant>
+        </translation>
+        <translation key="event-descriptor.screen-link-descriptor">
+            <variant>Screen Link Set</variant>
+        </translation>
+        <translation key="trait.variable-color">
+            <variant>Variable Color</variant>
+        </translation>
+        <translation key="event-descriptor.date-format-descriptor">
+            <variant>Date Format</variant>
+        </translation>
+        <translation key="tools.bacview-tool.login-screen-title">
+            <variant>Login</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.manual-override-raster">
+            <variant>V</variant>
+        </translation>
+        <translation key="image-association.manual-override.move-right">
+            <variant>Move Right</variant>
+        </translation>
+        <translation key="image-association.navigation-region.close">
+            <variant>Close Region (Does Not Add Another Joint)</variant>
+        </translation>
+        <translation key="general.yes">
+            <variant>Yes</variant>
+        </translation>
+        <translation key="path.preview-text.point-name">
+            <variant>point name</variant>
+        </translation>
+        <translation key="event-descriptor.s37-needed-descriptor">
+            <variant>.S37 Option Edit</variant>
+        </translation>
+        <translation key="event-descriptor.kpd-needed-descriptor">
+            <variant>.KPD Option Edit</variant>
+        </translation>
+        <translation key="event-descriptor.advanced-screens-descriptor">
+            <variant>Advanced Screens Option Edit</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-next">
+            <variant>Next Tip</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.title">
+            <variant>Merge Failures</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.instructions">
+            <variant>Set the scale percentage, position the image, then select the merge options.</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-view.zoom.one-hundred">
+            <variant>1</variant>
+        </translation>
+        <translation key="editor.true-when-down">
+            <variant>True When Button Pressed:</variant>
+        </translation>
+        <translation key="menu-mnemonics.edit.remove-selected-association">
+            <variant>R</variant>
+        </translation>
+        <translation key="general.errors-tab">
+            <variant>Errors</variant>
+        </translation>
+        <translation key="editor.time-format.hhmm">
+            <variant>HH:MM</variant>
+        </translation>
+        <translation key="general.file.untitled-document-prefix">
+            <variant>untitled</variant>
+        </translation>
+        <translation key="menu-mnemonics.view.preview">
+            <variant>P</variant>
+        </translation>
+        <translation key="update.selected-control">
+            <variant>Current Item</variant>
+        </translation>
+        <translation key="editor.image-height">
+            <variant>Height</variant>
+        </translation>
+        <translation key="tools.screens-title">
+            <variant>Screens</variant>
+        </translation>
+        <translation key="status.edit.variable-color">
+            <variant>A variable color condition is assigned.</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-view.zoom.fifty">
+            <variant>5</variant>
+        </translation>
+        <translation key="event-descriptor.movecopy">
+            <variant>Move Copy</variant>
+        </translation>
+        <translation key="link.underline-link">
+            <variant>Underline Link:</variant>
+        </translation>
+        <translation key="actions.table.delete-row">
+            <variant>Delete Row</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-view.zoom.menu-name">
+            <variant>Z</variant>
+        </translation>
+        <translation key="actions.image-association-edit.create-manual-label">
+            <variant>Create Label</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.value-table.column1-header">
+            <variant>Display</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.did-you-know">
+            <variant>Did you know... ?</variant>
+        </translation>
+        <translation key="event-descriptor.function-key-descriptor">
+            <variant>Softkey</variant>
+        </translation>
+        <translation key="editor.slider-bar">
+            <variant>Slider Bar:</variant>
+        </translation>
+        <translation key="system.tree.bacview.decorator-object-name">
+            <variant>Object Name</variant>
+        </translation>
+        <translation key="menu-mnemonics.edit.toggle-label-color">
+            <variant>L</variant>
+        </translation>
+        <translation key="editor.maximum-right-digits">
+            <variant>Max Right Digits:</variant>
+        </translation>
+        <translation key="status.edit.enabler">
+            <variant>An enable/disable condition is assigned.</variant>
+        </translation>
+        <translation key="configure.view-properties.window-title">
+            <variant>View Properties</variant>
+        </translation>
+        <translation key="bacview.import.error.row.3">
+            <variant>as skipped because errors were encountered during the import process.</variant>
+        </translation>
+        <translation key="bacview.import.error.row.2">
+            <variant>of screen</variant>
+        </translation>
+        <translation key="bacview.import.error.row.1">
+            <variant>Row</variant>
+        </translation>
+        <translation key="controls.duration">
+            <variant>Duration</variant>
+        </translation>
+        <translation key="general.general-tab">
+            <variant>General</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.reasons.already-associated-overriden">
+            <variant>{0} ({1}) is no longer associated. The user chose to override it with{2} ({3}) as they both occupied the same region.</variant>
+        </translation>
+        <translation key="add-image.copy.copy-over-destination-option">
+            <variant>Copy and use the one I selected over the one in my system directory.</variant>
+        </translation>
+        <translation key="preferences.view-preferences.width-out-of-range">
+            <variant>The width must be between {0} and {1}</variant>
+        </translation>
+        <translation key="editor.editable">
+            <variant>Editable:</variant>
+        </translation>
+        <translation key="editor.can-force-ccn-value">
+            <variant>Can Force CCN Value:</variant>
+        </translation>
+        <translation key="editor.show-selected">
+            <variant>Show Selected:</variant>
+        </translation>
+        <translation key="editor.wildcards.seconds-hundredths">
+            <variant>seconds and 100s</variant>
+        </translation>
+        <translation key="system.choice.error.database-not-selected">
+            <variant>System database must be selected!</variant>
+        </translation>
+        <translation key="general.file.file-cannot-be-opened-invalid-view">
+            <variant>The file ''{0}'' cannot be opened. It is not a valid view file.</variant>
+        </translation>
+        <translation key="editor.key">
+            <variant>Key:</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-view.show-original-image">
+            <variant>O</variant>
+        </translation>
+        <translation key="event-descriptor.remove-row-descriptor">
+            <variant>Remove Row</variant>
+        </translation>
+        <translation key="tools.bacview-tool.comm-screen-title">
+            <variant>Comm</variant>
+        </translation>
+        <translation key="editor.disabled-images">
+            <variant>Disabled Images</variant>
+        </translation>
+        <translation key="general.application-properties.language-font-title">
+            <variant>Languages</variant>
+        </translation>
+        <translation key="tools.bacview-alarm-title">
+            <variant>Alarms</variant>
+        </translation>
+        <translation key="editor.scaling-factor">
+            <variant>Scaling Factor:</variant>
+        </translation>
+        <translation key="editor.microblock-unit">
+            <variant>Microblock Unit:</variant>
+        </translation>
+        <translation key="tooltips.image-association-edit.create-manual-label">
+            <variant>Create label</variant>
+        </translation>
+        <translation key="actions.image-association-file.import-image">
+            <variant>Import Image...</variant>
+        </translation>
+        <translation key="actions.image-association-file.add-overlay">
+            <variant>Add Overlay</variant>
+        </translation>
+        <translation key="actions.image-association-file.remove-overlay">
+            <variant>Remove Overlay</variant>
+        </translation>
+        <translation key="actions.image-association.toggle-overlay">
+            <variant>Toggle Overlay</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.one-hundred">
+            <variant>100%</variant>
+        </translation>
+        <translation key="editor.expression">
+            <variant>Microblock Path:</variant>
+        </translation>
+        <translation key="view-symbol-file-description">
+            <variant>Symbol (*.viewsymbol)</variant>
+        </translation>
+        <translation key="image-association.association-interaction.association-already-used-title">
+            <variant>Replace or Append</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-next-mneumonic">
+            <variant>N</variant>
+        </translation>
+        <translation key="image-association.default-label-color">
+            <variant>Default Label Color</variant>
+        </translation>
+        <translation key="actions.edit.style.font-color">
+            <variant>Font Color:</variant>
+        </translation>
+        <translation key="editor.current-trend">
+            <variant>Current Temp Trend</variant>
+        </translation>
+        <translation key="bacview.editor.time.control.format">
+            <variant>Time Format:</variant>
+        </translation>
+        <translation key="hardcoded.components.table">
+            <variant>Table</variant>
+        </translation>
+        <translation key="event-descriptor.space-even-vertically">
+            <variant>Space Even Vertically</variant>
+        </translation>
+        <translation key="event-descriptor.undefined-descriptor">
+            <variant>UNDEFINED DESCRIPTOR</variant>
+        </translation>
+        <translation key="actions.image-association-file.merge">
+            <variant>Scaled Merge...</variant>
+        </translation>
+        <translation key="image-association.manual-override.move-up">
+            <variant>Move Up</variant>
+        </translation>
+        <translation key="image-association.file-types.png">
+            <variant>PNG Files</variant>
+        </translation>
+        <translation key="bacview.import.error.bad.tag.3">
+            <variant>HXLATE utility. Otherwise, verify that your HTML is properly formed for BACview.</variant>
+        </translation>
+        <translation key="bacview.import.error.bad.tag.2">
+            <variant>If this HTML was created using FrontPage, please filter it using the</variant>
+        </translation>
+        <translation key="bacview.import.error.bad.tag.1">
+            <variant>This BACView file contains HTML tags that are not supported by bacview.</variant>
+        </translation>
+        <translation key="system-dialog.button-previous">
+            <variant>Previous</variant>
+        </translation>
+        <translation key="librarian.loading-template">
+            <variant>Loading template file ''{0}''.</variant>
+        </translation>
+        <translation key="preferences.general.control-properties-window-transparency">
+            <variant>Control Properties Window Transparency</variant>
+        </translation>
+        <translation key="add-image.copy.instructions">
+            <variant>A file with the same name already exists in your system directory. Which one do you want to use?</variant>
+        </translation>
+        <translation key="theme.legacy">
+            <variant>Legacy Graphic</variant>
+        </translation>
+        <translation key="invalid-controls-dialog.close-button">
+            <variant>Close</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.right-digits-label">
+            <variant>Digits Right of Decimal:</variant>
+        </translation>
+        <translation key="editor.mode">
+            <variant>Setpoint Type:</variant>
+        </translation>
+        <translation key="event-descriptor.add-alarm-descriptor">
+            <variant>Add Alarm</variant>
+        </translation>
+        <translation key="image-association.auto-label-line">
+            <variant>Label Line</variant>
+        </translation>
+        <translation key="image-association.properties.hover-text">
+            <variant>Hover Text:</variant>
+        </translation>
+        <translation key="editor.mode.trend">
+            <variant>Trend</variant>
+        </translation>
+        <translation key="image-association.color.orange">
+            <variant>Orange</variant>
+        </translation>
+        <translation key="image-association.action.reports">
+            <variant>Reports</variant>
+        </translation>
+        <translation key="actions.edit.style.default-label-color">
+            <variant>Default Label Color</variant>
+        </translation>
+        <translation key="general.file.open-button">
+            <variant>Open...</variant>
+        </translation>
+        <translation key="actions.image-association-edit.manual-override-raster">
+            <variant>Edit Variable Color Region...</variant>
+        </translation>
+        <translation key="menu-mnemonics.test.open-multiple-views">
+            <variant>M</variant>
+        </translation>
+        <translation key="editor.text">
+            <variant>Text:</variant>
+        </translation>
+        <translation key="event-descriptor.style-change">
+            <variant>Style Change</variant>
+        </translation>
+        <translation key="view.size.custom-graphic">
+            <variant>Custom:</variant>
+        </translation>
+        <translation key="image-association.manual-override.move-left">
+            <variant>Move Left</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.close">
+            <variant>C</variant>
+        </translation>
+        <translation key="view.theme">
+            <variant>Theme:</variant>
+        </translation>
+        <translation key="image-association.properties.property">
+            <variant>Property:</variant>
+        </translation>
+        <translation key="browse-button-text">
+            <variant>Browse...</variant>
+        </translation>
+        <translation key="tools.no-tools-message">
+            <variant>No tools to display.</variant>
+        </translation>
+        <translation key="configure.view-background-color.title">
+            <variant>Select a background color for the active view.</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.field-width-auto">
+            <variant>Use the length of the longest display value</variant>
+        </translation>
+        <translation key="actions.image-association-tree.expand-branch">
+            <variant>Expand Branch</variant>
+        </translation>
+        <translation key="general.file.confirm-overwrite-title">
+            <variant>Confirm Overwrite</variant>
+        </translation>
+        <translation key="preferences.general.tool-properties-window-transparency">
+            <variant>Tool Properties Window Transparency</variant>
+        </translation>
+        <translation key="component.generic-window-title">
+            <variant>Control Properties</variant>
+        </translation>
+        <translation key="path.preview-text.other">
+            <variant>other</variant>
+        </translation>
+        <translation key="actions.insert.menu-name">
+            <variant>Insert</variant>
+        </translation>
+        <translation key="general.apply">
+            <variant>Apply</variant>
+        </translation>
+        <translation key="event-descriptor.center-vertical">
+            <variant>Center Vertical</variant>
+        </translation>
+        <translation key="actions.table.insert-table">
+            <variant>Insert Table</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.two-hundred">
+            <variant>200%</variant>
+        </translation>
+        <translation key="trait.link">
+            <variant>Link</variant>
+        </translation>
+        <translation key="properties.nothing-selected">
+            <variant>No Controls Selected</variant>
+        </translation>
+        <translation key="image-association.color.coral">
+            <variant>Coral</variant>
+        </translation>
+        <translation key="tools.bacview-tool.screen-properties-title">
+            <variant>Screen Properties</variant>
+        </translation>
+        <translation key="tools.screen-properties-title">
+            <variant>Screen Properties</variant>
+        </translation>
+        <translation key="image-association.color.yellow">
+            <variant>Yellow</variant>
+        </translation>
+        <translation key="event-descriptor.screen-link-function-key-descriptor">
+            <variant>Screen Link Softkey</variant>
+        </translation>
+        <translation key="tools.user-password-level-title">
+            <variant>User</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.left-digits-label">
+            <variant>Digits Left of Decimal:</variant>
+        </translation>
+        <translation key="editor.time-format">
+            <variant>Display Format:</variant>
+        </translation>
+        <translation key="actions.edit.conditional.title">
+            <variant>Edit Show/Hide Condition</variant>
+        </translation>
+        <translation key="editor.time-format.ss">
+            <variant>SS (seconds only)</variant>
+        </translation>
+        <translation key="image-association.color.charcoal">
+            <variant>Charcoal</variant>
+        </translation>
+        <translation key="image-association.remove-interaction.selected">
+            <variant>Selected</variant>
+        </translation>
+        <translation key="tools.add-image-window-title">
+            <variant>Add Image</variant>
+        </translation>
+        <translation key="event-descriptor.screen-link-previous-flag-descriptor">
+            <variant>Screen Link Previous</variant>
+        </translation>
+        <translation key="event-descriptor.view-property-change">
+            <variant>View Property Change</variant>
+        </translation>
+        <translation key="event-descriptor.control-property-change">
+            <variant>Control Property Change</variant>
+        </translation>
+        <translation key="image-association.manual-override.x-offset">
+            <variant>X Offset:</variant>
+        </translation>
+        <translation key="actions.image-association-view.show-result-image">
+            <variant>Show Results</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.field-width-title">
+            <variant>Field Width</variant>
+        </translation>
+        <translation key="bacview.import.warning.2">
+            <variant>Please verify content before assuming all the information is correct.</variant>
+        </translation>
+        <translation key="bacview.import.warning.1">
+            <variant>Due to varieties of HTML, some items or text may have imported incorrectly.</variant>
+        </translation>
+        <translation key="bacview.import.warning.0">
+            <variant>IMPORTANT!</variant>
+        </translation>
+        <translation key="actions.image-association-edit.remove-selected-association">
+            <variant>Remove Association</variant>
+        </translation>
+        <translation key="view.summary.author">
+            <variant>Author:</variant>
+        </translation>
+        <translation key="editor.hoa.type.horizontal-panel">
+            <variant>Horizontal Panel</variant>
+        </translation>
+        <translation key="image-association.color.green">
+            <variant>Green</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.remove-selected-association">
+            <variant>R</variant>
+        </translation>
+        <translation key="editor.up">
+            <variant>Up</variant>
+        </translation>
+        <translation key="editor.down">
+            <variant>Down</variant>
+        </translation>
+        <translation key="editor.add">
+            <variant>Add</variant>
+        </translation>
+        <translation key="editor.delete">
+            <variant>Delete</variant>
+        </translation>
+        <translation key="editor.copy">
+            <variant>Copy</variant>
+        </translation>
+        <translation key="editor.default-image">
+            <variant>Default Image:</variant>
+        </translation>
+        <translation key="editor.image">
+            <variant>Image:</variant>
+        </translation>
+        <translation key="editor.preview">
+            <variant>Preview</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-view.show-result-image">
+            <variant>R</variant>
+        </translation>
+        <translation key="editor.mode.effective">
+            <variant>Effective</variant>
+        </translation>
+        <translation key="system.login.name">
+            <variant>Name:</variant>
+        </translation>
+        <translation key="system.tree.action.open-view-system-tree.dialog-title">
+            <variant>Open View</variant>
+        </translation>
+        <translation key="event-descriptor.point-name-descriptor">
+            <variant>Point Name</variant>
+        </translation>
+        <translation key="general.select">
+            <variant>Select</variant>
+        </translation>
+        <translation key="apply-and-restart-now">
+            <variant>Apply and Restart Now</variant>
+        </translation>
+        <translation key="actions.table.delete-table">
+            <variant>Delete Table</variant>
+        </translation>
+        <translation key="tools.bacview-delete-button-label">
+            <variant>Delete</variant>
+        </translation>
+        <translation key="event-descriptor.add-control">
+            <variant>Add Control</variant>
+        </translation>
+        <translation key="system.login.password">
+            <variant>Password:</variant>
+        </translation>
+        <translation key="tools.bacview-tool.previous-screen-hotkey">
+            <variant>Previous Screen Hotkey:</variant>
+        </translation>
+        <translation key="file.cannot-open.invalid-view.unknown-element">
+            <variant>The file ''{0}'' contains an unknown control ''{1}'' which will be ignored. This control cannot be displayed, edited, or saved.</variant>
+        </translation>
+        <translation key="event-descriptor.table-cell-edit">
+            <variant>Table Cell Edit</variant>
+        </translation>
+        <translation key="editor.orientation">
+            <variant>Display Orientation:</variant>
+        </translation>
+        <translation key="image-association.work-independently">
+            <variant>Work Independently</variant>
+        </translation>
+        <translation key="bacview.editor.screen.link.control.text.label">
+            <variant>Link text:</variant>
+        </translation>
+        <translation key="controls.bacview-advanced-multi-state">
+            <variant>Advanced Multi-State</variant>
+        </translation>
+        <translation key="image-association.properties.label-text">
+            <variant>Label Text:</variant>
+        </translation>
+        <translation key="general.help">
+            <variant>Help</variant>
+        </translation>
+        <translation key="editor.tick-interval">
+            <variant>Tick Interval:</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-tree.collapse-branch">
+            <variant>l</variant>
+        </translation>
+        <translation key="editor.wildcards.minutes-seconds-hundredths">
+            <variant>minutes, seconds and 100s</variant>
+        </translation>
+        <translation key="editor.orientation.horizontal">
+            <variant>Horizontal</variant>
+        </translation>
+        <translation key="image-association.manual-override.paste-mask">
+            <variant>Paste New Mask</variant>
+        </translation>
+        <translation key="image-association.properties.path">
+            <variant>Path:</variant>
+        </translation>
+        <translation key="editor.time-format.hhmmss">
+            <variant>HH:MM:SS</variant>
+        </translation>
+        <translation key="event-descriptor.copy-screen-descriptor">
+            <variant>Copy Screen</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.three-hundred">
+            <variant>300%</variant>
+        </translation>
+        <translation key="preferences.view-preferences.height-out-of-range">
+            <variant>The height must be between {0} and {1}</variant>
+        </translation>
+        <translation key="tools.bacview-tool.confirm-screen-delete.title">
+            <variant>Remove Screen</variant>
+        </translation>
+        <translation key="tools.touchview-tool.confirm-screen-delete.title">
+            <variant>Remove Screen</variant>
+        </translation>
+        <translation key="event-descriptor.digits-left-of-decimal-descriptor">
+            <variant>Digits Right Of Decimal</variant>
+        </translation>
+        <translation key="link.action">
+            <variant>Action Button:</variant>
+        </translation>
+        <translation key="notes-header">
+            <variant>Notes:</variant>
+        </translation>
+        <translation key="image-association.tree.geographic">
+            <variant>Geographic</variant>
+        </translation>
+        <translation key="view.summary.revision-history">
+            <variant>Revision History:</variant>
+        </translation>
+        <translation key="editor.mode.actual">
+            <variant>Actual</variant>
+        </translation>
+        <translation key="controls.time">
+            <variant>Time</variant>
+        </translation>
+        <translation key="event-descriptor.group">
+            <variant>Group</variant>
+        </translation>
+        <translation key="image-association.label-color.grey">
+            <variant>Grey</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.data-table-name" new="true">
+            <variant>Report ID:</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.default-column-name" new="true">
+            <variant>Default Column ID:</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.column-local-variable" new="true">
+            <variant>Column Name Local Variable:</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.variables" new="true">
+            <variant>Variables</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.variables.id" new="true">
+            <variant>ID</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties.variables.value" new="true">
+            <variant>Value</variant>
+        </translation>
+        <translation approved="false" key="image-association.report-properties-editor-caption" new="true">
+            <variant>Report Properties</variant>
+        </translation>
+        <translation approved="false" key="tooltips.show-report-properties-window" new="true">
+            <variant>Toggle visibility of the Report Properties window</variant>
+        </translation>
+        <translation approved="false" key="actions.show-report-properties-window" new="true">
+            <variant>Show Report Properties</variant>
+        </translation>
+        <translation key="image-association.color.white">
+            <variant>White</variant>
+        </translation>
+        <translation key="editor.auto-property">
+            <variant>Automatic Property:</variant>
+        </translation>
+        <translation key="editor.raw-markup">
+            <variant>Insert HTML:</variant>
+        </translation>
+        <translation key="file.invalid-view.title">
+            <variant>View Saved</variant>
+        </translation>
+        <translation key="event-descriptor.association-edit">
+            <variant>Association Edit</variant>
+        </translation>
+        <translation key="controls.trend">
+            <variant>Trend Graph</variant>
+        </translation>
+        <translation key="general.file.file-cannot-be-opened-invalid-view-title">
+            <variant>Invalid View File</variant>
+        </translation>
+        <translation key="editor.time-format.mm">
+            <variant>MM (minutes only)</variant>
+        </translation>
+        <translation key="event-descriptor.unlock">
+            <variant>Unlock</variant>
+        </translation>
+        <translation key="general.file.save-button">
+            <variant>Save</variant>
+        </translation>
+        <translation key="tools.bacview-tool.portal-view">
+            <variant>Normal View</variant>
+        </translation>
+        <translation key="path.preview-text.unoccupied">
+            <variant>Unoccupied</variant>
+        </translation>
+        <translation key="image-association.append">
+            <variant>Append</variant>
+        </translation>
+        <translation key="editor.manual-property">
+            <variant>Manual Property:</variant>
+        </translation>
+        <translation key="editor.color-insertion-tool">
+            <variant>Color Insertion Tool</variant>
+        </translation>
+        <translation key="image-association.color-format">
+            <variant>({0},{1},{2})</variant>
+        </translation>
+        <translation key="event-descriptor.hotkey-descriptor">
+            <variant>Hotkey</variant>
+        </translation>
+        <translation key="editor.wildcards.hours-minutes">
+            <variant>hours and minutes</variant>
+        </translation>
+        <translation key="editor.preview-image">
+            <variant>Preview Image:</variant>
+        </translation>
+        <translation key="actions.image-association-file.close">
+            <variant>Save and Close</variant>
+        </translation>
+        <translation key="librarian.loading-primitive-definition">
+            <variant>Loading primitive definition for ''{0}''.</variant>
+        </translation>
+        <translation key="image-association.navigation-region.add">
+            <variant>Add Joint</variant>
+        </translation>
+        <translation key="editor.trend-location">
+            <variant>Trend Location:</variant>
+        </translation>
+        <translation key="general.yes-to-all">
+            <variant>Yes to all</variant>
+        </translation>
+        <translation key="editor.default-image">
+            <variant>Default Image:</variant>
+        </translation>
+        <translation key="image-association.association-interaction.color-ignored-title">
+            <variant>Color Ignored</variant>
+        </translation>
+        <translation key="image-association.association-interaction.border-color-title">
+            <variant>Border Color</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.value-table.column2-header">
+            <variant>Softkey</variant>
+        </translation>
+        <translation key="tooltips.image-association-file.import-image">
+            <variant>Import image</variant>
+        </translation>
+        <translation key="editor.on">
+            <variant>On</variant>
+        </translation>
+        <translation key="could-not-read-update-file">
+            <variant>Could not read the update file.</variant>
+        </translation>
+        <translation key="invalid-controls-dialog.title">
+            <variant>Errors</variant>
+        </translation>
+        <translation key="trait.show-conditional">
+            <variant>Show/Hide Condition</variant>
+        </translation>
+        <translation key="event-descriptor.space-even-horizontally">
+            <variant>Space Even Horizontally</variant>
+        </translation>
+        <translation key="event-descriptor.drag-selection-edit-descriptor">
+            <variant>Drag</variant>
+        </translation>
+        <translation key="editor.image-suffix">
+            <variant>Image Suffix:</variant>
+        </translation>
+        <translation key="event-descriptor.variable-color-expression">
+            <variant>Variable Color Expression</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.range-label">
+            <variant>Range For Value</variant>
+        </translation>
+        <translation key="system.tree.action.new-view-system-tree">
+            <variant>New View</variant>
+        </translation>
+        <translation key="validation.cjv_path">
+            <variant>Improperly formed CJV path.</variant>
+        </translation>
+        <translation key="link.scope">
+            <variant>Scope:</variant>
+        </translation>
+        <translation key="menu-mnemonics.file.set-system-directory">
+            <variant>D</variant>
+        </translation>
+        <translation key="editor.attribute-name-key">
+            <variant>Attribute Name Key:</variant>
+        </translation>
+        <translation key="file.cannot-open.invalid-view-wap">
+            <variant>The file ''{0}'' is a WAP view and cannot be opened with this version of ViewBuilder. Use ViewBuilder for WAP.</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-configure.ignored-colors">
+            <variant>C</variant>
+        </translation>
+        <translation key="preferences.view-preferences.height">
+            <variant>Height:</variant>
+        </translation>
+        <translation key="controls.bacnet-object-id">
+            <variant>BACnet Object ID</variant>
+        </translation>
+        <translation key="file.cannot-save.generic-error-title">
+            <variant>Could Not Save</variant>
+        </translation>
+        <translation key="tools.copy-screen-name-prefix">
+            <variant>copy of</variant>
+        </translation>
+        <translation key="component.unit-editor.expression">
+            <variant>Microblock Path:</variant>
+        </translation>
+        <translation key="editor.time-format.hh">
+            <variant>HH (hours only)</variant>
+        </translation>
+        <translation key="actions.edit.set-system-base">
+            <variant>Set Base Path</variant>
+        </translation>
+        <translation key="image-association.variable-color-palette.reset-defaults">
+            <variant>Reset Defaults</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.copy-failures">
+            <variant>Copy</variant>
+        </translation>
+        <translation key="tools.screens.popup-validation-tip">
+            <variant>Name must be unique!</variant>
+        </translation>
+        <translation key="tools.screens.touchview-popup-validation-tip">
+            <variant>Name must be unique and contain at least 1 character.</variant>
+        </translation>
+        <translation key="general.template-dialog-title">
+            <variant>Template Parameter Substitution</variant>
+        </translation>
+        <translation key="tools.bacview-tool.extended-view">
+            <variant>Extended View</variant>
+        </translation>
+        <translation key="editor.wildcards.days">
+            <variant>days</variant>
+        </translation>
+        <translation key="actions.edit.style.title">
+            <variant>Edit Text Style</variant>
+        </translation>
+        <translation key="trait.enable-conditional">
+            <variant>Enable/Disable Conditional</variant>
+        </translation>
+        <translation key="hardcoded.components.slider">
+            <variant>Slider</variant>
+        </translation>
+        <translation key="file.jsp-file-type">
+            <variant>FrontPage JSP files</variant>
+        </translation>
+        <translation key="editor.button-height">
+            <variant>Button Height:</variant>
+        </translation>
+        <translation key="document-definition.graphic">
+            <variant>Graphic</variant>
+        </translation>
+        <translation key="document-definition.touchview">
+            <variant>Equipment Touch</variant>
+        </translation>
+        <translation key="document-definition.systemtouchview">
+            <variant>System Touch</variant>
+        </translation>
+        <translation key="document-definition.customtouchview">
+            <variant>Custom Touch</variant>
+        </translation>
+        <translation key="document-definition.custom-equipment-touchview">
+            <variant>Custom Equipment Touch</variant>
+        </translation>
+        <translation key="document-definition.custom-system-touchview">
+            <variant>Custom System Touch</variant>
+        </translation>
+        <translation key="document-definition.pic6-touchview">
+            <variant>PIC6</variant>
+        </translation>
+        <translation key="actions.image-association-edit.create-association">
+            <variant>Create Association</variant>
+        </translation>
+        <translation key="tools.bacview-alarm-sort-checkbox-label">
+            <variant>Sort Alarms</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-right">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="update-already-applied">
+            <variant>The update has already been applied.</variant>
+        </translation>
+        <translation key="editor.visible-columns">
+            <variant>Visible Column Count:</variant>
+        </translation>
+        <translation key="event-descriptor.table-edit">
+            <variant>Table Edit</variant>
+        </translation>
+        <translation key="event-descriptor.link">
+            <variant>Link</variant>
+        </translation>
+        <translation key="hardcoded.components.panel">
+            <variant>Panel</variant>
+        </translation>
+        <translation key="trait.style">
+            <variant>Style</variant>
+        </translation>
+        <translation key="image-association.file-types.jpeg">
+            <variant>JPEG Files</variant>
+        </translation>
+        <translation key="general.file.exit-confirmation-title">
+            <variant>Confirm Exit</variant>
+        </translation>
+        <translation key="image-association.manual-override.copy-mask">
+            <variant>Copy Mask</variant>
+        </translation>
+        <translation key="path.preview-text.percent-relative-humidity">
+            <variant>%rh</variant>
+        </translation>
+        <translation key="librarian.creating-template-element">
+            <variant>Creating template element for ''{0}''.</variant>
+        </translation>
+        <translation key="actions.file.import-system.tooltip">
+            <variant>Create a new WebCTRL system from SiteBuilder export</variant>
+        </translation>
+        <translation key="editor.resource">
+            <variant>Resource:</variant>
+        </translation>
+        <translation key="bacview.editor.date.control.format">
+            <variant>Date Format:</variant>
+        </translation>
+        <translation key="select-system-directory.invalid-file">
+            <variant>Invalid file name.</variant>
+        </translation>
+        <translation key="editor.wildcards.hours-minutes-seconds-hundredths">
+            <variant>hours, minutes, seconds and 100s</variant>
+        </translation>
+        <translation key="validation.entry_required">
+            <variant>A value must be entered in this property field.</variant>
+        </translation>
+        <translation key="event-descriptor.maximum-value-descriptor">
+            <variant>Maximum Value</variant>
+        </translation>
+        <translation key="editor.trend-font-size">
+            <variant>Trend Font Size:</variant>
+        </translation>
+        <translation key="system.tree.action.new-view-system-tree.dialog-title">
+            <variant>Create View</variant>
+        </translation>
+        <translation key="actions.file.open-system">
+            <variant>Open System...</variant>
+        </translation>
+        <translation key="image-association.color.too-cold-red">
+            <variant>Red (too cold)</variant>
+        </translation>
+        <translation key="editor.wildcards.days-months-years">
+            <variant>days, months and years</variant>
+        </translation>
+        <translation key="editor.time-format.dd">
+            <variant>DD (100ths only)</variant>
+        </translation>
+        <translation key="system.tree.absolute-path">
+            <variant>Absolute Path:</variant>
+        </translation>
+        <translation key="configure.view-properties.language-list-title">
+            <variant>Language</variant>
+        </translation>
+        <translation key="configure.view-properties.supported-language-list-title">
+            <variant>Supported Languages</variant>
+        </translation>
+        <translation key="configure.view-properties.factory-password-title">
+            <variant>Factory Password</variant>
+        </translation>
+        <translation key="configure.view-properties.factory-password-confirm-title">
+            <variant>Confirm</variant>
+        </translation>
+        <translation key="configure.view-properties.factory-password-error-message">
+            <variant>Passwords must match</variant>
+        </translation>
+        <translation key="configure.view-properties.admin-password-title">
+            <variant>Admin Password</variant>
+        </translation>
+        <translation key="configure.view-properties.user-password-title">
+            <variant>User Password</variant>
+        </translation>
+        <translation key="configure.view-properties.allow-password-management-radiobutton-title">
+            <variant>Allow password management on touchscreen</variant>
+        </translation>
+        <translation key="configure.view-properties.always-use-passwords-radiobutton-title">
+            <variant>Always use these passwords</variant>
+        </translation>
+        <translation key="configure.view-properties.reset-password-checkbox-title">
+            <variant>Reset touchscreen to these passwords</variant>
+        </translation>
+        <translation key="configure.view-properties.theme-title">
+            <variant>Theme</variant>
+        </translation>
+        <translation key="system.tree.action.clear-base-path">
+            <variant>Clear Base Path</variant>
+        </translation>
+        <translation key="editor.unchecked">
+            <variant>Off</variant>
+        </translation>
+        <translation key="actions.file.open-system.tooltip">
+            <variant>Open a WebCTRL system</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.advanced-label">
+            <variant>Use Advanced Features:</variant>
+        </translation>
+        <translation key="path.preview-text.kilowatt-hours">
+            <variant>kilowatt-hours</variant>
+        </translation>
+        <translation key="apply-update-title">
+            <variant>Apply Update</variant>
+        </translation>
+        <translation key="component.unit-editor.title">
+            <variant>Create Units Control</variant>
+        </translation>
+        <translation key="tools.bacview-tool.bacnet-screen-title">
+            <variant>BACnet</variant>
+        </translation>
+        <translation key="general.about-title">
+            <variant>About ViewBuilder</variant>
+        </translation>
+        <translation key="editor.wildcards.minutes">
+            <variant>minutes</variant>
+        </translation>
+        <translation key="editor.enabler.when-true">
+            <variant>Enable when expression is true</variant>
+        </translation>
+        <translation key="image-association.label-color.black">
+            <variant>Black</variant>
+        </translation>
+        <translation key="event-descriptor.move-backward">
+            <variant>Move Backward</variant>
+        </translation>
+        <translation key="view.summary.notes">
+            <variant>Notes:</variant>
+        </translation>
+        <translation key="image-association.manual-override.title">
+            <variant>Edit Variable Color Region</variant>
+        </translation>
+        <translation key="actions.image-association-file.menu-name">
+            <variant>File</variant>
+        </translation>
+        <translation key="editor.action">
+            <variant>Action:</variant>
+        </translation>
+        <translation key="up-one-level">
+            <variant>Up one level</variant>
+        </translation>
+        <translation key="editor.time-format.hhmmssdd">
+            <variant>HH:MM:SS.DD</variant>
+        </translation>
+        <translation key="editor.attribute-name-display">
+            <variant>Attribute Name Display:</variant>
+        </translation>
+        <translation key="event-descriptor.enter-key-typed-descriptor">
+            <variant>Enter</variant>
+        </translation>
+        <translation key="controls.static-text">
+            <variant>Static Text</variant>
+        </translation>
+        <translation key="tools.bacview-alarms-title">
+            <variant>Alarms</variant>
+        </translation>
+        <translation key="general.file.file-is-already-open-you-cannot-save-this-title">
+            <variant>Cannot Save</variant>
+        </translation>
+        <translation key="password-warning.title">
+            <variant>Password Warning</variant>
+        </translation>
+        <translation key="file.cannot-save.generic-prompt">
+            <variant>The file ''{0}'' cannot be saved. File save error.</variant>
+        </translation>
+        <translation key="bacview.import.error.message.malformed.html">
+            <variant>This BACView HTML contains errors.</variant>
+        </translation>
+        <translation key="editor.wildcards">
+            <variant>Wildcards:</variant>
+        </translation>
+        <translation key="add-image.copy.title">
+            <variant>File Already Exists</variant>
+        </translation>
+        <translation key="event-descriptor.editable-descriptor">
+            <variant>Editable</variant>
+        </translation>
+        <translation key="controls.single-line-text">
+            <variant>Single-line Text</variant>
+        </translation>
+        <translation key="tools.bacview-tool.alarms-screen-title">
+            <variant>Alarms</variant>
+        </translation>
+        <translation key="actions.image-association-configure.map-variable-color-palette">
+            <variant>Variable Color Palette...</variant>
+        </translation>
+        <translation key="editor.height">
+            <variant>Height:</variant>
+        </translation>
+        <translation key="find-replace.what">
+            <variant>Find What:</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.limit-max-label">
+            <variant>Maximum Value:</variant>
+        </translation>
+        <translation key="controls.radio-button">
+            <variant>Radio Button</variant>
+        </translation>
+        <translation key="image-association.navigation-region.remove">
+            <variant>Remove Joint</variant>
+        </translation>
+        <translation key="actions.image-association-tree.indicate-associations">
+            <variant>Highlight Associated Items</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.reasons.unknown">
+            <variant>{0} ({1}) failed to be associated.</variant>
+        </translation>
+        <translation key="editor.wildcards.hours-minutes-seconds">
+            <variant>hours, minutes and seconds</variant>
+        </translation>
+        <translation key="librarian.loading-primitive-icon">
+            <variant>Loading primitive icon for ''{0}''.</variant>
+        </translation>
+        <translation key="controls.on-off-auto">
+            <variant>On-Off-Auto</variant>
+        </translation>
+        <translation key="image-association.remove-interaction.message">
+            <variant>Do you want to remove all associations with ''{0}'' or just the selected one?</variant>
+        </translation>
+        <translation key="event-descriptor.previous-screen-hotkey-descriptor">
+            <variant>Previous Screen Hotkey</variant>
+        </translation>
+        <translation key="tooltips.image-association-edit.create-manual-navigation">
+            <variant>Create hotspot</variant>
+        </translation>
+        <translation key="alc.file.cannot-save.generic-error">
+            <variant>An internal ViewBuilder error occured and the view was not saved. Please reference info.automatedlogic.com for details on this issue.</variant>
+        </translation>
+        <translation key="carrier.file.cannot-save.generic-error">
+            <variant>An internal ViewBuilder error occured and the view was not saved. Please contact your Carrier support representative for details on this issue.</variant>
+        </translation>
+        <translation key="view-builder-export-file-name">
+            <variant>ViewBuilder Export From SiteBuilder</variant>
+        </translation>
+        <translation key="event-descriptor.display-descriptor">
+            <variant>Display</variant>
+        </translation>
+        <translation key="find-replace.search-complete-found-one-item">
+            <variant>Search for ''{0}'' complete. Found 1 matching item.</variant>
+        </translation>
+        <translation key="general.insert-substitution-parameter-dialog-title">
+            <variant>Insert Substitution Parameters</variant>
+        </translation>
+        <translation key="link.link">
+            <variant>Link:</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.reasons.ignored-color">
+            <variant>{0} ({1}) failed to be associated. The new color ({2},{3},{4}) at location ({5},{6}) is an ignored color.</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-configure.menu-name">
+            <variant>C</variant>
+        </translation>
+        <translation key="general.summary-tab">
+            <variant>Summary</variant>
+        </translation>
+        <translation key="editor.image-prefix">
+            <variant>Image Prefix:</variant>
+        </translation>
+        <translation key="controls.checkbox-button">
+            <variant>Toggle Button</variant>
+        </translation>
+        <translation key="event-descriptor.paste">
+            <variant>Paste</variant>
+        </translation>
+        <translation key="actions.edit.style.font-size">
+            <variant>Font Size:</variant>
+        </translation>
+        <translation key="event-descriptor.move-forward">
+            <variant>Move Forward</variant>
+        </translation>
+        <translation key="editor.conditional.when-true">
+            <variant>Show when expression is true</variant>
+        </translation>
+        <translation key="event-descriptor.delete-key-typed-descriptor">
+            <variant>Delete</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.toolbar">
+            <variant>Zoom</variant>
+        </translation>
+        <translation key="image-association.underline-label">
+            <variant>Underline Label</variant>
+        </translation>
+        <translation key="status.edit.conditional">
+            <variant>A show/hide condition is assigned.</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-view.zoom.two-hundred">
+            <variant>2</variant>
+        </translation>
+        <translation key="actions.image-association-view.zoom.fifty">
+            <variant>50%</variant>
+        </translation>
+        <translation key="description-header">
+            <variant>Description:</variant>
+        </translation>
+        <translation key="image-association.action.schedules">
+            <variant>Schedules</variant>
+        </translation>
+        <translation key="theme.view">
+            <variant>ViewBuilder</variant>
+        </translation>
+        <translation key="tooltips.image-association-view.zoom.menu-name">
+            <variant>Z</variant>
+        </translation>
+        <translation key="validation.unique_value">
+            <variant>The value entered must be unique within this document.</variant>
+        </translation>
+        <translation key="set-current-document-successful">
+            <variant>Setting current document to '{0}' successful</variant>
+        </translation>
+        <translation key="file.confirm-file-save">
+            <variant>Do you want to save the document?</variant>
+        </translation>
+        <translation key="editor.checked">
+            <variant>On</variant>
+        </translation>
+        <translation key="editor.conditional.when-false">
+            <variant>Hide when expression is true</variant>
+        </translation>
+        <translation key="editor.use-advanced-path">
+            <variant>Use Advanced Path:</variant>
+        </translation>
+        <translation key="editor.advanced-path">
+            <variant>Advanced</variant>
+        </translation>
+        <translation key="event-descriptor.center-horizontal">
+            <variant>Center Horizontal</variant>
+        </translation>
+        <translation key="actions.edit.toggle-workspace">
+            <variant>Toggle Workspace</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-middle">
+            <variant>Align Middle</variant>
+        </translation>
+        <translation key="general.template-dialog-error">
+            <variant>All substitutions require a value.</variant>
+        </translation>
+        <translation key="editor.show-hours">
+            <variant>Show Hours:</variant>
+        </translation>
+        <translation key="tools.bacview-tool.user-pw-screen-title">
+            <variant>User PW</variant>
+        </translation>
+        <translation key="general.warnings-tab">
+            <variant>Warnings</variant>
+        </translation>
+        <translation key="actions.edit.link.title">
+            <variant>Edit Link</variant>
+        </translation>
+        <translation key="document-definition.bacview-default">
+            <variant>bacview</variant>
+        </translation>
+        <translation key="actions.file.import-system">
+            <variant>Import System...</variant>
+        </translation>
+        <translation key="actions.file.set-system-directory">
+            <variant>Set Default System Directory...</variant>
+        </translation>
+        <translation key="image-association.push-to-edit">
+            <variant>Associations</variant>
+        </translation>
+        <translation key="general.resources-tab">
+            <variant>Resources</variant>
+        </translation>
+        <translation key="general.file.file-is-read-only-title">
+            <variant>Read-Only File</variant>
+        </translation>
+        <translation key="editor.equipment-builder.dialog.title">
+            <variant>New From Library</variant>
+        </translation>
+        <translation key="image-association.open-interaction.clear-all">
+            <variant>Clear all current associations and set the new image.</variant>
+        </translation>
+        <translation key="image-association.manual-override.move-down">
+            <variant>Move Down</variant>
+        </translation>
+        <translation key="file.cannot-open.title">
+            <variant>Cannot Open View</variant>
+        </translation>
+        <translation key="font-justifications.right">
+            <variant>Right</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-bottom">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="actions.alignment.vertical-title">
+            <variant>Vertical</variant>
+        </translation>
+        <translation key="select-button-text">
+            <variant>Select</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-tree.menu-name">
+            <variant>T</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-previous-mneumonic">
+            <variant>P</variant>
+        </translation>
+        <translation key="image-association.color.gray">
+            <variant>Gray</variant>
+        </translation>
+        <translation key="file.locked-view.message">
+            <variant>The file ''{0}'' is locked. You must choose a different location or name to save the file.</variant>
+        </translation>
+        <translation key="actions.image-association-view.show-original-image">
+            <variant>Show Original Image</variant>
+        </translation>
+        <translation key="actions.tools.add-symbol">
+            <variant>Add Symbol Tool</variant>
+        </translation>
+        <translation key="editor.hoa.type.vertical-panel">
+            <variant>Vertical Panel</variant>
+        </translation>
+        <translation key="signature-mismatch-invalid-view">
+            <variant>The file ''{0}'' cannot be opened. Entry ''{1}'' has an invalid signature value.</variant>
+        </translation>
+        <translation key="path.preview-text.kilowatts">
+            <variant>kilowatts</variant>
+        </translation>
+        <translation key="editor.button-width">
+            <variant>Button Width:</variant>
+        </translation>
+        <translation key="image-association.variable-color">
+            <variant>Variable Color</variant>
+        </translation>
+        <translation key="general.file.confirm-file-save">
+            <variant>Do you want to save the document ''{0}''?</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-edit.toggle-label-color">
+            <variant>L</variant>
+        </translation>
+        <translation key="general.file.confirm-overwrite-prompt">
+            <variant>The file ''{0}'' already exists. Overwrite?</variant>
+        </translation>
+        <translation key="menu-mnemonics.window.system-control-window.hide">
+            <variant>S</variant>
+        </translation>
+        <translation key="image-association.color.too-hold-red">
+            <variant>Red (too hot)</variant>
+        </translation>
+        <translation key="system.button.close-system">
+            <variant>Close System</variant>
+        </translation>
+        <translation key="bacview.editor.screen.link.control.previous.label">
+            <variant>Previous Screen:</variant>
+        </translation>
+        <translation key="general.file.file-save-error">
+            <variant>Unable to save file ''{0}''.</variant>
+        </translation>
+        <translation key="bacview.import.inconsistant">
+            <variant>Some HTML tags were removed to due inconsistances, verify content that was imported.</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.file-has-no-associations-title">
+            <variant>Choose Another File</variant>
+        </translation>
+        <translation key="event-descriptor.header-descriptor">
+            <variant>Header</variant>
+        </translation>
+        <translation key="hardcoded.components.html">
+            <variant>HTML</variant>
+        </translation>
+        <translation key="component.unit-editor.preview-text">
+            <variant>Preview Text:</variant>
+        </translation>
+        <translation key="tooltips.image-association-edit.toggle-schematic-mode">
+            <variant>Toggle Schematic Mode (for lighting and wire diagrams)</variant>
+        </translation>
+        <translation key="librarian.loading-definitions">
+            <variant>Loading definitions from library file ''{0}''.</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-close">
+            <variant>Close</variant>
+        </translation>
+        <translation key="event-descriptor.remove-screen-descriptor">
+            <variant>Remove Screen</variant>
+        </translation>
+        <translation key="hardcoded.components.inline-text">
+            <variant>Static Text</variant>
+        </translation>
+        <translation key="hardcoded.components.flow-layout">
+            <variant>Flow Layout</variant>
+        </translation>
+        <translation key="link.action-category">
+            <variant>Category Reference Name:</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.create-manual-navigation">
+            <variant>H</variant>
+        </translation>
+        <translation key="component.no-properties-message">
+            <variant>No properties to display.</variant>
+        </translation>
+        <translation key="editor.slider-tick">
+            <variant>Slider Tick:</variant>
+        </translation>
+        <translation key="editor.allow-wildcards">
+            <variant>Allow Wildcards:</variant>
+        </translation>
+        <translation key="file.confirm-overwrite-title">
+            <variant>Confirm Overwrite</variant>
+        </translation>
+        <translation key="system.login.error.system-already-open">
+            <variant>System already open in another application.</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-tree.indicate-associations">
+            <variant>A</variant>
+        </translation>
+        <translation key="editor.wildcards.weekdays">
+            <variant>weekdays</variant>
+        </translation>
+        <translation key="event-descriptor.align-right">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="menu-mnemonics.edit.toggle-workspace">
+            <variant>W</variant>
+        </translation>
+        <translation key="bacview.import.error.frontpage.3">
+            <variant>with the HXLATE utility.</variant>
+        </translation>
+        <translation key="bacview.import.error.frontpage.2">
+            <variant>allows importing of BACView HTML or HTML that has been filtered</variant>
+        </translation>
+        <translation key="bacview.import.error.frontpage.1">
+            <variant>This BACView file was created using Frontpage and ViewBuilder only</variant>
+        </translation>
+        <translation key="general.file.file-new-title">
+            <variant>New View</variant>
+        </translation>
+        <translation key="tools.bacview-tool.screen-properties.footer">
+            <variant>Footer:</variant>
+        </translation>
+        <translation key="tools.bacview-tool-title">
+            <variant>Bacview</variant>
+        </translation>
+        <translation key="editor.create-units">
+            <variant>Create Units Control</variant>
+        </translation>
+        <translation key="actions.tools.add-component">
+            <variant>Add Control Tool</variant>
+        </translation>
+        <translation key="substition-parameter-wizard.default-value">
+            <variant>Default Value:</variant>
+        </translation>
+        <translation key="actions.edit.style.font-color.custom-button">
+            <variant>Custom...</variant>
+        </translation>
+        <translation key="color-picker-panel.color-choice-button.custom">
+            <variant>Custom...</variant>
+        </translation>
+        <translation key="color-picker-panel.color-choice-button.color">
+            <variant>Color</variant>
+        </translation>
+        <translation key="pattern-picker-panel.pattern-choice-button.pattern">
+            <variant>Pattern</variant>
+        </translation>
+        <translation key="pattern-picker-panel.title.pattern">
+            <variant>Choose Pattern</variant>
+        </translation>
+        <translation key="color-picker-panel.title.custom">
+            <variant>Custom Color</variant>
+        </translation>
+        <translation key="color-picker-panel.title.choose-color">
+            <variant>Choose Color</variant>
+        </translation>
+        <translation key="actions.image-association-tree.auto-select-next-node">
+            <variant>Auto-select Next Item</variant>
+        </translation>
+        <translation key="system-dialog.title">
+            <variant>System</variant>
+        </translation>
+        <translation key="general.file.file-is-already-open-you-cannot-save-this">
+            <variant>The file ''{0}'' is already open. You must close it before overwriting the file.</variant>
+        </translation>
+        <translation key="event-descriptor.align-bottom">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="controls.character-string">
+            <variant>Single-line Text</variant>
+        </translation>
+        <translation key="link.display-name">
+            <variant>View Display Name:</variant>
+        </translation>
+        <translation key="event-descriptor.lock">
+            <variant>Lock</variant>
+        </translation>
+        <translation key="event-descriptor.screen-link-text-descriptor">
+            <variant>Screen Link Text</variant>
+        </translation>
+        <translation key="event-descriptor.screen-name-descriptor">
+            <variant>Screen Name</variant>
+        </translation>
+        <translation key="tools.admin-password-level-title">
+            <variant>Admin</variant>
+        </translation>
+        <translation key="tools.factory-password-level-title">
+            <variant>Factory</variant>
+        </translation>
+        <translation key="image-association.properties.advanced">
+            <variant>Advanced</variant>
+        </translation>
+        <translation key="image-association.variable-color-palette.change">
+            <variant>Change...</variant>
+        </translation>
+        <translation key="image-association.image-file">
+            <variant>Image File</variant>
+        </translation>
+        <translation key="event-descriptor.set-view-type-descriptor">
+            <variant>Set View Type</variant>
+        </translation>
+        <translation key="preferences.view-preferences.width">
+            <variant>Width:</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.show-tip-on-startup">
+            <variant>Show tips on Startup.</variant>
+        </translation>
+        <translation key="image-association.color.speckled-green">
+            <variant>Speckled Green</variant>
+        </translation>
+        <translation key="file-filter.images">
+            <variant>Image Files</variant>
+        </translation>
+        <translation key="controls.interactive-thermostat">
+            <variant>Interactive Zone Sensor</variant>
+        </translation>
+        <translation key="event-descriptor.backspace-key-typed-descriptor">
+            <variant>Backspace</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-center">
+            <variant>Align Center</variant>
+        </translation>
+        <translation key="preferences.general.transparency-enabled">
+            <variant>Transparency Enabled</variant>
+        </translation>
+        <translation key="file.confirm-file-save.title">
+            <variant>Confirm Save</variant>
+        </translation>
+        <translation key="find-replace.search-complete-found-many-items">
+            <variant>Search for ''{0}'' complete. Found {1} matching items.</variant>
+        </translation>
+        <translation key="general.expression">
+            <variant>Expression</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.display-degree-symbol">
+            <variant>Show Degree Symbol:</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.show-leading-zeros">
+            <variant>Show Leading Zeros:</variant>
+        </translation>
+        <translation key="file.cannot-save.title">
+            <variant>Cannot Save View</variant>
+        </translation>
+        <translation key="actions.edit.style.font-bold">
+            <variant>Bold:</variant>
+        </translation>
+        <translation key="editor.time-format.mmssdd">
+            <variant>MM:SS.DD</variant>
+        </translation>
+        <translation key="tooltips.image-association-view.zoom.toolbar">
+            <variant>Zoom</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.value-table.column0-header">
+            <variant>Value</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-edit.menu-name">
+            <variant>E</variant>
+        </translation>
+        <translation key="image-association.point-format">
+            <variant>({0},{1})</variant>
+        </translation>
+        <translation key="system-dialog.button-next">
+            <variant>Next</variant>
+        </translation>
+        <translation key="view.size">
+            <variant>View Size</variant>
+        </translation>
+        <translation key="event-descriptor.view-size-edit-descriptor">
+            <variant>View Size Edit</variant>
+        </translation>
+        <translation key="hardcoded.components.image-text">
+            <variant>LED/LCD Display Text</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.export-image">
+            <variant>E</variant>
+        </translation>
+        <translation key="menu-mnemonics.actions.image-association-view.menu-name">
+            <variant>V</variant>
+        </translation>
+        <translation approved="false" key="menu-mnemonics.actions.image-association-window.menu-name" new="true">
+            <variant>W</variant>
+        </translation>
+        <translation key="editor.slider-minimum-end">
+            <variant>Minimum End:</variant>
+        </translation>
+        <translation key="editor.wildcards.seconds">
+            <variant>seconds</variant>
+        </translation>
+        <translation key="image-association.remove-interaction.title">
+            <variant>Remove What?</variant>
+        </translation>
+        <translation key="link.instance">
+            <variant>Instance:</variant>
+        </translation>
+        <translation key="menu-mnemonics.file.print">
+            <variant>p</variant>
+        </translation>
+        <translation key="bacview.editor.multi-state-control.field-width-manual">
+            <variant>Use the following value:</variant>
+        </translation>
+        <translation key="path.preview-text.false">
+            <variant>False</variant>
+        </translation>
+        <translation key="editor.heat-trend">
+            <variant>Heat Setpoint Trend</variant>
+        </translation>
+        <translation key="go-to-symbols-images">
+            <variant>Symbol Images Directory</variant>
+        </translation>
+        <translation key="image-association.association-interaction.color-ignored">
+            <variant>This color at ({0},{1}) is ignored ({2},{3},{4}). No association will be made with ''{5}'' ({6}).</variant>
+        </translation>
+        <translation key="image-association.association-interaction.border-color">
+            <variant>This color at ({0},{1}) is a border color ({2},{3},{4}). No association will be made with ''{5}'' ({6}).</variant>
+        </translation>
+        <translation key="image-association.action.trends">
+            <variant>Trends</variant>
+        </translation>
+        <translation key="image-association.action.privileges">
+            <variant>Privileges</variant>
+        </translation>
+        <translation key="editor.image-width">
+            <variant>Width</variant>
+        </translation>
+        <translation key="theme.front-page">
+            <variant>FrontPage JSP</variant>
+        </translation>
+        <translation key="event-descriptor.drag-selection-copy-edit-descriptor">
+            <variant>Drag Copy</variant>
+        </translation>
+        <translation key="system.tree.action.set-base-path">
+            <variant>Set Base Path</variant>
+        </translation>
+        <translation key="event-descriptor.align-left">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="editor.wildcards.years">
+            <variant>years</variant>
+        </translation>
+        <translation key="properties.no-current-document">
+            <variant>No Current Document</variant>
+        </translation>
+        <translation key="image-association.color.dark-blue">
+            <variant>Dark Blue</variant>
+        </translation>
+        <translation key="actions.edit.enabler.title">
+            <variant>Edit Enable/Disable Condition</variant>
+        </translation>
+        <translation key="event-descriptor.enable-disable-expression">
+            <variant>Enable/Disable Expression</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.set-database">
+            <variant>D</variant>
+        </translation>
+        <translation key="system.tree.bacview.object-name">
+            <variant>Object Name:</variant>
+        </translation>
+        <translation key="file.exit-confirmation">
+            <variant>Are you sure you want to exit?</variant>
+        </translation>
+        <translation key="update-not-for-this-version">
+            <variant>The update is not for this product version.</variant>
+        </translation>
+        <translation key="actions.tools.bacview.tooltip">
+            <variant>Activate the Bacview tool</variant>
+        </translation>
+        <translation key="tools.password-level-title">
+            <variant>Password Level</variant>
+        </translation>
+        <translation key="actions.tools.add-component.tooltip">
+            <variant>Add Controls</variant>
+        </translation>
+        <translation key="view-template-file-type">
+            <variant>View Template files</variant>
+        </translation>
+        <translation key="image-association.ignored-colors.add">
+            <variant>Add</variant>
+        </translation>
+        <translation key="actions.image-association-edit.create-manual-navigation">
+            <variant>Create Hotspot</variant>
+        </translation>
+        <translation key="image-association.manual-override.instructions">
+            <variant>Edit the variable color region using any bitmap editor. As a starting point, you can copy the current shape, or entire original image, to the clipboard. Then paste the edited image back here. All colors will be ignored except purple -- which will become the variable color region. The region can be moved by changing the x and y offsets.</variant>
+        </translation>
+        <translation key="image-association.action.properties">
+            <variant>Properties</variant>
+        </translation>
+        <translation key="bacview.editor.number-control.limit-min-label">
+            <variant>Minimum Value:</variant>
+        </translation>
+        <translation key="editor.number-control.limit-label">
+            <variant>Limits</variant>
+        </translation>
+        <translation key="editor.number-control.number-label">
+            <variant>Number</variant>
+        </translation>
+        <translation key="editor.number-control.format-label">
+            <variant>Format:</variant>
+        </translation>
+        <translation key="editor.number-control.use-microblock-limits-label">
+            <variant>Use Min/Max values defined in microblock</variant>
+        </translation>
+        <translation key="editor.number-control.use-custom-limits-label">
+            <variant>Use custom values below</variant>
+        </translation>
+        <translation key="editor.number-control.limit-min-label">
+            <variant>Minimum:</variant>
+        </translation>
+        <translation key="editor.number-control.limit-max-label">
+            <variant>Maximum:</variant>
+        </translation>
+        <translation key="controls.bacview.link">
+            <variant>Link</variant>
+        </translation>
+        <translation key="general.application-title-no-project">
+            <variant>(No Current System)</variant>
+        </translation>
+        <translation key="tooltips.edit.toggle-workspace">
+            <variant>Show/hide the target workspace boundary</variant>
+        </translation>
+        <translation key="editor.wildcards.days-months-weekdays">
+            <variant>days, months and weekdays</variant>
+        </translation>
+        <translation key="editor.instance-only">
+            <variant>Instance Number Only:</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.display-assignments">
+            <variant>Display Associations Only</variant>
+        </translation>
+        <translation key="image-association.color.mustard">
+            <variant>Mustard</variant>
+        </translation>
+        <translation key="actions.image-association-file.save">
+            <variant>Save</variant>
+        </translation>
+        <translation key="editor.scrolling">
+            <variant>Provide Scrolling:</variant>
+        </translation>
+        <translation key="editor.wildcards.hours">
+            <variant>hours</variant>
+        </translation>
+        <translation key="editor.minimum-left-digits">
+            <variant>Min Left Digits:</variant>
+        </translation>
+        <translation key="tooltips.image-association-edit.remove-selected-association">
+            <variant>Remove Association</variant>
+        </translation>
+        <translation key="general.no-to-all">
+            <variant>No to all</variant>
+        </translation>
+        <translation key="actions.image-association-edit.toggle-label-color">
+            <variant>Set Label Color ...</variant>
+        </translation>
+        <translation key="general.file.confirm-file-save-title">
+            <variant>Confirm Save</variant>
+        </translation>
+        <translation key="cell-color-editor.cell-color">
+            <variant>Cell Color:</variant>
+        </translation>
+        <translation key="editor.set-definition">
+            <variant>Set Definition:</variant>
+        </translation>
+        <translation key="event-descriptor.minimum-value-descriptor">
+            <variant>Minimum Value</variant>
+        </translation>
+        <translation key="actions.image-association-view.menu-name">
+            <variant>View</variant>
+        </translation>
+        <translation key="event-descriptor.move">
+            <variant>Move</variant>
+        </translation>
+        <translation key="image-association.variable-color-palette.title">
+            <variant>Variable Color Palette</variant>
+        </translation>
+        <translation key="select-system-directory.enter-name">
+            <variant>Enter a name for the system directory:</variant>
+        </translation>
+        <translation key="controls.number">
+            <variant>Number</variant>
+        </translation>
+        <translation key="event-descriptor.property-change">
+            <variant>Property Change</variant>
+        </translation>
+        <translation key="editor.slider-maximum-end">
+            <variant>Maximum End:</variant>
+        </translation>
+        <translation key="editor.trend-title-font-size">
+            <variant>Title Font Size:</variant>
+        </translation>
+        <translation key="path.preview-text.closed">
+            <variant>Closed</variant>
+        </translation>
+        <translation key="actions.image-association-help.help">
+            <variant>Help</variant>
+        </translation>
+        <translation key="image-association.ignored-colors.remove">
+            <variant>Remove</variant>
+        </translation>
+        <translation key="actions.image-association-configure.ignored-colors">
+            <variant>Ignored Colors...</variant>
+        </translation>
+        <translation key="actions.image-association-configure.association-method">
+            <variant>Association Method...</variant>
+        </translation>
+        <translation key="system.login.error.operator-not-selected">
+            <variant>An operator name must be selected!</variant>
+        </translation>
+        <translation key="tools.bacview-tool.clockset-screen-title">
+            <variant>Clockset</variant>
+        </translation>
+        <translation key="image-association.label-color.custom">
+            <variant>Custom...</variant>
+        </translation>
+        <translation key="file.exit-confirmation-title">
+            <variant>Confirm Exit</variant>
+        </translation>
+        <translation key="event-descriptor.password-level-descriptor">
+            <variant>Password Level</variant>
+        </translation>
+        <translation key="event-descriptor.standby-screen-descriptor">
+            <variant>Assign Standby Screen</variant>
+        </translation>
+        <translation key="file.old-view.title">
+            <variant>View Version Mismatch</variant>
+        </translation>
+        <translation key="bacview.editor.point.name.label">
+            <variant>Point Name:</variant>
+        </translation>
+        <translation key="editor.expected-digits">
+            <variant>Expected Digits:</variant>
+        </translation>
+        <translation key="actions.image-association-file.export-image">
+            <variant>Export Image...</variant>
+        </translation>
+        <translation key="event-descriptor.set-view-type-edit-descriptor">
+            <variant>Set View Type</variant>
+        </translation>
+        <translation key="path.preview-text.cfm">
+            <variant>cfm</variant>
+        </translation>
+        <translation key="actions.edit.style.font-italic">
+            <variant>Italic:</variant>
+        </translation>
+        <translation key="image-association.manual-override.y-offset">
+            <variant>Y Offset:</variant>
+        </translation>
+        <translation key="password-warning.message">
+            <variant>You have not set a password for the password level you have selected. In this state, regardless of the password level setting, the screen will be accessible to all users.</variant>
+        </translation>
+        <translation key="bacview.system-screen.message">
+            <variant>This sample system screen may look different in your actual BACview.</variant>
+        </translation>
+        <translation key="actions.insert.substitution-parameter">
+            <variant>Template Parameter</variant>
+        </translation>
+        <translation key="document-definition.area-view">
+            <variant>Area</variant>
+        </translation>
+        <translation key="document-definition.controller-view">
+            <variant>Controller</variant>
+        </translation>
+        <translation key="document-definition.bacview2">
+            <variant>BACview (4x40)</variant>
+        </translation>
+        <translation key="update-not-for-this-product">
+            <variant>The update is not for this product.</variant>
+        </translation>
+        <translation key="file.cannot-save.file-already-open-prompt">
+            <variant>The file ''{0}'' is already open. You must close it before overwriting the file.</variant>
+        </translation>
+        <translation key="document-definition.bacview1">
+            <variant>BACview (2x16)</variant>
+        </translation>
+        <translation key="system.tree.bacview.decorator-network-visible">
+            <variant>Network Visible</variant>
+        </translation>
+        <translation key="image-association.tree.network">
+            <variant>Network</variant>
+        </translation>
+        <translation key="bacview.import.validate.title">
+            <variant>Validate Import</variant>
+        </translation>
+        <translation key="editor.slider-settings">
+            <variant>Slider Measurements</variant>
+        </translation>
+        <translation key="actions.file.print">
+            <variant>Print</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-associations-title">
+            <variant>Merge Associations?</variant>
+        </translation>
+        <translation key="tooltips.image-association-file.save">
+            <variant>Saves the current view</variant>
+        </translation>
+        <translation key="path.preview-text.normal">
+            <variant>Normal</variant>
+        </translation>
+        <translation key="editor.wildcards.minutes-seconds">
+            <variant>minutes and seconds</variant>
+        </translation>
+        <translation key="flow-layout-editor.horizontal-alignment">
+            <variant>Horizontal Alignment</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.create-manual-label">
+            <variant>L</variant>
+        </translation>
+        <translation key="invalid-controls-dialog.close-button-mnemonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="actions.edit.variable-color.title">
+            <variant>Edit Variable Color Condition</variant>
+        </translation>
+        <translation key="path.preview-text.degrees-fahrenheit">
+            <variant>°F</variant>
+        </translation>
+        <translation key="editor.image-directory">
+            <variant>Image Directory:</variant>
+        </translation>
+        <translation key="editor.desired-minimum">
+            <variant>Minimum Value:</variant>
+        </translation>
+        <translation key="actions.image-association-file.set-database">
+            <variant>Set Database...</variant>
+        </translation>
+        <translation key="font-justifications.left">
+            <variant>Left</variant>
+        </translation>
+        <translation key="image-association.color.light-blue">
+            <variant>Light Blue</variant>
+        </translation>
+        <translation key="actions.image-association-edit.create-manual-variable-color">
+            <variant>Create Variable Color Only</variant>
+        </translation>
+        <translation key="general.file.file-is-read-only">
+            <variant>The file ''{0}'' is read-only. You must choose another file.</variant>
+        </translation>
+        <translation key="find-replace.check-all">
+            <variant>Check All</variant>
+        </translation>
+        <translation key="bacview.editor.screen.link.control.use.function.label">
+            <variant>Assign to Softkey:</variant>
+        </translation>
+        <translation key="add-image.copy.warning">
+            <variant>&lt;html&gt;Images inserted from this location will be copied to your system directory.&lt;/html&gt;</variant>
+        </translation>
+        <translation key="actions.tools.bacview">
+            <variant>Bacview Properties Tool</variant>
+        </translation>
+        <translation key="editor.enabler.when-false">
+            <variant>Disable when expression is true</variant>
+        </translation>
+        <translation key="path.preview-text.disabled">
+            <variant>Disabled</variant>
+        </translation>
+        <translation key="event-descriptor.add-screen-descriptor">
+            <variant>Add Screen</variant>
+        </translation>
+        <translation key="touchview.screens.include-standby-screen">
+            <variant>Include Standby Screen</variant>
+        </translation>
+        <translation key="event-descriptor.included-standby-screen-descriptor">
+            <variant>Included Standby Screen</variant>
+        </translation>
+        <translation key="event-descriptor.removed-standby-screen-descriptor">
+            <variant>Removed Standby Screen</variant>
+        </translation>
+        <translation key="event-descriptor.conditonal-expresson-added">
+            <variant>Added Conditional Expression</variant>
+        </translation>
+        <translation key="event-descriptor.conditonal-expresson-removed">
+            <variant>Removed Conditional Expression</variant>
+        </translation>
+        <translation key="event-descriptor.conditonal-expresson-update">
+            <variant>Updated Conditional Expression</variant>
+        </translation>
+        <translation key="actions.view.preview">
+            <variant>Preview</variant>
+        </translation>
+        <translation key="image-association.properties.user-defined">
+            <variant>User Defined Variable Color Expression:</variant>
+        </translation>
+        <translation key="image-association.title">
+            <variant>Associations</variant>
+        </translation>
+        <translation key="tools.bacview-tool.predefined-screens-title">
+            <variant>Predefined Screens</variant>
+        </translation>
+        <translation key="general.ok">
+            <variant>OK</variant>
+        </translation>
+        <translation key="general.cancel">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="editor.thermostat-type.rs-sensor">
+            <variant>RS Sensor</variant>
+        </translation>
+        <translation key="editor.thermostat-type.spt-sensor">
+            <variant>SPT Sensor</variant>
+        </translation>
+        <translation key="editor.thermostat-type.room-controller">
+            <variant>Room Controller</variant>
+        </translation>
+        <translation key="editor.thermostat-type.zs-sensor">
+            <variant>ZS Sensor</variant>
+        </translation>
+        <translation key="tools.bacview-tool.screen-properties.header">
+            <variant>Header:</variant>
+        </translation>
+        <translation key="general.test">
+            <variant>Test</variant>
+        </translation>
+        <translation key="general.no">
+            <variant>No</variant>
+        </translation>
+        <translation key="event-descriptor.remove-alarm-descriptor">
+            <variant>Remove Alarm</variant>
+        </translation>
+        <translation key="event-descriptor.alarm-id-descriptor">
+            <variant>Alarm ID</variant>
+        </translation>
+        <translation key="event-descriptor.alarm-description-descriptor">
+            <variant>Alarm Description</variant>
+        </translation>
+        <translation key="event-descriptor.alarm-use-horn-descriptor">
+            <variant>Alarm Use Horn</variant>
+        </translation>
+        <translation key="system.tree.action.open-view-system-tree">
+            <variant>Open View</variant>
+        </translation>
+        <translation key="editor.preview-text">
+            <variant>Preview Text:</variant>
+        </translation>
+        <translation key="editor.cool-trend">
+            <variant>Cool Setpoint Trend</variant>
+        </translation>
+        <translation key="tools.bacview-alarm-column-heading-3">
+            <variant>Use Horn?</variant>
+        </translation>
+        <translation key="tools.bacview-alarm-column-heading-2">
+            <variant>Description</variant>
+        </translation>
+        <translation key="tools.bacview-alarm-column-heading-1">
+            <variant>Alarm ID</variant>
+        </translation>
+        <translation key="go-to-symbols-views">
+            <variant>Symbol Views Directory</variant>
+        </translation>
+        <translation key="actions.alignment.horizontal-title">
+            <variant>Horizontal</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-associations">
+            <variant>Merge current associations with the new image.</variant>
+        </translation>
+        <translation key="image-association.association-interaction.region-already-used">
+            <variant>The selected region is already associated with ''{0}''. Do you want to replace it with ''{1}''.</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.scale-by">
+            <variant>Scale By</variant>
+        </translation>
+        <translation key="editor.slider-control">
+            <variant>Slider Control:</variant>
+        </translation>
+        <translation key="file.cannot-save.file-is-read-only-prompt">
+            <variant>The file ''{0}'' is read-only. You must save to another name.</variant>
+        </translation>
+        <translation key="not-a-valid-update-file">
+            <variant>This is not a valid update file.</variant>
+        </translation>
+        <translation key="event-descriptor.conditional-expression">
+            <variant>Conditional Expression</variant>
+        </translation>
+        <translation key="find-replace.replace-button">
+            <variant>Replace</variant>
+        </translation>
+        <translation key="tools.bacview-tool.screen-properties.number-of-lines">
+            <variant>Number Of Lines:</variant>
+        </translation>
+        <translation key="file.cannot-open.file-does-not-exist">
+            <variant>The file ''{0}'' does not exist.</variant>
+        </translation>
+        <translation key="update-file-filter-description">
+            <variant>Update Files</variant>
+        </translation>
+        <translation key="file.old-view.warning">
+            <variant>This view was created with a newer version of ViewBuilder and contains some features that are not supported in this release. These features will be lost if you save this view using this version of ViewBuilder.</variant>
+        </translation>
+        <translation key="accelerators.edit.link.control">
+            <variant>true</variant>
+        </translation>
+        <translation key="event-descriptor.resize">
+            <variant>Resize</variant>
+        </translation>
+        <translation key="controls.setpoint">
+            <variant>Setpoint</variant>
+        </translation>
+        <translation key="general.browse">
+            <variant>Browse...</variant>
+        </translation>
+        <translation key="tools.bacview-tool.keypad-screen-title">
+            <variant>Keypad</variant>
+        </translation>
+        <translation key="actions.table.append-row">
+            <variant>Append Row</variant>
+        </translation>
+        <translation key="editor.wildcards.days-months-years-weekdays">
+            <variant>days, months, years and weekdays</variant>
+        </translation>
+        <translation key="image-association.manual-override.mask-position">
+            <variant>Mask Position</variant>
+        </translation>
+        <translation key="status.edit.link">
+            <variant>A link is assigned.</variant>
+        </translation>
+        <translation key="select-system-directory.cannot-have-spaces">
+            <variant>System directories cannot have spaces.</variant>
+        </translation>
+        <translation key="validation.facet_instance_category">
+            <variant>Improperly formed facet.</variant>
+        </translation>
+        <translation key="find-replace.uncheck-all">
+            <variant>Uncheck All</variant>
+        </translation>
+        <translation key="event-descriptor.admin-password-edit-descriptor">
+            <variant>Admin Password Edit</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-view.zoom.three-hundred">
+            <variant>3</variant>
+        </translation>
+        <translation key="unknown-error-occured-during-update">
+            <variant>An Unknown Error occured. The update was not applied.</variant>
+        </translation>
+        <translation key="tools.confirm-screen-delete.message">
+            <variant>This screen is used by links on other screens in this BACview.  Those links will link to nothing after this screen is removed.  Are you sure you want to delete it?</variant>
+        </translation>
+        <translation key="tools.touchview.confirm-screen-delete.message">
+            <variant>This screen is referenced by links on other screens in this {0}.  Those links will link to nothing after this screen is removed.  Are you sure you want to delete it?</variant>
+        </translation>
+        <translation key="link.type">
+            <variant>Type:</variant>
+        </translation>
+        <translation key="editor.normal-images">
+            <variant>Normal Images</variant>
+        </translation>
+        <translation key="event-descriptor.char-key-typed-descriptor">
+            <variant>Character Typed</variant>
+        </translation>
+        <translation key="actions.tools.menu-name">
+            <variant>Tools</variant>
+        </translation>
+        <translation key="actions.test.open-multiple-views">
+            <variant>Open Multiple Views...</variant>
+        </translation>
+        <translation key="general.close">
+            <variant>Close</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-file.save">
+            <variant>S</variant>
+        </translation>
+        <translation key="flow-layout-editor.align-left">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="path.preview-text.degrees-celsius">
+            <variant>°C</variant>
+        </translation>
+        <translation key="actions.tools.selection.tooltip">
+            <variant>Activate the selection tool</variant>
+        </translation>
+        <translation key="find-replace.case-sensitive">
+            <variant>Case Sensitive</variant>
+        </translation>
+        <translation key="event-descriptor.image-list-change">
+            <variant>List Of Images Change</variant>
+        </translation>
+        <translation key="tooltips.test.open-multiple-views">
+            <variant>Allows multi-select in the file chooser to multiple views at one time.</variant>
+        </translation>
+        <translation key="bacview.editor.screen.link.control.format.label">
+            <variant>Link to Screen:</variant>
+        </translation>
+        <translation key="actions.table.menu-name">
+            <variant>Table</variant>
+        </translation>
+        <translation key="path.preview-text.watts">
+            <variant>watts</variant>
+        </translation>
+        <translation key="image-association.ignored-colors.select-color">
+            <variant>Select A Color</variant>
+        </translation>
+        <translation key="find-replace.found-items">
+            <variant>Found Items:</variant>
+        </translation>
+        <translation key="event-descriptor.move-to-back">
+            <variant>Move To Back</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-edit.ignore-color">
+            <variant>I</variant>
+        </translation>
+        <translation key="configure.preferences.window-title">
+            <variant>Application Preferences</variant>
+        </translation>
+        <translation key="configure.preferences.graphic.window-title">
+            <variant>Graphic (.view) Preferences</variant>
+        </translation>
+        <translation key="file.confirm-overwrite-prompt">
+            <variant>The file ''{0}'' already exists. Overwrite?</variant>
+        </translation>
+        <translation key="image-association.non-system-nodes">
+            <variant>Unknown</variant>
+        </translation>
+        <translation key="controls.droplist">
+            <variant>Droplist</variant>
+        </translation>
+        <translation key="image-association.navigation-region.cancel">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="tip-of-day-dialog.button-close-mneumonic">
+            <variant>C</variant>
+        </translation>
+        <translation key="actions.edit.style.font-type">
+            <variant>Font Type:</variant>
+        </translation>
+        <translation key="go-to-home">
+            <variant>Current View's Saved Directory</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-help.help">
+            <variant>h</variant>
+        </translation>
+        <translation key="path.preview-text.yes">
+            <variant>Yes</variant>
+        </translation>
+        <translation key="editor.pressed-images">
+            <variant>Pressed Images</variant>
+        </translation>
+        <translation key="editor.images">
+            <variant>Images</variant>
+        </translation>
+        <translation key="file.old-view.error">
+            <variant>This view was created with a newer version of ViewBuilder and contains major features that are not supported in this release. These features keep ViewBuilder from properly interpreting and displaying this view.  Please contact the view's author.</variant>
+        </translation>
+        <translation key="preferences.view-preferences.title">
+            <variant>View</variant>
+        </translation>
+        <translation key="controls.bacview-multi-state">
+            <variant>Multi-State</variant>
+        </translation>
+        <translation key="file.all-view-file-type">
+            <variant>All ViewBuilder files</variant>
+        </translation>
+        <translation key="image-association.open-interaction.merge-failures.description">
+            <variant>The following associations failed to be merged:</variant>
+        </translation>
+        <translation key="system.tree.action.base-node">
+            <variant>Set Base Path</variant>
+        </translation>
+        <translation key="select-file-type-instructions">
+            <variant>Select a file type</variant>
+        </translation>
+        <translation key="event-descriptor.maximum-number-of-display-characters-descriptor">
+            <variant>Max Number of Display Characters</variant>
+        </translation>
+        <translation key="menu-mnemonics.image-association-tree.expand-tree">
+            <variant>E</variant>
+        </translation>
+        <translation key="tools.bacview-tool.hotkey-none-selected">
+            <variant>none</variant>
+        </translation>
+        <translation key="tooltips.file.set-system-directory">
+            <variant>Set the system directory for new views</variant>
+        </translation>
+        <translation key="editor.image-dimension">
+            <variant>Dimension</variant>
+        </translation>
+        <translation key="actions.image-association-tree.menu-name">
+            <variant>Tree</variant>
+        </translation>
+        <translation key="bacview.editor.object.name.label">
+            <variant>Object Name:</variant>
+        </translation>
+        <translation key="image-association.label">
+            <variant>Label</variant>
+        </translation>
+        <translation key="image-association.scale-merge-interaction.file-has-no-associations">
+            <variant>The selected file ''{0}'' has no associations in it. Please choose another file.</variant>
+        </translation>
+        <translation key="editor.desired-maximum">
+            <variant>Maximum Value:</variant>
+        </translation>
+        <translation key="view-builder-plugin-description">
+            <note>File description for plugins that only shows up in the file chooser dialog.</note>
+            <variant>ViewBuilder plugins</variant>
+        </translation>
+        <translation key="signature-not-found-invalid-view">
+            <variant>The file ''{0}'' cannot be opened. The digital signature is invalid or missing.</variant>
+        </translation>
+        <translation key="controls.line-drawing">
+            <variant>Line Drawing</variant>
+        </translation>
+        <translation key="controls.polygon-drawing">
+            <variant>Polygon Drawing</variant>
+        </translation>
+        <translation key="controls.ellipse-drawing">
+            <variant>Ellipse Drawing</variant>
+        </translation>
+        <translation key="controls.rect-drawing">
+            <variant>Rectangle Drawing</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.replacement-zone-fill-color-title">
+            <variant>Replacement Zone Fill Color:</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.option-select-header">
+            <variant>Select a channel for this graphic.</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.automated-logic-option">
+            <variant>Automated Logic:</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.carrier-option">
+            <variant>Carrier:</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.warning">
+            <variant>WARNING! This selection cannot be changed after the graphic is saved.</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.notes">
+            <variant>NOTES</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.equipment">
+            <variant>For equipment graphics:\nYou can download this graphic only into controllers for the channel you select.</variant>
+        </translation>
+        <translation key="ivu-ccn.upgrade.floor-plan">
+            <variant>For floor plans:\nSelect Automated Logic to show thermographic zones.\nSelect Carrier to show color ovals.</variant>
+        </translation>
+        <translation key="is-standby-screen">
+            <variant>Is Standby Screen?</variant>
+        </translation>
+        <translation key="horizontal-alignment">
+            <variant>Horizontal Alignment</variant>
+        </translation>
+        <translation key="vertical-alignment">
+            <variant>Vertical Alignment</variant>
+        </translation>
+        <translation key="word-wrapping">
+            <variant>Word Wrapping:</variant>
+        </translation>
+        <translation key="on-off-auto-use-state-text">
+            <note>This means the on-off-auto control uses the text from a microblock to define 'on' (active) and 'off' (inactive) versus always "on" and "off". Auto is automatically translated.</note>
+            <variant>Use State Text:</variant>
+        </translation>
+        <translation key="on-off-auto-order">
+            <note>This defines the order that on/off/auto shows up. There are 6 choices. Some are on/off/auto, off/on/auto, auto/on/off, etc. 'on' is active, 'off' is inactive, 'auto' is auto.</note>
+            <variant>Order:</variant>
+        </translation>
+        <translation key="on-off-auto-layout">
+            <variant>Layout:</variant>
+        </translation>
+        <translation key="active-inactive-auto-choice">
+            <note>A choice that species the order of the on/off/auto control is in on/off/auto order (versus something like auto/on/off or off/auto/on). The following translations are just permutations for this. 'on' is active, 'off' is inactive, 'auto' is auto</note>
+            <variant>active/inactive/auto</variant>
+        </translation>
+        <translation key="active-auto-inactive-choice">
+            <note>See active-inactive-auto-choice</note>
+            <variant>active/auto/inactive</variant>
+        </translation>
+        <translation key="inactive-active-auto-choice">
+            <note>See active-inactive-auto-choice</note>
+            <variant>inactive/active/auto</variant>
+        </translation>
+        <translation key="inactive-auto-active-choice">
+            <note>See active-inactive-auto-choice</note>
+            <variant>inactive/auto/active</variant>
+        </translation>
+        <translation key="auto-active-inactive-choice">
+            <note>See active-inactive-auto-choice</note>
+            <variant>auto/active/inactive</variant>
+        </translation>
+        <translation key="auto-inactive-active-choice">
+            <note>See active-inactive-auto-choice</note>
+            <variant>auto/inactive/active</variant>
+        </translation>
+        <translation key="permissions.defaults.title">
+            <variant>Default Permissions</variant>
+        </translation>
+    </section>
+</resource-base>

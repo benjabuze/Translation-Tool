@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="equipmentbuilder-interface" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="equipmentbuilder">
+        <translation key="equipmentbuilder-title">
+            <note/>
+            <variant>EquipmentBuilder</variant>
+        </translation>
+        <translation key="name-label">
+            <note/>
+            <variant>Name:</variant>
+        </translation>
+        <translation key="select-equipment-label">
+            <note/>
+            <variant>Please select an equipment type:</variant>
+        </translation>
+        <translation key="restriction-level-column-header">
+            <note/>
+            <variant>Application Type*</variant>
+        </translation>
+        <translation key="cannot-find-equipment-library-error">
+            <note/>
+            <variant>Unable to locate sal library.</variant>
+        </translation>
+        <translation key="invalid-equipment-library-version">
+            <note/>
+            <variant>The equipment library is the wrong version.</variant>
+        </translation>
+        <translation key="type-label">
+            <note/>
+            <variant>Type:</variant>
+        </translation>
+        <translation key="library-label">
+            <note/>
+            <variant>Library:</variant>
+        </translation>
+        <translation key="library-title">
+            <note/>
+            <variant>Library</variant>
+        </translation>
+        <translation key="check-for-library-updates">
+            <note/>
+            <variant>Check for library updates at:</variant>
+        </translation>
+        <translation key="go-to-the-engineering-tab">
+            <note/>
+            <variant>Go to the Engineering tab and look under the EquipmentBuilder topic.</variant>
+        </translation>
+        <translation key="equipmentbuilder-about-title">
+            <note/>
+            <variant>About - EquipmentBuilder</variant>
+        </translation>
+        <translation key="select-item">
+            <note/>
+            <variant>Select</variant>
+        </translation>
+        <translation key="Continue_Anyway">
+            <note/>
+            <variant>Continue Anyway</variant>
+        </translation>
+        <translation key="Retry">
+            <note/>
+            <variant>Retry</variant>
+        </translation>
+        <translation key="Loading_Title">
+            <note/>
+            <variant>Loading</variant>
+        </translation>
+        <translation key="Error_Title">
+            <note/>
+            <variant>Error</variant>
+        </translation>
+        <translation key="invalid-equipment-file">
+            <note/>
+            <variant>The file you selected is NOT a valid equipment file!</variant>
+        </translation>
+        <translation key="help-dialog-title">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation key="help-mnemonic">
+            <note/>
+            <variant>h</variant>
+        </translation>
+        <translation key="safe-name-tooltip">
+            <note>Tooltip to explain that this field automatically formats the value into a safe or 'legal' format..</note>
+            <variant>This field is automatically formatted into a 'legal' equipment file name.</variant>
+        </translation>
+        <translation key="option-help-tooltip">
+            <note>Tooltip to explain that this button gives you context sensitive help.</note>
+            <variant>Display help for this option.</variant>
+        </translation>
+        <translation key="option-delete-tooltip">
+            <note>Tooltip to explain that this button deletes the associated option.</note>
+            <variant>Delete this item from the application.</variant>
+        </translation>
+        <translation key="Error_Setting_Default_System">
+            <note/>
+            <variant>Error setting the default system for {0}. The local.properties file is read-only.\nPlease remove the read-only attribute from the file and try again.</variant>
+        </translation>
+        <translation key="Error_Setting_Default_System_Title">
+            <note/>
+            <variant>Error Setting Default System</variant>
+        </translation>
+        <translation key="Generate-Engineering-Files-Title">
+            <note/>
+            <variant>Generating File(s), Please Wait...</variant>
+        </translation>
+        <translation key="EquipmentBuilder">
+            <note/>
+            <variant>EquipmentBuilder</variant>
+        </translation>
+        <translation key="Generate-Engineering-Files-Name">
+            <note/>
+            <variant>Generating File(s), Please Wait....</variant>
+        </translation>
+        <translation key="points-tab-title">
+            <note/>
+            <variant>Points</variant>
+        </translation>
+        <translation key="add-custom-points">
+            <note/>
+            <variant>Add Custom Points</variant>
+        </translation>
+        <translation key="add-button">
+            <note/>
+            <variant>Add</variant>
+        </translation>
+        <translation key="delete-button">
+            <note/>
+            <variant>Delete</variant>
+        </translation>
+        <translation key="automatedlogic-company">
+            <note>Automated Logic company name.</note>
+            <variant>Automated Logic Corporation</variant>
+        </translation>
+        <translation key="carrier-company">
+            <note>Carrier company name.</note>
+            <variant>Carrier Corporation</variant>
+        </translation>
+        <translation key="control-program-label">
+            <note/>
+            <variant>Control Program</variant>
+        </translation>
+        <translation key="graphic-label">
+            <note/>
+            <variant>Graphic</variant>
+        </translation>
+        <translation key="bacview-label">
+            <note/>
+            <variant>BACview</variant>
+        </translation>
+        <translation key="equipment-touch-label">
+            <note/>
+            <variant>Equipment Touch</variant>
+        </translation>
+        <translation key="sequence-label">
+            <note/>
+            <variant>Sequence / Points</variant>
+        </translation>
+        <translation key="schematic-label">
+            <note/>
+            <variant>Schematic</variant>
+        </translation>
+        <translation key="driver-label">
+            <note/>
+            <variant>Driver</variant>
+        </translation>
+        <translation key="program-spec-label">
+            <note/>
+            <variant>Program Spec</variant>
+        </translation>
+        <translation key="attachment-label">
+            <note/>
+            <variant>Attachment</variant>
+        </translation>
+        <translation key="admin-password-label">
+            <note>Label to explain that the admin pasword is four numbers.</note>
+            <variant>Admin Password (4 digits): </variant>
+        </translation>
+        <translation key="equipment-errors-dialog-title">
+            <note/>
+            <variant>Equipment Errors</variant>
+        </translation>
+        <translation key="english-label">
+            <note>This refers to the English or 'Imperial' measurement system, not to the english language (i.e. ounces vs milliliters )</note>
+            <variant>English</variant>
+        </translation>
+        <translation key="metric-label">
+            <note/>
+            <variant>Metric</variant>
+        </translation>
+        <translation key="language-label">
+            <note/>
+            <variant>System Language</variant>
+        </translation>
+        <translation key="incomplete-label">
+            <note/>
+            <variant>incomplete translation</variant>
+        </translation>
+        <translation key="point-name-label">
+            <note/>
+            <variant>Point Name</variant>
+        </translation>
+        <translation key="ai-label">
+            <note>Table header. Abbreviate for 'Analog Input'</note>
+            <variant>AI</variant>
+        </translation>
+        <translation key="ao-label">
+            <note>Table header. Abbreviate for 'Analog Output'</note>
+            <variant>AO</variant>
+        </translation>
+        <translation key="bi-label">
+            <note>Table header. Abbreviate for 'Binary Input'</note>
+            <variant>BI</variant>
+        </translation>
+        <translation key="bo-label">
+            <note>Table header. Abbreviate for 'Binary Output'</note>
+            <variant>BO</variant>
+        </translation>
+        <translation key="av-label">
+            <note>Table header. Abbreviate for 'Analog Value'</note>
+            <variant>AV</variant>
+        </translation>
+        <translation key="bv-label">
+            <note>Table header. Abbreviate for 'Binary Value'</note>
+            <variant>BV</variant>
+        </translation>
+        <translation key="loop-label">
+            <note/>
+            <variant>Loop</variant>
+        </translation>
+        <translation key="sched-label">
+            <note>Table header. Abbreviate for 'Schedule'</note>
+            <variant>Sched</variant>
+        </translation>
+        <translation key="trend-label">
+            <note/>
+            <variant>Trend</variant>
+        </translation>
+        <translation key="alarm-label">
+            <note/>
+            <variant>Alarm</variant>
+        </translation>
+        <translation key="show-on-graphic-label">
+            <note/>
+            <variant>Show On Graphic</variant>
+        </translation>
+        <translation key="ai-total-label">
+            <note>Label to denote the total number of AI elements in a table.</note>
+            <variant>AI:</variant>
+        </translation>
+        <translation key="bi-total-label">
+            <note>Label to denote the total number of BI elements in a table.</note>
+            <variant>BI:</variant>
+        </translation>
+        <translation key="av-total-label">
+            <note>Label to denote the total number of AV elements in a table.</note>
+            <variant>AV:</variant>
+        </translation>
+        <translation key="alarm-total-label">
+            <note>Label to denote the total number of Alarms in a table.</note>
+            <variant>Alarm:</variant>
+        </translation>
+        <translation key="loop-total-label">
+            <note>Label to denote the total number of Loop elements in a table.</note>
+            <variant>Loop:</variant>
+        </translation>
+        <translation key="sched-total-label">
+            <note>Label to denote the total number of Schedule elements in a table.</note>
+            <variant>Sched:</variant>
+        </translation>
+        <translation key="hardware-total-label">
+            <note>Label to denote the total number of Hardware elements in a table.</note>
+            <variant>Hardware:</variant>
+        </translation>
+        <translation key="ao-total-label">
+            <note>Label to denote the total number of AO elements in a table.</note>
+            <variant>AO:</variant>
+        </translation>
+        <translation key="bo-total-label">
+            <note>Label to denote the total number of BO elements in a table.</note>
+            <variant>BO:</variant>
+        </translation>
+        <translation key="bv-total-label">
+            <note>Label to denote the total number of BV elements in a table.</note>
+            <variant>BV:</variant>
+        </translation>
+        <translation key="trend-total-label">
+            <note>Label to denote the total number of Trends in a table.</note>
+            <variant>Trend:</variant>
+        </translation>
+        <translation key="graphic-total-label">
+            <note>Label to denote the total number of Graphic elements in a table.</note>
+            <variant>Graphic:</variant>
+        </translation>
+        <translation key="software-total-label">
+            <note>Label to denote the total number of Software elements in a table.</note>
+            <variant>Software:</variant>
+        </translation>
+        <translation key="totals-label">
+            <note>Label to denote the section of the user interface that displays totals values</note>
+            <variant>Totals:</variant>
+        </translation>
+        <translation key="zn-dialog-title">
+            <note>Dialog title. ZN is the abbreviation for 'Zone'</note>
+            <variant>ZN Validation Errors</variant>
+        </translation>
+        <translation key="zn-dialog-message">
+            <note>Message displayed in a dialog. ZN is the abbreviation for 'Zone'</note>
+            <variant>The application has options selected that violate the ZN zone rules. It can still be tagged for use in a ZN module but it will lose this tagging if edited after download. Do you want to keep the ZN tagging?</variant>
+        </translation>
+        <translation key="dont-tag-button">
+            <note>Button text. The button removes the zone 'tagging' (i.e. the item is no longer marked or flagged as being 'ZN' or zone.)</note>
+            <variant>Don't tag</variant>
+        </translation>
+        <translation key="warning-title">
+            <note>Message dialog title, capitalized for emphasis</note>
+            <variant>WARNING</variant>
+        </translation>
+        <translation key="couldnt-find-original-library-warning">
+            <note/>
+            <variant>The library file used to create this equipment could not be found.  The next closest match was loaded instead.  Some descrepancies may occur.</variant>
+        </translation>
+        <translation key="equipment-errors-message">
+            <note/>
+            <variant>The created equipment has errors and will not compile. These errors are usually caused by incorrectly entered data.  If you are unable to resolve these problems please contact technical support.</variant>
+        </translation>
+        <translation key="unable-to-load-configuration-text-error">
+            <note>General error message given when we fail to load the information for an option from the equipment.</note>
+            <variant>We are unable to load the information for this element.</variant>
+        </translation>
+        <translation key="automatically-selected-because">
+            <note>This is a sentence fragment that should read something like 'Automatically selected because 'option1' in category 'category2' is selected.</note>
+            <variant>Automatically selected because</variant>
+        </translation>
+        <translation key="in-category">
+            <note>This is a sentence fragment that should read something like 'Automatically selected because 'option1' in category 'category2' is selected.</note>
+            <variant>in category</variant>
+        </translation>
+        <translation key="is-selected">
+            <note>This is a sentence fragment that should read something like 'Automatically selected because 'option1' in category 'category2' is selected.</note>
+            <variant>is selected.</variant>
+        </translation>
+        <translation key="open-equipment-button">
+            <note/>
+            <variant>Open Equipment</variant>
+        </translation>
+        <translation key="opening-equipment-message">
+            <note/>
+            <variant>Opening Equipment, please wait...</variant>
+        </translation>
+        <translation key="create-equipment-button">
+            <note/>
+            <variant>Create Equipment</variant>
+        </translation>
+        <translation key="summary-panel-name">
+            <note/>
+            <variant>Summary</variant>
+        </translation>
+        <translation key="elements-label">
+            <note/>
+            <variant>Elements</variant>
+        </translation>
+        <translation key="type-label">
+            <note/>
+            <variant>Type</variant>
+        </translation>
+        <translation key="quantity-label">
+            <note/>
+            <variant>Quantity</variant>
+        </translation>
+        <translation key="empty-validation-text">
+            <note/>
+            <variant>This value cannot be left empty.</variant>
+        </translation>
+        <translation key="grey-text-label">
+            <note/>
+            <variant>Gray text indicates options that can conflict with currently selected values.</variant>
+        </translation>
+        <translation key="blue-text-label">
+            <note/>
+            <variant>Blue text indicates options which do not meet ZN rules. Further editing will cause ZN tagging to be lost.</variant>
+        </translation>
+        <translation key="number-validation-text">
+            <note/>
+            <variant>This value can contain only digits and a single decimal point to be a valid number.</variant>
+        </translation>
+        <translation key="append-referencebase-validation-text">
+            <note/>
+            <variant>This value can contain only letters, numbers, or the characters _ - #.</variant>
+        </translation>
+        <translation key="referencebase-validation-text">
+            <note/>
+            <variant>This value can contain only letters, numbers, or the characters _ - #. And it cannot start with a number.</variant>
+        </translation>
+        <translation key="reference-length-validation-text">
+            <note/>
+            <variant>This value must be between 1 and {0} characters long.</variant>
+        </translation>
+        <translation key="referencebase-duplicate-text">
+            <note/>
+            <variant>Reference Base values cannot contain duplicates.</variant>
+        </translation>
+        <translation key="equipment-name-length-validation-text">
+            <note/>
+            <variant>Equipment names longer than {0} characters will be truncated when used in file names.</variant>
+        </translation>
+        <translation key="equipment-name-blank-validation-text">
+            <note/>
+            <variant>Equipment names cannot be blank.</variant>
+        </translation>
+        <translation key="equipment-name-label">
+            <note/>
+            <variant>Equipment Name</variant>
+        </translation>
+        <translation key="equipment-file-label">
+            <note/>
+            <variant>Equipment File</variant>
+        </translation>
+        <translation key="save-files-label">
+            <note/>
+            <variant>Save Files</variant>
+        </translation>
+        <translation key="choose-a-folder">
+            <note/>
+            <variant>Choose a folder...</variant>
+        </translation>
+        <translation key="saving-files-label">
+            <note/>
+            <variant>Saving File(s), Please Wait....</variant>
+        </translation>
+        <translation key="files-saved-label">
+            <note/>
+            <variant>Save Complete.</variant>
+        </translation>
+        <translation key="save-message-label">
+            <note/>
+            <variant>File(s) saved to </variant>
+        </translation>
+        <translation key="click-link-message-label">
+            <note/>
+            <variant>Click a link below to open the file.</variant>
+        </translation>
+        <translation key="save-canceled-label">
+            <note/>
+            <variant>Saving has been canceled.</variant>
+        </translation>
+        <translation key="ccn-table-type">
+            <note/>
+            <variant>Table Type</variant>
+        </translation>
+        <translation key="ccn-table-name">
+            <note/>
+            <variant>Table Name</variant>
+        </translation>
+        <translation key="ccn-point-name">
+            <note/>
+            <variant>Point Name</variant>
+        </translation>
+        <translation key="ccn-table-data">
+            <note/>
+            <variant>Data</variant>
+        </translation>
+        <translation key="ccn-properties-tab-title">
+            <note/>
+            <variant>CCN Properties</variant>
+        </translation>
+        <translation key="configuration-text-error">
+            <note/>
+            <variant>Unable to load configuration text</variant>
+        </translation>
+        <translation key="unable-to-launch-equipmentbuilder-error">
+            <note/>
+            <variant>Unable to launch EquipmentBuilder.</variant>
+        </translation>
+        <translation key="configuration-text-title">
+            <note/>
+            <variant>Configuration Text</variant>
+        </translation>
+        <translation key="engineering-options-title">
+            <note/>
+            <variant>Engineering Options</variant>
+        </translation>
+        <translation key="evaluation-warning">
+            <note>Message warning the customer to take a look at the generated control program to ensure it is valid before using it.</note>
+            <variant>The files generated by this software should be carefully evaluated before use.</variant>
+        </translation>
+        <translation key="select-files-to-generate-message">
+            <note/>
+            <variant>Select the file(s) you want to generate.</variant>
+        </translation>
+        <translation key="documentation-label">
+            <note/>
+            <variant>Documentation:</variant>
+        </translation>
+        <translation key="select-save-location-label">
+            <note/>
+            <variant>Select where to save the files.</variant>
+        </translation>
+        <translation key="save-to-folder-label">
+            <note/>
+            <variant>To a folder</variant>
+        </translation>
+        <translation key="simple-save-to-folder-label">
+            <note/>
+            <variant>Save files to</variant>
+        </translation>
+        <translation key="save-to-system-label">
+            <note/>
+            <variant>To appropriate folders in system</variant>
+        </translation>
+        <translation key="documentation-folder-label">
+            <note/>
+            <variant>Documentation folder:</variant>
+        </translation>
+        <translation key="restart-button-label">
+            <note>Button label for button to start over creating an equipment from the beginning of the process</note>
+            <variant>Start Over</variant>
+        </translation>
+        <translation key="restart-button-tooltip">
+            <note>Tool tip to explain the function of the restart button</note>
+            <variant>Go back to the beginning and create/open an application.</variant>
+        </translation>
+        <translation key="overwrite-label">
+            <note/>
+            <variant>Overwrite</variant>
+        </translation>
+        <translation key="overwrite-files-message">
+            <note/>
+            <variant>File(s) exist with the given name. Overwrite?</variant>
+        </translation>
+        <translation key="key-heading">
+            <note>Provides definitions for the abbreviations found in the 'restriction-level-column-header' column.</note>
+            <variant>* Key</variant>
+        </translation>
+        <translation key="restricted-definition">
+            <note/>
+            <variant>R = Restricted.  Do not mix with other Restricted or Special type applications in the same controller.</variant>
+        </translation>
+        <translation key="conditionally-restricted-definition">
+            <note/>
+            <variant>CR = Conditionally Restricted.  Some options will make this a Restricted application.</variant>
+        </translation>
+        <translation key="special-definition">
+            <note/>
+            <variant>S-XX = Special Type.  Do not mix with Restricted applications or with another Special application with the same "XX" Type Code.</variant>
+        </translation>
+    </section>
+    <section id="factory">
+        <translation key="factory-downloader-title">
+            <note/>
+            <variant>Factory Download Tool</variant>
+        </translation>
+        <translation key="connection-menu-item">
+            <note/>
+            <variant>Connection</variant>
+        </translation>
+        <translation key="libraries-menu-item">
+            <note/>
+            <variant>Libraries</variant>
+        </translation>
+        <translation key="archive-menu-item">
+            <note/>
+            <variant>File Archive</variant>
+        </translation>
+        <translation key="network-id-menu-item">
+            <note/>
+            <variant>Network ID</variant>
+        </translation>
+        <translation key="Marker">
+            <note/>
+            <variant>Marker</variant>
+        </translation>
+        <translation key="Full_Source">
+            <note/>
+            <variant>Full Source</variant>
+        </translation>
+        <translation key="download-option-menu-item">
+            <note/>
+            <variant>Download Option</variant>
+        </translation>
+        <translation key="download_full_source">
+            <note/>
+            <variant>Download Full Source</variant>
+        </translation>
+        <translation key="checking_rnet_enabled">
+            <note/>
+            <variant>Checking local connection status</variant>
+        </translation>
+        <translation key="interface-mode-menu-item">
+            <note/>
+            <variant>Interface Mode</variant>
+        </translation>
+        <translation key="configure-menu">
+            <note/>
+            <variant>Configure</variant>
+        </translation>
+        <translation key="configure-menu-mnemonic">
+            <note/>
+            <variant>C</variant>
+        </translation>
+        <translation key="equipment-wizard-menu-item">
+            <note>Menu item that starts the EquipmentBuilder (one word cannot be translated).</note>
+            <variant>EquipmentBuilder...</variant>
+        </translation>
+        <translation key="equipment-wizard-mnemonic">
+            <note/>
+            <variant>e</variant>
+        </translation>
+        <translation key="exit-menu-item">
+            <note/>
+            <variant>Exit</variant>
+        </translation>
+        <translation key="file-menu-mnemonic">
+            <note/>
+            <variant>F</variant>
+        </translation>
+        <translation key="exit-menu-item-mnemonic">
+            <note/>
+            <variant>x</variant>
+        </translation>
+        <translation key="libraries-menu-item">
+            <note/>
+            <variant>Library</variant>
+        </translation>
+        <translation key="libraries-menu-item-mnemonic">
+            <note/>
+            <variant>L</variant>
+        </translation>
+        <translation key="about-menu-item">
+            <note/>
+            <variant>About</variant>
+        </translation>
+        <translation key="about-menu-item-mnemonic">
+            <note/>
+            <variant>A</variant>
+        </translation>
+        <translation key="model-number-label">
+            <note/>
+            <variant>Model Number:</variant>
+        </translation>
+        <translation key="control-program-field-label">
+            <note/>
+            <variant>Control Program:</variant>
+        </translation>
+        <translation key="graphic-field-label">
+            <note/>
+            <variant>Graphic:</variant>
+        </translation>
+        <translation key="screen-file-field-label">
+            <note/>
+            <variant>Screen File:</variant>
+        </translation>
+        <translation key="driver-field-label">
+            <note/>
+            <variant>Driver:</variant>
+        </translation>
+        <translation key="xml-file-label">
+            <note/>
+            <variant>XML File:</variant>
+        </translation>
+        <translation key="files">
+            <note/>
+            <variant>files</variant>
+        </translation>
+        <translation key="model-serial-mode-label">
+            <note/>
+            <variant>Enter Model/Serial Numbers</variant>
+        </translation>
+        <translation key="select-files-mode-label">
+            <note/>
+            <variant>Select Files</variant>
+        </translation>
+        <translation key="import-xml-mode-label">
+            <note/>
+            <variant>Import XML</variant>
+        </translation>
+        <translation key="execute-script-mode-label">
+            <note/>
+            <variant>Execute Script</variant>
+        </translation>
+        <translation key="connection-type-label">
+            <note/>
+            <variant>Connection Type:</variant>
+        </translation>
+        <translation key="settings-menu-item">
+            <note/>
+            <variant>Settings</variant>
+        </translation>
+        <translation key="settings-menu-item-mnemonic">
+            <note/>
+            <variant>S</variant>
+        </translation>
+        <translation key="rnet-settings-group-label">
+            <note/>
+            <variant>Local Access</variant>
+        </translation>
+        <translation key="ip-settings-group-label">
+            <note/>
+            <variant>BACnet/IP Settings</variant>
+        </translation>
+        <translation key="com-port-label">
+            <note/>
+            <variant>Comm Port:</variant>
+        </translation>
+        <translation key="baud-rate-label">
+            <note/>
+            <variant>Baud Rate:</variant>
+        </translation>
+        <translation key="device-mac-label">
+            <note/>
+            <variant>Device Mac:</variant>
+        </translation>
+        <translation key="router-ip-address-label">
+            <note/>
+            <variant>Router IP Address:</variant>
+        </translation>
+        <translation key="router-subnet-mask-label">
+            <note/>
+            <variant>Router Subnet Mask:</variant>
+        </translation>
+        <translation key="router-default-gateway-label">
+            <note/>
+            <variant>Router Default Gateway:</variant>
+        </translation>
+        <translation key="router-network-number-label">
+            <note/>
+            <variant>MS/TP Network Number:</variant>
+        </translation>
+        <translation key="module-type-label">
+            <note/>
+            <variant>Module Type:</variant>
+        </translation>
+        <translation key="root-path-label">
+            <note/>
+            <variant>Library Location:</variant>
+        </translation>
+        <translation key="archive-path-label">
+            <note/>
+            <variant>File Archive Location:</variant>
+        </translation>
+        <translation key="enable-archive-label">
+            <note/>
+            <variant>Automatically save generated files to archive?</variant>
+        </translation>
+        <translation key="prompt-for-device-id-label">
+            <note/>
+            <variant>Prompt for Device ID during each download?</variant>
+        </translation>
+        <translation key="current-device-id-scheme">
+            <note/>
+            <variant>Device ID scheme currently in use: </variant>
+        </translation>
+        <translation key="arcnet-network-number">
+            <note/>
+            <variant>Arcnet Network #  </variant>
+        </translation>
+        <translation key="bacnetip-network-number">
+            <note/>
+            <variant>BACnet/IP Network #  </variant>
+        </translation>
+        <translation key="mstp-network-number">
+            <note/>
+            <variant>MS/TP Network #  </variant>
+        </translation>
+        <translation key="home-network-number">
+            <note/>
+            <variant>Home Network #  </variant>
+        </translation>
+        <translation key="database-teardown-failed">
+            <note/>
+            <variant>Unable to delete system database</variant>
+        </translation>
+        <translation key="database-teardown-successful">
+            <note/>
+            <variant>System database deleted successfully</variant>
+        </translation>
+        <translation key="unable-to-create-system-directory">
+            <note/>
+            <variant>Unable to create system database</variant>
+        </translation>
+        <translation key="system-directory-created-successfully">
+            <note/>
+            <variant>System database created successfully</variant>
+        </translation>
+        <translation key="libraries-loaded-successfully">
+            <note/>
+            <variant>Libraries loaded successfully</variant>
+        </translation>
+        <translation key="libraries-already-loaded">
+            <note/>
+            <variant>Libraries are already loaded</variant>
+        </translation>
+        <translation key="no-libraries-found-in-directory">
+            <note/>
+            <variant>No valid libraries found in directory</variant>
+        </translation>
+        <translation key="no-available-comm-ports">
+            <note/>
+            <variant>No available comm ports found</variant>
+        </translation>
+        <translation key="some-functions-disabled">
+            <note/>
+            <variant>Some program functions have been disabled.</variant>
+        </translation>
+        <translation key="equipment-required">
+            <note/>
+            <variant>Equipment is required to download.  Please specify an Equipment file.</variant>
+        </translation>
+        <translation key="driver-required">
+            <note/>
+            <variant>Driver is required to download.  Please specify a driver.</variant>
+        </translation>
+        <translation key="choose-valid-xml">
+            <note/>
+            <variant>Please choose a valid xml file before attempting to download.</variant>
+        </translation>
+        <translation key="save-path-label">
+            <note/>
+            <variant>Save Location </variant>
+        </translation>
+        <translation key="driver-path-label">
+            <note/>
+            <variant>Driver:</variant>
+        </translation>
+        <translation key="serial-number-label">
+            <note/>
+            <variant>Serial Number:</variant>
+        </translation>
+        <translation key="arcnet-network-number-label">
+            <note/>
+            <variant>Arcnet Network #:</variant>
+        </translation>
+        <translation key="bacnet-ip-network-number-label">
+            <note/>
+            <variant>BACnet/IP Network #:</variant>
+        </translation>
+        <translation key="mstp-network-number-label">
+            <note/>
+            <variant>MS/TP Network #:</variant>
+        </translation>
+        <translation key="home-network-number-label">
+            <note/>
+            <variant>Home Network #:</variant>
+        </translation>
+        <translation key="product-label">
+            <note/>
+            <variant>Product:</variant>
+        </translation>
+        <translation key="download-button">
+            <note/>
+            <variant>Download</variant>
+        </translation>
+        <translation key="reset-button">
+            <note/>
+            <variant>Reset</variant>
+        </translation>
+        <translation key="test-button">
+            <note/>
+            <variant>Test</variant>
+        </translation>
+        <translation key="getting-modstat">
+            <note/>
+            <variant>Retrieving Module Status</variant>
+        </translation>
+        <translation key="downloading-please-wait">
+            <note/>
+            <variant>Downloading, please wait...</variant>
+        </translation>
+        <translation key="Success">
+            <note/>
+            <variant>Success</variant>
+        </translation>
+        <translation key="all-tests-passed">
+            <note/>
+            <variant>All tests passed.</variant>
+        </translation>
+        <translation key="file-filter-file-description">
+            <variant>Equipment Files (*.equipment)</variant>
+        </translation>
+        <translation key="unable-to-generate-files">
+            <variant>Unable to generate files</variant>
+        </translation>
+        <translation key="files-generated-successfully">
+            <variant>Files generated successfully</variant>
+        </translation>
+        <translation key="equipment-created-successfully">
+            <variant>Equipment object generated successfully</variant>
+        </translation>
+        <translation key="parsing-model-serial-number">
+            <variant>Parsing model and serial numbers</variant>
+        </translation>
+        <translation key="parsing-xml">
+            <variant>Parsing xml</variant>
+        </translation>
+        <translation key="download-failed">
+            <variant>Download failed</variant>
+        </translation>
+        <translation key="download-successful">
+            <note/>
+            <variant>Download successful.</variant>
+        </translation>
+        <translation key="local-access-disabled">
+            <note/>
+            <variant>Local Access: Disabled.</variant>
+        </translation>
+        <translation key="invalid-model-or-serial-number">
+            <variant>Invalid model or serial number</variant>
+        </translation>
+        <translation key="invalid-xml-formatting-or-content">
+            <variant>The xml is not in the correct format or contains invalid content</variant>
+        </translation>
+        <translation key="no-match-found-in-libraries">
+            <variant>No match found in libraries</variant>
+        </translation>
+        <translation key="unable_to_select_ice">
+            <note/>
+            <variant>Unable to select ICE with reference name {0}.  ICE does not exist."</variant>
+        </translation>
+        <translation key="unable_to_select_engineering_option">
+            <note/>
+            <variant>Unable to select Engineering Option with reference name {0} for ICE with reference name {1}</variant>
+        </translation>
+        <translation key="options_are_in_conflict">
+            <note/>
+            <variant>Conflicts exist between options {0} and {1}</variant>
+        </translation>
+        <translation key="saving-file-to-archive">
+            <note/>
+            <variant>Saving {0} to archive directory</variant>
+        </translation>
+        <translation key="error-saving-file-to-archive">
+            <note/>
+            <variant>ERROR: Unable to save {0} to archive directory</variant>
+        </translation>
+        <translation key="error-unable-to-generate-file">
+            <note/>
+            <variant>ERROR: Unable to generate {0}</variant>
+        </translation>
+        <translation key="creating-system">
+            <note/>
+            <variant>Creating system directory</variant>
+        </translation>
+        <translation key="configuring-database">
+            <note/>
+            <variant>Configuring database</variant>
+        </translation>
+        <translation key="initiating-comm">
+            <note/>
+            <variant>Initiating communication with controller</variant>
+        </translation>
+        <translation key="use-override-auto-assign">
+            <note/>
+            <variant>Use auto-assign with override deviceID base  </variant>
+        </translation>
+        <translation key="use-factory-auto-assign">
+            <note/>
+            <variant>Use auto-assign with database deviceID base  </variant>
+        </translation>
+        <translation key="use-module-auto-assign">
+            <note/>
+            <variant>Use auto-assign with current deviceID base  </variant>
+        </translation>
+        <translation key="use-assigned">
+            <note/>
+            <variant>Use assigned device ID </variant>
+        </translation>
+        <translation key="use-specific">
+            <note/>
+            <variant>Set device ID to </variant>
+        </translation>
+        <translation key="choose-valid-file">
+            <note/>
+            <variant>"Please choose a valid {0} file.</variant>
+        </translation>
+        <translation key="invalid-file">
+            <note/>
+            <variant>Invalid File</variant>
+        </translation>
+        <translation key="set-device-id">
+            <note/>
+            <variant>Set Device ID</variant>
+        </translation>
+        <translation key="module-not-responding">
+            <note/>
+            <variant>Module not responding.  Check comm port settings and physical connection to module.</variant>
+        </translation>
+    </section>
+    <section id="logging">
+        <translation key="writing-download-data-to-log">
+            <note/>
+            <variant>Writing download data to log</variant>
+        </translation>
+        <translation key="error-writing-download-data-to-log">
+            <note/>
+            <variant>Error: unable to write download data to log</variant>
+        </translation>
+        <translation key="download-log">
+            <note/>
+            <variant>Download Log</variant>
+        </translation>
+        <translation key="download-attempt-number">
+            <note/>
+            <variant>Download Attempt #</variant>
+        </translation>
+        <translation key="not-applicable-label">
+            <note>Common abbreviation for "Not Applicable".</note>
+            <variant>N/A</variant>
+        </translation>
+        <translation key="archived-to-directory-label">
+            <note/>
+            <variant>Archived To Directory:</variant>
+        </translation>
+        <translation key="result-label">
+            <note/>
+            <variant>Result:</variant>
+        </translation>
+        <translation key="locale-label">
+            <note/>
+            <variant>Locale:</variant>
+        </translation>
+        <translation key="error-message-label">
+            <note/>
+            <variant>Error Message:</variant>
+        </translation>
+        <translation key="date-time-label">
+            <note/>
+            <variant>Date/Time:</variant>
+        </translation>
+        <translation key="device-id-scheme-label">
+            <note/>
+            <variant>Device ID Scheme:</variant>
+        </translation>
+    </section>
+    <section id="field">
+        <translation key="Custom">
+            <note/>
+            <variant>Custom</variant>
+        </translation>
+    </section>
+    <section id="field-assistant">
+        <translation key="field-assistant-title">
+            <note/>
+            <variant>Field Assistant Launcher</variant>
+        </translation>
+        <translation key="field-assistant-exit-title">
+            <note/>
+            <variant>Exit Field Assistant?</variant>
+        </translation>
+        <translation key="server_is_running_exit_anyway">
+            <note/>
+            <variant>The server is still running. Exit anyway?</variant>
+        </translation>
+        <translation key="select-comm-port">
+            <note/>
+            <variant>Comm port</variant>
+        </translation>
+        <translation key="Opening_system">
+            <note/>
+            <variant>Opening system, please wait...</variant>
+        </translation>
+        <translation key="Overwrite_System">
+            <note/>
+            <variant>The system already exists, overwrite it?</variant>
+        </translation>
+        <translation key="Creating_system">
+            <note/>
+            <variant>Creating System, please wait...</variant>
+        </translation>
+        <translation key="Creating">
+            <note/>
+            <variant>Creating</variant>
+        </translation>
+        <translation key="Deleting_system">
+            <note/>
+            <variant>Deleting system, please wait...</variant>
+        </translation>
+        <translation key="All_Source_Files">
+            <variant>All Source Files</variant>
+        </translation>
+        <translation key="Copying_source_files">
+            <note/>
+            <variant>Copying source files, please wait...</variant>
+        </translation>
+        <translation key="File_differences_warn_user">
+            <note>This is used to let the user know that there were differences in a specific file within a  zip file they are importing and a file on the disk. </note>
+            <variant>The following file(s) have been changed and must be imported manually:</variant>
+        </translation>
+        <translation key="Enter_system_name">
+            <note/>
+            <variant>Enter a system name</variant>
+        </translation>
+        <translation key="new-system-hover">
+            <note/>
+            <variant>Create a new system</variant>
+        </translation>
+        <translation key="delete-system-hover">
+            <note/>
+            <variant>Delete this system</variant>
+        </translation>
+        <translation key="create-button">
+            <note/>
+            <variant>Create</variant>
+        </translation>
+        <translation key="import-button">
+            <note/>
+            <variant>Import</variant>
+        </translation>
+        <translation key="import-button-hover">
+            <note/>
+            <variant>Import Source Files into system</variant>
+        </translation>
+        <translation key="export-button">
+            <note/>
+            <variant>Export</variant>
+        </translation>
+        <translation key="export-button-hover">
+            <note/>
+            <variant>Export Source Files from system</variant>
+        </translation>
+        <translation key="file-exists">
+            <note/>
+            <variant>File Exists</variant>
+        </translation>
+        <translation key="zip-file-exists-overwrite">
+            <note/>
+            <variant>This file already exists, overwrite?</variant>
+        </translation>
+        <translation key="close-button">
+            <note/>
+            <variant>Close</variant>
+        </translation>
+        <translation key="Import_Files">
+            <note/>
+            <variant>Import Files</variant>
+        </translation>
+        <translation key="Export_Files">
+            <note/>
+            <variant>Export Files</variant>
+        </translation>
+        <translation key="Zip_Archive">
+            <note/>
+            <variant>Zip Archive</variant>
+        </translation>
+        <translation key="start-button">
+            <note/>
+            <variant>Start</variant>
+        </translation>
+        <translation key="stop-button">
+            <note/>
+            <variant>Stop</variant>
+        </translation>
+        <translation key="start-hover">
+            <note/>
+            <variant>Start system and launch browser</variant>
+        </translation>
+        <translation key="stop-hover">
+            <note/>
+            <variant>Stop system and close browser</variant>
+        </translation>
+        <translation key="get-ie-path-dialog-title">
+            <note/>
+            <variant>Internet Explorer Could Not Be Found</variant>
+        </translation>
+        <translation key="ask-for-ie-location">
+            <note/>
+            <variant>Please enter the location of Internet Explorer or click 'Browse' to choose.</variant>
+        </translation>
+        <translation key="ip-radio-button">
+            <note/>
+            <variant>BACnet/IP</variant>
+        </translation>
+        <translation key="network-number-label">
+            <note/>
+            <variant>Network #</variant>
+        </translation>
+        <translation key="rnet-radio-button">
+            <note/>
+            <variant>Local Access</variant>
+        </translation>
+        <translation key="communications">
+            <note/>
+            <variant>Communications</variant>
+        </translation>
+        <translation key="time-zone">
+            <note/>
+            <variant>System Time Zone</variant>
+        </translation>
+        <translation key="system-name">
+            <note/>
+            <variant>System Name</variant>
+        </translation>
+        <translation key="source-files">
+            <note/>
+            <variant>Source Files</variant>
+        </translation>
+        <translation key="Current_System">
+            <note/>
+            <variant>Current System</variant>
+        </translation>
+        <translation key="System_Status">
+            <note/>
+            <variant>System Status</variant>
+        </translation>
+        <translation key="SystemState_NotStarted">
+            <note/>
+            <variant>Not Started</variant>
+        </translation>
+        <translation key="SystemState_Starting">
+            <note/>
+            <variant>Starting</variant>
+        </translation>
+        <translation key="SystemState_Started">
+            <note/>
+            <variant>Started</variant>
+        </translation>
+        <translation key="SystemState_Stopping">
+            <note/>
+            <variant>Stopping</variant>
+        </translation>
+        <translation key="SystemState_NoSystem">
+            <note/>
+            <variant>Please create a system</variant>
+        </translation>
+        <translation key="Stop_System_to_perform_action">
+            <note/>
+            <variant>Stop the system before performing this action.</variant>
+        </translation>
+        <translation key="Create_System_before_starting">
+            <note/>
+            <variant>Create or select a system before trying to start it.</variant>
+        </translation>
+        <translation key="License_expires_on">
+            <note/>
+            <variant>License expires on</variant>
+        </translation>
+        <translation key="Your_license_will_expire_in_0_days_contact_rep">
+            <note/>
+            <variant>Your license will expire in {0} days. Please contact your {1} Representative for an updated version.</variant>
+        </translation>
+        <translation key="connect-usb-link">
+            <note/>
+            <variant>If your port is not listed, relaunch this application with USB-L connected.</variant>
+        </translation>
+        <translation key="Help_Topics">
+            <note/>
+            <variant>Help Topics</variant>
+        </translation>
+        <translation key="Starting_Server">
+            <note/>
+            <variant>Starting Server</variant>
+        </translation>
+        <translation key="Stopping_Server">
+            <note/>
+            <variant>Stopping Server</variant>
+        </translation>
+        <translation key="Opening_Database">
+            <note/>
+            <variant>Opening database</variant>
+        </translation>
+        <translation key="Opening_Database_Failed">
+            <note/>
+            <variant>Failed to open database</variant>
+        </translation>
+        <translation key="Starting_Web_Server">
+            <note/>
+            <variant>Starting server</variant>
+        </translation>
+        <translation key="Starting_Web_Server_Failed">
+            <note/>
+            <variant>Failed to start server</variant>
+        </translation>
+        <translation key="Starting_Communications">
+            <note/>
+            <variant>Starting communications</variant>
+        </translation>
+        <translation key="Starting_Communications_Failed">
+            <note/>
+            <variant>Failed to start communications</variant>
+        </translation>
+        <translation key="Permission_Keys">
+            <note/>
+            <variant>Permission Keys</variant>
+        </translation>
+        <translation key="Permissions_Header_Expiration">
+            <note/>
+            <variant>Expires</variant>
+        </translation>
+        <translation key="Permissions_Header_Name">
+            <note/>
+            <variant>Key Name</variant>
+        </translation>
+        <translation key="Permissions_Header_Author">
+            <note/>
+            <variant>Author</variant>
+        </translation>
+        <translation key="Permissions_Header_Notes">
+            <note/>
+            <variant>Notes</variant>
+        </translation>
+        <translation key="Permission_key_not_for_this_license">
+            <note/>
+            <variant>This permission key does not apply to the current license</variant>
+        </translation>
+        <translation key="Permission_key_expired">
+            <note/>
+            <variant>Expired</variant>
+        </translation>
+        <translation key="Permission_key_never_expires">
+            <note/>
+            <variant>Never</variant>
+        </translation>
+        <translation key="license-owner">
+            <note/>
+            <variant>Name:</variant>
+        </translation>
+        <translation key="license-permissionid">
+            <note/>
+            <variant>Permissions Id:</variant>
+        </translation>
+        <translation key="license-vendorkey">
+            <note/>
+            <variant>Vendor Key:</variant>
+        </translation>
+        <translation key="copy-to-clipboard">
+            <note/>
+            <variant>Copy to Clipboard</variant>
+        </translation>
+        <translation key="copy-to-clipboard-hover">
+            <note/>
+            <variant>Copies the license information to the clipboard. This information is needed to create a permissions key for this license.</variant>
+        </translation>
+    </section>
+</resource-base>

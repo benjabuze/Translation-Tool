@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="permissionskeybuilder" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="menu">
+        <!-- Titles -->
+        <translation key="permissionskeybuilider.title">
+            <variant>PermissionsKeyBuilder</variant>
+        </translation>
+        <translation key="permissionskeybuilider.permissions.tab.title">
+            <variant>Permissions</variant>
+        </translation>
+        <translation key="permissionskeybuilider.filetypes.tab.title">
+            <variant>File Types</variant>
+        </translation>
+        <translation key="permissionskeybuilider.notes.tab.title">
+            <variant>Notes</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.file.title">
+            <variant>File</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.window.title">
+            <variant>Window</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.configure.title">
+            <variant>Configure</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.help.title">
+            <variant>Help</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.exit.title">
+            <variant>Exit</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.about.title">
+            <variant>About PermissionsKeyBuilder</variant>
+        </translation>
+        <translation key="permissionskeybuilider.htmlviewer.title">
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.new.title">
+            <variant>New</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.open.title">
+            <variant>Open</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.save.title">
+            <variant>Save</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.saveas.title">
+            <variant>Save As</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.close.title">
+            <variant>Close</variant>
+        </translation>
+        <translation key="permissionskeybuilider.allow.title">
+            <variant>Allow</variant>
+        </translation>
+        <translation key="permissionskeybuilider.key.filefilter.title">
+            <variant>Permissions Key Files</variant>
+        </translation>
+        <translation key="permissionskeybuilider.allow.type-is.title">
+            <variant>Type Is</variant>
+        </translation>
+        <translation key="permissionskeybuilider.owners.title">
+            <variant>Owner(s)</variant>
+        </translation>
+        <translation key="permissionskeybuilider.permissions-ids.title">
+            <variant>Permissions Id(s)</variant>
+        </translation>
+        <translation key="permissionskeybuilider.vendor-ids.title">
+            <variant>Vendor Key(s)</variant>
+        </translation>
+        <translation key="permissionskeybuilider.permissions-id.title">
+            <variant>Permissions Id</variant>
+        </translation>
+        <translation key="permissionskeybuilider.vendor-id.title">
+            <variant>Vendor Key</variant>
+        </translation>
+        <translation key="permissionskeybuilider.expiration.title">
+            <variant>Expiration</variant>
+        </translation>
+        <translation key="permissionskeybuilider.expiration.expires.title">
+            <variant>Expires</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.main.borderTitle">
+            <variant>Key applies to...</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.all.buttonLabel">
+            <variant>All Source Files</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.type.buttonLabel">
+            <variant>Source Files of Type...</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.specific.buttonLabel">
+            <variant>Specific Source Files</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.equipment.checkboxLabel">
+            <variant>Control Program</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.view.checkboxLabel">
+            <variant>Graphic</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.bacview.checkboxLabel">
+            <variant>BACView</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.touchscreen.checkboxLabel">
+            <variant>Equipment Touch</variant>
+        </translation>
+        <translation key="permissionskeybuilider.files.filter.description">
+            <variant>Source Files</variant>
+        </translation>
+        <translation key="permissionskeybuilider.confirm-save.title">
+            <variant>Confirm Save</variant>
+        </translation>
+        <translation key="permissionskeybuilider.confirm-save.save-changes.message">
+            <variant>Do you want to save changes to modified files?</variant>
+        </translation>
+        <translation key="permissionskeybuilider.confirm-save.overwrite.title">
+            <variant>Overwrite File?</variant>
+        </translation>
+        <translation key="permissionskeybuilider.confirm-save.overwrite.message">
+            <variant>The file {0} already exists! Overwrite?</variant>
+        </translation>
+        <translation key="permissionskeybuilider.file-open.close.message">
+            <variant>The file {0} is already open! You must close it before overwriting the file.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.preferences.title">
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="permissionskeybuilder.ok.title">
+            <variant>Ok</variant>
+        </translation>
+        <translation key="permissionskeybuilder.cancel.title">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="permissionskeybuilder.htmlviewer.title">
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="permissionskeybuilder.help.action.title">
+            <variant>Help</variant>
+        </translation>
+        <translation key="permissionskeybuilder.preferences.action.title">
+            <variant>Preferences...</variant>
+        </translation>
+        <translation key="permissionskeybuilder.error.notOwner">
+            <variant>You are not the owner of this file.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.error.noId">
+            <variant>The program that created this file was a previous version.  Open and save the file with the latest version.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.start.error.message">
+            <variant>Could not launch PermissionsKeyBuilder! Product installation may be corrupt! Try reinstalling the application.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.validation.error.PermissionsIdNotBlank">
+            <variant>Please specify a Permissions Id or Vendor Key.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.validation.error.ExpirationDateIsNotPast">
+            <variant>Expiration date is already past.  Please select a new expiration date.</variant>
+        </translation>
+        <translation key="permissionskeybuilder.validation.error.AtLeastOnePermissionIsSelected">
+            <variant>Please select at least one permission type to unlock.</variant>
+        </translation>
+        <!-- Mnemonics -->
+        <translation key="permissionskeybuilider.menu.file.mnemonic">
+            <variant>F</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.help.mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.exit.mnemonic">
+            <variant>E</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.about.mnemonic">
+            <variant>A</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.window.mnemonic">
+            <variant>W</variant>
+        </translation>
+        <translation key="permissionskeybuilider.menu.configure.mnemonic">
+            <variant>C</variant>
+        </translation>
+    </section>
+</resource-base>

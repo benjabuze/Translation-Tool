@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="testnbalance" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="menu">
+        <!-- Titles -->
+        <translation key="testnbalance.no-session.title">
+            <variant>No Session...</variant>
+        </translation>
+        <translation key="testnbalance.nothing-selected.title">
+            <variant>Nothing Selected...</variant>
+        </translation>
+        <translation key="testnbalance.menu.session.title">
+            <variant>Session</variant>
+        </translation>
+        <translation key="testnbalance.menu.view.title">
+            <variant>View</variant>
+        </translation>
+        <translation key="testnbalance.menu.view.devid.action.title">
+            <variant>Device Id</variant>
+        </translation>
+        <translation key="testnbalance.menu.view.primaryuse.action.title">
+            <variant>Primary Use</variant>
+        </translation>
+        <translation key="testnbalance.menu.help.title">
+            <variant>Help</variant>
+        </translation>
+        <translation key="testnbalance.menu.exit.title">
+            <variant>Exit</variant>
+        </translation>
+        <translation key="testnbalance.menu.about.title">
+            <variant>About</variant>
+        </translation>
+        <translation key="testnbalance.htmlviewer.title">
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="testnbalance.menu.new.title">
+            <variant>New</variant>
+        </translation>
+        <translation key="testnbalance.menu.close.title">
+            <variant>Close</variant>
+        </translation>
+        <translation key="testnbalance.menu.open.title">
+            <variant>Open</variant>
+        </translation>
+        <translation key="testnbalance.menu.close.title">
+            <variant>Close</variant>
+        </translation>
+        <translation key="testnbalance.preferences.title">
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="testnbalance.ok.title">
+            <variant>Ok</variant>
+        </translation>
+        <translation key="testnbalance.cancel.title">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="testnbalance.htmlviewer.title">
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="testnbalance.help.action.title">
+            <variant>Help</variant>
+        </translation>
+        <translation key="testnbalance.preferences.action.title">
+            <variant>Preferences...</variant>
+        </translation>
+        <translation key="testnbalance.eula.dialog.title">
+            <variant>License Agreement</variant>
+        </translation>
+        <translation key="testnbalance.eula.dialog.message">
+            <variant>Please read the following License Agreement. You must accept the terms of this agreement before running this application for the first time.</variant>
+        </translation>
+        <translation key="testnbalance.eula.dialog.accept">
+            <variant>I accept the agreement</variant>
+        </translation>
+        <translation key="testnbalance.eula.dialog.agreement.error">
+            <variant>The license agreement could not be found!</variant>
+        </translation>
+        <translation key="testnbalance.eula.dialog.accept.button">
+            <variant>Accept</variant>
+        </translation>
+        <translation key="testnbalance.session.name">
+            <variant>Session Info</variant>
+        </translation>
+        <translation key="testnbalance.air-source.name">
+            <variant>Air Source</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.name">
+            <variant>Air Terminal</variant>
+        </translation>
+        <translation key="testnbalance.airflow.name">
+            <variant>Airflow</variant>
+        </translation>
+        <translation key="testnbalance.airflow-pd.name">
+            <variant>Airflow PD</variant>
+        </translation>
+        <translation key="testnbalance.bypass.name">
+            <variant>Bypass</variant>
+        </translation>
+        <translation key="testnbalance.nothing-selected.message">
+            <variant>Nothing Selected...</variant>
+        </translation>
+        <translation key="testnbalance.no-session.message">
+            <variant>No Session...</variant>
+        </translation>
+        <translation key="testnbalance.operator.name">
+            <variant>Operator Name:</variant>
+        </translation>
+        <translation key="testnbalance.organization.name">
+            <variant>Organization Name:</variant>
+        </translation>
+        <translation key="testnbalance.comm-port.name">
+            <variant>Comm Port:</variant>
+        </translation>
+        <translation key="testnbalance.baud-rate.name">
+            <variant>Baud Rate:</variant>
+        </translation>
+        <translation key="testnbalance.scope.name">
+            <variant>Scope</variant>
+        </translation>
+        <translation key="testnbalance.scope.local-zone.name">
+            <variant>Local Zone</variant>
+        </translation>
+        <translation key="testnbalance.scope.all-zones.name">
+            <variant>All Zones</variant>
+        </translation>
+        <translation key="testnbalance.new-session.name">
+            <variant>New Session</variant>
+        </translation>
+        <translation key="testnbalance.cancel.name">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="testnbalance.connection.stopped.name">
+            <variant>Stopped</variant>
+        </translation>
+        <translation key="testnbalance.connection.unable-to-connect.name">
+            <variant>Unable To Connect</variant>
+        </translation>
+        <translation key="testnbalance.connection.access-denied.name">
+            <variant>Local Access: Disabled</variant>
+        </translation>
+        <translation key="testnbalance.connection.not-connected.name">
+            <variant>Not Connected</variant>
+        </translation>
+        <translation key="testnbalance.connection.connecting.name">
+            <variant>Connecting...</variant>
+        </translation>
+        <translation key="testnbalance.connection.connected.name">
+            <variant>Connected</variant>
+        </translation>
+        <translation key="testnbalance.connection.closed.name">
+            <variant>Closed</variant>
+        </translation>
+        <translation key="testnbalance.connection.connect.name">
+            <variant>Connect</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.heat.name">
+            <variant>Heat</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.cool.name">
+            <variant>Cool</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.damper-open-position.name">
+            <variant>Damper Open Position:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.percent-open.name">
+            <variant>%</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.current-damper-command.name">
+            <variant>Current Damper Command:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.flow-setpoint.name">
+            <variant>Flow Setpoint:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.design-airflow.name">
+            <variant>Design Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.current-flow.name">
+            <variant>Current Flow:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.cfm.name">
+            <variant>cfm</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.prmary-use.cool.name">
+            <variant>cool</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.prmary-use.heat.name">
+            <variant>heat</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.occupied-min.name">
+            <variant>Occupied Min</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-open.name">
+            <variant>Damper Open</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.automatic.name">
+            <variant>Automatic</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-close.name">
+            <variant>Damper Close</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.vent.name">
+            <variant>Vent</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.reheat-min.name">
+            <variant>Reheat Min</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.cool-max.name">
+            <variant>Cool Max</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.cool-min.name">
+            <variant>Cool Min</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.heat-max.name">
+            <variant>Heat Max</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.heat-min.name">
+            <variant>Heat Min</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.calibrated-damper-close.name">
+            <variant>Calibrated Damper Close</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.calibrated-damper-open.name">
+            <variant>Calibrated Damper Open</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.automatic-control.name">
+            <variant>Automatic Control</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.zero-calibrate.name">
+            <variant>Zero Calibrate</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.pressure-sensor-calibrate.name">
+            <variant>Pressure Sensor Calibrate</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.unknown.name">
+            <variant>UNKNOWN</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.close-damper.warning.message">
+            <variant>Closing damper(s) may necessitate that you turn off the air source. \nIf needed turn off the air source and continue.</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.zero-calibrate.warning.message">
+            <variant>Zero Calibrating a damper requires that the air source is off.\nEnsure the air source is turned off before continuing!</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.close-damper.required.message">
+            <variant>Closing damper(s) may necessitate that you turn off the air source. \nIf the air source needs to be off hit cancel, turn off \nthe air source and try again; otherwise, continue.</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.zero-calibrate.required.message">
+            <variant>Zero Calibrating the damper requires that the air source is off.\nTurn off the air source and try again.</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.warning.title">
+            <variant>Caution!</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.warning.continue.name">
+            <variant>Continue</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.warning.cancel.name">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.required.ok.name">
+            <variant>Ok</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-moving.message">
+            <variant>Damper Moving</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-ready.message">
+            <variant>Damper Ready</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-moving.short.message">
+            <variant>Moving</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.damper-ready.short.message">
+            <variant>Ready</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.name">
+            <variant>Damper\nCommand</variant>
+        </translation>
+        <translation key="testnbalance.measured-flow.name">
+            <variant>Measured\nFlow</variant>
+        </translation>
+        <translation key="testnbalance.measured-static-pressure.name">
+            <variant>Measured\nStatic\nPressure</variant>
+        </translation>
+        <translation key="testnbalance.sensor-reading.name">
+            <variant>Sensor\nReading</variant>
+        </translation>
+        <translation key="testnbalance.completed.name">
+            <variant>Completed</variant>
+        </translation>
+        <translation key="testnbalance.calibration-required.name">
+            <variant>Calibration\nRequired</variant>
+        </translation>
+        <translation key="testnbalance.validation-tip.numeric-values-only">
+            <variant>numeric values only</variant>
+        </translation>
+        <translation key="testnbalance.validation-tip.out-of-bounds">
+            <variant>must be less than {0}</variant>
+        </translation>
+        <translation key="testnbalance.airflow-tab.test-and-balance.name">
+            <variant>Test and Balance</variant>
+        </translation>
+        <translation key="testnbalance.airflow-tab.locks.name">
+            <variant>Locks</variant>
+        </translation>
+        <translation key="testnbalance.airflow-tab.design-values.name">
+            <variant>Design Values</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.apply.name">
+            <variant>Apply</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.cancel.name">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.primary-use.name">
+            <variant>Primary Use:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.flow-sensor-type.name">
+            <variant>Flow Sensor Type:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.damper-actuator-type.name">
+            <variant>Damper Actuator Type:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.cooling-maximum-airflow.name">
+            <variant>Cooling Maximum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.cooling-minimum-airflow.name">
+            <variant>Cooling Minimum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.heating-maximum-airflow.name">
+            <variant>Heating Maximum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.heating-minimum-airflow.name">
+            <variant>Heating Minimum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.occupied-minimum-airflow.name">
+            <variant>Occupied Minimum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.unoccupied-minimum-airflow.name">
+            <variant>Unoccupied Minimum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.aux-heat-minimum-airflow.name">
+            <variant>Aux Heat Minimum Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.vent-airflow.name">
+            <variant>Vent Airflow:</variant>
+        </translation>
+        <translation key="testnbalance.design-setpoints.flow-at-1-inch-water-column.name">
+            <variant>Flow at 1" WC:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.primary-use.heat.name">
+            <variant>heat</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.primary-use.cool.name">
+            <variant>cool</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.device-type.internal.name">
+            <variant>internal</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.device-type.zasf.name">
+            <variant>zasf</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.device-type.unknown.name">
+            <variant>unknown</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.device-type.external.name">
+            <variant>external</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.unapplied-changes.message">
+            <variant>Continuing will reset any changes\nthat have not been applied!</variant>
+        </translation>
+        <translation key="testnbalance..air-terminal.unapplied-changes.title">
+            <variant>Warning!</variant>
+        </translation>
+        <translation key="testnbalance..air-terminal.unapplied-changes.continue.name">
+            <variant>Continue</variant>
+        </translation>
+        <translation key="testnbalance..air-terminal.unapplied-changes.cancel.name">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.last-calibration.label">
+            <variant>Last Calibration:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.not-calibrated.label">
+            <variant>Not Calibrated</variant>
+        </translation>
+        <translation key="testnbalance.current-sensor-reading.label">
+            <variant>Current\nSensor\nReading</variant>
+        </translation>
+        <translation key="testnbalance.damper-position.label">
+            <variant>Damper\nPostion</variant>
+        </translation>
+        <translation key="testnbalance.current-damper-position.label">
+            <variant>Current\nDamper\nPostion</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.aux-heat.name">
+            <variant>Aux Heat:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.fan.name">
+            <variant>Fan:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.fan.off.name">
+            <variant>Off</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.fan.on.name">
+            <variant>On</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.discharge-air-temp.name">
+            <variant>Discharge Air Temp:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.flow-setpoint.label">
+            <variant>Lock Flow Setpoint at</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.damper-open-at.label">
+            <variant>Lock damper open at</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.damper-at-current-open-position.label">
+            <variant>Lock damper at current open position</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.static-pressure.label">
+            <variant>Lock Static Pressure at</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.aux-heat.label">
+            <variant>Lock Aux Heat at</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.locks.fan.label">
+            <variant>Lock Fan</variant>
+        </translation>
+        <translation key="testnbalance.air-source.air-terminal.column.label">
+            <variant>Air Terminal</variant>
+        </translation>
+        <translation key="testnbalance.air-source.damper-command.column.label">
+            <variant>Damper Command</variant>
+        </translation>
+        <translation key="testnbalance.air-source.status.column.label">
+            <variant>Status</variant>
+        </translation>
+        <translation key="testnbalance.air-source.locked.column.label">
+            <variant>Damper Locked</variant>
+        </translation>
+        <translation key="testnbalance.air-source.last-calibration.column.label">
+            <variant>Last Calibration</variant>
+        </translation>
+        <translation key="testnbalance.air-source.select-all.label">
+            <variant>Select All</variant>
+        </translation>
+        <translation key="testnbalance.air-source.show-terminal-types.label">
+            <variant>Show Terminal Types</variant>
+        </translation>
+        <translation key="testnbalance.air-source.show-terminal-types.airflow-pi.label">
+            <variant>Airflow Pressure Independent</variant>
+        </translation>
+        <translation key="testnbalance.air-source.show-terminal-types.airflow-pd.label">
+            <variant>Airflow Pressure Dependent</variant>
+        </translation>
+        <translation key="testnbalance.air-source.show-terminal-types.bypass.label">
+            <variant>Bypass</variant>
+        </translation>
+        <translation key="testnbalance.air-source.static-pressure.label">
+            <variant>Static Pressure:</variant>
+        </translation>
+        <translation key="testnbalance.air-source.static-pressure.unit.label">
+            <variant>inches WC</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.duct-static-pressure.label">
+            <variant>Duct Static Pressure:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.static-pressure.unit.label">
+            <variant>inches WC</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.duct-static-pressure-setpoint.label">
+            <variant>Duct Static Pressure Setpoint:</variant>
+        </translation>
+        <translation key="testnbalance.air-terminal.lat-duct-static-pressure-setpoint.label">
+            <variant>LAT Duct Static Pressure Setpoint:</variant>
+        </translation>
+        <translation key="testnbalance.bypass-driver-update.title">
+            <variant>Update Bypass Controller's Driver</variant>
+        </translation>
+        <translation key="testnbalance.bypass-driver-update.message">
+            <variant>Unable to retrieve bypass controller's lock values.\nTry updating the bypass controller's driver.</variant>
+        </translation>
+        <translation key="testnbalance.ok.label">
+            <variant>Ok</variant>
+        </translation>
+        <translation key="testnbalance.damper-command.ahu-on.message">
+            <variant>Calibration can not be completed while the air source is on!/nTurn off the air source to complete dampmer calibration.</variant>
+        </translation>
+        <translation key="testnbalance.calibration-prevented.title">
+            <variant>Calibration Prevented</variant>
+        </translation>
+        <translation key="testnbalance.calibration-prevented.message">
+            <variant>This controller''s driver version is {0}.\n Calibration requires version {1} or later.</variant>
+        </translation>
+        <translation key="testnbalance.calibration-prevented.dont-show-again.message">
+            <variant>Don't Show Again</variant>
+        </translation>
+        <translation approved="false" key="testnbalance.calibration.pressure-to-high.status" new="true">
+            <variant>Pressure Too High!</variant>
+        </translation>
+        <translation approved="false" key="testnbalance.calibration.pressure-to-low.status" new="true">
+            <variant>Pressure Too Low!</variant>
+        </translation>
+        <translation key="testnbalance.calibration.waiting-for-input.status">
+            <variant>Waiting For Input</variant>
+        </translation>
+        <translation key="testnbalance.calibration.ahu-on.status">
+            <variant>Air Handling Unit On!</variant>
+        </translation>
+        <translation key="testnbalance.calibration.lat-mode-active.status">
+            <variant>LAT Mode Active!</variant>
+        </translation>
+        <translation key="testnbalance.calibration.calibrating.status">
+            <variant>Calibrating</variant>
+        </translation>
+        <translation key="testnbalance.air-source.title.mode">
+            <variant>Air Source Mode</variant>
+        </translation>
+        <translation key="testnbalance.air-source.live-data.title.mode">
+            <variant>Air Source Mode:</variant>
+        </translation>
+        <translation key="testnbalance.air-source.mode.on">
+            <variant>On</variant>
+        </translation>
+        <translation key="testnbalance.air-source.mode.off">
+            <variant>Off</variant>
+        </translation>
+        <translation key="testnbalance.air-source.mode.auto">
+            <variant>Auto</variant>
+        </translation>
+        <translation key="testnbalance.air-source.mode.turn-off">
+            <variant>Turn Off</variant>
+        </translation>
+        <!-- Units -->
+        <translation key="testnbalance.measuring-units.label">
+            <variant>Airflow Units:</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.unknown">
+            <variant>unk</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.pascals">
+            <variant>Pa</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.hectopascals">
+            <variant>hPa</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.kilopascals">
+            <variant>kPa</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.bars">
+            <variant>bars</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.millibars">
+            <variant>mbars</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.pounds-force-per-square-inch">
+            <variant>psi</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.centimeters-of-water">
+            <variant>cm WC</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.inches-of-water">
+            <variant>in WC</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.millimeters-of-mercury">
+            <variant>mm Hg</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.centimeters-of-mercury">
+            <variant>mm Hg</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.pressure.inches-of-mercury">
+            <variant>in Hg</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.cubic-feet-per-minute">
+            <variant>cfm</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.cubic-meters-per-second">
+            <variant>cms</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.cubic-meters-per-minute">
+            <variant>cmm</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.cubic-meters-per-hour">
+            <variant>cmh</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.liters-per-second">
+            <variant>l/s</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.liters-per-minute">
+            <variant>l/m</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.volumnetric-flow.liters-per-hour">
+            <variant>l/h</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.celsius">
+            <variant>°C</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.days.celsius">
+            <variant>°DC</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.kelvin">
+            <variant>°K</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.kelvin.per.hour">
+            <variant>°Kph</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.kelvin.per.minute">
+            <variant>°Kpm</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.delta.degrees.kelvin">
+            <variant>delta °K</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.farenheit">
+            <variant>°F</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.degrees.days.farenheit">
+            <variant>°DF</variant>
+        </translation>
+        <translation key="testnbalance.measuring-units.delta.degrees.farenheit">
+            <variant>delta °F</variant>
+        </translation>
+        <!-- Reports -->
+        <translation key="testnbalance.menu.report.title">
+            <variant>Report</variant>
+        </translation>
+        <translation key="testnbalance.report.generating">
+            <variant>Generating report...</variant>
+        </translation>
+        <translation key="testnbalance.error.report">
+            <variant>An error occurred generating the report.</variant>
+        </translation>
+        <translation key="testnbalance.error.report.exception">
+            <variant>An error occurred generating the report. {0}</variant>
+        </translation>
+        <translation key="testnbalance.report.created">
+            <variant>Report {0} successfully created.</variant>
+        </translation>
+        <translation key="testnbalance.report.nosession">
+            <variant>No session open to generate the report!</variant>
+        </translation>
+        <translation key="testnbalance.report.fileexists.title">
+            <variant>File Exists</variant>
+        </translation>
+        <translation key="testnbalance.report.fileexists">
+            <variant>The file exists, what do you want to do?</variant>
+        </translation>
+        <translation key="testnbalance.report.append">
+            <variant>Append</variant>
+        </translation>
+        <translation key="testnbalance.report.overwrite">
+            <variant>Overwrite</variant>
+        </translation>
+        <translation key="testnbalance.error.dialogtitle">
+            <variant>ERROR</variant>
+        </translation>
+        <translation key="testnbalance.error.session">
+            <variant>An error occurred writing out the session information. {0}</variant>
+        </translation>
+        <translation key="testnbalance.error.airsource">
+            <variant>An error occurred writing out the air source information. {0}</variant>
+        </translation>
+        <translation key="testnbalance.report.calibration">
+            <variant>Calibration Values</variant>
+        </translation>
+        <translation key="testnbalance.report.design.airflows">
+            <variant>Design Values</variant>
+        </translation>
+        <translation key="testnbalance.report.property">
+            <variant>Property</variant>
+        </translation>
+        <translation key="testnbalance.report.value">
+            <variant>Value</variant>
+        </translation>
+        <translation key="testnbalance.report.units">
+            <variant>Units</variant>
+        </translation>
+        <translation key="testnbalance.report.sensor">
+            <variant>Sensor</variant>
+        </translation>
+        <translation key="testnbalance.report.notcompleted">
+            <variant>not complete</variant>
+        </translation>
+        <translation key="testnbalance.report.completed">
+            <variant>complete</variant>
+        </translation>
+        <translation key="testnbalance.report.aux.heat.min">
+            <variant>Aux Heat Min</variant>
+        </translation>
+        <translation key="testnbalance.report.measured">
+            <variant>Measured</variant>
+        </translation>
+        <translation key="testnbalance.report.full.open">
+            <variant>Damper Open</variant>
+        </translation>
+        <translation key="testnbalance.report.min.occ">
+            <variant>Occupied Min</variant>
+        </translation>
+        <translation key="testnbalance.report.min.unocc">
+            <variant>Unoccupied Min</variant>
+        </translation>
+        <translation key="testnbalance.report.run.date">
+            <variant>Run Date</variant>
+        </translation>
+        <translation key="testnbalance.report.zero.calibrate">
+            <variant>Zero Calibrate</variant>
+        </translation>
+        <translation key="testnbalance.report.pressure.sensor.calibrate">
+            <variant>Pressure Sensor Calibrate</variant>
+        </translation>
+        <translation key="testnbalance.report.measured.static.pressure">
+            <variant>Measured Static Pressure</variant>
+        </translation>
+        <translation key="testnbalance.no-session.message">
+            <variant>No Session...</variant>
+        </translation>
+        <translation key="testnbalance.nothing-selected.message">
+            <variant>Nothing Selected...</variant>
+        </translation>
+        <translation key="testnbalance.report.pressure.design.duct">
+            <variant>Duct Static Pressure Setpt</variant>
+        </translation>
+        <translation key="testnbalance.report.pressure.design.latduct">
+            <variant>LAT Duct Static Pressure Setpt</variant>
+        </translation>
+        <translation key="testnbalance.tree.devid.label">
+            <variant>Id</variant>
+        </translation>
+        <translation key="testnbalance.tree.usage.label">
+            <variant>Use</variant>
+        </translation>
+        <translation key="testnbalance.tree.usage.label">
+            <variant>Use</variant>
+        </translation>
+        <translation key="testnbalance.report.static-pressure">
+            <variant>Static Pressure</variant>
+        </translation>
+        <translation key="testnbalance.report.discharge-air-temp">
+            <variant>Discharge Air Temp</variant>
+        </translation>
+        <translation key="testnbalance.report.degrees-farenheit">
+            <variant>deg F</variant>
+        </translation>
+        <translation key="testnbalance.report.degrees-celcius">
+            <variant>deg C</variant>
+        </translation>
+        <!-- Mnemonics -->
+        <translation key="testnbalance.menu.session.mnemonic">
+            <variant>S</variant>
+        </translation>
+        <translation key="testnbalance.menu.help.mnemonic">
+            <variant>H</variant>
+        </translation>
+        <translation key="testnbalance.menu.report.mnemonic">
+            <variant>R</variant>
+        </translation>
+        <translation key="testnbalance.menu.view.mnemonic">
+            <variant>V</variant>
+        </translation>
+        <translation key="testnbalance.menu.showdevid.mnemonic">
+            <variant>I</variant>
+        </translation>
+        <translation key="testnbalance.menu.showuse.mnemonic">
+            <variant>U</variant>
+        </translation>
+        <translation key="testnbalance.menu.exit.mnemonic">
+            <variant>E</variant>
+        </translation>
+        <translation key="testnbalance.menu.about.mnemonic">
+            <variant>A</variant>
+        </translation>
+        <translation key="testnbalance.menu.window.mnemonic">
+            <variant>W</variant>
+        </translation>
+        <translatioin key="testnbalance.start.error.message">
+            <variant>Could not launch the TestNBalance tool! Product installation may be corrupt! Try reinstalling the application.</variant>
+        </translatioin>
+    </section>
+</resource-base>

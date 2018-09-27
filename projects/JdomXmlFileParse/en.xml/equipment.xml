@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="equipment" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="all files">
+        <note>These keys are used on various graphics pages within .equipment files.</note>
+        <translation key="Char_Set">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>iso-8859-1</variant>
+        </translation>
+        <translation key="On">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>On</variant>
+        </translation>
+        <translation key="Off">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Off</variant>
+        </translation>
+        <translation key="No">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>No</variant>
+        </translation>
+        <translation key="Yes">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Yes</variant>
+        </translation>
+        <translation key="Open">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Open</variant>
+        </translation>
+        <translation key="Closed">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Closed</variant>
+        </translation>
+        <translation key="True">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>True</variant>
+        </translation>
+        <translation key="False">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>False</variant>
+        </translation>
+        <translation key="Active">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Active</variant>
+        </translation>
+        <translation key="Inactive">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Inactive</variant>
+        </translation>
+        <translation key="Enabled">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Enabled</variant>
+        </translation>
+        <translation key="Disabled">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Disabled</variant>
+        </translation>
+        <translation key="Occupied">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Occupied</variant>
+        </translation>
+        <translation key="Unoccupied">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Unoccupied</variant>
+        </translation>
+        <translation key="Dirty">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Dirty</variant>
+        </translation>
+        <translation key="OK">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>OK</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

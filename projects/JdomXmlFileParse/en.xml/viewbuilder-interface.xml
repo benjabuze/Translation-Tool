@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="viewbuilder-interface" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="general-interface">
+        <translation key="general.application-title">
+            <variant>ViewBuilder</variant>
+        </translation>
+        <translation key="express.application-title">
+            <variant>ViewBuilder</variant>
+        </translation>
+    </section>
+    <section id="file-menu-interface">
+        <translation key="file-menu">
+            <note>The file menu</note>
+            <variant>File</variant>
+        </translation>
+        <translation approved="false" key="new-view" new="true">
+            <variant>New...</variant>
+        </translation>
+        <translation key="new-view-tooltip">
+            <variant>New view</variant>
+        </translation>
+        <translation key="open-view">
+            <variant>Open...</variant>
+        </translation>
+        <translation key="clear-reopen-view">
+            <variant>Clear List</variant>
+        </translation>
+        <translation key="open-view-tooltip">
+            <variant>Open a view</variant>
+        </translation>
+        <translation key="close-view">
+            <variant>Close</variant>
+        </translation>
+        <translation key="close-view-tooltip">
+            <variant>Close the active view</variant>
+        </translation>
+        <translation key="save-view">
+            <variant>Save</variant>
+        </translation>
+        <translation key="save-view-tooltip">
+            <variant>Save the current ViewBuilder file</variant>
+        </translation>
+        <translation key="save-view-as">
+            <variant>Save As...</variant>
+        </translation>
+        <translation key="save-view-as-title">
+            <variant>Save As</variant>
+        </translation>
+        <translation key="save-view-as-tooltip">
+            <variant>Save the current ViewBuilder file with a different name</variant>
+        </translation>
+        <translation key="new-view-equipment-builder">
+            <variant>EquipmentBuilder...</variant>
+        </translation>
+        <translation key="new-view-equipment-builder-tooltip">
+            <variant>Creates a new view from the Equipment Builder library</variant>
+        </translation>
+        <translation key="import-submenu">
+            <variant>Import</variant>
+        </translation>
+        <translation key="reopen-view-submenu">
+            <variant>Reopen</variant>
+        </translation>
+        <translation key="import-frontpage-jsp">
+            <variant>FrontPage JSP...</variant>
+        </translation>
+        <translation key="import-frontpage-jsp-tooltip">
+            <variant>Import a FrontPage-created WebCTRL graphic file.</variant>
+        </translation>
+        <translation key="import-bacview-html">
+            <variant>Bacview HTML...</variant>
+        </translation>
+        <translation key="import-bacview-html-tooltip">
+            <variant>Import a Bacview HTML file</variant>
+        </translation>
+        <translation key="exit-application">
+            <variant>Exit</variant>
+        </translation>
+        <translation key="exit-application-tooltip">
+            <variant>Exit ViewBuilder</variant>
+        </translation>
+    </section>
+    <section id="edit-menu-interface">
+        <translation key="edit-menu">
+            <variant>Edit</variant>
+        </translation>
+        <translation key="undo">
+            <variant>Undo</variant>
+        </translation>
+        <translation key="undo-tooltip">
+            <variant>Undo</variant>
+        </translation>
+        <translation key="redo">
+            <variant>Redo</variant>
+        </translation>
+        <translation key="redo-tooltip">
+            <variant>Redo</variant>
+        </translation>
+        <translation key="cut">
+            <variant>Cut</variant>
+        </translation>
+        <translation key="cut-tooltip">
+            <variant>Cut the selected controls</variant>
+        </translation>
+        <translation key="copy">
+            <variant>Copy</variant>
+        </translation>
+        <translation key="copy-tooltip">
+            <variant>Copy the selected controls</variant>
+        </translation>
+        <translation key="paste">
+            <variant>Paste</variant>
+        </translation>
+        <translation key="paste-tooltip">
+            <variant>Paste the clipboard contents</variant>
+        </translation>
+        <translation key="bring-hotspots-to-front">
+            <variant>Bring Hotspots To Front</variant>
+        </translation>
+        <translation key="export-image-from-control">
+            <variant>Export Image</variant>
+        </translation>
+        <translation key="export-image-from-control-tooltip">
+            <variant>Export the image control to a file.</variant>
+        </translation>
+        <translation key="set-path-value">
+            <variant>Set Path Value</variant>
+        </translation>
+        <translation key="set-path-value-tooltip">
+            <variant>Assigns the selected system nodes path to the control's path value</variant>
+        </translation>
+        <translation key="set-object-name">
+            <variant>Set Object Name</variant>
+        </translation>
+        <translation key="set-sales-channel">
+            <variant>Set Sales Channel</variant>
+        </translation>
+        <translation key="set-object-name-tooltip">
+            <variant>Assigns the selected system nodes object name to the control's object name</variant>
+        </translation>
+        <translation key="select-all">
+            <variant>Select All</variant>
+        </translation>
+        <translation key="select-all-tooltip">
+            <variant>Select all objects in the current view</variant>
+        </translation>
+        <translation key="deselect-all">
+            <variant>Deselect All</variant>
+        </translation>
+        <translation key="deselect-all-tooltip">
+            <variant>Deselect all objects in the current view</variant>
+        </translation>
+        <translation key="delete">
+            <variant>Delete</variant>
+        </translation>
+        <translation key="delete-tooltip">
+            <variant>Delete the selected text or control</variant>
+        </translation>
+        <translation key="graphic.show-hide-conditional.title.action">
+            <variant>Show/Hide...</variant>
+        </translation>
+        <translation key="graphic.show-hide-conditional.title.dialog">
+            <variant>Show/Hide Condition</variant>
+        </translation>
+        <translation key="graphic.show-hide-conditional.tooltip">
+            <variant>Assign conditional expression to show or hide selected objects</variant>
+        </translation>
+        <translation key="graphic.show-hide-conditional.expression.title">
+            <variant>Expression:</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.title.action">
+            <variant>Show/Hide...</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.detail-string.true">
+            <variant>show when true</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.detail-string.false">
+            <variant>show when false</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.title.dialog">
+            <variant>Show/Hide Condition</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.expression.title">
+            <variant>Object Name:</variant>
+        </translation>
+        <translation key="bacview.show-hide-conditional.tooltip">
+            <variant>Assign a BACnet boolean to show or hide cells</variant>
+        </translation>
+        <translation key="show-hide-conditional.show-when.group.title">
+            <variant>Show When</variant>
+        </translation>
+        <translation key="show-hide-conditional.show-when.group.true">
+            <variant>True</variant>
+        </translation>
+        <translation key="show-hide-conditional.show-when.group.false">
+            <variant>False</variant>
+        </translation>
+        <translation key="conditional.apply-to.group.title">
+            <variant>Apply To</variant>
+        </translation>
+        <translation key="conditional.apply-to.group.selections-only">
+            <variant>Selections Only</variant>
+        </translation>
+        <translation key="conditional.apply-to.group.selected-item-only">
+            <variant>Selected Item Only</variant>
+        </translation>
+        <translation key="conditional.apply-to.group.wherever-used">
+            <variant>Wherever Used</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.title.action">
+            <variant>Enable/Disable...</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.title.dialog">
+            <variant>Enable/Disable Condition</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.expression.title">
+            <variant>Expression:</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.tooltip">
+            <variant>Assign conditional expression to enable or disable selected objects</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.enable-when.group.title">
+            <variant>Enable When</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.enable-when.group.true">
+            <variant>True</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.enable-when.group.false">
+            <variant>False</variant>
+        </translation>
+        <translation key="touchview.set-current-language.action.tooltip">
+            <variant>Select this view's current language</variant>
+        </translation>
+        <translation key="touchview.set-current-theme.action.tooltip">
+            <variant>Select this view's current theme</variant>
+        </translation>
+        <translation key="graphic.enable-disable-conditional.enable-when.group.false">
+            <variant>False</variant>
+        </translation>
+        <translation key="edit-variable-color-conditional">
+            <variant>Variable Color...</variant>
+        </translation>
+        <translation key="edit-variable-color-conditional-tooltip">
+            <variant>Assign variable color expression to selected objects</variant>
+        </translation>
+        <translation key="edit-link">
+            <variant>Link...</variant>
+        </translation>
+        <translation key="edit-link-tooltip">
+            <variant>Assign link to selected objects</variant>
+        </translation>
+        <translation key="edit-style">
+            <variant>Style...</variant>
+        </translation>
+        <translation key="edit-style-tooltip">
+            <variant>Assign style to selected objects</variant>
+        </translation>
+        <translation key="lock">
+            <variant>Lock</variant>
+        </translation>
+        <translation key="lock-tooltip">
+            <variant>Lock selected objects</variant>
+        </translation>
+        <translation key="unlock">
+            <variant>Unlock</variant>
+        </translation>
+        <translation key="unlock-tooltip">
+            <variant>Ctrl+Click to select locked objects</variant>
+        </translation>
+        <translation key="unlock-all">
+            <variant>Unlock All</variant>
+        </translation>
+        <translation key="unlock-all-tooltip">
+            <variant>Unlock all locked objects</variant>
+        </translation>
+        <translation key="group">
+            <variant>Group</variant>
+        </translation>
+        <translation key="group-tooltip">
+            <variant>Group selected controls</variant>
+        </translation>
+        <translation key="ungroup">
+            <variant>Ungroup</variant>
+        </translation>
+        <translation key="ungroup-tooltip">
+            <variant>Ungroup selected groups</variant>
+        </translation>
+        <translation key="find-replace">
+            <variant>Find/Replace...</variant>
+        </translation>
+        <translation key="find-replace-tooltip">
+            <variant>Find/Replace text in control properties</variant>
+        </translation>
+        <translation key="alignment-submenu">
+            <variant>Align</variant>
+        </translation>
+        <translation key="align-bottom">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="align-bottom-tooltip">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="align-left">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="align-left-tooltip">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="align-right">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="align-right-tooltip">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="align-top">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="align-top-tooltip">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="align-horizontal-center">
+            <variant>Align to Horizontal Center</variant>
+        </translation>
+        <translation key="align-horizontal-center-tooltip">
+            <variant>Align to Horizontal Center</variant>
+        </translation>
+        <translation key="align-vertical-center">
+            <variant>Align to Vertical Center</variant>
+        </translation>
+        <translation key="align-vertical-center-tooltip">
+            <variant>Align to Vertical Center</variant>
+        </translation>
+        <translation key="space-evenly-horizontally">
+            <variant>Space Evenly Horizontally</variant>
+        </translation>
+        <translation key="space-evenly-horizontally-tooltip">
+            <variant>Space Evenly Horizontally</variant>
+        </translation>
+        <translation key="space-evenly-vertically">
+            <variant>Space Evenly Vertically</variant>
+        </translation>
+        <translation key="space-evenly-vertically-tooltip">
+            <variant>Space Evenly Vertically</variant>
+        </translation>
+        <translation key="arrange-submenu">
+            <variant>Arrange</variant>
+        </translation>
+        <translation key="move-to-front">
+            <variant>Bring to Front</variant>
+        </translation>
+        <translation key="move-to-front-tooltip">
+            <variant>Bring to Front</variant>
+        </translation>
+        <translation key="move-forward">
+            <variant>Bring Forward</variant>
+        </translation>
+        <translation key="move-forward-tooltip">
+            <variant>Bring Forward</variant>
+        </translation>
+        <translation key="move-backward">
+            <variant>Send Backward</variant>
+        </translation>
+        <translation key="move-backward-tooltip">
+            <variant>Send Backward</variant>
+        </translation>
+        <translation key="move-to-back">
+            <variant>Send to Back</variant>
+        </translation>
+        <translation key="move-to-back-tooltip">
+            <variant>Send to Back</variant>
+        </translation>
+        <translation key="move-to-layer">
+            <variant>Move to Layer...</variant>
+        </translation>
+        <translation key="move-to-layer-tooltip">
+            <variant>Move to Layer</variant>
+        </translation>
+        <translation key="move-entity">
+            <variant>Move</variant>
+        </translation>
+        <translation key="move-entity-tooltip">
+            <variant>Move To A Given X,Y Location</variant>
+        </translation>
+        <translation key="add-on-link">
+            <variant>Add-on Link...</variant>
+        </translation>
+        <translation key="add-on-link-tooltip">
+            <variant>Assign add-on link to selected objects</variant>
+        </translation>
+        <translation key="add-on-link.open-in.title">
+            <variant>Open In...</variant>
+        </translation>
+        <translation key="add-on-link.open-in.current-window.title">
+            <variant>Current Window</variant>
+        </translation>
+        <translation key="add-on-link.open-in.new-window.title">
+            <variant>New Window</variant>
+        </translation>
+    </section>
+    <section id="configure-menu-interface">
+        <translation key="configure-menu">
+            <variant>Configure</variant>
+        </translation>
+        <translation key="configure-preferences-menu">
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="configure-preferences-graphic-menu-item">
+            <variant>Graphic (.view)</variant>
+        </translation>
+        <translation key="configure-preferences-application-menu-item">
+            <variant>Application</variant>
+        </translation>
+        <translation key="configure-view-properties">
+            <variant>View Properties...</variant>
+        </translation>
+        <translation key="configure-view-properties-tooltip">
+            <variant>Edit the properties for this view</variant>
+        </translation>
+        <translation key="configure-view-background-color">
+            <variant>View Background Color...</variant>
+        </translation>
+        <translation key="configure-view-background-color-tooltip">
+            <variant>Change the view's background color</variant>
+        </translation>
+        <translation key="configure-preferences">
+            <variant>Preferences...</variant>
+        </translation>
+        <translation key="configure-preferences-tooltip">
+            <variant>Configure ViewBuilder preferences</variant>
+        </translation>
+        <translation key="configure-preferences-graphic-tooltip">
+            <variant>Configure graphic (.view) file preferences</variant>
+        </translation>
+        <translation key="drawing.line.name">
+            <variant>Draw A Line</variant>
+        </translation>
+        <translation key="drawing.line.tooltip">
+            <variant>Draw a line by specifying it's points</variant>
+        </translation>
+        <translation key="drawing.polygon.name">
+            <variant>Draw A Polygon</variant>
+        </translation>
+        <translation key="drawing.polygon.tooltip">
+            <variant>Draw a polygon by specifying it's points</variant>
+        </translation>
+        <translation key="drawing.rect.name">
+            <variant>Draw A Rectangle</variant>
+        </translation>
+        <translation key="drawing.rect.tooltip">
+            <variant>Draw a rectangle by dragging the mouse to the desired size and shape</variant>
+        </translation>
+        <translation key="drawing.ellipse.name">
+            <variant>Draw An Ellipse</variant>
+        </translation>
+        <translation key="drawing.ellipse.tooltip">
+            <variant>Draw an ellipse by dragging the mouse to the desired size and shape</variant>
+        </translation>
+        <translation key="drawing.attribute.line-thickness.name">
+            <variant>Line Thickness:</variant>
+        </translation>
+        <translation key="drawing.attribute.line-color.name">
+            <variant>Line Color:</variant>
+        </translation>
+        <translation key="drawing.attribute.fill-pattern-color.name">
+            <variant>Fill Pattern Color:</variant>
+        </translation>
+        <translation key="drawing.attribute.background-fill-color.name">
+            <variant>Background Fill Color:</variant>
+        </translation>
+        <translation key="drawing.attribute.fill-pattern.name">
+            <variant>Fill Pattern:</variant>
+        </translation>
+        <translation key="drawing.edit.name">
+            <variant>Edit Drawing</variant>
+        </translation>
+        <translation key="drawing.edit.tooltip">
+            <variant>Move and or add points to a drawing</variant>
+        </translation>
+        <translation key="flowcontrol.attribute.alignment-tab.name">
+            <variant>  Alignment  </variant>
+        </translation>
+        <translation key="flowcontrol.attribute.color-tab.name">
+            <variant>  Color  </variant>
+        </translation>
+        <translation key="flowcontrol.attribute.border-thickness.name">
+            <variant>Border Thickness:</variant>
+        </translation>
+        <translation key="flowcontrol.attribute.border-color.name">
+            <variant>Border Color:</variant>
+        </translation>
+        <translation key="flowcontrol.attribute.background-fill-color.name">
+            <variant>Background Fill Color:</variant>
+        </translation>
+        <translation approved="true" key="flowcontrol.attribute.border-style.name" new="false">
+            <variant>Border Style:</variant>
+        </translation>
+        <translation approved="true" key="flowcontrol.attribute.border-style.square" new="false">
+            <variant>Squared</variant>
+        </translation>
+        <translation approved="true" key="flowcontrol.attribute.border-style.rounded" new="false">
+            <variant>Rounded</variant>
+        </translation>
+        <translation approved="true" key="flowcontrol.attribute.border-style.3d" new="false">
+            <variant>3D</variant>
+        </translation>
+        <translation key="flowcontrol.edit.name">
+            <variant>Edit</variant>
+        </translation>
+        <translation key="flowcontrol.edit.tooltip">
+            <variant>Edit text and control within the Flow Control</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.horizontal-alignment.name">
+            <variant>Horizontal Alignment</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.horizontal-alignment.left.name">
+            <variant>Left</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.horizontal-alignment.center.name">
+            <variant>Center</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.horizontal-alignment.right.name">
+            <variant>Right</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.vertical-alignment.name">
+            <variant>Vertical Alignment</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.vertical-alignment.top.name">
+            <variant>Top</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.vertical-alignment.center.name">
+            <variant>Center</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.vertical-alignment.bottom.name">
+            <variant>Bottom</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.text-wrapping.name">
+            <variant>Text Wrapping</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.text-wrapping.none.name">
+            <variant>None</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.text-wrapping.character.name">
+            <variant>Character</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.text-wrapping.word.name">
+            <variant>Word</variant>
+        </translation>
+        <translation key="flowcontrol.attributes.text-wrapping.word-character.name">
+            <variant>Word And Character</variant>
+        </translation>
+        <translation key="event-descriptor.flowcontrol.edit">
+            <variant>Flow Control Edit</variant>
+        </translation>
+    </section>
+    <section id="window-menu-interface">
+        <translation key="window-menu">
+            <variant>Window</variant>
+        </translation>
+        <translation key="toggle-tool-properties-window-show">
+            <variant>Show Tool Palette</variant>
+        </translation>
+        <translation key="toggle-tool-properties-window-hide">
+            <variant>Hide Tool Palette</variant>
+        </translation>
+        <translation key="toggle-tool-properties-window-tooltip">
+            <variant>Toggle visibility of the Tools Palette window</variant>
+        </translation>
+        <translation key="toggle-control-properties-window-show">
+            <variant>Show Control Properties</variant>
+        </translation>
+        <translation key="toggle-control-properties-window-hide">
+            <variant>Hide Control Properties</variant>
+        </translation>
+        <translation key="toggle-control-properties-window-tooltip">
+            <variant>Toggle visibility of the Control Properties window</variant>
+        </translation>
+        <translation key="toggle-system-window-show">
+            <variant>Show System</variant>
+        </translation>
+        <translation key="toggle-system-window-hide">
+            <variant>Hide System</variant>
+        </translation>
+        <translation key="toggle-system-window-tooltip">
+            <variant>Toggle visibility of the System window</variant>
+        </translation>
+        <translation key="untitled-view">
+            <variant>Untitled</variant>
+        </translation>
+        <translation key="group-viewer-toggle.show">
+            <variant>Show Group Viewer</variant>
+        </translation>
+        <translation key="group-viewer-toggle.hide">
+            <variant>Hide Group Viewer</variant>
+        </translation>
+        <translation key="group-viewer-toggle.tooltip">
+            <variant>Toggle visibility of the Group Viewer window</variant>
+        </translation>
+    </section>
+    <section id="help-menu-interface">
+        <translation key="help-menu">
+            <variant>Help</variant>
+        </translation>
+        <translation key="help">
+            <variant>Help</variant>
+        </translation>
+        <translation key="help-tooltip">
+            <variant>Launch ViewBuilder Help</variant>
+        </translation>
+        <translation key="tip-of-the-day">
+            <variant>Tip Of The Day</variant>
+        </translation>
+        <translation key="tip-of-the-day-tooltip">
+            <variant>ViewBuilder Tip Of The Day</variant>
+        </translation>
+        <translation key="apply-update">
+            <variant>Apply Update</variant>
+        </translation>
+        <translation key="apply-update-tooltip">
+            <variant>Apply a product update</variant>
+        </translation>
+        <translation key="about">
+            <variant>About</variant>
+        </translation>
+        <translation key="about-tooltip">
+            <variant>View Builder Information</variant>
+        </translation>
+    </section>
+    <section id="test-menu-interface">
+        <translation key="test-menu">
+            <variant>Test</variant>
+        </translation>
+        <translation key="generate-test-code">
+            <variant>Generate Test Code</variant>
+        </translation>
+        <translation key="generate-test-code-tooltip">
+            <variant>Generates and places on the clipboard a snippet of Java code</variant>
+        </translation>
+    </section>
+    <section id="developer-menu-interface">
+        <translation key="developer-menu">
+            <variant>Developer</variant>
+        </translation>
+        <translation key="display-debugger">
+            <variant>Display Debugger...</variant>
+        </translation>
+        <translation key="display-debugger-tooltip">
+            <variant>Displays ViewBuilder's Debug Window</variant>
+        </translation>
+        <translation key="display-memory-usage">
+            <variant>Display Memory Usage</variant>
+        </translation>
+        <translation key="display-memory-usage-tooltip">
+            <variant>Displays ViewBuilder's Memory Usage Window</variant>
+        </translation>
+        <translation key="add-one-of-each-entity">
+            <variant>Add One of Each Entity</variant>
+        </translation>
+        <translation key="add-one-of-each-entity-tooltip">
+            <variant>Adds one of each entity to the current view</variant>
+        </translation>
+        <translation key="add-many-entities">
+            <variant>Add Many Entities</variant>
+        </translation>
+        <translation key="add-many-entities-tooltip">
+            <variant>Adds many entities to the current view</variant>
+        </translation>
+        <translation key="default-new-view">
+            <variant>New Graphic view on Startup</variant>
+        </translation>
+        <translation key="default-new-view-tooltip">
+            <variant>Creates a new view of the chosen type on startup</variant>
+        </translation>
+        <translation key="open-view-immediately">
+            <variant>Open View On Startup</variant>
+        </translation>
+        <translation key="open-view-immediately-tooltip">
+            <variant>Opens the stored view immediately on startup</variant>
+        </translation>
+        <translation key="choose-open-view-immediately">
+            <variant>View To Open On Startup...</variant>
+        </translation>
+        <translation key="choose-open-view-immediately-tooltip">
+            <variant>Choose the stored view to open immediately on startup</variant>
+        </translation>
+        <translation key="toggle-save-confirmation">
+            <variant>'No To All' On Save</variant>
+        </translation>
+        <translation key="toggle-save-confirmation-tooltip">
+            <variant>Automatically answers of 'No To All' anytime you close a view</variant>
+        </translation>
+        <translation key="toggle-overwrite-confirmation">
+            <variant>Confirm Overwrite On Save</variant>
+        </translation>
+        <translation key="toggle-overwrite-confirmation-tooltip">
+            <variant>Automatically overwrites a saved view</variant>
+        </translation>
+        <translation key="toggle-unzip-view-on-save">
+            <variant>Unzip View On Save</variant>
+        </translation>
+        <translation key="toggle-unzip-view-on-save-tooltip">
+            <variant>Unzips the view automatically when you save it</variant>
+        </translation>
+        <translation key="toggle-validate-cjv">
+            <variant>Validate CJV On Save</variant>
+        </translation>
+        <translation key="toggle-validate-cjv-tooltip">
+            <variant>Toggles the option to XSchema validate the CJV when the view is saved</variant>
+        </translation>
+        <translation key="toggle-debug-grid">
+            <variant>Show Debug Grid</variant>
+        </translation>
+        <translation key="toggle-debug-grid-tooltip">
+            <variant>Toggles the option to show the grid on the screen</variant>
+        </translation>
+        <translation key="toggle-suppress-early-access-warning">
+            <variant>Suppress Early Access Warning Dialog</variant>
+        </translation>
+        <translation key="toggle-suppress-early-access-warning-tooltip">
+            <variant>Toggles the option to suppress the early access release nag dialog</variant>
+        </translation>
+    </section>
+    <section id="general-interface">
+        <translation key="undo-droplist-tooltip">
+            <variant>Undo</variant>
+        </translation>
+        <translation key="redo-droplist-tooltip">
+            <variant>Redo</variant>
+        </translation>
+        <translation key="undo-actions-plural">
+            <note>messages telling the user how many actions will be undone. This is used when 0 or multiple actions are selected.</note>
+            <variant>Undo {0} actions.</variant>
+        </translation>
+        <translation key="undo-actions-single">
+            <note>messages telling the user how many actions will be undone. This is used when only 1 action is selected.</note>
+            <variant>Undo 1 action.</variant>
+        </translation>
+        <translation key="redo-actions-plural">
+            <note>messages telling the user how many actions will be redone. This is used when 0 or multiple actions are selected.</note>
+            <variant>Redo {0} actions.</variant>
+        </translation>
+        <translation key="redo-actions-single">
+            <note>messages telling the user how many actions will be redone. This is used when only 1 action is selected.</note>
+            <variant>Redo 1 action.</variant>
+        </translation>
+        <translation key="alignment">
+            <note>The title for the border that surrounds the alignment buttons on the tool palette</note>
+            <variant>Align</variant>
+        </translation>
+        <translation key="horizontal">
+            <note>The title for the border that surrounds the horizontal alignment buttons on the tool palette</note>
+            <variant>Horizontal</variant>
+        </translation>
+        <translation key="vertical">
+            <note>The title for the border that surrounds the vertical alignment buttons on the tool palette</note>
+            <variant>Vertical</variant>
+        </translation>
+        <translation key="layering">
+            <note>The title for the border that surrounds the layering buttons on the tool palette</note>
+            <variant>Arrange</variant>
+        </translation>
+        <translation key="grouping">
+            <note>The title for the border that surrounds the grouping buttons on the tool palette</note>
+            <variant>Group</variant>
+        </translation>
+        <translation key="flowcontrol.attributes">
+            <note>The title for the border that surrounds the flow control options on the tool palette</note>
+            <variant>Attributes</variant>
+        </translation>
+        <translation key="drawing">
+            <note>The title for the border that surrounds the drawing buttons on the tool palette</note>
+            <variant>Draw</variant>
+        </translation>
+        <translation key="drawing.attributes">
+            <note>The title for the border that surrounds the drawing options on the tool palette</note>
+            <variant>Attributes</variant>
+        </translation>
+        <translation key="drawing.default-attributes">
+            <note>A variation on title for the border that surrounds the drawing options on the tool palette</note>
+            <variant>Default Attributes</variant>
+        </translation>
+        <translation key="screen">
+            <note>A screen</note>
+            <variant>Screen</variant>
+        </translation>
+        <translation key="screen-title">
+            <note>Screen title</note>
+            <variant>Title</variant>
+        </translation>
+        <translation key="group-viewer.title">
+            <variant>Group Viewer</variant>
+        </translation>
+    </section>
+    <section id="properties-editor-interface">
+        <translation key="bacview-admin-password-title">
+            <variant>Admin Password</variant>
+        </translation>
+        <translation key="bacview-backward-compatibility">
+            <variant>Backward Compatibility</variant>
+        </translation>
+        <translation key="none-bacview-backward-compatibility">
+            <note>Just an option for no choice</note>
+            <variant>None</variant>
+        </translation>
+        <translation key="s37-bacview-backward-compatibility">
+            <variant>.S37 file</variant>
+        </translation>
+        <translation key="kpd-bacview-backward-compatibility">
+            <variant>.KPD file</variant>
+        </translation>
+        <translation key="bacview-advanced-screens">
+            <variant>Advanced Screens</variant>
+        </translation>
+        <translation key="none-bacview-advanced-screens">
+            <note>Just an option for no choice</note>
+            <variant>None</variant>
+        </translation>
+        <translation key="exec6-bacview-advanced-screens">
+            <variant>Exec 6</variant>
+        </translation>
+        <translation key="execb-bacview-advanced-screens">
+            <variant>ExecB</variant>
+        </translation>
+        <translation key="touchview-date-control-use-system-date">
+            <variant>Use System Date:</variant>
+        </translation>
+        <translation key="touchview-date-control-use-system-time">
+            <variant>Use System Time:</variant>
+        </translation>
+    </section>
+    <section id="table-editor">
+        <translation key="table-editor.push-to-edit">
+            <variant>Edit Table</variant>
+        </translation>
+        <translation key="table-editor-title">
+            <variant>Table Editor</variant>
+        </translation>
+        <translation key="table-editor-table-selection-title">
+            <variant>Insert Table</variant>
+        </translation>
+        <translation key="table-editor-custom">
+            <variant>Custom</variant>
+        </translation>
+        <translation key="table-editor-pre-defined">
+            <variant>Pre-Defined</variant>
+        </translation>
+        <translation key="table-editor-initial-rows">
+            <variant>Initial Number of Rows:</variant>
+        </translation>
+        <translation key="table-editor-initial-columns">
+            <variant>Initial Number of Columns:</variant>
+        </translation>
+        <translation key="table-editor-table">
+            <variant>Table</variant>
+        </translation>
+        <translation key="table-editor-align-left">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="table-editor-align-left-tooltip">
+            <variant>Align Left</variant>
+        </translation>
+        <translation key="table-editor-align-horizontal-center">
+            <variant>Align Horizontal Center</variant>
+        </translation>
+        <translation key="table-editor-align-horizontal-center-tooltip">
+            <variant>Align Horizontal Center</variant>
+        </translation>
+        <translation key="table-editor-align-right">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="table-editor-align-right-tooltip">
+            <variant>Align Right</variant>
+        </translation>
+        <translation key="table-editor-column-spacers">
+            <variant>Use Automatic Column Spacers</variant>
+        </translation>
+        <translation key="table-editor-column-spacers-tooltip">
+            <variant>Toggle the use of automatic column spacers</variant>
+        </translation>
+        <translation key="table-editor-table-border">
+            <variant>Table Attributes...</variant>
+        </translation>
+        <translation key="table-editor-table-border-tooltip">
+            <variant>Change the display attributes for the whole table</variant>
+        </translation>
+        <translation key="table-editor-column">
+            <variant>Column</variant>
+        </translation>
+        <translation key="table-editor-insert-column-before">
+            <variant>Insert Column Before</variant>
+        </translation>
+        <translation key="table-editor-insert-column-before-tooltip">
+            <variant>Insert Column Before</variant>
+        </translation>
+        <translation key="table-editor-insert-column-after">
+            <variant>Insert Column After</variant>
+        </translation>
+        <translation key="table-editor-insert-column-after-tooltip">
+            <variant>Insert Column After</variant>
+        </translation>
+        <translation key="table-editor-delete-column">
+            <variant>Delete Column</variant>
+        </translation>
+        <translation key="table-editor-delete-column-tooltip">
+            <variant>Delete Column</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-width">
+            <variant>Set Minimum Width...</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-width-tooltip">
+            <variant>Set minimum width of selected columns</variant>
+        </translation>
+        <translation key="table-editor-row">
+            <variant>Row</variant>
+        </translation>
+        <translation key="table-editor-insert-row-before">
+            <variant>Insert Row Before</variant>
+        </translation>
+        <translation key="table-editor-insert-row-before-tooltip">
+            <variant>Insert Row Before</variant>
+        </translation>
+        <translation key="table-editor-insert-row-after">
+            <variant>Insert Row After</variant>
+        </translation>
+        <translation key="table-editor-insert-row-after-tooltip">
+            <variant>Insert Row After</variant>
+        </translation>
+        <translation key="table-editor-delete-row">
+            <variant>Delete Row</variant>
+        </translation>
+        <translation key="table-editor-delete-row-tooltip">
+            <variant>Delete Row</variant>
+        </translation>
+        <translation key="table-editor-show-hide-conditional">
+            <variant>Show/Hide...</variant>
+        </translation>
+        <translation key="table-editor-show-hide-conditional-tooltip">
+            <variant>Assign conditional expression to show or hide selected table row</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-height">
+            <variant>Set Minimum Height...</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-height-tooltip">
+            <variant>Set minimum height of selected rows</variant>
+        </translation>
+        <translation key="table-editor-cell">
+            <variant>Cell</variant>
+        </translation>
+        <translation key="table-attributes.name">
+            <variant>Table Attributes</variant>
+        </translation>
+        <translation key="table-editor-merge-cells">
+            <variant>Merge Cells</variant>
+        </translation>
+        <translation key="table-editor-merge-cells-tooltip">
+            <variant>Merge Cells</variant>
+        </translation>
+        <translation key="table-editor-split-cell">
+            <variant>Split Cell</variant>
+        </translation>
+        <translation key="table-editor-split-cell-tooltip">
+            <variant>Split Cell</variant>
+        </translation>
+        <translation key="table-editor-align-top">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="table-editor-align-top-tooltip">
+            <variant>Align Top</variant>
+        </translation>
+        <translation key="table-editor-align-vertical-center">
+            <variant>Align Vertical Center</variant>
+        </translation>
+        <translation key="table-editor-align-vertical-center-tooltip">
+            <variant>Align Vertical Center</variant>
+        </translation>
+        <translation key="table-editor-align-bottom">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="table-editor-align-bottom-tooltip">
+            <variant>Align Bottom</variant>
+        </translation>
+        <translation key="table-editor-help">
+            <variant>Table Editor Help</variant>
+        </translation>
+        <translation key="table-editor-help-tooltip">
+            <variant>Launch Table Editor Help</variant>
+        </translation>
+        <translation key="table-editor-cell-border">
+            <variant>Cell Border...</variant>
+        </translation>
+        <translation key="table-editor-cell-border-tooltip">
+            <variant>Change the border for the selected cell of the table</variant>
+        </translation>
+        <translation key="table-editor-cell-color">
+            <variant>Cell Color...</variant>
+        </translation>
+        <translation key="table-editor-cell-color-tooltip">
+            <variant>Change the color for the selected cells of the table</variant>
+        </translation>
+        <translation key="table-editor-table-border-title">
+            <variant>Edit Table Border</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-width-title">
+            <variant>Set Minimum Width</variant>
+        </translation>
+        <translation key="table-editor-set-minimum-height-title">
+            <variant>Set Minimum Height</variant>
+        </translation>
+        <translation key="table-editor-use-custom-minimum-width">
+            <variant>Cell minimum width:</variant>
+        </translation>
+        <translation key="table-editor-use-custom-minimum-height">
+            <variant>Cell minimum height:</variant>
+        </translation>
+        <translation key="table-editor-use-default-minimum-size">
+            <variant>Size cell based on contents</variant>
+        </translation>
+        <translation key="table-editor-cell-border-title">
+            <variant>Edit Cell Border</variant>
+        </translation>
+        <translation key="table-editor-border-color">
+            <variant>Border Color:</variant>
+        </translation>
+        <translation key="table-editor-border-width">
+            <variant>Border Width:</variant>
+        </translation>
+        <translation key="table-editor-no-color-transparent">
+            <variant>No Color ( Transparent )</variant>
+        </translation>
+        <translation key="table-editor-cell-color-title">
+            <variant>Cell Color</variant>
+        </translation>
+        <translation key="table-editor-pick-color">
+            <variant>Pick Color</variant>
+        </translation>
+        <translation key="table-editor-moved-entity-outside-of-table">
+            <variant>Controls inside merged cells are moved to the right of the table. Only 1 control per cell allowed.</variant>
+        </translation>
+        <translation key="cell-attributes.name">
+            <variant>Cell Attributes</variant>
+        </translation>
+        <translation key="cell-attributes.menu.name">
+            <variant>Cell Attributes...</variant>
+        </translation>
+        <translation key="cell-attributes.ok.name">
+            <variant>OK</variant>
+        </translation>
+        <translation key="cell-attributes.cancel.name">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="cell-attributes.help.name">
+            <variant>Help</variant>
+        </translation>
+        <translation key="cell-attributes.tooltip">
+            <variant>Cancel</variant>
+        </translation>
+    </section>
+    <section id="system-window-interface">
+        <translation key="database">
+            <variant>Database</variant>
+        </translation>
+        <translation key="equipment-file">
+            <variant>Equipment File</variant>
+        </translation>
+        <translation key="property-comment">
+            <variant>Property Comment:</variant>
+        </translation>
+        <translation key="summary-comment">
+            <variant>Summary Comment:</variant>
+        </translation>
+        <translation key="no-properties-found-message">
+            <variant>Chosen file doesn't have any properties!</variant>
+        </translation>
+        <translation key="file-does-not-exist-message">
+            <variant>Given file doesn't exist!</variant>
+        </translation>
+        <translation key="equipment-file-not-specified-message">
+            <variant>Equipment file not specified!</variant>
+        </translation>
+    </section>
+    <section id="scaling-factor-combo-box">
+        <translation key="scaling-factor.hours">
+            <variant>Hours</variant>
+        </translation>
+        <translation key="scaling-factor.minutes">
+            <variant>Minutes</variant>
+        </translation>
+        <translation key="scaling-factor.seconds">
+            <variant>Seconds</variant>
+        </translation>
+        <translation key="scaling-factor.centiseconds">
+            <variant>Centiseconds</variant>
+        </translation>
+        <translation key="scaling-factor.milliseconds">
+            <variant>Milliseconds</variant>
+        </translation>
+    </section>
+    <section id="plugins-interface"/>
+    <section id="local-variables-interface">
+        <translation key="local-variables-title">
+            <variant>Local Variables</variant>
+        </translation>
+        <translation key="local-variables-tooltip">
+            <variant>Alt+V</variant>
+        </translation>
+        <translation key="local-variables-data-type">
+            <variant>Type</variant>
+        </translation>
+        <translation key="local-variables-name">
+            <variant>Name</variant>
+        </translation>
+        <translation key="local-variables-type-integer">
+            <variant>Integer</variant>
+        </translation>
+        <translation key="local-variables-type-boolean">
+            <variant>Boolean</variant>
+        </translation>
+        <translation approved="false" key="local-variables-type-reportcolumn" new="true">
+            <variant>Report column</variant>
+        </translation>
+        <translation key="local-variables-add-variable">
+            <variant>Added Local Variable</variant>
+        </translation>
+        <translation key="local-variables-delete-variable">
+            <variant>Deleted Local Variable</variant>
+        </translation>
+        <translation key="local-variables-changed-variable">
+            <variant>Changed Local Variable</variant>
+        </translation>
+        <translation key="local-variables-confirm-delete-message">
+            <variant>Local variable {0} is in use.  If you delete it then click 'OK', expression(s) using it will be deleted as well.  Are you sure you want to delete?</variant>
+        </translation>
+        <translation key="local-variables-confirm-delete-title">
+            <variant>Confirm Delete</variant>
+        </translation>
+        <translation key="local-variables-duplicate-title">
+            <variant>Duplicate Names</variant>
+        </translation>
+        <translation key="local-variables-duplicate-message">
+            <variant>Local variable names must be unique!</variant>
+        </translation>
+    </section>
+    <section id="layers-interface">
+        <translation key="layers-default-name">
+            <variant>Layer</variant>
+        </translation>
+        <translation key="layers-window-title">
+            <variant>Layers</variant>
+        </translation>
+        <translation key="layers-add-button-label">
+            <variant>Add Layer</variant>
+        </translation>
+        <translation key="layers-remove-button-label">
+            <variant>Remove Layer</variant>
+        </translation>
+        <translation key="layers-move-up-button-label">
+            <variant>Move Layer Up</variant>
+        </translation>
+        <translation key="layers-move-down-button-label">
+            <variant>Move Layer Down</variant>
+        </translation>
+        <translation key="layers-name-column-header">
+            <variant>Name</variant>
+        </translation>
+        <translation key="layers-visible-column-header">
+            <variant>Show</variant>
+        </translation>
+        <translation key="layers-lock-column-header">
+            <variant>Lock</variant>
+        </translation>
+        <translation key="layers-tooltip">
+            <variant>Layers</variant>
+        </translation>
+        <translation key="move-to-layer-title">
+            <variant>Move To Layer</variant>
+        </translation>
+        <translation key="move-to-layer-message">
+            <variant>&lt;html&gt;Choose a layer to move the selected controls to.&lt;/html&gt;</variant>
+        </translation>
+        <translation key="delete-layer-title">
+            <variant>Delete Layer</variant>
+        </translation>
+        <translation key="delete-layer-message">
+            <variant>&lt;html&gt;The layer you want to delete contains controls.&lt;br&gt;Please select a layer to merge those controls into.&lt;/html&gt;</variant>
+        </translation>
+        <translation key="undo-redo-added-layer">
+            <variant>Added Layer</variant>
+        </translation>
+        <translation key="undo-redo-deleted-layer">
+            <variant>Deleted Layer</variant>
+        </translation>
+        <translation key="undo-redo-merged-layers">
+            <variant>Merged Layers</variant>
+        </translation>
+        <translation key="undo-redo-renamed-layer">
+            <variant>Renamed Layer</variant>
+        </translation>
+        <translation key="undo-redo-moved-to-layer">
+            <variant>Moved To Layer</variant>
+        </translation>
+        <translation key="undo-redo-moved-layer-up">
+            <variant>Moved Layer Up</variant>
+        </translation>
+        <translation key="undo-redo-moved-layer-down">
+            <variant>Moved Layer Down</variant>
+        </translation>
+        <translation key="layers-duplicate-name-message">
+            <variant>Layer names must be unique!</variant>
+        </translation>
+        <translation key="layers-duplicate-name-title">
+            <variant>Duplicate Names</variant>
+        </translation>
+        <translation key="undo-redo-renamed-layer">
+            <variant>Renamed Layer</variant>
+        </translation>
+        <translation key="layers-condition-column-header">
+            <variant>Condition</variant>
+        </translation>
+        <translation key="undo-redo-add-conditional-to-layer">
+            <variant>Added Conditional to Layer</variant>
+        </translation>
+        <translation key="no-multi-layered-group-message">
+            <variant>All controls in a group must be on the same layer.</variant>
+        </translation>
+        <translation key="no-multi-layered-group-title">
+            <variant>Group Controls</variant>
+        </translation>
+        <translation key="layer-duplicate-name-message">
+            <variant>Layer names must be unique.</variant>
+        </translation>
+        <translation key="layer-duplicate-name-title">
+            <variant>Rename Layer</variant>
+        </translation>
+    </section>
+</resource-base>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="equipment" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="all files">
+        <note>These keys are used on various graphics pages within .equipment files.</note>
+        <translation approved="true" key="Char_Set" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>iso-8859-1</variant>
+        </translation>
+        <translation approved="true" key="On" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Activado</variant>
+        </translation>
+        <translation approved="true" key="Off" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Desactivado</variant>
+        </translation>
+        <translation approved="true" key="No" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>No</variant>
+        </translation>
+        <translation approved="true" key="Yes" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Sí</variant>
+        </translation>
+        <translation approved="false" key="Open" new="true">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Abrir</variant>
+        </translation>
+        <translation approved="true" key="Closed" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Cerrado</variant>
+        </translation>
+        <translation approved="true" key="True" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Verdadero</variant>
+        </translation>
+        <translation approved="true" key="False" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Falso</variant>
+        </translation>
+        <translation approved="true" key="Active" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Activo</variant>
+        </translation>
+        <translation approved="true" key="Inactive" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Inactivo</variant>
+        </translation>
+        <translation approved="true" key="Enabled" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Activado</variant>
+        </translation>
+        <translation approved="true" key="Disabled" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Desactivado</variant>
+        </translation>
+        <translation approved="true" key="Occupied" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Ocupado</variant>
+        </translation>
+        <translation approved="true" key="Unoccupied" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Desocupado</variant>
+        </translation>
+        <translation approved="true" key="Dirty" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Modificado</variant>
+        </translation>
+        <translation approved="true" key="OK" new="false">
+            <note>These keys are used on various graphics pages within .equipment files.</note>
+            <variant>Aceptar</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

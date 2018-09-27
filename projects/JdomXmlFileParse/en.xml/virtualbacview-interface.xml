@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="virtualbacview-interface" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="menu">
+        <!-- Titles -->
+        <translation key="virtualbacview.menu.title.file">
+            <note/>
+            <variant>File</variant>
+        </translation>
+        <translation key="virtualbacview.menu.title.configure">
+            <note/>
+            <variant>Configure</variant>
+        </translation>
+        <translation key="virtualbacview.menu.title.help">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation key="virtualbacview.menu.title.restart">
+            <note/>
+            <variant>Restart</variant>
+        </translation>
+        <translation key="virtualbacview.menu.title.exit">
+            <note/>
+            <variant>Exit</variant>
+        </translation>
+        <translation key="virtualbacview.menu.title.about">
+            <note/>
+            <variant>About</variant>
+        </translation>
+        <translation key="virtualbacview.title.preferences">
+            <note/>
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="virtualbacview.title.htmlviewer">
+            <note/>
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="virtualbacview.title.ok">
+            <note/>
+            <variant>Ok</variant>
+        </translation>
+        <translation key="virtualbacview.title.cancel">
+            <note/>
+            <variant>Cancel</variant>
+        </translation>
+        <!-- Mnemonics -->
+        <translation key="virtualbacview.menu.mnemonic.file">
+            <note/>
+            <variant>F</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.configure">
+            <note/>
+            <variant>Configure</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.help">
+            <note/>
+            <variant>H</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.restart">
+            <note/>
+            <variant>R</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.exit">
+            <note/>
+            <variant>E</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.about">
+            <note/>
+            <variant>A</variant>
+        </translation>
+        <translation key="virtualbacview.menu.mnemonic.preferences">
+            <note/>
+            <variant>P</variant>
+        </translation>
+        <translation key="virtualbacview.establishingconnection.message">
+            <note/>
+            <variant>Establishing connection...</variant>
+        </translation>
+        <translation key="virtualbacview.waitingforconnection.message">
+            <note/>
+            <variant>Waiting for connection...</variant>
+        </translation>
+    </section>
+    <section id="startup-settings-dialog">
+        <translation key="virtualbacview.startup.settings.title">
+            <note/>
+            <variant>Startup Settings</variant>
+        </translation>
+        <translation key="virtualbacview.startup.settings.rowcount">
+            <note/>
+            <variant>Row Count:</variant>
+        </translation>
+        <translation key="virtualbacview.startup.settings.commport">
+            <note/>
+            <variant>Comm Port:</variant>
+        </translation>
+        <translation key="virtualbacview.startup.settings.validation.entervalidvalue">
+            <note/>
+            <variant>enter a valid value</variant>
+        </translation>
+        <translation key="virtualbacview.startup.settings.validation.numericonly">
+            <note/>
+            <variant>numeric only</variant>
+        </translation>
+        <translation key="virtualbacview.startup.settings.validation.boundscheck">
+            <note/>
+            <variant>no less than 4 and no greater than 100</variant>
+        </translation>
+    </section>
+    <section id="error_dialog">
+        <translation key="virtualbacview.start.error.message">
+            <note/>
+            <variant>Product installation appears to be corrupt! Try reinstalling the application.</variant>
+        </translation>
+        <translation key="virtualbacview.connection.error.message">
+            <note/>
+            <variant>Unable to connect to selected COM Port! Please 'Restart' and select a different port.</variant>
+        </translation>
+        <translation key="virtualbacview.connection.greaterthan4rowsnotsupported.message">
+            <note/>
+            <variant>Current module driver doesn't support more than 4 rows; therefore, VirtualBACview is defaulting to 4.</variant>
+        </translation>
+        <translation key="virtualbacview.connection.nocommportsfound.message">
+            <note/>
+            <variant>Unable to find available comm ports.  Shutting down.</variant>
+        </translation>
+    </section>
+    <!--  end of error dialog section -->
+</resource-base>

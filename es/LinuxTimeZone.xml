@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="LinuxTimeZone" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="all files">
+        <note>Label - Identifies a Linux time zone.</note>
+        <translation approved="true" key="Europe" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Europa</variant>
+        </translation>
+        <translation approved="true" key="Netherlands" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Holanda</variant>
+        </translation>
+        <translation approved="true" key="Greece" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Grecia</variant>
+        </translation>
+        <translation approved="true" key="Northern_Ireland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Irlanda del Norte</variant>
+        </translation>
+        <translation approved="true" key="Yugoslavia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Yugoslavia</variant>
+        </translation>
+        <translation approved="true" key="Germany" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Alemania</variant>
+        </translation>
+        <translation approved="true" key="Slovakia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Eslovaquia</variant>
+        </translation>
+        <translation approved="true" key="Belgium" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bélgica</variant>
+        </translation>
+        <translation approved="true" key="Romania" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Rumanía</variant>
+        </translation>
+        <translation approved="true" key="Hungary" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Hungría</variant>
+        </translation>
+        <translation approved="true" key="Moldova" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Moldavia</variant>
+        </translation>
+        <translation approved="true" key="Denmark" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dinamarca</variant>
+        </translation>
+        <translation approved="true" key="Ireland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Irlanda</variant>
+        </translation>
+        <translation approved="true" key="Gibraltar" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Gibraltar</variant>
+        </translation>
+        <translation approved="true" key="Finland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Finlandia</variant>
+        </translation>
+        <translation approved="true" key="Turkey" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Turquía</variant>
+        </translation>
+        <translation approved="true" key="Ukraine" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Ucrania</variant>
+        </translation>
+        <translation approved="true" key="Portugal" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Portugal</variant>
+        </translation>
+        <translation approved="true" key="Slovenia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Eslovenia</variant>
+        </translation>
+        <translation approved="true" key="United_Kingdom" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Reino Unido</variant>
+        </translation>
+        <translation approved="true" key="Luxembourg" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Luxemburgo</variant>
+        </translation>
+        <translation approved="true" key="Spain" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>España</variant>
+        </translation>
+        <translation approved="true" key="Malta" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Malta</variant>
+        </translation>
+        <translation approved="true" key="Monaco" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Mónaco</variant>
+        </translation>
+        <translation approved="true" key="Russia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Rusia</variant>
+        </translation>
+        <translation approved="true" key="Norway" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Noruega</variant>
+        </translation>
+        <translation approved="true" key="France" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Francia</variant>
+        </translation>
+        <translation approved="true" key="Czech_Republic" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>República Checa</variant>
+        </translation>
+        <translation approved="true" key="Latvia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Letonia</variant>
+        </translation>
+        <translation approved="true" key="Italy" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Italia</variant>
+        </translation>
+        <translation approved="true" key="Bosnia_&amp;_Herzegovina" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bosnia y Herzegovina</variant>
+        </translation>
+        <translation approved="true" key="Macedonia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Macedonia</variant>
+        </translation>
+        <translation approved="true" key="Bulgaria" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bulgaria</variant>
+        </translation>
+        <translation approved="true" key="Sweden" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Suecia</variant>
+        </translation>
+        <translation approved="true" key="Estonia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Estonia</variant>
+        </translation>
+        <translation approved="true" key="Albania" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Albania</variant>
+        </translation>
+        <translation approved="true" key="Liechtenstein" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Liechtenstein</variant>
+        </translation>
+        <translation approved="true" key="Vatican" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Vaticano</variant>
+        </translation>
+        <translation approved="true" key="Austria" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Austria</variant>
+        </translation>
+        <translation approved="true" key="Lithuania" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Lituania</variant>
+        </translation>
+        <translation approved="true" key="Poland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Polonia</variant>
+        </translation>
+        <translation approved="true" key="Croatia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Croacia</variant>
+        </translation>
+        <translation approved="true" key="Iceland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Islandia</variant>
+        </translation>
+        <translation approved="true" key="Azores" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Azores</variant>
+        </translation>
+        <translation approved="true" key="Switzerland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Suiza</variant>
+        </translation>
+        <translation approved="true" key="USA" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>EE.UU.</variant>
+        </translation>
+        <translation approved="true" key="Alaska" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Alaska</variant>
+        </translation>
+        <translation approved="true" key="Aleutian" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Aleutianas</variant>
+        </translation>
+        <translation approved="true" key="Arizona" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Arizona</variant>
+        </translation>
+        <translation approved="true" key="Central" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Central</variant>
+        </translation>
+        <translation approved="false" key="East_Indiana" new="true">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Este Indiana</variant>
+        </translation>
+        <translation approved="true" key="Hawaii" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Hawai</variant>
+        </translation>
+        <translation approved="true" key="Indiana_Starke" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Indiana-Starke</variant>
+        </translation>
+        <translation approved="true" key="Michigan" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Michigan</variant>
+        </translation>
+        <translation approved="true" key="Mountain" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Rocosas</variant>
+        </translation>
+        <translation approved="true" key="Pacific" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Pacífico</variant>
+        </translation>
+        <translation approved="true" key="Samoa" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Samoa</variant>
+        </translation>
+        <translation approved="true" key="Eastern" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Canadá</variant>
+        </translation>
+        <translation approved="true" key="Canada" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Canadá</variant>
+        </translation>
+        <translation approved="true" key="Atlantic" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Atlántico</variant>
+        </translation>
+        <translation approved="true" key="Newfoundland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Terranova</variant>
+        </translation>
+        <translation approved="true" key="Saskatchewan" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Saskatchewan</variant>
+        </translation>
+        <translation approved="true" key="East_Saskatchewan" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Saskatchewan Este</variant>
+        </translation>
+        <translation approved="true" key="Yukon" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Yukon</variant>
+        </translation>
+        <translation approved="true" key="Central_and_South_America" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Centro y Sur América</variant>
+        </translation>
+        <translation approved="true" key="Brazil_East" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Brasil Oriental</variant>
+        </translation>
+        <translation approved="true" key="Brazil_West" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Brasil Occidental</variant>
+        </translation>
+        <translation approved="true" key="Chile_Continental" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Chile Continental</variant>
+        </translation>
+        <translation approved="true" key="Chile_EasterIsland" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Chile, Isla de Pascua</variant>
+        </translation>
+        <translation approved="true" key="Jamaica" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Jamaica</variant>
+        </translation>
+        <translation approved="true" key="Bermuda" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Las Bermudas</variant>
+        </translation>
+        <translation approved="true" key="Mexico_BajaNorte" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>México BajaNorte</variant>
+        </translation>
+        <translation approved="true" key="Mexico_BajaSur" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>México BajaSur</variant>
+        </translation>
+        <translation approved="true" key="Asuncion" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Asunción</variant>
+        </translation>
+        <translation approved="true" key="Barbados" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Barbados</variant>
+        </translation>
+        <translation approved="true" key="Bogota" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bogotá</variant>
+        </translation>
+        <translation approved="true" key="Buenos_Aires" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Buenos Aires</variant>
+        </translation>
+        <translation approved="true" key="Caracas" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Caracas</variant>
+        </translation>
+        <translation approved="true" key="Costa_Rica" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Costa Rica</variant>
+        </translation>
+        <translation approved="true" key="Dominica" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dominica</variant>
+        </translation>
+        <translation approved="true" key="El_Salvador" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>El Salvador</variant>
+        </translation>
+        <translation approved="true" key="Grenada" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Granada</variant>
+        </translation>
+        <translation approved="true" key="Guadeloupe" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Guadalupe</variant>
+        </translation>
+        <translation approved="true" key="Guatemala" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Guatemala</variant>
+        </translation>
+        <translation approved="true" key="Lima" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Lima</variant>
+        </translation>
+        <translation approved="true" key="Managua" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Managua</variant>
+        </translation>
+        <translation approved="true" key="Martinique" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Martinica</variant>
+        </translation>
+        <translation approved="true" key="Panama" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Panamá</variant>
+        </translation>
+        <translation approved="true" key="Puerto_Rico" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Puerto Rico</variant>
+        </translation>
+        <translation approved="true" key="Uruguay" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Uruguay</variant>
+        </translation>
+        <translation approved="true" key="Virgin" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Islas Vírgenes</variant>
+        </translation>
+        <translation approved="true" key="Mexico_General" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>México General</variant>
+        </translation>
+        <translation approved="true" key="Asia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Asia</variant>
+        </translation>
+        <translation approved="true" key="Japan" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Japón</variant>
+        </translation>
+        <translation approved="true" key="China" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>China</variant>
+        </translation>
+        <translation approved="true" key="Korea" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Corea</variant>
+        </translation>
+        <translation approved="true" key="Hongkong" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Hong Kong</variant>
+        </translation>
+        <translation approved="true" key="Bahrain" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bahréin</variant>
+        </translation>
+        <translation approved="true" key="Bangkok" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Bangkok</variant>
+        </translation>
+        <translation approved="true" key="Beirut" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Beirut</variant>
+        </translation>
+        <translation approved="true" key="Brunei" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Brunei</variant>
+        </translation>
+        <translation approved="true" key="Calcutta" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Calcuta</variant>
+        </translation>
+        <translation approved="true" key="Colombo" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Colombo</variant>
+        </translation>
+        <translation approved="true" key="Damascus" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Damasco</variant>
+        </translation>
+        <translation approved="true" key="Dhaka" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dhaka</variant>
+        </translation>
+        <translation approved="true" key="Dubai" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dubai</variant>
+        </translation>
+        <translation approved="true" key="Gaza" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Gaza</variant>
+        </translation>
+        <translation approved="true" key="Jakarta" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Yakarta</variant>
+        </translation>
+        <translation approved="true" key="Katmandu" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Katmandú</variant>
+        </translation>
+        <translation approved="true" key="Kuala_Lumpur" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Kuala Lumpur</variant>
+        </translation>
+        <translation approved="true" key="Kuwait" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Kuwait</variant>
+        </translation>
+        <translation approved="true" key="Macao" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Macao</variant>
+        </translation>
+        <translation approved="true" key="Manila" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Manila</variant>
+        </translation>
+        <translation approved="true" key="Qatar" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Qatar</variant>
+        </translation>
+        <translation approved="true" key="Saigon" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Saigón</variant>
+        </translation>
+        <translation approved="true" key="Samarkand" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Samarkanda</variant>
+        </translation>
+        <translation approved="true" key="Tashkent" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Tashkent</variant>
+        </translation>
+        <translation approved="true" key="Tel_Aviv" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Tel Aviv</variant>
+        </translation>
+        <translation approved="true" key="Vladivostok" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Vladivostok</variant>
+        </translation>
+        <translation approved="true" key="Yekaterinburg" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Yekaterinburgo</variant>
+        </translation>
+        <translation approved="true" key="Tokyo" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Tokio</variant>
+        </translation>
+        <translation approved="true" key="Shanghai" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Shanghai</variant>
+        </translation>
+        <translation approved="true" key="Taipei" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Taipei</variant>
+        </translation>
+        <translation approved="true" key="Seoul" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Seúl</variant>
+        </translation>
+        <translation approved="true" key="Israel" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Israel</variant>
+        </translation>
+        <translation approved="false" key="Asia_Riyadh" new="true">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Asia/Riad</variant>
+        </translation>
+        <translation approved="true" key="Singapore" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Singapur</variant>
+        </translation>
+        <translation approved="true" key="Australia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Australia</variant>
+        </translation>
+        <translation approved="true" key="Northern_Territory--Darwin" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Territorio del Norte--Darwin</variant>
+        </translation>
+        <translation approved="true" key="Queensland--Brisbane" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Queensland--Brisbane</variant>
+        </translation>
+        <translation approved="true" key="South_Australia--Adelaide" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Australia del Sur--Adelaida</variant>
+        </translation>
+        <translation approved="true" key="New_South_Wales--Sydney" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Nueva Gales del Sur--Sydney</variant>
+        </translation>
+        <translation approved="true" key="Australian_Capital_Territory--Canberra" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Territorio de la Capital Australiana--Canberra</variant>
+        </translation>
+        <translation approved="true" key="Tasmania--Hobart" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Tasmania--Hobart</variant>
+        </translation>
+        <translation approved="true" key="Victoria--Melbourne" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Victoria--Melbourne</variant>
+        </translation>
+        <translation approved="true" key="Western_Australia--Perth" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Australia Occidental--Perth</variant>
+        </translation>
+        <translation approved="true" key="Africa" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>África</variant>
+        </translation>
+        <translation approved="true" key="Algiers" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Algeria</variant>
+        </translation>
+        <translation approved="true" key="Brazzaville" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Brazzaville</variant>
+        </translation>
+        <translation approved="true" key="Casablanca" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Casablanca</variant>
+        </translation>
+        <translation approved="true" key="Ceuta" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Ceuta</variant>
+        </translation>
+        <translation approved="true" key="Dakar" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dakar</variant>
+        </translation>
+        <translation approved="true" key="Dar_es_Salaam" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Dar es Salaam</variant>
+        </translation>
+        <translation approved="true" key="Djibouti" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Yibuti</variant>
+        </translation>
+        <translation approved="true" key="Freetown" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Freetown</variant>
+        </translation>
+        <translation approved="true" key="Johannesburg" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Johannesburgo</variant>
+        </translation>
+        <translation approved="true" key="Libreville" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Libreville</variant>
+        </translation>
+        <translation approved="true" key="Monrovia" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Monrovia</variant>
+        </translation>
+        <translation approved="true" key="Nairobi" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Nairobi</variant>
+        </translation>
+        <translation approved="true" key="Timbuktu" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Timbuktú</variant>
+        </translation>
+        <translation approved="true" key="Tunis" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Túnez</variant>
+        </translation>
+        <translation approved="true" key="Windhoek" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Windhoek</variant>
+        </translation>
+        <translation approved="true" key="Cairo" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>El Cairo</variant>
+        </translation>
+        <translation approved="true" key="Egypt" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Egipto</variant>
+        </translation>
+        <translation approved="true" key="Tripoli" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Trípoli</variant>
+        </translation>
+        <translation approved="true" key="New_Zealand" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Nueva Zelanda</variant>
+        </translation>
+        <translation approved="true" key="Fiji" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Fiji</variant>
+        </translation>
+        <translation approved="true" key="Galapagos" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Galápagos</variant>
+        </translation>
+        <translation approved="true" key="Guadalcanal" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Guadalcanal</variant>
+        </translation>
+        <translation approved="true" key="Guam" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Guam</variant>
+        </translation>
+        <translation approved="true" key="Midway" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Midway</variant>
+        </translation>
+        <translation approved="true" key="Nauru" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Nauru</variant>
+        </translation>
+        <translation approved="true" key="Palau" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Palaos</variant>
+        </translation>
+        <translation approved="true" key="Pitcairn" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Pitcairn</variant>
+        </translation>
+        <translation approved="true" key="Tahiti" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Tahití</variant>
+        </translation>
+        <translation approved="true" key="Global" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Global</variant>
+        </translation>
+        <translation approved="true" key="South_Pole" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Polo Sur</variant>
+        </translation>
+        <translation approved="true" key="Arctic_Longyearbyen" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Longyearbyen Ártico</variant>
+        </translation>
+        <translation approved="true" key="CET" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>CET</variant>
+        </translation>
+        <translation approved="true" key="CST6CDT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>CST6CDT</variant>
+        </translation>
+        <translation approved="true" key="EET" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>EET</variant>
+        </translation>
+        <translation approved="true" key="EST" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>EST</variant>
+        </translation>
+        <translation approved="true" key="EST5EDT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>EST5EDT</variant>
+        </translation>
+        <translation approved="true" key="GMT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT</variant>
+        </translation>
+        <translation approved="true" key="GMT+0" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+0</variant>
+        </translation>
+        <translation approved="true" key="GMT-0" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-0</variant>
+        </translation>
+        <translation approved="true" key="GMT0" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT0</variant>
+        </translation>
+        <translation approved="true" key="Greenwich" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Greenwich</variant>
+        </translation>
+        <translation approved="true" key="HST" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>HST</variant>
+        </translation>
+        <translation approved="true" key="MET" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>MET</variant>
+        </translation>
+        <translation approved="true" key="MST" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>MST</variant>
+        </translation>
+        <translation approved="true" key="MST7MDT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>MST7MDT</variant>
+        </translation>
+        <translation approved="true" key="NZ" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>NZ</variant>
+        </translation>
+        <translation approved="true" key="NZ-CHAT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>NZ-CHAT</variant>
+        </translation>
+        <translation approved="true" key="Navajo" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Navajo</variant>
+        </translation>
+        <translation approved="true" key="PST8PDT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>PST8PDT</variant>
+        </translation>
+        <translation approved="true" key="UCT" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>UCT</variant>
+        </translation>
+        <translation approved="true" key="UTC" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>UTC</variant>
+        </translation>
+        <translation approved="true" key="Universal" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Universal</variant>
+        </translation>
+        <translation approved="true" key="W-SU" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>W-SU</variant>
+        </translation>
+        <translation approved="true" key="WET" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>WET</variant>
+        </translation>
+        <translation approved="true" key="Zulu" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Zulú</variant>
+        </translation>
+        <translation approved="true" key="Etc" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>Etc.</variant>
+        </translation>
+        <translation approved="true" key="GMT+1" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+1</variant>
+        </translation>
+        <translation approved="true" key="GMT+10" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+10</variant>
+        </translation>
+        <translation approved="true" key="GMT+11" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+11</variant>
+        </translation>
+        <translation approved="true" key="GMT+12" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+12</variant>
+        </translation>
+        <translation approved="true" key="GMT+2" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+2</variant>
+        </translation>
+        <translation approved="true" key="GMT+3" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+3</variant>
+        </translation>
+        <translation approved="true" key="GMT+4" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+4</variant>
+        </translation>
+        <translation approved="true" key="GMT+5" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+5</variant>
+        </translation>
+        <translation approved="true" key="GMT+6" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+6</variant>
+        </translation>
+        <translation approved="true" key="GMT+7" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+7</variant>
+        </translation>
+        <translation approved="true" key="GMT+8" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+8</variant>
+        </translation>
+        <translation approved="true" key="GMT+9" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT+9</variant>
+        </translation>
+        <translation approved="true" key="GMT-1" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-1</variant>
+        </translation>
+        <translation approved="true" key="GMT-10" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-10</variant>
+        </translation>
+        <translation approved="true" key="GMT-11" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-11</variant>
+        </translation>
+        <translation approved="true" key="GMT-12" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-12</variant>
+        </translation>
+        <translation approved="true" key="GMT-13" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-13</variant>
+        </translation>
+        <translation approved="true" key="GMT-14" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-14</variant>
+        </translation>
+        <translation approved="true" key="GMT-2" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-2</variant>
+        </translation>
+        <translation approved="true" key="GMT-3" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-3</variant>
+        </translation>
+        <translation approved="true" key="GMT-4" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-4</variant>
+        </translation>
+        <translation approved="true" key="GMT-5" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-5</variant>
+        </translation>
+        <translation approved="true" key="GMT-6" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-6</variant>
+        </translation>
+        <translation approved="true" key="GMT-7" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-7</variant>
+        </translation>
+        <translation approved="true" key="GMT-8" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-8</variant>
+        </translation>
+        <translation approved="true" key="GMT-9" new="false">
+            <note>Label - Identifies a Linux time zone.</note>
+            <variant>GMT-9</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

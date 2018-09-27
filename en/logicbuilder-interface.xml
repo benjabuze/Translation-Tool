@@ -1,0 +1,2788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="logicbuilder-interface" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="interface">
+        <translation key="loading">
+            <note>This is displayed when the application first starts to let the user know we're loading.</note>
+            <variant>Loading...</variant>
+        </translation>
+        <translation key="keep-open-after-initialization-finished">
+            <note>Option to continue displaying a combination progress/information dialog after its already finished its action (so you can read the information).</note>
+            <variant>Keep open after initialization has finished.</variant>
+        </translation>
+        <translation key="ao-mb">
+            <note/>
+            <variant>AO MB</variant>
+        </translation>
+        <translation key="whats-this">
+            <note>A menu item that is displayed in many different fields when right clicked. Selected this option displays context-sensitive help about the field.</note>
+            <variant>What's This?</variant>
+        </translation>
+        <translation key="file-menu">
+            <note/>
+            <variant>File</variant>
+        </translation>
+        <translation key="reopen-menu">
+            <note>Menu item for reopening previously opened files</note>
+            <variant>Reopen</variant>
+        </translation>
+        <translation key="clear-most-recently-used">
+            <note>Menu item that clears the list of recent files to reopen</note>
+            <variant>Clear List</variant>
+        </translation>
+        <translation key="ini-warning-dialog-title">
+            <note/>
+            <variant>Import from EIKON for WebCTRL</variant>
+        </translation>
+        <translation key="import-eiw-warning">
+            <note/>
+            <variant>This application does not use .eiw files. The imported file will be saved as a .equipment file only.</variant>
+        </translation>
+        <translation key="do-not-show-this-again">
+            <note>Text for a checkbox that allows the user to hide this message, so they won't see it again. This is for 'FYI' messages that could get annoying.</note>
+            <variant>Do not show this message again.</variant>
+        </translation>
+        <translation key="validate">
+            <note/>
+            <variant>Validate</variant>
+        </translation>
+        <translation key="edit-menu">
+            <note/>
+            <variant>Edit</variant>
+        </translation>
+        <translation key="cut-tooltip">
+            <note/>
+            <variant>Cut the current selection to the clipboard.</variant>
+        </translation>
+        <translation key="copy-tooltip">
+            <note/>
+            <variant>Copy the current selection to the clipboard.</variant>
+        </translation>
+        <translation key="paste-tooltip">
+            <note/>
+            <variant>Paste the contents of the clipboard.</variant>
+        </translation>
+        <translation key="delete-tooltip">
+            <note/>
+            <variant>Delete the current selection.</variant>
+        </translation>
+        <translation key="close-tooltip">
+            <note/>
+            <variant>Close the current control program.</variant>
+        </translation>
+        <translation key="print-tooltip">
+            <note/>
+            <variant>Print the current control program.</variant>
+        </translation>
+        <translation key="edit-common-properties-tooltip">
+            <note/>
+            <variant>Edit properties common among many microblocks in a tabular format.</variant>
+        </translation>
+        <translation key="palette-tooltip">
+            <note/>
+            <variant>Show the color and pattern palette.</variant>
+        </translation>
+        <translation key="new-controlprogram-tooltip">
+            <note/>
+            <variant>Create a new empty control program.</variant>
+        </translation>
+        <translation key="open-controlprogram-tooltip">
+            <note/>
+            <variant>Open a control program.</variant>
+        </translation>
+        <translation key="file_locked_title">
+            <note/>
+            <variant>File locked.</variant>
+        </translation>
+        <translation key="file_0_is_locked_from_user_edit_rename_to_edit">
+            <note>warning that you cannot edit the just-opened file. Saving it to a different name will unlock it.</note>
+            <variant>The file ''{0}'' is locked. If you wish to edit it you must save it under a different name.</variant>
+        </translation>
+        <translation key="file_0_is_locked_from_user_edit">
+            <note>Warning the you cannot edit the just-opened file. You must unlock it first.</note>
+            <variant>The file ''{0}'' is locked. You must unlock it, by clicking on the lock icon on the status bar, before you can make any changes.</variant>
+        </translation>
+        <translation key="undo-tooltip">
+            <note/>
+            <variant>Undo the last action.</variant>
+        </translation>
+        <translation key="redo-tooltip">
+            <note/>
+            <variant>Redo the last undo.</variant>
+        </translation>
+        <translation key="undo-droplist-tooltip">
+            <note/>
+            <variant>Undo multiple actions.</variant>
+        </translation>
+        <translation key="redo-droplist-tooltip">
+            <note/>
+            <variant>Redo multiple actions.</variant>
+        </translation>
+        <translation key="build-rebuild-tooltip">
+            <note>This is for building and rebuilding object instances on the Protocol Mapping Tool window.</note>
+            <variant>Build/Rebuild mappings</variant>
+        </translation>
+        <translation key="Find">
+            <note>Find values.</note>
+            <variant>Find</variant>
+        </translation>
+        <translation key="clear-selected-tooltip">
+            <note>This clears the selected row's object instance in the Protocol Mapping Tool..</note>
+            <variant>Clear selected mappings</variant>
+        </translation>
+        <translation key="junctions">
+            <note/>
+            <variant>Junctions</variant>
+        </translation>
+        <translation key="link-palette">
+            <note/>
+            <variant>Links</variant>
+        </translation>
+        <translation key="vertical-alignment-center">
+            <note/>
+            <variant>Center</variant>
+        </translation>
+        <translation key="tip-of-the-day">
+            <note/>
+            <variant>Tip of the Day...</variant>
+        </translation>
+        <translation key="new-palette">
+            <note/>
+            <variant>New</variant>
+        </translation>
+        <translation key="connections">
+            <note/>
+            <variant>Connections</variant>
+        </translation>
+        <translation key="import-from-ini">
+            <note/>
+            <variant>Import from INI...</variant>
+        </translation>
+        <translation key="edit-choice-filters">
+            <note/>
+            <variant>Droplist Options</variant>
+        </translation>
+        <translation key="ini-sucessfully-imported">
+            <note/>
+            <variant>ini file successfully imported.</variant>
+        </translation>
+        <translation key="edit-category-choices">
+            <note/>
+            <variant>Alarm/Schedule Categories</variant>
+        </translation>
+        <translation key="non-unique-choice-error">
+            <note/>
+            <variant>Choices must be unique.</variant>
+        </translation>
+        <translation key="non-unique-choice-error-internal">
+            <note/>
+            <variant>Choice values must be unique. This is a reserved value.</variant>
+        </translation>
+        <translation key="Overwrite_existing_logic_files">
+            <note/>
+            <variant>Overwrite existing logic files.</variant>
+        </translation>
+        <translation key="Directory_label">
+            <note/>
+            <variant>Directory</variant>
+        </translation>
+        <translation key="browseButtonText">
+            <note/>
+            <variant>Browse...</variant>
+        </translation>
+        <translation key="cancelButtonText">
+            <note>a generic button to cancel an action and/or throw away changes</note>
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="okButtonText">
+            <note>a generic button to approve an action and/or keep changes.</note>
+            <variant>Ok</variant>
+        </translation>
+        <translation key="io-number">
+            <note/>
+            <variant>I/O Number</variant>
+        </translation>
+        <translation key="sensor-type">
+            <note/>
+            <variant>Sensor Type</variant>
+        </translation>
+        <translation key="actuator-type">
+            <note/>
+            <variant>Actuator Type</variant>
+        </translation>
+        <translation key="expander-number">
+            <note/>
+            <variant>Expander #</variant>
+        </translation>
+        <translation key="io-type">
+            <note/>
+            <variant>I/O Type</variant>
+        </translation>
+        <translation key="object-id">
+            <note/>
+            <variant>Object ID</variant>
+        </translation>
+        <translation key="days-to-keep">
+            <note/>
+            <variant>Days</variant>
+        </translation>
+        <translation key="historical-enable">
+            <note/>
+            <variant>Historian</variant>
+        </translation>
+        <translation key="buffer-size">
+            <note/>
+            <variant># Samples</variant>
+        </translation>
+        <translation key="sample-interval">
+            <note/>
+            <variant>Interval</variant>
+        </translation>
+        <translation key="flow_input">
+            <note/>
+            <variant>Flow Input</variant>
+        </translation>
+        <translation key="flow_control">
+            <note/>
+            <variant>Flow Control</variant>
+        </translation>
+        <translation key="percent_of_max">
+            <note/>
+            <variant>% of Max</variant>
+        </translation>
+        <translation key="fan_control">
+            <note/>
+            <variant>Fan Control</variant>
+        </translation>
+        <translation key="damper_cycle">
+            <note/>
+            <variant>Damper Cycle</variant>
+        </translation>
+        <translation key="interval-enable">
+            <note/>
+            <variant>Interval Enbl</variant>
+        </translation>
+        <translation key="generating-content">
+            <note/>
+            <variant>Generating content, please wait...</variant>
+        </translation>
+        <translation key="selected-button">
+            <note/>
+            <variant>Selected Microblocks</variant>
+        </translation>
+        <translation key="all-button">
+            <note/>
+            <variant>All Microblocks</variant>
+        </translation>
+        <translation key="locked-value">
+            <note/>
+            <variant>Locked Value</variant>
+        </translation>
+        <translation key="potential-alarm-source">
+            <note/>
+            <variant>Alarm Source</variant>
+        </translation>
+        <translation key="alarm-enabled">
+            <note/>
+            <variant>Alarm Enabled</variant>
+        </translation>
+        <translation key="enabled">
+            <note/>
+            <variant>Enabled</variant>
+        </translation>
+        <translation key="point_type">
+            <note/>
+            <variant>Point Type</variant>
+        </translation>
+        <translation key="point_address">
+            <note/>
+            <variant>Point Address</variant>
+        </translation>
+        <translation key="address-editable">
+            <variant>Address Editable</variant>
+        </translation>
+        <translation key="return-to-normal">
+            <note/>
+            <variant>Return</variant>
+        </translation>
+        <translation key="fault-enabled">
+            <note/>
+            <variant>Fault Enabled</variant>
+        </translation>
+        <translation key="alarm-low-limit-enabled">
+            <note/>
+            <variant>Low Limit</variant>
+        </translation>
+        <translation key="alarm-high-limit-enable">
+            <note/>
+            <variant>High Limit</variant>
+        </translation>
+        <translation key="trend-enable">
+            <note/>
+            <variant>Enable</variant>
+        </translation>
+        <translation key="csv-description">
+            <note/>
+            <variant>CSV Files (*.csv)</variant>
+        </translation>
+        <translation key="save-control-program-step">
+            <note>a message displayed on a panel to tell the user that a saving step is in progress</note>
+            <variant>Save control program</variant>
+        </translation>
+        <translation key="file-saved-to-0">
+            <note>a message displayed on a panel to tell the user where the file was saved to</note>
+            <variant>File location: {0}</variant>
+        </translation>
+        <translation key="create-new-control-program">
+            <note>The option in OCLBuilder to create a new control program</note>
+            <variant>Create New Control Program</variant>
+        </translation>
+        <translation key="open-existing-control-program">
+            <note>The option in OCLBuilder to open an existing control program</note>
+            <variant>Open Existing Control Program</variant>
+        </translation>
+        <translation key="display-name-key">
+            <variant>Name</variant>
+        </translation>
+        <translation key="configure-outputs">
+            <note/>
+            <variant>Configure Outputs</variant>
+        </translation>
+        <translation key="configure-inputs">
+            <note/>
+            <variant>Configure Inputs</variant>
+        </translation>
+        <translation key="control-program">
+            <note>Just general text when we need to reference the type of files LogicBuilder creates and edits to the user. Used in several places in different contexts.</note>
+            <variant>Control Program</variant>
+        </translation>
+        <translation key="rect">
+            <note>Abbreviation for a rectangle</note>
+            <variant>Rect</variant>
+        </translation>
+        <translation key="label">
+            <note/>
+            <variant>Label</variant>
+        </translation>
+        <translation key="trend_alarm">
+            <note/>
+            <variant>Trend/Alarm</variant>
+        </translation>
+        <translation key="apt">
+            <note/>
+            <variant>APT</variant>
+        </translation>
+        <translation key="import">
+            <note/>
+            <variant>Import</variant>
+        </translation>
+        <translation key="move-properties-to-group-tooltip">
+            <note/>
+            <variant>Move selected properties to another tab</variant>
+        </translation>
+        <translation key="move-properties-to-group">
+            <note/>
+            <variant>Enter the name of the tab to move the properties to</variant>
+        </translation>
+        <translation key="add-compound-property-tooltip">
+            <note/>
+            <variant>Group selected components onto a single row</variant>
+        </translation>
+        <translation key="break-compound-property-tooltip">
+            <note/>
+            <variant>Break the selected row into its individual components</variant>
+        </translation>
+        <translation key="step-into-compound-property-tooltip">
+            <note/>
+            <variant>View the properties inside the selected compound property</variant>
+        </translation>
+        <translation key="save-successful">
+            <note/>
+            <variant>Save successful.</variant>
+        </translation>
+        <translation key="property-template">
+            <note/>
+            <variant>Property template (.xml)</variant>
+        </translation>
+        <translation key="add-template-instructions">
+            <note/>
+            <variant>Template Reference Name</variant>
+        </translation>
+        <translation key="add-template">
+            <note/>
+            <variant>Add Template</variant>
+        </translation>
+        <translation key="overwrite-title">
+            <note/>
+            <variant>Overwrite?</variant>
+        </translation>
+        <translation key="overwrite-question">
+            <note/>
+            <variant>Should existing logic files be overwritten?</variant>
+        </translation>
+        <translation key="import-template">
+            <note/>
+            <variant>Import Template...</variant>
+        </translation>
+        <translation key="export-template">
+            <note/>
+            <variant>Export Template...</variant>
+        </translation>
+        <translation key="add-template-tooltip">
+            <note/>
+            <variant>Add Template</variant>
+        </translation>
+        <translation key="show-label">
+            <note/>
+            <variant>Show:</variant>
+        </translation>
+        <translation key="add-binary-schedule-categories-tooltip">
+            <note/>
+            <variant>Add a new Time Clock schedule category</variant>
+        </translation>
+        <translation key="remove-binary-schedule-categories-tooltip">
+            <note/>
+            <variant>Remove Time Clock schedule category</variant>
+        </translation>
+        <translation key="add-binary-schedule-category-instructions">
+            <note/>
+            <variant>Category Reference Name</variant>
+        </translation>
+        <translation key="add-binary-schedule-categories-title">
+            <note/>
+            <variant>Add Time Clock schedule category</variant>
+        </translation>
+        <translation key="add-multistate-schedule-categories-tooltip">
+            <note/>
+            <variant>Add new Multi-state Time Clock schedule category</variant>
+        </translation>
+        <translation key="remove-multistate-schedule-categories-tooltip">
+            <note/>
+            <variant>Remove Multi-state Time Clock schedule category</variant>
+        </translation>
+        <translation key="add-multistate-schedule-categories-instructions">
+            <note/>
+            <variant>Multi-state Schedule Category Reference Name</variant>
+        </translation>
+        <translation key="add-multistate-schedule-categories-title">
+            <note/>
+            <variant>Add new Multi-state Time Clock schedule category</variant>
+        </translation>
+        <translation key="add-model-schedule-tooltip">
+            <note/>
+            <variant>Add new Modeled Schedule schedule category</variant>
+        </translation>
+        <translation key="remove-model-schedule-tooltip">
+            <note/>
+            <variant>Remove Modeled Schedule schedule category</variant>
+        </translation>
+        <translation key="add-model-schedule-instructions">
+            <note/>
+            <variant>Schedule Category Reference Name</variant>
+        </translation>
+        <translation key="add-model-schedule-title">
+            <note/>
+            <variant>Add Modeled Schedule schedule category</variant>
+        </translation>
+        <translation key="edit-rnet-tags">
+            <note>Header for the combo sensor/rnet tags. 'tags' are unique numbers used by special sensors to store variables.</note>
+            <variant>Rnet Tags</variant>
+        </translation>
+        <translation key="add-rnet-tag">
+            <note/>
+            <variant>Add New Rnet Tag</variant>
+        </translation>
+        <translation key="remove-rnet-tag-tooltip">
+            <note/>
+            <variant>Remove Rnet Tag</variant>
+        </translation>
+        <translation key="Rnet_Tag_Value">
+            <note/>
+            <variant>Rnet Tag Value</variant>
+        </translation>
+        <translation key="Rnet_Tag_Display_Name">
+            <note/>
+            <variant>Rnet Tag Display Name</variant>
+        </translation>
+        <translation key="Import/Export_all_custom_Rnet_Tags">
+            <note>Header for options to import and export the custom Sensor Tags that are being edited on this page</note>
+            <variant>Import/Export all custom Rnet Tags</variant>
+        </translation>
+        <translation key="import-template-tooltip">
+            <note/>
+            <variant>Import Template</variant>
+        </translation>
+        <translation key="export-template-tooltip">
+            <note/>
+            <variant>Export Template</variant>
+        </translation>
+        <translation key="import-category-choices-tooltip">
+            <note/>
+            <variant>Import all alarm/schedule category choices from a file.</variant>
+        </translation>
+        <translation key="export-category-choices-tooltip">
+            <note/>
+            <variant>Export all alarm/schedule category choices from a file.</variant>
+        </translation>
+        <translation key="convert-eikon-files">
+            <note/>
+            <variant>Convert EIKON for WebCTRL Files</variant>
+        </translation>
+        <translation key="File_0_could_not_be_upgraded">
+            <note/>
+            <variant>Upgrade failed for file {0}. This file is either corrupt or is missing it's signature. </variant>
+        </translation>
+        <translation key="replace_image">
+            <note/>
+            <variant>Replace Image</variant>
+        </translation>
+        <translation key="Replace_this_image">
+            <note/>
+            <variant>Replace this image</variant>
+        </translation>
+        <translation key="with_this_image">
+            <note/>
+            <variant>with this image</variant>
+        </translation>
+        <translation key="images_file_filter">
+            <note/>
+            <variant>Images (*.png; *.jpg; *.gif; *.bmp )</variant>
+        </translation>
+        <translation key="operation_finished">
+            <note/>
+            <variant>Operation Finished</variant>
+        </translation>
+        <translation key="error_reading_file_0">
+            <note/>
+            <variant>There was an error reading file: {0}</variant>
+        </translation>
+        <translation key="signature-mismatch-exception-for-file-0">
+            <note/>
+            <variant>The file {0} has an invalid signature. The file is either corrupt or has been manually edited.</variant>
+        </translation>
+        <translation key="Operation_complete_0_files_affected">
+            <note/>
+            <variant>Operation complete. {0} files were affected.</variant>
+        </translation>
+        <translation key="remove-template-tooltip">
+            <note/>
+            <variant>Remove Template</variant>
+        </translation>
+        <translation key="add-category-instructions">
+            <note/>
+            <variant>Category Reference Name</variant>
+        </translation>
+        <translation key="add-category">
+            <note/>
+            <variant>Add Category</variant>
+        </translation>
+        <translation key="import-category">
+            <note/>
+            <variant>Import Category</variant>
+        </translation>
+        <translation key="export-category">
+            <note/>
+            <variant>Export Category</variant>
+        </translation>
+        <translation key="add-category-tooltip">
+            <note/>
+            <variant>Add Category</variant>
+        </translation>
+        <translation key="import-category-tooltip">
+            <note/>
+            <variant>Import Category</variant>
+        </translation>
+        <translation key="export-category-tooltip">
+            <note/>
+            <variant>Export Category</variant>
+        </translation>
+        <translation key="remove-category-tooltip">
+            <note/>
+            <variant>Remove Category</variant>
+        </translation>
+        <translation key="save-template">
+            <note/>
+            <variant>Save the current group as a template</variant>
+        </translation>
+        <translation key="rename-group">
+            <note/>
+            <variant>Rename current property group</variant>
+        </translation>
+        <translation key="inputs">
+            <note/>
+            <variant>Inputs</variant>
+        </translation>
+        <translation key="outputs">
+            <note/>
+            <variant>Outputs</variant>
+        </translation>
+        <translation key="debugger-title">
+            <note/>
+            <variant>Debugger</variant>
+        </translation>
+        <translation key="debug">
+            <note/>
+            <variant>Debug</variant>
+        </translation>
+        <translation key="about">
+            <note/>
+            <variant>About...</variant>
+        </translation>
+        <translation key="exit">
+            <note/>
+            <variant>Exit</variant>
+        </translation>
+        <translation key="organize-valuesets">
+            <note>menu item that allows the user to add, remove, and rename Program Defaults (value set) identifiers.</note>
+            <variant>Organize Program Defaults...</variant>
+        </translation>
+        <translation key="organize-valuesets-title">
+            <note>Title of the dialog that allows the user to add, remove, and rename Program Defaults (value set) identifiers.</note>
+            <variant>Organize Program Defaults</variant>
+        </translation>
+        <translation key="value-set-name">
+            <note>this is the header for the 'name' field of a Program Default (value set) being edited</note>
+            <variant>Name</variant>
+        </translation>
+        <translation key="value-set-description">
+            <note>this is the header for the 'description' field of a Program Defaults (value set) being edited</note>
+            <variant>Description</variant>
+        </translation>
+        <translation key="value-set-details-title">
+            <note>The title of a dialog for editing details about a Program Defaults (value set). This is used for both adding a new value set and editing an existing one, so the text is fairly generic.</note>
+            <variant>Program Defaults</variant>
+        </translation>
+        <translation key="default-value-set-name">
+            <note>This is the initial name of a new set of Program Defaults (value set) we create when a user adds one. They'll probably rename it, but we have to call it something.</note>
+            <variant>new Program Defaults</variant>
+        </translation>
+        <translation key="value-set-uniqueness-error">
+            <note>This is displayed if the user adds or renames a Program Defaults (value set) name to something that isn't unique. Their names must be unique.</note>
+            <variant>Program Default names must be unique.</variant>
+        </translation>
+        <translation key="value-set-error-title">
+            <note>Title of a the warning dialog when the user enters an invalid Program Defaults (value set).</note>
+            <variant>Program Default Error</variant>
+        </translation>
+        <translation key="add_new_value-set">
+            <note>Tooltip for a button that adds new Program Defaults (value sets)</note>
+            <variant>Add new set of Program Defaults</variant>
+        </translation>
+        <translation key="remove_value-set">
+            <note>tooltip for a button that removes a Program Defaults (value set).</note>
+            <variant>Remove Program Defaults</variant>
+        </translation>
+        <translation key="edits_value-set_properties">
+            <note>tooltip for a button that allows you to edit the name and description of a Program Defaults (value set).</note>
+            <variant>Edit Program Defaults' properties</variant>
+        </translation>
+        <translation key="value-set-is-metric">
+            <note>this is a checkbox name for an option to make this value set metric (vs imperial)</note>
+            <variant>Metric</variant>
+        </translation>
+        <translation key="horizontal-alignment-left">
+            <note/>
+            <variant>Left</variant>
+        </translation>
+        <translation key="window-menu">
+            <note/>
+            <variant>Window</variant>
+        </translation>
+        <translation key="moveup-property">
+            <note/>
+            <variant>Move property up</variant>
+        </translation>
+        <translation key="figure-palette">
+            <note/>
+            <variant>Figures</variant>
+        </translation>
+        <translation key="poly">
+            <note/>
+            <variant>Poly</variant>
+        </translation>
+        <translation key="save">
+            <note/>
+            <variant>Save</variant>
+        </translation>
+        <translation key="save-tooltip">
+            <note/>
+            <variant>Saves the current control program.</variant>
+        </translation>
+        <translation key="demand1">
+            <note>Denotes demand level for energy consumption</note>
+            <variant>Demand1</variant>
+        </translation>
+        <translation key="demand2">
+            <note>Denotes demand level for energy consumption</note>
+            <variant>Demand2</variant>
+        </translation>
+        <translation key="demand3">
+            <note>Denotes demand level for energy consumption</note>
+            <variant>Demand3</variant>
+        </translation>
+        <translation key="unoccupied">
+            <note>Indicates when a building is normally not in use and is vacant</note>
+            <variant>Unoccupied</variant>
+        </translation>
+        <translation key="junction">
+            <note/>
+            <variant>Junction</variant>
+        </translation>
+        <translation key="vertical-orientation">
+            <note/>
+            <variant>Vertical</variant>
+        </translation>
+        <translation key="save-as">
+            <note/>
+            <variant>Save As...</variant>
+        </translation>
+        <translation key="valueset-menu">
+            <note/>
+            <variant>Program Defaults</variant>
+        </translation>
+        <translation key="valueset-header">
+            <note>this is the header for list of 'program defaults' (value sets) so you can check off which ones you want to keep.</note>
+            <variant>Program Defaults to import:</variant>
+        </translation>
+        <translation key="value-set-locale-merge-instructions">
+            <note>when you do a merge (copy/paste, insert symbol) where the source has Program Defaults (value sets) than the destination, we'll ask you which ones do want to keep.</note>
+            <variant>You have just inserted logic that contains multiple Program Defaults. Select which ones you want to import.</variant>
+        </translation>
+        <translation key="value-set-locale-merge-title">
+            <note/>
+            <variant>Merge What?</variant>
+        </translation>
+        <translation key="remove-group">
+            <note/>
+            <variant>Remove current property group</variant>
+        </translation>
+        <translation key="horizontal-orientation">
+            <note/>
+            <variant>Horizontal</variant>
+        </translation>
+        <translation key="value">
+            <note/>
+            <variant>Value</variant>
+        </translation>
+        <translation key="step">
+            <note/>
+            <variant>step</variant>
+        </translation>
+        <translation key="add-property">
+            <note/>
+            <variant>Add property to current group </variant>
+        </translation>
+        <translation key="debug-validation">
+            <note/>
+            <variant>Debug Validation</variant>
+        </translation>
+        <translation key="advanced">
+            <note/>
+            <variant>Advanced</variant>
+        </translation>
+        <translation key="open">
+            <note/>
+            <variant>Open</variant>
+        </translation>
+        <translation key="toggle-grid">
+            <note/>
+            <variant>Grid</variant>
+        </translation>
+        <translation key="insert-image">
+            <note/>
+            <variant>Insert Image...</variant>
+        </translation>
+        <translation key="palette-menu">
+            <note/>
+            <variant>Palette...</variant>
+        </translation>
+        <translation key="palette">
+            <note/>
+            <variant>Palette</variant>
+        </translation>
+        <translation key="palette-dialog-title">
+            <note>Title for the palette dialog window</note>
+            <variant>Palette</variant>
+        </translation>
+        <translation key="general">
+            <note/>
+            <variant>General</variant>
+        </translation>
+        <translation key="learning">
+            <note/>
+            <variant>Learning</variant>
+        </translation>
+        <translation key="learning-adaptive">
+            <note/>
+            <variant>Learning Adaptive</variant>
+        </translation>
+        <translation key="setpoints">
+            <note/>
+            <variant>Setpoints</variant>
+        </translation>
+        <translation key="setpoints-demand">
+            <note/>
+            <variant>Setpoints with Demand</variant>
+        </translation>
+        <translation key="horizontal-alignment-center">
+            <note/>
+            <variant>Center</variant>
+        </translation>
+        <translation key="export">
+            <note/>
+            <variant>Export</variant>
+        </translation>
+        <translation key="apply">
+            <note/>
+            <variant>Apply</variant>
+        </translation>
+        <translation key="spacer-tooltip">
+            <note/>
+            <variant>Add a spacer</variant>
+        </translation>
+        <translation key="select-in-tree-tooltip">
+            <note/>
+            <variant>Find selected property in the tree.</variant>
+        </translation>
+        <translation key="apply-tooltip">
+            <note/>
+            <variant>Apply changes</variant>
+        </translation>
+        <translation key="close">
+            <note/>
+            <variant>Close</variant>
+        </translation>
+        <translation key="close-dialog-tooltip">
+            <note>For closing an open dialog</note>
+            <variant>Close this dialog window</variant>
+        </translation>
+        <translation key="properties-editor-title">
+            <note>the title of the dialog where you edit properties.</note>
+            <variant>Property Editor</variant>
+        </translation>
+        <translation key="new">
+            <note/>
+            <variant>New</variant>
+        </translation>
+        <translation key="tree">
+            <note/>
+            <variant>Tree</variant>
+        </translation>
+        <translation key="fileNameLabelText">
+            <note/>
+            <variant>File Name</variant>
+        </translation>
+        <translation key="is-filled">
+            <note/>
+            <variant>Filled?</variant>
+        </translation>
+        <translation key="fill-patterns">
+            <note/>
+            <variant>Fill Patterns</variant>
+        </translation>
+        <translation key="line-patterns">
+            <note/>
+            <variant>Line Patterns</variant>
+        </translation>
+        <translation key="bpt-mb">
+            <note/>
+            <variant>BPT MB</variant>
+        </translation>
+        <translation key="vertical-alignment-bottom">
+            <note/>
+            <variant>Bottom</variant>
+        </translation>
+        <translation key="name">
+            <note/>
+            <variant>Name</variant>
+        </translation>
+        <translation key="style-2">
+            <note>Key for font styles</note>
+            <variant>Style</variant>
+        </translation>
+        <translation key="bold">
+            <note>Key for bold font style</note>
+            <variant>Bold</variant>
+        </translation>
+        <translation key="italics">
+            <note>Key for italized font style</note>
+            <variant>Italics</variant>
+        </translation>
+        <translation key="ellps">
+            <note/>
+            <variant>Ellps</variant>
+        </translation>
+        <translation key="foreground">
+            <note/>
+            <variant>Foreground</variant>
+        </translation>
+        <translation key="clear">
+            <note/>
+            <variant>Clear</variant>
+        </translation>
+        <translation key="bi-mb">
+            <note/>
+            <variant>BI MB</variant>
+        </translation>
+        <translation key="fill-pattern">
+            <note/>
+            <variant>Fill</variant>
+        </translation>
+        <translation key="move">
+            <note/>
+            <variant>Move</variant>
+        </translation>
+        <translation key="multiblock-palette">
+            <note/>
+            <variant>Custom</variant>
+        </translation>
+        <translation key="secure-multiblock-palette">
+            <note/>
+            <variant>Secure</variant>
+        </translation>
+        <translation key="working">
+            <note/>
+            <variant>Working</variant>
+        </translation>
+        <translation key="paused">
+            <note/>
+            <variant>Paused</variant>
+        </translation>
+        <translation key="color-picker">
+            <note/>
+            <variant>Pick a Color</variant>
+        </translation>
+        <translation key="vertical-alignment-top">
+            <note/>
+            <variant>Top</variant>
+        </translation>
+        <translation key="wires">
+            <note/>
+            <variant>wires</variant>
+        </translation>
+        <translation key="done">
+            <note/>
+            <variant>Done</variant>
+        </translation>
+        <translation key="lookInLabelText">
+            <note/>
+            <variant>Look in</variant>
+        </translation>
+        <translation key="movedown-property">
+            <note/>
+            <variant>Move property down</variant>
+        </translation>
+        <translation key="wire">
+            <note/>
+            <variant>Wire</variant>
+        </translation>
+        <translation key="refresh">
+            <note/>
+            <variant>Refresh</variant>
+        </translation>
+        <translation key="add-valueset-label">
+            <note/>
+            <variant>Add Program Defaults:</variant>
+        </translation>
+        <translation key="mb">
+            <note/>
+            <variant>MB</variant>
+        </translation>
+        <translation key="undo">
+            <note/>
+            <variant>Undo</variant>
+        </translation>
+        <translation key="horizontal-alignment-right">
+            <note/>
+            <variant>Right</variant>
+        </translation>
+        <translation key="bo-mb">
+            <note/>
+            <variant>BO MB</variant>
+        </translation>
+        <translation key="background">
+            <note/>
+            <variant>Background</variant>
+        </translation>
+        <translation key="help-menu">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation key="developer-menu">
+            <note/>
+            <variant>Developer</variant>
+        </translation>
+        <translation key="utilities-menu">
+            <note/>
+            <variant>Utilities</variant>
+        </translation>
+        <translation key="help-menu-item">
+            <note/>
+            <variant>Help...</variant>
+        </translation>
+        <translation key="help-title">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation key="help-button">
+            <note/>
+            <variant>Help</variant>
+        </translation>
+        <translation key="labels">
+            <note/>
+            <variant>Labels</variant>
+        </translation>
+        <translation key="remove-property">
+            <note/>
+            <variant>Remove the currently selected property</variant>
+        </translation>
+        <translation key="filesOfTypeLabelText">
+            <note/>
+            <variant>Files of Type</variant>
+        </translation>
+        <translation key="add-group">
+            <note/>
+            <variant>Add property group</variant>
+        </translation>
+        <translation key="change-editorType">
+            <note/>
+            <variant>Change Editor Type</variant>
+        </translation>
+        <translation key="change-editor-hint">
+            <note/>
+            <variant>Change Editor Hint</variant>
+        </translation>
+        <translation key="add-missing-attribute">
+            <note/>
+            <variant>Add Missing Attribute</variant>
+        </translation>
+        <translation key="ai-mb">
+            <note/>
+            <variant>AI MB</variant>
+        </translation>
+        <translation key="edit">
+            <note/>
+            <variant>Edit</variant>
+        </translation>
+        <translation key="delete">
+            <note/>
+            <variant>Delete</variant>
+        </translation>
+        <translation key="line-pattern">
+            <note/>
+            <variant>Line</variant>
+        </translation>
+        <translation key="redo">
+            <note/>
+            <variant>Redo</variant>
+        </translation>
+        <translation key="Enter_a_new_property_group_nam">
+            <note/>
+            <variant>Enter a new property group name </variant>
+        </translation>
+        <translation key="Enter_a_new_property_name">
+            <note/>
+            <variant>Enter a new property name </variant>
+        </translation>
+        <translation key="Zoom">
+            <note>the zoom menu</note>
+            <variant>Zoom</variant>
+        </translation>
+        <translation key="File-Open">
+            <note>The file/open menu item</note>
+            <variant>Open...</variant>
+        </translation>
+        <translation key="Copy">
+            <note>copy menu item (part of cut, copy, paste)</note>
+            <variant>Copy</variant>
+        </translation>
+        <translation key="Cut">
+            <note>Cut menu item (part of cut, copy, paste)</note>
+            <variant>Cut</variant>
+        </translation>
+        <translation key="Paste">
+            <note>paste menu item (part of cut, copy, paste)</note>
+            <variant>Paste</variant>
+        </translation>
+        <translation key="move-to-front-menu-item">
+            <note>menu item to move selected figures on top of everything else</note>
+            <variant>Bring to Front</variant>
+        </translation>
+        <translation key="move-forward-menu-item">
+            <note>menu item to move selected figures one step closer to being on top of everything else</note>
+            <variant>Bring Forward</variant>
+        </translation>
+        <translation key="move-to-back-menu-item">
+            <note>menu item to move selected figures to be behind (on bottom of) everything else</note>
+            <variant>Send to Back</variant>
+        </translation>
+        <translation key="move-backward-menu-item">
+            <note>menu item to move selected figures one step further backward (towards the bottom)</note>
+            <variant>Send Backward</variant>
+        </translation>
+        <translation key="find-usages">
+            <note>menu item to display a dialog that shows all usages of a label.</note>
+            <variant>Find Label Usages...</variant>
+        </translation>
+        <translation key="go-to-source">
+            <note>menu item to scroll to the input of a label or wire.</note>
+            <variant>Go To Source</variant>
+        </translation>
+        <translation key="highlight-connection">
+            <note>menu item that highlights all wires and labels in a single connection. It does NOT go through microblocks.</note>
+            <variant>Highlight Connection</variant>
+        </translation>
+        <translation key="clear-connection-highlight">
+            <note>button that clears the current highlighted connection.</note>
+            <variant>Clear Highlight</variant>
+        </translation>
+        <translation key="change-highlight-color">
+            <note>button that allows the user to change the highlighted connection's color.</note>
+            <variant>Change Color</variant>
+        </translation>
+        <translation key="step-inside-multiblock">
+            <note>menu item to step inside a multiblock. A multiblock is a control program inside a microblock (that's inside a control program). This allows you to edit the multiblock's contents.</note>
+            <variant>Step Inside</variant>
+        </translation>
+        <translation key="step-outside-of-multiblock">
+            <note>menu item to step outside of a multiblock. So you go to the multiblock's parent (a control program or possibly another multiblock)</note>
+            <variant>Step Outside</variant>
+        </translation>
+        <translation key="add-new-multiblock">
+            <note>Menu item to add a new empty multiblock</note>
+            <variant>Add New Custom Microblock</variant>
+        </translation>
+        <translation key="add-new-secure-multiblock">
+            <note>Menu item to add a new empty secure multiblock</note>
+            <variant>Add New Secure Microblock</variant>
+        </translation>
+        <translation key="add-existing-multiblock">
+            <note>Menu item that displays a dialog allowing the user to select an existing multiblock to add to the control program</note>
+            <variant>Add Existing Custom Microblock...</variant>
+        </translation>
+        <translation key="add-existing-secure-multiblock">
+            <note>Menu item that displays a dialog allowing the user to select an existing secure multiblock to add to the control program</note>
+            <variant>Add Existing Secure Microblock...</variant>
+        </translation>
+        <translation key="unlock-multiblock">
+            <note>menu item to unlock a locked multiblock. A multiblock may be locked by signing it, which makes it read only unless the lock is removed.</note>
+            <variant>Unlock Microblock</variant>
+        </translation>
+        <translation key="unlock-multiblock-warning-message">
+            <note>Warning message given to users to indicate that they are removing a special tag placed on the microblock that allows it's use in a zone control module.</note>
+            <variant>Unlocking this microblock will remove the ZN tagging! Continue?</variant>
+        </translation>
+        <translation key="warning-title">
+            <note>Warning message given to users to indicate that they are removing a special tag placed on the microblock that allows it's use in a zone control module.</note>
+            <variant>Warning!</variant>
+        </translation>
+        <translation key="this-microblock-is-tagged-for-zn">
+            <note>Tooltip text to let the user know that a microblock has been signed for use in a zone control module.</note>
+            <variant>This microblock has been tagged for use in a ZN compiled control program.</variant>
+        </translation>
+        <translation key="Find_Replace">
+            <note>Find/Replace menu item. Peforms a search and allows you to replace found items with something else.</note>
+            <variant>Find/Replace...</variant>
+        </translation>
+        <translation key="Find_menu-item">
+            <note>Find menu item. Peforms a search only (no replace).</note>
+            <variant>Find/Replace...</variant>
+        </translation>
+        <translation key="find_results_title">
+            <note>Title of dialog for showing text not found.</note>
+            <variant>Find Results</variant>
+        </translation>
+        <translation key="edit-order-item-not-found">
+            <note>Message shown when text in a find search wasn't found.</note>
+            <variant>The text ''{0}'' was not found in ''{1}''.</variant>
+        </translation>
+        <translation key="Microblock-palette">
+            <note>a heading for a list of all microblocks</note>
+            <variant>Microblocks</variant>
+        </translation>
+        <translation key="edit-display-definition-tooltip">
+            <note/>
+            <variant>Edit the property display defintion for the selected microblock</variant>
+        </translation>
+        <translation key="options-menu">
+            <note/>
+            <variant>Options</variant>
+        </translation>
+        <translation key="reorder-menu">
+            <note/>
+            <variant>Reorder</variant>
+        </translation>
+        <translation key="control-program-menu">
+            <note/>
+            <variant>Control Program</variant>
+        </translation>
+        <translation key="microblock-menu">
+            <note>the menu to select the current microblock palette (a different type of menu for selecting microblocks).</note>
+            <variant>Microblocks</variant>
+        </translation>
+        <translation key="multiblock-io">
+            <note/>
+            <variant>Custom Microblock I/O</variant>
+        </translation>
+        <translation key="menu-magnetism">
+            <note>menu item that toggles magnetism on or off. Magnetism makes figures snap to a grid. Microblocks, labels, and wires are not affected by this as magnetism is always ON for them.</note>
+            <variant>Snap Figures and Text to Grid</variant>
+        </translation>
+        <translation key="menu-highlight_BACnet">
+            <note>menu item that toggles highlighting BACnet objects</note>
+            <variant>Highlight BACnet</variant>
+        </translation>
+        <translation key="menu-metric">
+            <note>menu item to toggle metric or american standard support</note>
+            <variant>Metric</variant>
+        </translation>
+        <translation key="compile-drop-down-tooltip">
+            <note>tooltip over a button that displays a menu allowing you to set the current compile (make) type.</note>
+            <variant>Allows you to select how to make this Control Program.</variant>
+        </translation>
+        <translation key="menu-suppress_Logic_Page">
+            <note>toggle for suppressing the logic page generation when compiled.</note>
+            <variant>Suppress Logic Page</variant>
+        </translation>
+        <translation key="menu-use_unitary_naming">
+            <note>Toggle for settting the 'Use Unitary Naming' flag.</note>
+            <variant>Use Unitary Naming</variant>
+        </translation>
+        <translation key="menu-control-program-info">
+            <note>menu option to display information about the control program</note>
+            <variant>Info...</variant>
+        </translation>
+        <translation key="menu-print">
+            <note>menu item to print the control program</note>
+            <variant>Print...</variant>
+        </translation>
+        <translation key="third-party-editor-title">
+            <note>Title of the third party editor dialog window</note>
+            <variant>Protocol Mapping Tool</variant>
+        </translation>
+        <translation key="menu-edit-third-party">
+            <note>menu item to edit mapping properties to third party protocols</note>
+            <variant>Edit Protocol Mapping (PMT)...</variant>
+        </translation>
+        <translation key="menu-edit-common-properties">
+            <note>menu item to edit properties common among many microclocks</note>
+            <variant>Edit Common Properties...</variant>
+        </translation>
+        <translation key="edit-third-party-tooltip">
+            <note/>
+            <variant>Map BACnet properties to third party protocols in a tabular format.</variant>
+        </translation>
+        <translation key="menu-save-as-symbol">
+            <note>menu item to save the control program as a symbol</note>
+            <variant>Export Symbol...</variant>
+        </translation>
+        <translation key="menu-insert-symbol">
+            <note>menu item to insert a symbol from a file into the control program</note>
+            <variant>Import Symbol...</variant>
+        </translation>
+        <translation key="menu-import-eikon">
+            <note>menu item to import an EIKON eiw file</note>
+            <variant>Import...</variant>
+        </translation>
+        <translation key="menu-export-equipment">
+            <note>menu item to export the control program to a legacy equipment file</note>
+            <variant>Export to .equipment</variant>
+        </translation>
+        <translation key="menu-simulate">
+            <note>menu item that starts simulating the current control program</note>
+            <variant>Simulate</variant>
+        </translation>
+        <translation key="menu-compile">
+            <note>name of a menu with a sub menu for compiling the control program. The sub menu specifies which type of module to compile the CP for.. This directly relates to how you validate it.</note>
+            <variant>Make Control Program</variant>
+        </translation>
+        <translation key="menu-set-error-level">
+            <note>name of a menu with a sub menu for validating the control program. The sub menu specifies which type of module to validate the CP for. This directly relates to how you compile it.</note>
+            <variant>Check For Error Level</variant>
+        </translation>
+        <translation key="error-title">
+            <note>This is the title on a dialog that lists errors and warnings.</note>
+            <variant>Errors</variant>
+        </translation>
+        <translation key="menu-errors">
+            <note>The text for a menu item to display the errors and warnings dialog.</note>
+            <variant>Errors...</variant>
+        </translation>
+        <translation key="errors-tooltip">
+            <note>tooltip for a button or menu item to display the errors and warnings dialog.</note>
+            <variant>Displays errors for the current control program</variant>
+        </translation>
+        <translation key="simulator-tooltip">
+            <note>tooltip for a button or that runs the simulator.</note>
+            <variant>Simulate the current control program</variant>
+        </translation>
+        <translation key="menu-preferences">
+            <note>menu item to display the application's preferences dialog.</note>
+            <variant>Preferences...</variant>
+        </translation>
+        <translation key="preferences-title">
+            <note>The title for the preferences dialog.</note>
+            <variant>Preferences</variant>
+        </translation>
+        <translation key="general-preferences-title">
+            <note>The title for the general preferences</note>
+            <variant>General</variant>
+        </translation>
+        <translation key="fonts-title">
+            <note>The title for the fonts preferences tab</note>
+            <variant>Fonts</variant>
+        </translation>
+        <translation key="language-column">
+            <note>column header for a table of languages</note>
+            <variant>Language</variant>
+        </translation>
+        <translation key="font-column">
+            <note>column header for a table of font names</note>
+            <variant>Font</variant>
+        </translation>
+        <translation key="font-size-column">
+            <note>column header for a table of font sizes</note>
+            <variant>Size</variant>
+        </translation>
+        <translation key="view-multiple-properties">
+            <note>menu item that displays a dialog that simulatenously shows all selected microblocks' properties. It only shows the ones they have in common.</note>
+            <variant>Compare Properties...</variant>
+        </translation>
+        <translation key="microblock-common-properties-editor">
+            <note/>
+            <variant>Microblock Common Properties Editor</variant>
+        </translation>
+        <translation key="header-label-tooltip">
+            <note>This is a table header tool tip</note>
+            <variant>Double-click column header to sort</variant>
+        </translation>
+        <translation key="view-multiple-properties-tooltip">
+            <note/>
+            <variant>Compare the properties of selected objects</variant>
+        </translation>
+        <translation key="selection-has-no-properties-to-view">
+            <note/>
+            <variant>The selection has no common properties to view.</variant>
+        </translation>
+        <translation key="merge-conflicts-description">
+            <note>This is description text before a list of microblocks that have been merged (via copy/paste or import symbol) and have conflicting reference names.</note>
+            <variant>The following inserted microblocks have conflicting reference names. The reference names were not automatically made unique because they appear to be specifically set.</variant>
+        </translation>
+        <translation key="merge-conflicts-title">
+            <note>The title of the merge conflict dialog: after a merge is completed, if conflicting reference names exist, we show the user a list of them.</note>
+            <variant>Reference Name Conflicts</variant>
+        </translation>
+        <translation key="error-report-title">
+            <note>the title of a generic error dialog.</note>
+            <variant>Error</variant>
+        </translation>
+        <translation key="error-general">
+            <note>the name of a tab on an error dialog that displays the summary of the error. This is the error that is suitable for the end user.</note>
+            <variant>Message</variant>
+        </translation>
+        <translation key="error-details">
+            <note>the name of a tab on an error dialog that displays the details of the error. This is NOT suitable for a user and is for developers only.</note>
+            <variant>Details</variant>
+        </translation>
+        <translation key="export-selected-items-only">
+            <note>checkbox on the export to symbol file chooser that allows you to export only the selected items or everything.</note>
+            <variant>Selected Items Only</variant>
+        </translation>
+        <translation key="export-and-add-to-favorites">
+            <note>checkbox on the export to symbol file chooser that allows you add it to the favorites after it is exported.</note>
+            <variant>Add To Favorites</variant>
+        </translation>
+        <translation key="Overwrite_File">
+            <note>Dialog title when we ask the user if they want to overwrite a file or not?</note>
+            <variant>Overwrite File?</variant>
+        </translation>
+        <translation key="Overwrite">
+            <note>Option that specifies the user want to overwrite an existing file.</note>
+            <variant>Overwrite</variant>
+        </translation>
+        <translation key="Select_Another_File">
+            <note>option that specifies a user does NOT want to overwrite a file, but wants to select a different file.</note>
+            <variant>Select Another File</variant>
+        </translation>
+        <translation key="Cancel_Save">
+            <note>Option that specifies a user does NOT want to overwrite a file, but that they want to cancel the save altogether.</note>
+            <variant>Cancel Save</variant>
+        </translation>
+        <translation key="The_file_0_already_exists_Over">
+            <note>Prompt to ask the user what to do when a file already exists. They'll be given three options: overwrite, select another file, or cancel.</note>
+            <variant>The file ''{0}'' already exists. Overwrite?</variant>
+        </translation>
+        <translation key="The_file_0_is_read_only_Please">
+            <note>Message to the user when they try to save a file that its read-only and they must choose another.</note>
+            <variant>The file ''{0}'' is read-only. Please choose another.</variant>
+        </translation>
+        <translation key="The_file_0_is_locked_and_must_be_renamed">
+            <note>Message to the user when they try to save a file that was locked when opened. They cannot save it with the same file name and must rename it.</note>
+            <variant>The file ''{0}'' is locked and cannot be overwritten. Please choose another file name.</variant>
+        </translation>
+        <translation key="This_file_is_currently_open_Cl">
+            <note>Message that is displayed when the user tries to save to a file that we already have open. They must either close the target file first and then save (choosing to overwrite it) or select another target file.</note>
+            <variant>The file ''{0}'' is currently open. Close it first or choose another file.</variant>
+        </translation>
+        <translation key="no-source-found">
+            <note>Message given after a find source action when there is no source.</note>
+            <variant>No source found.</variant>
+        </translation>
+        <translation key="no-usages-found">
+            <note>Message given after a find usages action when there is no usages.</note>
+            <variant>No usages found.</variant>
+        </translation>
+        <translation key="search-results-title">
+            <note>The title of a dialog that displays the results of a find usages or go to source search. This is not the same as the results of a regular find. FYI.</note>
+            <variant>Search Results</variant>
+        </translation>
+        <translation key="select-property-for-graphics">
+            <note>context menu item when a microblock is selected that allows you select a property that will show up on Graphics. ViewBuilder uses this to aid view creation.</note>
+            <variant>Select Properties For Graphics...</variant>
+        </translation>
+        <translation key="select-property-for-graphics-title">
+            <note>Dialog title for selecting a property (or properties) from a single microblock to show up on a graphic.</note>
+            <variant>Select Property For Graphics</variant>
+        </translation>
+        <translation key="comment-for-property-for-graphics-title">
+            <note>Dialog title for adding/editing a comment for a property for graphics.</note>
+            <variant>Property Comments</variant>
+        </translation>
+        <translation key="display-properties-for-graphics">
+            <note>Menu item that displays all properties in a control program that show up on Graphics. ViewBuilder uses this to aid view creation.</note>
+            <variant>Properties For Graphics...</variant>
+        </translation>
+        <translation key="graphic-properties-title">
+            <note>Dialog title for displaying a list of all properties in a control program (not just microblock) that show up on a graphic.</note>
+            <variant>Properties For Graphics</variant>
+        </translation>
+        <translation key="graphic-properties-comments">
+            <note>label 'comments' that the user can enter that will be visible in ViewBuilder. These comments are instruction or misc stuff that the graphic's creator needs to know about and are for the entire control program.</note>
+            <variant>Comments</variant>
+        </translation>
+        <translation key="graphic-properties-edit-comments-tooltip">
+            <note>tooltip for the edit comments button (which is only an image).</note>
+            <variant>Edit comments for the selected property. These comments will be visible in ViewBuilder.</variant>
+        </translation>
+        <translation key="remove-property-for-graphics">
+            <note>tootlip for a button that removes the selected graphics properties.</note>
+            <variant>Removes Selected Properties</variant>
+        </translation>
+        <translation key="multiblock-menu">
+            <note>menu for multiblock-related functions.</note>
+            <variant>Custom Microblocks</variant>
+        </translation>
+        <translation key="add-existing-multiblock-title">
+            <note>Title for the dialog where the user selects an existing multiblock to add from a list.</note>
+            <variant>Add Custom Microblock</variant>
+        </translation>
+        <translation key="edit-property-page">
+            <note>Menu item to edit the property page editor.</note>
+            <variant>Edit Property Page...</variant>
+        </translation>
+        <translation key="percent-sign">
+            <note>a percentage sign. Used for things like zoom level (100%, 200%)</note>
+            <variant>%</variant>
+        </translation>
+        <translation key="equipment-wizard-menu-item">
+            <note>Menu item that starts the EquipmentBuilder (one word cannot be translated).</note>
+            <variant>EquipmentBuilder...</variant>
+        </translation>
+        <translation key="edit-shape-menu-item">
+            <note>Menu item that allows you to edit the shape of the selected item.</note>
+            <variant>Edit Shape</variant>
+        </translation>
+        <translation key="sensor-menu-order-menu-item">
+            <note>Menu item that allows you to edit the order in which items appear on an Rnet sensor's menu.</note>
+            <variant>Sensor Display Order...</variant>
+        </translation>
+        <translation key="sensor-menu-order-title">
+            <note>Title of the dialog that allows you to edit the order in which items appear on an external sensor.</note>
+            <variant>Sensor Display Order</variant>
+        </translation>
+        <translation key="edit-order-menu-item">
+            <note>Menu item that allows you to edit the order in which items appear on the property page.</note>
+            <variant>Edit Order...</variant>
+        </translation>
+        <translation key="show-in-edit-order-menu-item">
+            <note>Menu item that allows you to edit the order in which items appear on the property page. This version will select the currently focused microblock in the edit order dialog after it is displayed.</note>
+            <variant>Show In Edit Order...</variant>
+        </translation>
+        <translation key="edit-order-title">
+            <note>Title of the dialog that allows you to edit the order in which items appear on the property page.</note>
+            <variant>Edit Order</variant>
+        </translation>
+        <translation key="edit-order-move-up-tooltip">
+            <note>tooltip for edit order. Specifies that you can select multiple items to change their order.</note>
+            <variant>Moves the selected items up</variant>
+        </translation>
+        <translation key="edit-order-move-down-tooltip">
+            <note>tooltip for edit order. Specifies that you can select multiple items to change their order.</note>
+            <variant>Moves the selected items down</variant>
+        </translation>
+        <translation key="edit-order-cut-tooltip">
+            <note>tooltip for cutting things in edit order. First you cut them then you paste them.</note>
+            <variant>Cuts the selected items. You can then paste them where you want them to go.</variant>
+        </translation>
+        <translation key="edit-order-paste-tooltip">
+            <note>tooltip for pasting things in edit order. First you cut them then you paste them.</note>
+            <variant>Pastes the previously cut items.</variant>
+        </translation>
+        <translation key="edit-order-edit-tooltip">
+            <note>Tooltip explaining that this button will let you edit the property page text for the select item.</note>
+            <variant>Edits the selected item's property page text.</variant>
+        </translation>
+        <translation key="edit-order-find-tooltip">
+            <note>Tooltip to explain that this button allows you to perform a search within the list.</note>
+            <variant>Searches for items in the list.</variant>
+        </translation>
+        <translation key="edit-order-search-from-beginning">
+            <note>checkbox that allows you to search from the start of a list of items (vs from the current selection).</note>
+            <variant>Search From Beginning</variant>
+        </translation>
+        <translation key="logicbuilder-help-tooltip">
+            <note>Tooltip to explain that this button gives you context sensitive help.</note>
+            <variant>Display context sensitive help.</variant>
+        </translation>
+        <translation key="control-program-info-title">
+            <note>Title of the dialog that allows you to edit information about a control program.</note>
+            <variant>File Info</variant>
+        </translation>
+        <translation key="file-name">
+            <note/>
+            <variant>File Name:</variant>
+        </translation>
+        <translation key="directory">
+            <note/>
+            <variant>Directory:</variant>
+        </translation>
+        <translation key="date-last-revised">
+            <note/>
+            <variant>Date Last Revised:</variant>
+        </translation>
+        <translation key="date-created">
+            <note/>
+            <variant>Date Created:</variant>
+        </translation>
+        <translation key="created-by">
+            <note/>
+            <variant>Created By:</variant>
+        </translation>
+        <translation key="equipment-icon">
+            <note/>
+            <variant>Custom Icon:</variant>
+        </translation>
+        <translation key="description">
+            <note/>
+            <variant>Description</variant>
+        </translation>
+        <translation key="revisions-tab">
+            <note/>
+            <variant>Revisions</variant>
+        </translation>
+        <translation key="yes">
+            <note>'yes' as an answer to a question. Usually apart of yes/no or yes/no/cancel and sometimes yes/yes to all/no/no to all/cancel</note>
+            <variant>Yes</variant>
+        </translation>
+        <translation key="yes-to-all">
+            <note>'yes to all' as an answer to a question. Part of yes/yes to all/no/no to all/cancel</note>
+            <variant>Yes to All</variant>
+        </translation>
+        <translation key="no">
+            <note>'no' as an answer to a question. Usually apart of yes/no or yes/no/cancel and sometimes yes/yes to all/no/no to all/cancel</note>
+            <variant>No</variant>
+        </translation>
+        <translation key="no-to-all">
+            <note>'no to all' as an answer to a question. Part of yes/yes to all/no/no to all/cancel</note>
+            <variant>No to All</variant>
+        </translation>
+        <translation key="save-modified-file">
+            <note>Prompt to save a modified flag that occurs when you close the file (or application) without saving it.</note>
+            <variant>This Control Program has been modified. Do you want to save the changes?</variant>
+        </translation>
+        <translation key="save-modified-file-title">
+            <note>Title of the dialog to prompt the user to save a modified flag that occurs when you close the file (or application) without saving it.</note>
+            <variant>Save Control Program?</variant>
+        </translation>
+        <translation key="Undo_actions_plural">
+            <note>messages telling the user how many actions will be undone. This is used when 0 or multiple actions are selected.</note>
+            <variant>Undo {0} actions.</variant>
+        </translation>
+        <translation key="Undo_actions_single">
+            <note>messages telling the user how many actions will be undone. This is used when only 1 action is selected.</note>
+            <variant>Undo 1 action.</variant>
+        </translation>
+        <translation key="Redo_actions_plural">
+            <note>messages telling the user how many actions will be redone. This is used when 0 or multiple actions are selected.</note>
+            <variant>Redo {0} actions.</variant>
+        </translation>
+        <translation key="Redo_actions_single">
+            <note>messages telling the user how many actions will be redone. This is used when only 1 action is selected.</note>
+            <variant>Redo 1 action.</variant>
+        </translation>
+        <translation key="Opening_Control_Program">
+            <note>Description on a progress dialog informing the user that a specific control program is being opened. The variable may be a file name or a generic name since this may be one downloaded from online.</note>
+            <variant>Opening ''{0}''</variant>
+        </translation>
+        <translation key="Saving_Control_Program">
+            <note>description on a progress dialog informing the user that a specific control program is being opened. The variable may be a file name or a generic name since this may be one downloaded from online.</note>
+            <variant>Saving ''{0}''</variant>
+        </translation>
+        <translation key="Making_Control_Program_X">
+            <note>description on a progress dialog informing the user that a specific control program is being made. The variable may be a file name or a generic name since this may be one downloaded from online.</note>
+            <variant>Making ''{0}''</variant>
+        </translation>
+        <translation key="Making_Control_Program">
+            <note>Title for a progress dialog informing the user that 'making a control program' is being performed.</note>
+            <variant>Making Control Program</variant>
+        </translation>
+        <translation key="Opening_File_Title">
+            <note>Title for a dialog that tells the user that a control program is being opened.</note>
+            <variant>Opening File</variant>
+        </translation>
+        <translation key="Pasting_Progress_Title">
+            <note>Title for a dialog that tells the user that something is being pasted. This is only shown for long paste operations.</note>
+            <variant>Pasting</variant>
+        </translation>
+        <translation key="Saving_File_Title">
+            <note>Title for a general progress dialog when a file is being saved.</note>
+            <variant>Saving</variant>
+        </translation>
+        <translation key="Simulation_Progress_Title">
+            <note>Title for a general progress dialog when a control program is being simulated.</note>
+            <variant>Please Wait...</variant>
+        </translation>
+        <translation key="Simulation_Progress_Description">
+            <note>Description for a general progress dialog when a control program is being simulated. Lets the user know what control program is being simulated.</note>
+            <variant>Initializing simulator for </variant>
+        </translation>
+        <translation key="dialog-property-editing">
+            <note>menu item that says whether the property editor is a floating dialog or a docked panel.</note>
+            <variant>Dock Property Editor</variant>
+        </translation>
+        <translation key="select-all">
+            <note>menu item that selects all items in the current view.</note>
+            <variant>Select All</variant>
+        </translation>
+        <translation key="add-joint">
+            <note>menu item that adds a new joint to a wire so you can edit its shape.</note>
+            <variant>Add Joint</variant>
+        </translation>
+        <translation key="remove-joint">
+            <note>menu item that adds an existing joint from a wire.</note>
+            <variant>Remove Joint</variant>
+        </translation>
+        <translation key="file-name-is-illegal">
+            <note>Warning message that the file name is illegal. This occurs when the user saves a control program. This will be followed by a more-specific reason why it is invalid.</note>
+            <variant>The file name is illegal.</variant>
+        </translation>
+        <translation key="convert-spaces-to-underscores-automatically">
+            <note>If the user saves a file to an invalid name, one main reason is it may have spaces. This is the text for a check box giving them the option to convert spaces to underscores automatically for file names.</note>
+            <variant>Convert spaces to underscores automatically upon save</variant>
+        </translation>
+        <translation approved="false" key="show-reference-name-conflicts-after-pasting-microblocks" new="true">
+            <note>When a user pastes microblocks, they may end up with duplicate reference names. These are conflicts. This is the header of an option to list these conflicts or not.</note>
+            <variant>Show Reference Name Conflicts after Pasting Microblocks</variant>
+        </translation>
+        <translation key="create-new-control-programs-as-metric">
+            <note>Checkbox option for creating new control programs as metric vs imperial</note>
+            <variant>Create new control programs as metric</variant>
+        </translation>
+        <translation key="import-ems-ini-header">
+            <note>Header for the section about importing EMS.ini.</note>
+            <variant>Import From EIKON for WebCTRL</variant>
+        </translation>
+        <translation key="import-ems-ini-instructions">
+            <note>This explains to a user why they want to use this feature that imports settings from the app that LogicBuilder replaces.</note>
+            <variant>This imports schedule category information from an existing EMS.ini from an EIKON for WebCTRL installation. This only needs to be performed once.</variant>
+        </translation>
+        <translation key="import-export-category-choices-header">
+            <note>Header for the section about importing/exporting template and category choices.</note>
+            <variant>Import/Export all templates/categories</variant>
+        </translation>
+        <translation key="alarm-template">
+            <note/>
+            <variant>Alarm Template</variant>
+        </translation>
+        <translation key="alarm-category">
+            <note/>
+            <variant>Alarm Category</variant>
+        </translation>
+        <translation key="time-clock-schedule-categories">
+            <variant>Time Clock Sched. Category</variant>
+        </translation>
+        <translation key="model-schedule-schedule-categories">
+            <variant>Modeled Schedule Sched. Category</variant>
+        </translation>
+        <translation key="multistate-time-clock-schedule-categories">
+            <variant>Multi-state Time Clock Sched. Category</variant>
+        </translation>
+        <translation key="execution-order-menu-item">
+            <note>The text for the menu item that launches the execution order wizard.</note>
+            <variant>Execution Order Wizard</variant>
+        </translation>
+        <translation key="execution-order-title">
+            <note>Title for an advance dialog that allows a user to determine which microblock is executed next in a loopback situation.</note>
+            <variant>Execution Order Wizard</variant>
+        </translation>
+        <translation key="execution-order-start">
+            <note>The message that appears when the execution order wizard first starts.</note>
+            <variant>This wizard allows you to chose the highest priority microblock to execute when there is a loopback situation.</variant>
+        </translation>
+        <translation key="execution-order-save">
+            <note>A message asking the user if they wish to save the execution order they just created.</note>
+            <variant>Would you like to save your list of microblock execution priorities? You can rerun the wizard at anytime to select a new list. Press cancel to abort.</variant>
+        </translation>
+        <translation key="bundled-resources-dialog-title">
+            <note>A dialog that allows you to add and remove files that are stored inside our source file. These files are for internationalization and certain customizations.</note>
+            <variant>Bundled Resources</variant>
+        </translation>
+        <translation key="set-execution-rate">
+            <note>Menu item to allow the user to set the control program's execution rate in milliseconds.</note>
+            <variant>Set Execution Rate</variant>
+        </translation>
+        <translation key="set-execution-rate-msg">
+            <note/>
+            <variant>Set the execution rate for the control program in milliseconds.</variant>
+        </translation>
+        <translation key="bundled-resources-menu">
+            <note>Menu item to dislay the bundled resources dialog</note>
+            <variant>Bundled Resources...</variant>
+        </translation>
+        <translation key="choices-filter-instructions">
+            <note>This explains what the 'droplist choices' panel does on LogicBuilder's configuration dialog.</note>
+            <variant>Here you can enable frequently used choices to show up in droplists for certain microblock fields (such as units or actuator types). This simplifies your visible choices.</variant>
+        </translation>
+        <translation key="color-swatches">
+            <note>This is a header for a tab on a color chooser dialog that shows blocks of colors (swatches) that a user can pick.</note>
+            <variant>Swatches</variant>
+        </translation>
+        <translation key="you-are-taking-ownership">
+            <note/>
+            <variant>You are taking ownership of a file where access was granted via a key that expires.  Are you sure you want to continue?</variant>
+        </translation>
+        <translation key="mark-read-only">
+            <note>This is the name of a context menu item that marks the selected field as read-only.</note>
+            <variant>Make read-only</variant>
+        </translation>
+        <translation key="mark-modifiable">
+            <note>This is the name of a context menu item that marks the selected field as modifiable (the opposite of the mark as read-only item).</note>
+            <variant>Make editable</variant>
+        </translation>
+        <translation key="Third_Party_BACnet_Addresses">
+            <note>This is the name of a menu item that displays a dialog that allows you to import BACnet addresses from discovered third party devices. You can then push those addresses into selected microblocks.</note>
+            <variant>Third Party BACnet Addresses...</variant>
+        </translation>
+        <translation key="Unlock-Control-Program">
+            <note>Name of the menu item allowing you to unlock control programs.</note>
+            <variant>Unlock Control Program</variant>
+        </translation>
+        <translation key="confirm-turn-secure-off">
+            <note/>
+            <variant>You are about to remove the security from your secure microblock! Are you sure you want to do this?
+        </variant>
+        </translation>
+    </section>
+    <!-- end interface section -->
+    <section id="interpreters">
+        <translation key="add-arc-step-1">
+            <note>The first step to adding an arc figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Arc: Click where you want the center of the arc (as if the arc were an circle).</variant>
+        </translation>
+        <translation key="add-arc-step-2">
+            <note>The second step to adding an arc figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Arc: Click where you want the arc to start.</variant>
+        </translation>
+        <translation key="add-arc-step-3">
+            <note>The third step to adding an arc figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Arc: Click where you want the arc to end.</variant>
+        </translation>
+        <translation key="add-ellipse-step-1">
+            <note>The first step to adding an ellipse figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Ellipse: Press the mouse button at the top left of the ellipse</variant>
+        </translation>
+        <translation key="add-ellipse-step-2">
+            <note>The second step to adding an ellipse figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Ellipse: Drag the mouse to the bottom right of the ellipse and release.</variant>
+        </translation>
+        <translation key="add-label-step-1">
+            <note>The only step to adding a label. This text appears on the status bar to aid the user. The user can also hit the I or O keys to make the label switch direction (between input and output).</note>
+            <variant>Add Label: Click to place the label. You can press I or O before clicking to change the label direction as input or output.</variant>
+        </translation>
+        <translation key="add-microblock-step-1">
+            <note>The first step to adding a microblock. This text appears on the status bar to aid the user.</note>
+            <variant>Add Microblock: Click to select a location for the microblock.</variant>
+        </translation>
+        <translation key="add-rectangle-step-1">
+            <note>The first step to adding a rectangle. This text appears on the status bar to aid the user.</note>
+            <variant>Add Rectangle: Press the mouse button at the top left of the rectangle.</variant>
+        </translation>
+        <translation key="add-rectangle-step-2">
+            <note>The second step to adding a rectangle figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Rectangle: Drag then release at the bottom right of the rectangle.</variant>
+        </translation>
+        <translation key="add-text-step-1">
+            <note>The first step to adding a text figure. This text appears on the status bar to aid the user.</note>
+            <variant>Add Text: Click at the location to add the text</variant>
+        </translation>
+        <translation key="add-wire-step-1">
+            <note>The first step to adding a wire. This text appears on the status bar to aid the user.</note>
+            <variant>Add Wire: Press the left mouse button to set a starting location.</variant>
+        </translation>
+        <translation key="add-wire-step-2">
+            <note>The second step to adding a wire. This text appears on the status bar to aid the user.</note>
+            <variant>Add Wire: Drag the mouse to draw the wire. Release the left button to stop. Right click to add joints.</variant>
+        </translation>
+        <translation key="add-polygon-step-1">
+            <note>The first step to adding a polygon. This text appears on the status bar to aid the user.</note>
+            <variant>Add Polygon: Press the left mouse button to set a starting location.</variant>
+        </translation>
+        <translation key="add-polygon-step-2">
+            <note>The second step to adding a polygon. This text appears on the status bar to aid the user.</note>
+            <variant>Add Polygon: Drag the mouse to draw the polygon. Release the left button stop. Right click to add joints.</variant>
+        </translation>
+        <translation key="add-line-step-1">
+            <note>The first step to adding a line. This text appears on the status bar to aid the user.</note>
+            <variant>Add Line: Press the left mouse button to set a starting location.</variant>
+        </translation>
+        <translation key="add-line-step-2">
+            <note>The second step to adding a line. This text appears on the status bar to aid the user.</note>
+            <variant>Add Line: Drag the mouse to draw the line. Release the left button stop. Right click to add joints.</variant>
+        </translation>
+        <translation key="add-image">
+            <note/>
+            <variant>Add Image: Click to place the image on the canvas.</variant>
+        </translation>
+    </section>
+    <!-- end interpreters section -->
+    <!-- end main section -->
+    <section id="find-replace-extras">
+        <translation key="find-replace-search-inside">
+            <note>the name of a titled border on the find/replace dialog that allows to specify what things to search.</note>
+            <variant>Search:</variant>
+        </translation>
+        <translation key="find-replace-microblocks">
+            <note>This is the name of an option on the find/replace dialog to search microblocks.</note>
+            <variant>Microblocks</variant>
+        </translation>
+        <translation key="find-replace-labels">
+            <note>The is the name of an option on the find/replace dialog to search labels</note>
+            <variant>Labels</variant>
+        </translation>
+        <translation key="find-replace-text">
+            <note>The is the name of an option on the find/replace dialog to search text figures</note>
+            <variant>Text</variant>
+        </translation>
+        <translation key="find-replace-multiblock-logic">
+            <note>This is the name of an option on the find/replace dialog to search inside Custom microblocks.</note>
+            <variant>Custom Microblocks' Logic</variant>
+        </translation>
+    </section>
+    <!-- end of find-replace section -->
+    <section id="favorite-templates">
+        <translation key="favorite-menu">
+            <note>The name of a menu that lists the users favorite templates</note>
+            <variant>Favorites</variant>
+        </translation>
+        <translation key="add-selection-to-favorites">
+            <note>Creates a symbol from the selected items and adds it to the favorites list.</note>
+            <variant>Add to Favorites</variant>
+        </translation>
+        <translation key="orgranize-favorites">
+            <note>Displays a dialog allowing the user to add and remove items from the favorites as well as change their order</note>
+            <variant>Organize...</variant>
+        </translation>
+        <translation key="orgranize-favorites-title">
+            <note>Title for the dialog where the user adds and removes items (and re-orders) to/from favorites.</note>
+            <variant>Organize Favorites</variant>
+        </translation>
+        <translation key="missing-favorite-file-tooltip">
+            <note>This is the tooltip for a favorites template menu item when the file is missing</note>
+            <variant>The file ''{0}'' is missing.</variant>
+        </translation>
+        <translation key="edit-favorite-title">
+            <note>Title for a dialog that edits the properties of favorite symbol.</note>
+            <variant>Edit Favorite Properties</variant>
+        </translation>
+        <translation key="edit-favorite-name">
+            <note>The 'name' field in a dialog that edits the properties of favorite symbol.</note>
+            <variant>Name:</variant>
+        </translation>
+        <translation key="edit-favorite-description">
+            <note>The 'description' field in a dialog that edits the properties of favorite symbol.</note>
+            <variant>Description:</variant>
+        </translation>
+        <translation key="Move_up">
+            <note>Button text to move the selected items in a list up</note>
+            <variant>Move up</variant>
+        </translation>
+        <translation key="Move_down">
+            <note>Button text to move the selected items in a list up</note>
+            <variant>Move down</variant>
+        </translation>
+        <translation key="Add_new_favorite">
+            <note>Tooltip for a button that adds new favorites</note>
+            <variant>Add new favorite</variant>
+        </translation>
+        <translation key="Remove_favorite">
+            <note>tooltip for a button that removes favorite symbols from a list.</note>
+            <variant>Remove favorite</variant>
+        </translation>
+        <translation key="Remove_favorites_title">
+            <note>Dialog title for removing favorites.</note>
+            <variant>Remove favorites</variant>
+        </translation>
+        <translation key="Remove_file_0_for_favorite">
+            <note>Message that asks the user if they want to delete the file for the favorite.</note>
+            <variant>Remove the file for ''{0}'' from disk?</variant>
+        </translation>
+        <translation key="Edits_favorites_properties">
+            <note>tooltip for a button that allows you to edit the way the selected favorite appears on the menu. This is mainly the name and description.</note>
+            <variant>Edit favorite's menu properties</variant>
+        </translation>
+        <translation key="Open_the_favorite_for_editing">
+            <note>Tooltip for a button that opens the selected favorite symbol in the main view for editing.</note>
+            <variant>Open selected favorite in main view for editing</variant>
+        </translation>
+    </section>
+    <!-- end of favorites section -->
+    <section id="simulator">
+        <translation key="simulator-title">
+            <note/>
+            <variant>Simulator</variant>
+        </translation>
+        <translation key="collector-simulator-title">
+            <note>Title for the simulator setup dialog</note>
+            <variant>Collector Simulation</variant>
+        </translation>
+        <translation key="provider-simulator-title">
+            <note>Title for the simulator setup dialog</note>
+            <variant>Provider Simulation</variant>
+        </translation>
+        <translation key="options-simulator-menu">
+            <note>The options for file operations in the simulator</note>
+            <variant>Options</variant>
+        </translation>
+        <translation key="setup-simulator">
+            <note>The menu for setting parameters for the simulator</note>
+            <variant>Setup...</variant>
+        </translation>
+        <translation key="setup-simulator-title">
+            <note>Title for the simulator setup dialog</note>
+            <variant>Simulator Setup</variant>
+        </translation>
+        <translation key="run-simulator-menu">
+            <note>The menu for running simulations</note>
+            <variant>Run</variant>
+        </translation>
+        <translation key="run-simulator">
+            <note>Menu item to start the simulator with the current control program</note>
+            <variant>Run</variant>
+        </translation>
+        <translation key="stop-simulator">
+            <note>Menu item to stop the simulator</note>
+            <variant>Stop</variant>
+        </translation>
+        <translation key="step-simulator">
+            <note>Menu item to make the simulator run a single cycle (step).</note>
+            <variant>Step</variant>
+        </translation>
+        <translation key="fast-forward-simulator">
+            <note>Menu item to make the simulator run in fast forward mode (only while you're pressing the button).</note>
+            <variant>Fast Forward</variant>
+        </translation>
+        <translation key="fast-forward-simulator-tooltip">
+            <note>Tooltip for the toolbar button to make the simulator run in fast forward mode (only while you're pressing the button).</note>
+            <variant>Step the simulation continuously through execution cycles</variant>
+        </translation>
+        <translation key="exit-simulator">
+            <note>Menu item to quit the simulator</note>
+            <variant>Exit</variant>
+        </translation>
+        <translation key="save-simulator-values">
+            <note>Message show to the user to ask them if they wish to save changes made to values while they were running the simulator</note>
+            <variant>Would you like to save the changes you made while running the simulation?</variant>
+        </translation>
+        <translation key="save-simulator-values-title">
+            <note>This is the title of the dialog that asks if you want to save your simulation values</note>
+            <variant>Simulation Values</variant>
+        </translation>
+        <translation key="simulation-calendar">
+            <note>Title for a group of calendar-related controls</note>
+            <variant>Calendar</variant>
+        </translation>
+        <translation key="simulator-time">
+            <note>header for a field to specify the simulated time</note>
+            <variant>Time:</variant>
+        </translation>
+        <translation key="simulator-date">
+            <note>header for a field to specify the simulated date</note>
+            <variant>Date:</variant>
+        </translation>
+        <translation key="simulator-day">
+            <note>header for a field that shows the simulated day (based on the date)</note>
+            <variant>Day:</variant>
+        </translation>
+        <translation key="simulator-communications">
+            <note>Title for a group of communications-related controls.</note>
+            <variant>Communications</variant>
+        </translation>
+        <translation key="communications-ok">
+            <note>checkbox for enabling/disabling (simulated) communications.</note>
+            <variant>Communications Ok</variant>
+        </translation>
+        <translation key="comm-enabled">
+            <note>Header for a field in a table, so it needs to be an abbreviated version</note>
+            <variant>Comm Enabled</variant>
+        </translation>
+        <translation key="simulator-time-increment">
+            <note>Title for a group of controls related to how time is simulated. This refers to how long each simulated step is and how often to make those steps</note>
+            <variant>Time Increment</variant>
+        </translation>
+        <translation key="simulator-step-every">
+            <note>header for a field that specifies how often to step. The mm:ss is to let the user know its in minutes, seconds format (2 digits apiece).</note>
+            <variant>Step Every (mm:ss)</variant>
+        </translation>
+        <translation key="simulator-step-size">
+            <note>Header for a field that specifies how much time each simulated step represents. The mm:ss is to let the user know its in minutes, seconds format (2 digits apiece).</note>
+            <variant>One Step = (mm:ss)</variant>
+        </translation>
+        <translation key="cannot_simulate_with_errors">
+            <variant>You cannot run the simulator with compiling errors.</variant>
+            <note>This error message appears when you attempt to simulate a control program that is not compilable.</note>
+        </translation>
+        <translation key="error_setting_microblock_0_value_1">
+            <note>Error message to user telling them that a microblock value could not be set.</note>
+            <variant>The value ''{0}''  for microblock ''{1}'' could not be set.</variant>
+        </translation>
+        <translation key="0_had_errors_during_conversion">
+            <note>Error message to user telling them that an EIKON file couldn't be converted to a LogicBuilder file.</note>
+            <variant>{0} had errors and could not be converted. You must convert this file manually.</variant>
+        </translation>
+        <translation key="provider-index-simulator">
+            <note>Provider row simulation index</note>
+            <variant>Provider Index</variant>
+        </translation>
+        <translation key="couldnt-find-value-0-error">
+            <note/>
+            <variant>Could not import values for row. The reference name ''{0}'' could not be found.</variant>
+        </translation>
+    </section>
+    <section id="error_dialog">
+        <translation key="show_details">
+            <note/>
+            <variant>Show Details</variant>
+        </translation>
+        <translation key="hide_details">
+            <note/>
+            <variant>Hide Details</variant>
+        </translation>
+    </section>
+    <!--  end of error dialog section -->
+    <section id="pmt_interface">
+        <translation key="PMT_BACnet_Edits">
+            <note>Description in undo list for edits made in the PMT dialog.</note>
+            <variant>PMT BACnet Edits</variant>
+        </translation>
+        <translation key="Page">
+            <note/>
+            <variant>Page</variant>
+        </translation>
+        <translation key="n2-tab-title">
+            <note>This is the label on a tab for the N2 protocol</note>
+            <variant>N2</variant>
+        </translation>
+        <translation key="row-number-column-label">
+            <note>This is the label on table row that represents an auto</note>
+            <variant>#</variant>
+        </translation>
+        <translation key="row_id">
+            <note>This is the label on the column that indicates the number of the table row</note>
+            <variant>Row#</variant>
+        </translation>
+        <translation key="excel_id">
+            <note>This is the label on the column that indicates the Excel row number of the table row</note>
+            <variant>Excel Row#</variant>
+        </translation>
+        <translation key="object_name">
+            <note/>
+            <variant>Reference Name</variant>
+        </translation>
+        <translation key="object_type">
+            <note/>
+            <variant>Object Type</variant>
+        </translation>
+        <translation approved="false" key="add_remove_points" new="true">
+            <note>Used on the PMT tool to let the user add or remove BACnet properties. </note>
+            <variant/>
+        </translation>
+        <translation key="ctrl_click_to_sort_cols">
+            <note/>
+            <variant>Ctrl+left click to sort a column.</variant>
+        </translation>
+        <translation key="Clear_Selected_Lon_Mappings">
+            <note/>
+            <variant>Clear Selected Lon Mappings</variant>
+        </translation>
+        <translation key="Build_N2_Point_Addresses">
+            <note/>
+            <variant>Build N2 Point Addresses</variant>
+        </translation>
+        <translation key="Clear_Selected_N2_Addresses">
+            <note/>
+            <variant>Clear Selected N2 Addresses</variant>
+        </translation>
+        <translation key="Changed_N2_Point_Type_from_0_to_1">
+            <note/>
+            <variant>Changed N2 point type from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="Changed_N2_Point_Address_from_0_to_1">
+            <note/>
+            <variant>Changed N2 point address from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="MODBUS_Title">
+            <note/>
+            <variant>Modbus</variant>
+        </translation>
+        <translation key="Build_MODBUS_Registers">
+            <note/>
+            <variant>Build Modbus Registers</variant>
+        </translation>
+        <translation key="Clear_Selected_MODBUS_Registers">
+            <note/>
+            <variant>Clear Selected Modbus Registers</variant>
+        </translation>
+        <translation key="Changed_MODBUS_Register_Type_from_0_to_1">
+            <note/>
+            <variant>Changed Modbus Register type from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="Changed_MODBUS_Register_Number_from_0_to_1">
+            <note/>
+            <variant>Changed Modbus Register Number from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="register_type">
+            <note/>
+            <variant>Register Type</variant>
+        </translation>
+        <translation key="register_number">
+            <note/>
+            <variant>Register Number</variant>
+        </translation>
+        <translation key="is_float">
+            <note/>
+            <variant>Is Float</variant>
+        </translation>
+        <translation key="parent">
+            <note/>
+            <variant>Parent</variant>
+        </translation>
+        <translation key="element_index">
+            <note/>
+            <variant>Element Index</variant>
+        </translation>
+        <translation key="self_doc_str">
+            <note/>
+            <variant>Self Doc String</variant>
+        </translation>
+        <translation key="snvt_identifier">
+            <note/>
+            <variant>SNVT Id</variant>
+        </translation>
+        <translation key="Changed_Bacnet_Property_from_0_to_1">
+            <note/>
+            <variant>Changed Bacnet Property from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="Changed_Enabled_from_0_to_1">
+            <note/>
+            <variant>Changed enabled from ''{0}'' to ''{1}''.</variant>
+        </translation>
+        <translation key="Couldnt_Import_File_0">
+            <note/>
+            <variant>Couldn't import file: ''{0}''.</variant>
+        </translation>
+        <translation key="Error_Title">
+            <note/>
+            <variant>Error!</variant>
+        </translation>
+        <translation key="bacnet-tab-title">
+            <note>This is the label on a tab for the BACnet view</note>
+            <variant>BACnet</variant>
+        </translation>
+        <translation key="bacnet-property">
+            <note>This is the label for the BACnet Property</note>
+            <variant>BACnet Property</variant>
+        </translation>
+        <translation key="n2-tab-title">
+            <note>This is the label on a tab for the N2 view</note>
+            <variant>N2</variant>
+        </translation>
+        <translation key="show_only_network_visible">
+            <variant>Show only network visible</variant>
+        </translation>
+        <translation key="show_all">
+            <variant>Show All</variant>
+        </translation>
+        <translation key="show_only_enabled">
+            <variant>Show only enabled</variant>
+        </translation>
+        <translation key="Prev">
+            <note>Abbreviation for Previous</note>
+            <variant>Prev</variant>
+        </translation>
+        <translation key="Read_Write_Title">
+            <note>Label that shows that a value can both be read and written to</note>
+            <variant>Read/Write</variant>
+        </translation>
+        <translation key="Read_Only_Label">
+            <note>Label that shows that a value can ONLY be read from</note>
+            <variant>R</variant>
+        </translation>
+        <translation key="Read_Write_Label">
+            <note>Label that shows that a value can both be read and written to</note>
+            <variant>R/W</variant>
+        </translation>
+        <translation key="move-down-tooltip">
+            <note>This button makes selected rows move down in the PMT table.</note>
+            <variant>Move selected rows down</variant>
+        </translation>
+        <translation key="move-up-tooltip">
+            <note>This button makes selected rows move up in the PMT table.</note>
+            <variant>Move selected rows up</variant>
+        </translation>
+        <translation key="pmt-print-tooltip">
+            <note>Prints out the values on the current PMT control tab.</note>
+            <variant>Print out current view</variant>
+        </translation>
+        <translation key="pmt-build-object-ids">
+            <note>Description for automatically building object id numbers</note>
+            <variant>Build Object Instance Ids</variant>
+        </translation>
+        <translation key="pmt-add-text">
+            <note>Symbol for a button that adds a table row.</note>
+            <variant>+</variant>
+        </translation>
+        <translation key="pmt-remove-text">
+            <note>Symbol for a button that removes a table row.</note>
+            <variant>-</variant>
+        </translation>
+        <translation key="pmt-add-description">
+            <note>Description that shows up in undo list for the add BACnet property action.</note>
+            <variant>Added BACnet Property</variant>
+        </translation>
+        <translation key="pmt-remove-description">
+            <note>Description that shows up in undo list for the remove BACnet property action.</note>
+            <variant>Removed BACnet Property</variant>
+        </translation>
+        <translation key="pmt-add-tooltip">
+            <note>Tool tip for PMT add property button.</note>
+            <variant>Add another BACnet property to the list available to third party mapping.</variant>
+        </translation>
+        <translation key="pmt-remove-tooltip">
+            <note>Symbol for a button that removes a table row.</note>
+            <variant>Remove this BACnet property from the list available to third party mapping.</variant>
+        </translation>
+        <translation key="pmt-add-snvt-tooltip">
+            <note>Tool tip for PMT add snvt button.</note>
+            <variant>Add a new empty SNVT row.</variant>
+        </translation>
+        <translation key="pmt-remove-snvt-tooltip">
+            <note>Tool tip for PMT remove snvt button.</note>
+            <variant>Remove selected SNVT's from the list of mappings.</variant>
+        </translation>
+        <translation key="pmt-add-snvt-description">
+            <note>Description that shows up in undo list for the add SNVT action.</note>
+            <variant>Added a new empty SNVT row.</variant>
+        </translation>
+        <translation key="pmt-remove-snvt-description">
+            <note>Description that shows up in undo list for remove SNVT action.</note>
+            <variant>Removed selected SNVT from the list of mappings.</variant>
+        </translation>
+        <translation key="pmt-restored-snvt-description">
+            <note>Description that shows up in undo list for restored SNVT action.</note>
+            <variant>Restored removed SNVTs.</variant>
+        </translation>
+        <translation key="pmt_untitled">
+            <note>Header name for printing the PMT table when there is no control program name to use.</note>
+            <variant>Untitled</variant>
+        </translation>
+        <translation key="pmt-enable-all-network-visible">
+            <note/>
+            <variant>Enable All Network Visible</variant>
+        </translation>
+        <translation key="pmt-disable-all-network-visible">
+            <note/>
+            <variant>Disable All Network Visible</variant>
+        </translation>
+        <translation key="pmt-clear-all-object-ids">
+            <note/>
+            <variant>Clear All Object Ids</variant>
+        </translation>
+        <translation key="pmt-clear-selected-object-ids">
+            <note/>
+            <variant>Clear Selected Object Ids</variant>
+        </translation>
+        <translation key="pmt-enable-all">
+            <note/>
+            <variant>Enable All Mappings</variant>
+        </translation>
+        <translation key="pmt-disable-all">
+            <note/>
+            <variant>Disable All Mappings</variant>
+        </translation>
+        <translation key="pmt-clear-all">
+            <note/>
+            <variant>Clear All Mappings</variant>
+        </translation>
+        <translation key="pmt-set-starting-value">
+            <note/>
+            <variant>Set starting build value</variant>
+        </translation>
+        <translation key="pmt-move-up-desc">
+            <note/>
+            <variant>Moved Selected Rows Up</variant>
+        </translation>
+        <translation key="pmt-move-down-desc">
+            <note/>
+            <variant>Moved Selected Rows Down</variant>
+        </translation>
+        <translation key="pmt-select-snvt-type">
+            <note/>
+            <variant>SNVT Type changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-change-object-id">
+            <note/>
+            <variant>BACnet Object ID changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-build-snvts">
+            <note/>
+            <variant>Build Snvt Mappings</variant>
+        </translation>
+        <translation key="pmt-select-direction">
+            <note/>
+            <variant>Direction set to {0} </variant>
+        </translation>
+        <translation key="pmt-set-network-variable-name">
+            <note/>
+            <variant>NV Name changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-enabled">
+            <note/>
+            <variant>Enabled changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-priority">
+            <note/>
+            <variant>Priority changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-refresh-time">
+            <note/>
+            <variant>Refresh time changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-acknowledge">
+            <note/>
+            <variant>Acknowledge changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-select-direction">
+            <note/>
+            <variant>Direction changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-program-id">
+            <note/>
+            <variant>ProgramID changed from {0} to {1}</variant>
+        </translation>
+        <translation key="pmt-set-self-doc-str">
+            <note/>
+            <variant>Self Doc String changed from {0} to {1}</variant>
+        </translation>
+        <translation key="property_path">
+            <note/>
+            <variant>Property Path</variant>
+        </translation>
+        <translation key="deleted-selected-snvts">
+            <note/>
+            <variant>Deleted Selected SNVTs.</variant>
+        </translation>
+        <translation key="Print_Button_Label">
+            <note>Prints out table values.</note>
+            <variant>Print</variant>
+        </translation>
+        <translation key="Failed_To_Print">
+            <note/>
+            <variant>An error occurred during print. Please check your printer setup.</variant>
+        </translation>
+        <translation key="We_were_unable_to_import_the_following_values">
+            <note/>
+            <variant>We were unable to import the following values:</variant>
+        </translation>
+        <translation key="flow_at_1_inch">
+            <note/>
+            <variant>Flow at 1 inch WC</variant>
+        </translation>
+        <translation key="controlled_variable_value">
+            <note/>
+            <variant>Controlled Variable Value</variant>
+        </translation>
+        <translation key="celsius_occ_cool">
+            <note/>
+            <variant>Celsius occupied cool</variant>
+        </translation>
+        <translation key="celsius_unocc_cool">
+            <note/>
+            <variant>Celsius unoccupied cool</variant>
+        </translation>
+        <translation key="celsius_standby_cool">
+            <note/>
+            <variant>Celsius standby cool</variant>
+        </translation>
+        <translation key="celsius_occ_heat">
+            <note/>
+            <variant>Celsius occupied heat</variant>
+        </translation>
+        <translation key="celsius_unocc_heat">
+            <note/>
+            <variant>Celsius unoccupied heat</variant>
+        </translation>
+        <translation key="celsius_standby_heat">
+            <note/>
+            <variant>Celsius standby heat</variant>
+        </translation>
+        <translation key="%_of_full_state">
+            <note/>
+            <variant>% of full state</variant>
+        </translation>
+        <translation key="liters_per_second">
+            <note/>
+            <variant>liters/second</variant>
+        </translation>
+        <translation key="_mode">
+            <note/>
+            <variant>mode</variant>
+        </translation>
+        <translation key="%_primary_heat_output">
+            <note/>
+            <variant>% primary heat output</variant>
+        </translation>
+        <translation key="%_secondary_heat_output">
+            <note/>
+            <variant>% secondary heat output</variant>
+        </translation>
+        <translation key="%_cool_output">
+            <note/>
+            <variant>% cool output</variant>
+        </translation>
+        <translation key="%_econ_output">
+            <note/>
+            <variant>% econ output</variant>
+        </translation>
+        <translation key="%_fan_output">
+            <note/>
+            <variant>% fan output</variant>
+        </translation>
+        <translation key="%_in_alarm">
+            <note/>
+            <variant>% in alarm</variant>
+        </translation>
+        <translation key="network_variable_name">
+            <note/>
+            <variant>NV Name</variant>
+        </translation>
+        <translation key="direction">
+            <note/>
+            <variant>Direction</variant>
+        </translation>
+        <translation key="snvt">
+            <note/>
+            <variant>SNVT</variant>
+        </translation>
+        <translation key="element_name">
+            <note/>
+            <variant>Element</variant>
+        </translation>
+        <translation key="nv_number">
+            <note/>
+            <variant>NV #</variant>
+        </translation>
+        <translation key="chiller_run_mode">
+            <note/>
+            <variant>Chiller run mode</variant>
+        </translation>
+        <translation key="chiller_oper_mode">
+            <note/>
+            <variant>Chiller operation mode</variant>
+        </translation>
+        <translation key="chiller_state">
+            <note/>
+            <variant>Chiller state</variant>
+        </translation>
+        <translation key="in_alarm">
+            <note/>
+            <variant>in alarm</variant>
+        </translation>
+        <translation key="run_is_enabled">
+            <note/>
+            <variant>run is enabled</variant>
+        </translation>
+        <translation key="local">
+            <note/>
+            <variant>local</variant>
+        </translation>
+        <translation key="limited">
+            <note/>
+            <variant>limited</variant>
+        </translation>
+        <translation key="chilled_water_flow">
+            <note/>
+            <variant>chilled water flow</variant>
+        </translation>
+        <translation key="conditional_water_flow">
+            <note/>
+            <variant>conditional water flow</variant>
+        </translation>
+        <translation key="State">
+            <note/>
+            <variant>State</variant>
+        </translation>
+        <translation key="Value">
+            <note/>
+            <variant>Value</variant>
+        </translation>
+        <translation key="Elements">
+            <note/>
+            <variant>Elements</variant>
+        </translation>
+        <translation key="Element_Count">
+            <note/>
+            <variant>Element Count</variant>
+        </translation>
+        <translation key="nv_name">
+            <note/>
+            <variant>NV Name</variant>
+        </translation>
+        <translation key="snvt_type">
+            <note/>
+            <variant>SNVT Type</variant>
+        </translation>
+        <translation key="nv_index">
+            <note/>
+            <variant>NV Index</variant>
+        </translation>
+        <translation key="property">
+            <note/>
+            <variant>Property</variant>
+        </translation>
+        <translation key="index">
+            <note/>
+            <variant>Index</variant>
+        </translation>
+        <translation key="value">
+            <note/>
+            <variant>Value</variant>
+        </translation>
+        <translation key="second">
+            <note/>
+            <variant>Second</variant>
+        </translation>
+        <translation key="millisecond">
+            <note/>
+            <variant>Millisecond</variant>
+        </translation>
+        <translation key="next_state">
+            <note/>
+            <variant>Next State</variant>
+        </translation>
+        <translation key="current_state">
+            <note/>
+            <variant>Current State</variant>
+        </translation>
+        <translation key="time_to_next_state">
+            <note/>
+            <variant>Time to next state</variant>
+        </translation>
+        <translation key="direction_poll0">
+            <note/>
+            <variant>Direction0</variant>
+        </translation>
+        <translation key="direction_poll1">
+            <note/>
+            <variant>Direction1</variant>
+        </translation>
+        <translation key="continuous_proportional">
+            <note/>
+            <variant>Continuous Proportional</variant>
+        </translation>
+        <translation key="byte0">
+            <note/>
+            <variant>Byte0</variant>
+        </translation>
+        <translation key="byte1">
+            <note/>
+            <variant>Byte1</variant>
+        </translation>
+        <translation key="byte2">
+            <note/>
+            <variant>Byte2</variant>
+        </translation>
+        <translation key="byte3">
+            <note/>
+            <variant>Byte3</variant>
+        </translation>
+        <translation key="priority">
+            <note/>
+            <variant>Priority</variant>
+        </translation>
+        <translation key="acknowledge">
+            <note/>
+            <variant>Acknowledge</variant>
+        </translation>
+        <translation key="metric">
+            <note/>
+            <variant>Metric</variant>
+        </translation>
+        <translation key="Lonworks">
+            <note/>
+            <variant>LonWorks</variant>
+        </translation>
+        <translation key="is_enabled">
+            <note/>
+            <variant>Enabled</variant>
+        </translation>
+        <translation key="view_label">
+            <note/>
+            <variant>View:</variant>
+        </translation>
+        <translation key="input_passive">
+            <note/>
+            <variant>Input (passive) - default</variant>
+        </translation>
+        <translation key="input_active">
+            <note/>
+            <variant>Input (active)</variant>
+        </translation>
+        <translation key="ouput_passive">
+            <note/>
+            <variant>Output (passive)</variant>
+        </translation>
+        <translation key="output_active">
+            <note/>
+            <variant>Output (active) - default</variant>
+        </translation>
+        <translation key="nv_view">
+            <note/>
+            <variant>Network Variable View</variant>
+        </translation>
+        <translation key="bacnet_view">
+            <note/>
+            <variant>BACnet Points View</variant>
+        </translation>
+        <translation key="enter_value_between_0_and_1">
+            <note/>
+            <variant>Please enter a value between {0} and {1}.</variant>
+        </translation>
+        <translation key="pmt-config-tooltip">
+            <note/>
+            <variant>Show/Hide columns in the table.</variant>
+        </translation>
+        <translation key="length">
+            <note/>
+            <variant>Length</variant>
+        </translation>
+        <translation key="lon_self_doc_str">
+            <note/>
+            <variant>Self Doc String</variant>
+        </translation>
+        <translation key="lon_program_identifier">
+            <note/>
+            <variant>Program Id</variant>
+        </translation>
+        <translation key="blank-prog-id-warn">
+            <note/>
+            <variant>You left the Lonworks Program ID blank!\nAre you sure you want to continue?</variant>
+        </translation>
+        <translation key="dont-warn-again">
+            <note/>
+            <variant>Don't show this warning again.</variant>
+        </translation>
+        <translation key="Warning">
+            <note/>
+            <variant>Warning!</variant>
+        </translation>
+        <translation key="show_hide_label">
+            <note/>
+            <variant>Show/Hide Table Columns</variant>
+        </translation>
+        <translation key="illegal_progid_length_error">
+            <note/>
+            <variant>Invalid Program Id: ''{0}''. Program Id's must be 8 characters or less.</variant>
+        </translation>
+        <translation key="illegal_progid_format_error">
+            <note/>
+            <variant>Invalid Program Id: ''{0}''. Program Id's that start with an '8' or '9' must be in the SPID format.</variant>
+        </translation>
+        <translation key="illegal_spid_length_error">
+            <note/>
+            <variant>The value ''{0}'' is specified as an SPID. It must be a Hexadecimal value 16 characters long, not ''{1}''.</variant>
+        </translation>
+        <translation key="invalid_spid_character_error">
+            <note/>
+            <variant>The value ''{0}'' contains invalid characters. SPID formatted Prog ID's must only contain Hexadecimal characters.</variant>
+        </translation>
+        <translation key="illegal_nv_name_length_error">
+            <note/>
+            <variant>Invalid Network Variable Name: ''{0}''. Names should be 1 to 16 characters long.</variant>
+        </translation>
+        <translation key="continous_proportional">
+            <note/>
+            <variant>Continous Proportional</variant>
+        </translation>
+        <translation key="imported-csv">
+            <note/>
+            <variant>Imported CSV file ''{0}''.</variant>
+        </translation>
+        <translation key="import-title">
+            <note/>
+            <variant>Import Info</variant>
+        </translation>
+        <translation key="set-excel-row">
+            <note/>
+            <variant>Set Excel Row #</variant>
+        </translation>
+        <translation key="imported-x-rows">
+            <note/>
+            <variant>Successfully imported ''{0}'' rows.</variant>
+        </translation>
+        <translation key="cov">
+            <note/>
+            <variant>COV</variant>
+        </translation>
+        <translation key="increment">
+            <note/>
+            <variant>Increment</variant>
+        </translation>
+        <translation key="historian">
+            <note/>
+            <variant>Historian</variant>
+        </translation>
+        <translation key="secure">
+            <note/>
+            <variant>Secure</variant>
+        </translation>
+        <translation key="enable">
+            <note/>
+            <variant>Enable</variant>
+        </translation>
+        <translation key="notification_threshold_label">
+            <note/>
+            <variant>Write Every __ Samples</variant>
+        </translation>
+        <translation key="select-microblock-on-canvas">
+            <note/>
+            <variant>Select Microblock On Canvas</variant>
+        </translation>
+        <translation key="no_matching_begin_microblock">
+            <note/>
+            <variant>The end text microblock''{0}'' has no matching begin text microblock.</variant>
+        </translation>
+        <translation key="no_matching_end_microblock">
+            <note/>
+            <variant>The begin text microblock''{0}'' has no matching end text microblock.</variant>
+        </translation>
+    </section>
+</resource-base>

@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="main" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="common">
+        <translation key="Any">
+            <variant>&lt;Any&gt;</variant>
+        </translation>
+        <translation key="Day">
+            <variant>Day</variant>
+        </translation>
+        <translation key="Month">
+            <variant>Month</variant>
+        </translation>
+        <translation key="Week">
+            <variant>Week</variant>
+        </translation>
+        <translation key="Enter_a_manual_command">
+            <variant>Enter a manual command</variant>
+        </translation>
+        <translation key="You_do_not_have_privilege">
+            <variant>You do not have privilege to enter manual commands.</variant>
+        </translation>
+        <translation key="You_must_OK_or_C">
+            <variant>Please click Accept or Cancel.</variant>
+        </translation>
+        <translation key="You_must_OK_Cancel">
+            <variant>Please click Accept, Cancel, or Apply.</variant>
+        </translation>
+        <translation key="Changes_have_not_been_applied">
+            <variant>Changes have not been applied yet. Do you want to continue to wait?</variant>
+        </translation>
+        <translation key="Changes_were_applied">
+            <variant>Changes were applied!</variant>
+        </translation>
+        <translation key="Apply_already_in_progress">
+            <variant>Apply already in progress</variant>
+        </translation>
+        <translation key="server_down">
+            <note>Location: Keep browser open and restart WebCTRL Server.</note>
+            <variant>Your connection to the server has been lost.  If the connection is restored within 60 minutes, you will be returned to your last location.</variant>
+        </translation>
+        <translation key="server_down_login">
+            <note>Location: Keep browser open and restart WebCTRL Server.</note>
+            <variant>Your connection to the server has been lost.  If the connection is restored within 60 minutes, you will be returned to the login screen.</variant>
+        </translation>
+        <translation key="server_down_no_failover">
+            <variant>Your connection to the server has been lost.</variant>
+        </translation>
+        <translation key="lost_changes">
+            <variant>Please remake any changes you did not accept.</variant>
+        </translation>
+        <translation key="Confirm_Delete_trend_or_report">
+            <variant>Are you sure you want to delete this trend or report?</variant>
+        </translation>
+        <translation key="Confirm_Delete_selected">
+            <variant>Are you sure you want to delete the selected items?</variant>
+        </translation>
+        <translation key="Confirm_Unassign_selected">
+            <variant>Are you sure you want to unassign the selected items?</variant>
+        </translation>
+        <translation key="Exception">
+            <note> specifies whether an exceptional condition has been encountered</note>
+            <variant>Exception</variant>
+        </translation>
+        <translation key="Value_not_set">
+            <note> indicates that a value was not saved - wap only</note>
+            <variant>Value not set</variant>
+        </translation>
+        <translation key="Broadcast_Message">
+            <note>Dialog Box title for the box that pops up from a notify manual command</note>
+            <variant>Broadcast Message</variant>
+        </translation>
+        <translation key="Deleting">
+            <note>Short message that a tree node is being deleted in the tree</note>
+            <variant>Deleting...</variant>
+        </translation>
+        <translation key="Locating">
+            <note>Short message that a locate devices discovery task is running on this tree node</note>
+            <variant>Locating Controllers...</variant>
+        </translation>
+        <translation key="Moving">
+            <note>Short message that a tree node is being moved in the tree</note>
+            <variant>Moving...</variant>
+        </translation>
+        <translation key="View_Setup">
+            <note>Title on the install tree for the geo setup tree</note>
+            <variant>Arrange User View</variant>
+        </translation>
+        <translation key="Network_Setup">
+            <note>Title on the install tree for the network setup tree</note>
+            <variant>Discover Network</variant>
+        </translation>
+        <translation key="More">
+            <note>Label for More tab on facetbar.jsp </note>
+            <variant>More</variant>
+        </translation>
+        <translation key="Popups_Blocked">
+            <note>Error message when window fails to open because popups are blocked </note>
+            <variant>Window failed to open. Check to see if browser is blocking popups.</variant>
+        </translation>
+    </section>
+    <section id="short day names">
+        <note>Shortened day of the week names</note>
+        <translation key="Mon">
+            <note>Shortened day of the week names</note>
+            <variant>Mon</variant>
+        </translation>
+        <translation key="Tue">
+            <note>Shortened day of the week names</note>
+            <variant>Tue</variant>
+        </translation>
+        <translation key="Wed">
+            <note>Shortened day of the week names</note>
+            <variant>Wed</variant>
+        </translation>
+        <translation key="Thu">
+            <note>Shortened day of the week names</note>
+            <variant>Thu</variant>
+        </translation>
+        <translation key="Fri">
+            <note>Shortened day of the week names</note>
+            <variant>Fri</variant>
+        </translation>
+        <translation key="Sat">
+            <note>Shortened day of the week names</note>
+            <variant>Sat</variant>
+        </translation>
+        <translation key="Sun">
+            <note>Shortened day of the week names</note>
+            <variant>Sun</variant>
+        </translation>
+    </section>
+    <section id="long day names">
+        <note>Day of the week names</note>
+        <translation key="Monday">
+            <note>Day of the week names</note>
+            <variant>Monday</variant>
+        </translation>
+        <translation key="Tuesday">
+            <note>Day of the week names</note>
+            <variant>Tuesday</variant>
+        </translation>
+        <translation key="Wednesday">
+            <note>Day of the week names</note>
+            <variant>Wednesday</variant>
+        </translation>
+        <translation key="Thursday">
+            <note>Day of the week names</note>
+            <variant>Thursday</variant>
+        </translation>
+        <translation key="Friday">
+            <note>Day of the week names</note>
+            <variant>Friday</variant>
+        </translation>
+        <translation key="Saturday">
+            <note>Day of the week names</note>
+            <variant>Saturday</variant>
+        </translation>
+        <translation key="Sunday">
+            <note>Day of the week names</note>
+            <variant>Sunday</variant>
+        </translation>
+    </section>
+    <section id="short month names">
+        <note>Shortened month names</note>
+        <translation key="Jan">
+            <note>Shortened month names</note>
+            <variant>Jan</variant>
+        </translation>
+        <translation key="Feb">
+            <note>Shortened month names</note>
+            <variant>Feb</variant>
+        </translation>
+        <translation key="Mar">
+            <note>Shortened month names</note>
+            <variant>Mar</variant>
+        </translation>
+        <translation key="Apr">
+            <note>Shortened month names</note>
+            <variant>Apr</variant>
+        </translation>
+        <translation key="Jun">
+            <note>Shortened month names</note>
+            <variant>Jun</variant>
+        </translation>
+        <translation key="Jul">
+            <note>Shortened month names</note>
+            <variant>Jul</variant>
+        </translation>
+        <translation key="Aug">
+            <note>Shortened month names</note>
+            <variant>Aug</variant>
+        </translation>
+        <translation key="Sep">
+            <note>Shortened month names</note>
+            <variant>Sep</variant>
+        </translation>
+        <translation key="Oct">
+            <note>Shortened month names</note>
+            <variant>Oct</variant>
+        </translation>
+        <translation key="Nov">
+            <note>Shortened month names</note>
+            <variant>Nov</variant>
+        </translation>
+        <translation key="Dec">
+            <note>Shortened month names</note>
+            <variant>Dec</variant>
+        </translation>
+        <translation key="Odd">
+            <note>Shortened month names</note>
+            <variant>Odd</variant>
+        </translation>
+        <translation key="Even">
+            <note>Shortened month names</note>
+            <variant>Even</variant>
+        </translation>
+    </section>
+    <section id="long month names">
+        <note>Month names</note>
+        <translation key="January">
+            <note>Month names</note>
+            <variant>January</variant>
+        </translation>
+        <translation key="February">
+            <note>Month names</note>
+            <variant>February</variant>
+        </translation>
+        <translation key="March">
+            <note>Month names</note>
+            <variant>March</variant>
+        </translation>
+        <translation key="April">
+            <note>Month names</note>
+            <variant>April</variant>
+        </translation>
+        <translation key="May">
+            <note>Month names</note>
+            <variant>May</variant>
+        </translation>
+        <translation key="June">
+            <note>Month names</note>
+            <variant>June</variant>
+        </translation>
+        <translation key="July">
+            <note>Month names</note>
+            <variant>July</variant>
+        </translation>
+        <translation key="August">
+            <note>Month names</note>
+            <variant>August</variant>
+        </translation>
+        <translation key="September">
+            <note>Month names</note>
+            <variant>September</variant>
+        </translation>
+        <translation key="October">
+            <note>Month names</note>
+            <variant>October</variant>
+        </translation>
+        <translation key="November">
+            <note>Month names</note>
+            <variant>November</variant>
+        </translation>
+        <translation key="December">
+            <note>Month names</note>
+            <variant>December</variant>
+        </translation>
+    </section>
+    <section id="week names">
+        <note>week names ex. first week, second week etc</note>
+        <translation key="fst">
+            <note>week names ex. first week, second week etc</note>
+            <variant>1st</variant>
+        </translation>
+        <translation key="snd">
+            <note>week names ex. first week, second week etc</note>
+            <variant>2nd</variant>
+        </translation>
+        <translation key="trd">
+            <note>week names ex. first week, second week etc</note>
+            <variant>3rd</variant>
+        </translation>
+        <translation key="fth">
+            <note>week names ex. first week, second week etc</note>
+            <variant>4th</variant>
+        </translation>
+        <translation key="fith">
+            <note>week names ex. first week, second week etc</note>
+            <variant>5th</variant>
+        </translation>
+        <translation key="sth">
+            <note>week names ex. first week, second week etc</note>
+            <variant>6th</variant>
+        </translation>
+        <translation key="last">
+            <note>week names ex. first week, second week etc</note>
+            <variant>last</variant>
+        </translation>
+    </section>
+    <section id="right dropdown">
+        <translation key="Rebuild">
+            <note>Location: Click small green arrow in upper righthand corner to display WebCTRL menu, then Manual Command.</note>
+            <variant>Rebuild</variant>
+        </translation>
+        <translation key="Reports">
+            <note>Action button</note>
+            <variant>Reports...</variant>
+        </translation>
+        <translation approved="false" key="Report_Manager" new="true">
+            <note/>
+            <variant>Report Manager</variant>
+            <note>A list of all editable tables (name, category and type)</note>
+        </translation>
+        <translation key="Create">
+            <variant>Create...</variant>
+        </translation>
+        <translation key="Add_Report">
+            <note/>
+            <variant>New Report...</variant>
+            <note>Location: Click Reports action button, then scroll to bottom of dropdown list.</note>
+        </translation>
+        <translation key="Add_Graph">
+            <note/>
+            <variant>New Graph...</variant>
+            <note>Location: Appears when you select a location that has no trend and at the bottom of the dropdown when you click the Trends button at a location with trends. </note>
+        </translation>
+        <translation key="Delete">
+            <note> label item on the right menu</note>
+            <variant>Delete</variant>
+        </translation>
+        <translation key="Errors">
+            <note/>
+            <variant>Errors</variant>
+        </translation>
+        <translation key="Print">
+            <note>One of four action buttons with icons - on righthand side.</note>
+            <variant>Print</variant>
+        </translation>
+        <translation key="Logout">
+            <note> label item on the WebCTRL menu</note>
+            <variant>Log out</variant>
+        </translation>
+        <translation key="Command">
+            <note> label item on the right menu</note>
+            <variant>Command</variant>
+        </translation>
+        <translation key="About">
+            <note> label item on the right menu. param = Product Name</note>
+            <variant>About {0}</variant>
+        </translation>
+        <translation key="Help">
+            <note>One of four action buttons with icons - on righthand side.</note>
+            <variant>Help</variant>
+        </translation>
+        <translation key="Silence">
+            <variant>Silence</variant>
+        </translation>
+        <translation key="Snooze">
+            <variant>Snooze</variant>
+        </translation>
+        <translation key="Manual_Command">
+            <note> label item on the right menu</note>
+            <variant>Manual Command</variant>
+        </translation>
+        <translation key="Ctrl_M">
+            <note> label item on the right menu</note>
+            <variant>Ctrl+Shift+M</variant>
+        </translation>
+        <translation key="Ctrl">
+            <note>Accelerator key modifier for items on the right menu.  Represents the CTRL key on the keyboard.</note>
+            <variant>Ctrl</variant>
+        </translation>
+        <translation key="Shift">
+            <note>Accelerator key modifier for items on the right menu.  Represents the Shift key on the keyboard.</note>
+            <variant>Shift</variant>
+        </translation>
+        <translation key="Alt">
+            <note>Accelerator key modifier for items on the right menu.  Represents the Alt key on the keyboard.</note>
+            <variant>Alt</variant>
+        </translation>
+        <translation key="Point_Checkout">
+            <note> label item on the right menu</note>
+            <variant>Point Checkout</variant>
+        </translation>
+        <translation key="Airflow_Configuration">
+            <note> label item on the right menu</note>
+            <variant>Airflow Config</variant>
+        </translation>
+        <translation key="Equipment_Sources">
+            <note> label item on the right menu</note>
+            <variant>Equipment Sources</variant>
+        </translation>
+        <translation key="History_Mode">
+            <note> label item on the right menu</note>
+            <variant>Time-lapse</variant>
+        </translation>
+        <translation key="Global_Modify">
+            <note> label item on the right menu</note>
+            <variant>Global Modify</variant>
+        </translation>
+        <translation key="Alt_Click">
+            <note> label item on the right menu</note>
+            <variant>Alt+Click</variant>
+        </translation>
+        <translation key="System_Setup">
+            <note> title of System Setup dialog</note>
+            <variant>System Setup</variant>
+        </translation>
+        <translation key="System_Options">
+            <note> title of System Options dialog</note>
+            <variant>System Options</variant>
+        </translation>
+        <translation key="Setup_Tree">
+            <note> title of Setup Tree dialog and right menu item</note>
+            <variant>Set up Tree</variant>
+        </translation>
+        <translation key="Main">
+            <note> title of the main dialog</note>
+            <variant>Main</variant>
+        </translation>
+        <translation key="Setup">
+            <note> label item on the right menu</note>
+            <variant>System Setup</variant>
+        </translation>
+        <translation key="Options">
+            <note> label item on the right menu</note>
+            <variant>System Options</variant>
+        </translation>
+        <translation key="System_Menu">
+            <variant>System Menu</variant>
+        </translation>
+        <translation key="Find_Microblock">
+            <note> label item on the right menu - this pops up the properties page for the selected microblock</note>
+            <variant>Microblock Properties</variant>
+        </translation>
+        <translation key="Ctrl_Click">
+            <note> label item on the right menu</note>
+            <variant>Ctrl+Click</variant>
+        </translation>
+        <translation key="Unregistered_Copy">
+            <note> label- header for unregistered version of application and the message text to go with it </note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>Unregistered Copy</variant>
+        </translation>
+        <translation key="Unregistered_Text">
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>This software is not currently licensed and therefore not supported</variant>
+        </translation>
+        <translation key="Registration_plea_message">
+            <note> Registration plea message</note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>Please contact {0} for information about registering this software and enabling support.</variant>
+        </translation>
+        <translation key="Please_contact">
+            <note> label part of the text-Please contact XXX  for information about registering this software and enabling support</note>
+            <variant>Please contact</variant>
+        </translation>
+        <translation key="for_information">
+            <variant>for information about registering this software and enabling support</variant>
+        </translation>
+        <translation key="Developer_Copy">
+            <note> label- header for internal developer version of application and the message text to go with it </note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>Internal Developer Copy</variant>
+        </translation>
+        <translation key="Developer_Text">
+            <note>This software is not licensed outside of 'company X', where company X is not filled in here</note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>This software is not licensed for use outside of {0}</variant>
+        </translation>
+        <translation key="Dealer_Copy">
+            <note> label- header for dealer version of application and the message text to go with it </note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>Dealer Copy</variant>
+        </translation>
+        <translation key="Dealer_Text">
+            <note>This software is only licensed for internal use by a Dealer for 'company X' where company X is not filled in here</note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>This software is only licensed for internal use by a Dealer for {0}</variant>
+        </translation>
+        <translation key="OEM_Copy">
+            <note> label- header for OEM version of application and the message text to go with it </note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>Manufacturer Copy</variant>
+        </translation>
+        <translation key="OEM_Text">
+            <note>This software is only licensed for internal use by 'customer X' - where company X is not filled in here</note>
+            <section-ref refid="login"/>
+            <section-ref refid="about"/>
+            <variant>This software is only licensed for internal use by  {0}</variant>
+        </translation>
+    </section>
+    <section id="below ALC trademark">
+        <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+        <translation key="None_Highlighted">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note> label items in the left drop down menu </note>
+            <variant>None Highlighted</variant>
+        </translation>
+        <translation key="Schedule_Categories">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note> label items in the left drop down menu </note>
+            <variant>Schedule Categories</variant>
+        </translation>
+        <translation key="Alarm_Categories">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note> label items in the left drop down menu </note>
+            <variant>Alarm Categories</variant>
+        </translation>
+        <translation key="All_Schedule_Categories">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note> label items in the left drop down menu </note>
+            <variant>All Schedule Categories</variant>
+        </translation>
+        <translation key="All_Alarm_Categories">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note> label items in the left drop down menu </note>
+            <variant>All Alarm Categories</variant>
+        </translation>
+        <translation key="Loading">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note>Appears in the Action Window when an action button is clicked and a new page is loaded</note>
+            <variant>Loading...</variant>
+        </translation>
+        <translation key="Technician_Tool_Only">
+            <note>Location: Click the small black arrow on the upper left side of the screen below the ALC logo.</note>
+            <note>Appears in Field Assistant as an annoyance note</note>
+            <variant>Technician Tool Only</variant>
+        </translation>
+    </section>
+    <section id="alert">
+        <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+        <translation key="OK">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>OK</variant>
+        </translation>
+        <translation key="Cancel">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="Yes">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>Yes</variant>
+        </translation>
+        <translation key="No">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>No</variant>
+        </translation>
+        <translation key="Popup_blocked">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>Your browser is blocking popup windows.  Please disable the popup blocker for this site to work properly.</variant>
+        </translation>
+        <translation key="Invalid_number_of_rows">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>Invalid value for maximum number of rows</variant>
+        </translation>
+        <translation key="Invalid_report_data">
+            <note>Accessed in main.jsp to be used in browserapi's alert message box</note>
+            <variant>Invalid data: Please correct before running this report</variant>
+        </translation>
+    </section>
+    <section id="login">
+        <note>This is the first page the user can log into the application</note>
+        <translation key="Login_Page">
+            <note>This is the first page the user can log into the application</note>
+            <note>This is the first page before the user can log into the application</note>
+            <variant>Login Page</variant>
+        </translation>
+        <translation key="Please_Login">
+            <note>This is the first page the user can log into the application</note>
+            <note> label </note>
+            <variant>Please log in</variant>
+        </translation>
+        <translation key="Name">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield to enter name</note>
+            <variant>Login Name</variant>
+        </translation>
+        <translation key="Login">
+            <note>This is the first page the user can log into the application</note>
+            <note> button </note>
+            <variant>Log in</variant>
+        </translation>
+        <translation key="Password">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield to enter password</note>
+            <variant>Password</variant>
+        </translation>
+        <translation key="Retype_Password">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield for verifying password</note>
+            <variant>Confirm Password</variant>
+        </translation>
+        <translation key="Current_Password">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield to enter current password</note>
+            <variant>Current Password</variant>
+        </translation>
+        <translation key="New_Password">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield to enter new password</note>
+            <variant>New Password</variant>
+        </translation>
+        <translation key="Retype_New_Password">
+            <note>This is the first page the user can log into the application</note>
+            <note> textfield for verifying new password</note>
+            <variant>Confirm New Password</variant>
+        </translation>
+        <translation key="Passwords_do_not_match">
+            <note>This is the first page the user can log into the application</note>
+            <note> errormessage indicating that password does not match the verify password</note>
+            <variant>Passwords do not match</variant>
+        </translation>
+        <translation key="Licensed_to_message">
+            <note>This is the first page the user can log into the application</note>
+            <note>message indicating the licensing status of the product</note>
+            <variant>Licensed to {0} for use at {1}</variant>
+        </translation>
+        <translation key="No_authentication_provider">
+            <note>This is the first page the user can log into the application</note>
+            <note> label part of the message when the application disallows logins because the authentication provider is missing or has been tampered with </note>
+            <variant>An error was encountered accessing your Authentication Provider.</variant>
+        </translation>
+        <translation key="Operator_authentication_failed1">
+            <note>This is the first page the user can log into the application</note>
+            <note> label part of the message when the application fails to log in the operator because of invalid user name /password </note>
+            <variant>Operator authentication failed.</variant>
+        </translation>
+        <translation key="Operator_authentication_failed2">
+            <note>This is the first page the user can log into the application</note>
+            <variant>Invalid username or password. </variant>
+        </translation>
+        <translation key="Operator_authentication_failed3">
+            <note>This is the first page the user can log into the application</note>
+            <variant>Missing username and password. </variant>
+        </translation>
+        <translation key="This_account_has_been_locked">
+            <note>This is the first page the user can log into the application</note>
+            <variant>This account has been locked due to excessive login failures. </variant>
+        </translation>
+        <translation key="not_logged_in">
+            <note>This is the first page the user can log into the application</note>
+            <variant>You were not logged in.</variant>
+        </translation>
+        <translation key="locked_out">
+            <note>This is the first page the user can log into the application</note>
+            <variant>You are now locked out due to excessive password failures.</variant>
+        </translation>
+        <translation key="Goodbye">
+            <note>This is the first page the user can log into the application</note>
+            <note> e.x.  Goodbye XXX , and have a nice day!</note>
+            <variant>Goodbye</variant>
+        </translation>
+        <translation key="nice_day">
+            <note>This is the first page the user can log into the application</note>
+            <variant>, and have a nice day!</variant>
+        </translation>
+        <translation key="SAFE_MODE">
+            <note>This is the first page the user can log into the application</note>
+            <variant>SAFE MODE</variant>
+        </translation>
+        <translation key="NORMAL_MODE">
+            <note>This is the first page the user can log into the application</note>
+            <variant>NORMAL MODE</variant>
+        </translation>
+        <translation key="Failed_to_reset_password">
+            <note>This is the first page the user can log into the application</note>
+            <variant>Failed to reset password</variant>
+        </translation>
+        <translation key="Internationalization_Conversion_failed">
+            <note>This is the first page the user can log into the application</note>
+            <variant>Internationalization Conversion failed</variant>
+        </translation>
+        <translation key="Back">
+            <note>This is the first page the user can log into the application</note>
+            <note> text on the back button </note>
+            <variant>Back</variant>
+        </translation>
+        <translation key="Cookies_are_disabled">
+            <note>This is the first page the user can log into the application</note>
+            <note> text if cookies are disabled when using the application </note>
+            <variant>Cookies are disabled.  You must enable cookies on your browser.</variant>
+        </translation>
+        <translation key="Invalid_Login">
+            <note>This is the first page the user can log into the application</note>
+            <note>text - the user name or password are invalid </note>
+            <variant>Invalid Login</variant>
+        </translation>
+        <translation key="Tablet_Tips">
+            <note>This is the first page the user can log into the application</note>
+            <note>text - text for the link to help tips for tablets</note>
+            <variant>Tips for tablets</variant>
+        </translation>
+        <translation key="Should_Be_Mobile">
+            <note>This is the first page the user can log into the application</note>
+            <note>text - text for if the browser is on a tablet but is not recognized as one.</note>
+            <variant>This tablet browser may be in desktop mode. Please turn desktop mode off or some features will not work as expected.</variant>
+        </translation>
+        <translation key="Page">
+            <note>This is the first page the user can log into the application</note>
+            <note>text - button text for Page button used in mobile UI.</note>
+            <variant>Page</variant>
+        </translation>
+    </section>
+    <section id="ServletBase">
+        <translation key="Your_current_login_session_has_expired">
+            <note> Your current login session has expired. Please log in again.</note>
+            <variant>Your current login session has expired.</variant>
+        </translation>
+        <translation key="Administrator_logged_out">
+            <note>Message displayed to a user when an Administrator forces them off</note>
+            <variant>You have been logged out by an Administrator.</variant>
+        </translation>
+        <translation key="Unable_to_authenicate_your_login_information">
+            <note>Message displayed to a user when their login information does not exist</note>
+            <variant>Unable to authenticate your log in information. Please log in again.</variant>
+        </translation>
+        <translation key="Please_login_again">
+            <variant>Please log in again.</variant>
+        </translation>
+    </section>
+    <section id="standard_header.jsp">
+        <translation key="Your_current_login_session_has_expired_due">
+            <note> This message is displayed after the application automatically logs the user off after a period of inactivity.</note>
+            <variant>Your current login session has expired due to inactivity.</variant>
+        </translation>
+    </section>
+    <section id="/_common/lvl5/outofsessions.jsp">
+        <translation key="Maximum_number_of_user_sessions">
+            <note> label-message when the application has reached maximum number of user sessions</note>
+            <variant>Maximum number of user sessions</variant>
+        </translation>
+        <translation key="reached">
+            <variant>reached</variant>
+        </translation>
+        <translation key="Kill_all_sessions_from">
+            <variant>Kill all sessions from {0}
+   </variant>
+        </translation>
+    </section>
+    <section id="/servlets/lvl5/LicenseServlet">
+        <note>Location: In the CFG tree on the License Administration page.</note>
+        <translation key="License_accepted">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <note>label - part of the message - Licence is accepted. Please restart the system to apply the changes.</note>
+            <variant>License accepted</variant>
+        </translation>
+        <translation key="restart_system">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <variant>Please restart the system to apply the changes</variant>
+        </translation>
+        <translation key="error_overwriting_licence">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <note> message when overwriting the error file</note>
+            <variant>Error overwriting license file</variant>
+        </translation>
+        <translation key="Invalid_license_file">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <note> message when license file is invalid</note>
+            <variant>Invalid license file</variant>
+        </translation>
+        <translation key="error_uploading_file">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <note> message file uploading error </note>
+            <variant>Error uploading file.  Possibly no file selected.  Please select a license file before pressing the apply button</variant>
+        </translation>
+        <translation key="no_file_selected">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <variant>No file selected.  Please select a license file before pressing the apply button</variant>
+        </translation>
+        <translation key="license_not_changed">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <variant>The current license was not changed.  Press the "properties" button above to return to the license administration page.</variant>
+        </translation>
+        <translation key="invalid_license_type">
+            <note>Location: In the CFG tree on the License Administration page.</note>
+            <variant>Invalid license type</variant>
+        </translation>
+    </section>
+    <section id="/servlets/lvl5/ManualCommandServlet">
+        <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+        <translation key="Must_enter_trends">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <variant>Must enter trends command followed by an address expression</variant>
+        </translation>
+        <translation key="Unknown_command">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <variant>Unknown command</variant>
+        </translation>
+        <translation key="Command_failed">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <note> error message - indicated a manual command failed</note>
+            <variant>Command failed</variant>
+        </translation>
+        <translation key="Reason_for_failure">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <note> error message - indicated the reason that a manual command failed</note>
+            <variant>Reason for failure</variant>
+        </translation>
+        <translation key="Command_is_not_supported_at_this_location">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <note> label - appears in a small console window after entering a command that isn't support for the node in the tree  </note>
+            <variant>Command is not supported at this location</variant>
+        </translation>
+        <translation key="Command_disabled_because_change_reason_required">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <note>label - appears in console window when using the set or edit manual commands when 21CFR11 is enabled.</note>
+            <variant>Command is disabled because a reason is required for this change.</variant>
+        </translation>
+        <translation key="Command_already_completed">
+            <note>Location: Click upper righthand WebCTRL menu, then select appropriate Manual Command.</note>
+            <note>label - appears in console window when deleteschedulecategories is already completed.</note>
+            <variant>Command already completed.</variant>
+        </translation>
+    </section>
+    <section id="about">
+        <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+        <translation key="Build">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note> click the about menu item</note>
+            <variant>Build</variant>
+        </translation>
+        <translation key="Licensed_to">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note> license to label</note>
+            <variant>Licensed to</variant>
+        </translation>
+        <translation key="for_use_at">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>for use at</variant>
+        </translation>
+        <translation key="for_use_at_caption">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>For use at</variant>
+        </translation>
+        <translation key="Max_Device_Limit">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note> label maximum device limit</note>
+            <variant>Max Device Limit</variant>
+        </translation>
+        <translation key="Max_Integration">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note> label maximum Integration</note>
+            <variant>Max Integration</variant>
+        </translation>
+        <translation key="Max_Integration_References">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note> label maximum Integration References</note>
+            <variant>Max Integration References</variant>
+        </translation>
+        <translation key="Authentication_Provider">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Label used for naming the custom Authentication Provider</note>
+            <variant>Authentication Provider</variant>
+        </translation>
+        <translation key="Serial_Number">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Serial Number</variant>
+        </translation>
+        <translation key="Enabled_Features">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Enabled Features</variant>
+        </translation>
+        <translation key="Available_Features">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Available Features</variant>
+        </translation>
+        <translation key="Total_Points">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Total Points</variant>
+        </translation>
+        <translation key="enterprise">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Enterprise</variant>
+        </translation>
+        <translation approved="false" key="superset" new="true">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Carrier Discovery/Communication</variant>
+        </translation>
+        <translation key="adv_security">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Adv. is an abbreviation for Advanced</note>
+            <variant>Adv. Security</variant>
+        </translation>
+        <translation key="adv_reporting">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Adv. is an abbreviation for Advanced</note>
+            <variant>Adv. Reporting</variant>
+        </translation>
+        <translation key="adv_alarming">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Adv. is an abbreviation for Advanced</note>
+            <variant>Adv. Alarming</variant>
+        </translation>
+        <translation key="multi_ccn">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Multiple CCN Networks</variant>
+        </translation>
+        <translation key="WAP">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Abbreviation for Wireless Application Protocol</note>
+            <variant>WAP</variant>
+        </translation>
+        <translation key="Issue_Number">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Issue Number</variant>
+        </translation>
+        <translation key="Java_Version">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Java Version</variant>
+        </translation>
+        <translation key="Server_OS">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Server OS</variant>
+        </translation>
+        <translation key="Database">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Database</variant>
+        </translation>
+        <translation key="Browser">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Browser</variant>
+        </translation>
+        <translation key="Open_Source_Msg">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <note>Field in the about box</note>
+            <variant>Information about Open Source components used in this project is at</variant>
+        </translation>
+        <translation key="Owner">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Owner</variant>
+        </translation>
+        <translation key="Installer">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Installer</variant>
+        </translation>
+        <translation key="Phone">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Phone</variant>
+        </translation>
+        <translation key="Fax">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Fax</variant>
+        </translation>
+        <translation key="Email">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Email</variant>
+        </translation>
+        <translation key="Web_Address">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Web Address</variant>
+        </translation>
+        <translation key="Support">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Support</variant>
+        </translation>
+        <translation key="Send_bug_reports_to">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Send bug reports to</variant>
+        </translation>
+        <translation key="Applied_Updates">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Applied Updates</variant>
+        </translation>
+        <translation key="End_User_License_Agreement">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>End User License Agreement</variant>
+        </translation>
+        <translation key="EULA_Link">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Use of this product is governed by the referenced</variant>
+        </translation>
+        <translation key="Update">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Update</variant>
+        </translation>
+        <translation key="Applied_at">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Applied at</variant>
+        </translation>
+        <translation key="Notes">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Notes</variant>
+        </translation>
+        <translation key="Update_Notes_Missing">
+            <note>Location: Click upper righthand WebCTRL menu, then select About.</note>
+            <variant>Update Notes Missing</variant>
+        </translation>
+    </section>
+    <section id="setpoint control">
+        <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+        <translation key="MinDisplayTemp">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <note> label- Minimum display temperature</note>
+            <variant>Min Display Temp</variant>
+        </translation>
+        <translation key="Heating2">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Heating 2</variant>
+        </translation>
+        <translation key="Heating1">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Heating 1</variant>
+        </translation>
+        <translation key="Heating">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Heating</variant>
+        </translation>
+        <translation key="Cooling">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Cooling</variant>
+        </translation>
+        <translation key="FreeStage">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Free Stage</variant>
+        </translation>
+        <translation key="Cooling1">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Cooling 1</variant>
+        </translation>
+        <translation key="Cooling2">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Cooling 2</variant>
+        </translation>
+        <translation key="MaxDisplayTemp">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <note> label- Maximum display temperature</note>
+            <variant>Max Display Temp</variant>
+        </translation>
+        <translation key="ManualAdj">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>{0} Manual Adjust</variant>
+        </translation>
+        <translation key="HeatManualAdj">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>{0} Heat Manual Adjust</variant>
+        </translation>
+        <translation key="CoolManualAdj">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>{0} Cool Manual Adjust</variant>
+        </translation>
+        <translation key="OCCUPIED">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>OCCUPIED</variant>
+        </translation>
+        <translation key="UNOCCUPIED">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>UNOCCUPIED</variant>
+        </translation>
+        <translation key="DEMAND_1">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>DEMAND 1</variant>
+        </translation>
+        <translation key="DEMAND_2">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>DEMAND 2</variant>
+        </translation>
+        <translation key="DEMAND_3">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>DEMAND 3</variant>
+        </translation>
+        <translation key="Please_set_up_trend_paths">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Please set up trend paths in ViewBuilder for the setpoint trend graphic at {0}.</variant>
+        </translation>
+        <translation key="Could_not_find_trend">
+            <note>Location: In the GEO tree click Test System, TandV, Other MBs, then select a setpoint. On its Properties page, click the image below Zone Set Points. (Please note translations must be short in order to fit in the setpoint bar.</note>
+            <variant>Could not find trend report or an embedded trend at {0}</variant>
+        </translation>
+    </section>
+    <section id="/_common/lvl5/util/editcommand.jsp">
+        <translation key="Edit">
+            <variant>Edit</variant>
+        </translation>
+        <translation key="Value">
+            <variant>Value</variant>
+        </translation>
+    </section>
+    <section id="Display Error/Info">
+        <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+        <translation key="Click_line_item_for_details">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- link on the error dialog box when clicked takes the user to the detailed error listing</note>
+            <variant>Click line item for details.</variant>
+        </translation>
+        <translation key="Page_Errors">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- category of error can be page error or system error</note>
+            <variant>Page Errors</variant>
+        </translation>
+        <translation key="System_Errors">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <variant>System Errors</variant>
+        </translation>
+        <translation key="View_Debug_Info">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- link on the error dialog box when clicked shows Debug Information</note>
+            <variant>View Debug Info</variant>
+        </translation>
+        <translation key="Copy_to_clipboard">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- link on the error dialog box when clicked copies info to the clipboard</note>
+            <variant>Copy to clipboard</variant>
+        </translation>
+        <translation key="Details">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- </note>
+            <variant>Details</variant>
+        </translation>
+        <translation key="Info">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label- information </note>
+            <variant>Info</variant>
+        </translation>
+        <translation key="UI_Error">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>label for a user interface error</note>
+            <variant>UI Error</variant>
+        </translation>
+        <translation key="Error">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note> label for error</note>
+            <variant>Error</variant>
+        </translation>
+        <translation key="No_Error">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <variant>No Error</variant>
+        </translation>
+        <translation key="Unknown_Error">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - error is unknown</note>
+            <variant>Unknown Error</variant>
+        </translation>
+        <translation key="Duplicate_Item">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the item already exists</note>
+            <variant>Duplicate Item</variant>
+        </translation>
+        <translation key="Invalid_Value">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the value is invalid</note>
+            <variant>Invalid Value</variant>
+        </translation>
+        <translation key="Invalid_Class">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the class (style used on page) is invalid</note>
+            <variant>Invalid Class</variant>
+        </translation>
+        <translation key="Read_Only">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - item is read only</note>
+            <variant>Read Only</variant>
+        </translation>
+        <translation key="Null_Value">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the value is null</note>
+            <variant>Null Value</variant>
+        </translation>
+        <translation key="Not_Found">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the item is not found</note>
+            <variant>Not Found</variant>
+        </translation>
+        <translation key="Out_Of_Range">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the item is out of range</note>
+            <variant>Out Of Range</variant>
+        </translation>
+        <translation key="Assertion_Failed">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the expected result was not received</note>
+            <variant>Assertion Failed</variant>
+        </translation>
+        <translation key="Page_Build_Failure">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>type of error - the expected result was not received</note>
+            <variant>Page Build Failure</variant>
+        </translation>
+        <translation key="on_line">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>text used in error message - for example: xxx error was found on line 934</note>
+            <variant>on line</variant>
+        </translation>
+        <translation key="in">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>the word 'in'</note>
+            <variant>in</variant>
+        </translation>
+        <translation key="Drag_to_Move">
+            <note>The text below appears in a black window/dialog box when there is an error in the
+  application.</note>
+            <note>tooltip for drag-drop icon</note>
+            <variant>Drag to Move</variant>
+        </translation>
+    </section>
+    <section id="Global Modify/Global Copy">
+        <translation key="The_selected_value_cannot_be_changed_using_global_modify">
+            <variant>The selected value cannot be changed using global modify.</variant>
+        </translation>
+        <translation key="The_selected_value_cannot_launch_microblock_details">
+            <variant>The selected value cannot launch microblock details.</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.servlets.IndexServlet">
+        <translation key="Unable_to_access_database">
+            <note> error message indicating no way to access database </note>
+            <variant>Unable to access database.</variant>
+        </translation>
+        <translation key="Database_integrity_error">
+            <note> error message indicating that an expected path cannot be found and thus the database has lost integrity</note>
+            <variant>Database integrity error.</variant>
+        </translation>
+        <translation key="Unable_to_determine_UI">
+            <note> error message indicating that we are unable to determine which ui type the user is using. </note>
+            <variant>Unable to determine UI type.</variant>
+        </translation>
+        <translation key="Remote_host_connection_denied_error">
+            <note> error message indicating that the connection attempt is coming from a remote host. </note>
+            <variant>Remote host is not allowed to connect to the server.</variant>
+        </translation>
+    </section>
+    <section id="License Nagging Messages">
+        <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+        <translation key="Unregistered_Nag">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note> label - indicates to the user that they should register the software.</note>
+            <variant>Please register this software.</variant>
+        </translation>
+        <translation key="License_Message">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note> title </note>
+            <variant>License Message</variant>
+        </translation>
+        <translation key="How_to_register_Nag1">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note> label - instructions on how to get a legal copy of the software</note>
+            <variant>Registering this software will disable this reminder and permit future software updates to be received.</variant>
+        </translation>
+        <translation key="How_to_register_Nag2">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note> label - instructions on how to get a legal copy of the software</note>
+            <variant>Please click {0}here{1} for instructions on how to register.</variant>
+        </translation>
+        <translation key="MaxIntegration_Nag2">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note> label - user needs to contact the provider to get an updated license.</note>
+            <variant>Please contact your local installer for an updated license.</variant>
+        </translation>
+        <translation key="Total_Points_Nag">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note>label - indicates the users database has exceeded a threshold established by their license</note>
+            <variant>This database exceeds the total system point capacity permitted by the current license.</variant>
+        </translation>
+        <translation key="Total_Devices_Nag">
+            <note>These messages are displayed upon login if the user is not using a licensed version.</note>
+            <note>label - indicates the users database has exceeded a threshold established by their license</note>
+            <variant>This database exceeds the total device limit permitted by the current license.</variant>
+        </translation>
+    </section>
+    <section id="passwordpolicy">
+        <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+        <translation key="one_letter">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>one letter</variant>
+        </translation>
+        <translation key="one_upper_case_letter">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>one upper case letter</variant>
+        </translation>
+        <translation key="one_lower_case_letter">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>one lower case letter</variant>
+        </translation>
+        <translation key="one_number">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>one number</variant>
+        </translation>
+        <translation key="one_special_character">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>one special character (~ ! @ # $ % ^ * etc.)</variant>
+        </translation>
+        <translation key="at_least_XX_characters">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>at least {0} characters</variant>
+        </translation>
+        <translation key="Password_Must_Be_Unique_For_XX_Passwords">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>Your new password must be different than your last {0} passwords.</variant>
+        </translation>
+        <translation key="Password_Must_Be_XX_Days_Old">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>You can not change your password more than once every {0} days.</variant>
+        </translation>
+        <translation key="Passwords_must_contain">
+            <note>Text to explain the password policy.  Must have passwork policy enabled on config tree/System Settings/Security tab.
+        This text will then be displayed when users login and enter/change passwords.</note>
+            <note/>
+            <variant>Passwords must contain:</variant>
+        </translation>
+    </section>
+    <section id="com/controlj/green/web/reports/enhancedreporting/formatter/field/EffectiveScheduleFormatter.java">
+        <note>Formatter used for effective Schedule Report</note>
+        <translation key="Effective_Schedule_Format">
+            <note>Formatter used for effective Schedule Report</note>
+            <note>Param 0 is schedule state, param 1 is starting time/date, param 2 is ending time/date</note>
+            <variant>{0} from {1} to {2}</variant>
+        </translation>
+    </section>
+    <section id="com/controlj/green/web/reports/enhancedreporting/formatter/field/ScheduleInstanceFormatter.java">
+        <note>Formatter used for Schedule Instance Report</note>
+        <translation key="Member_of_Groups">
+            <note>Formatter used for Schedule Instance Report</note>
+            <variant>Member of Group(s)</variant>
+        </translation>
+        <translation key="Schedule_Groups">
+            <note>Formatter used for Schedule Instance Report</note>
+            <variant>Schedule Groups</variant>
+        </translation>
+    </section>
+    <section id="com/controlj/green/web/reports/enhancedreporting/formatter/field/ModuleStatusAndColorFormatter.java">
+        <note>Used in the equipment status report (from the NET tree)</note>
+        <translation key="No_Response">
+            <note>Used in the equipment status report (from the NET tree)</note>
+            <note>Text indicating that the server can not communicate with the module</note>
+            <variant>No Response</variant>
+        </translation>
+        <translation key="Purple">
+            <note>Used in the equipment status report (from the NET tree)</note>
+            <note>default color if no communications - used in equipment summary and equipment status reports</note>
+            <variant>Purple</variant>
+        </translation>
+    </section>
+    <section id="com/controlj/green/web/reports/enhancedreporting/formatter/field/CustomGeneralFormatter">
+        <note>Used in the most reports to format general values, </note>
+        <translation key="True">
+            <note>Used in the most reports to format general values, </note>
+            <variant>True</variant>
+        </translation>
+        <translation key="False">
+            <note>Used in the most reports to format general values, </note>
+            <variant>False</variant>
+        </translation>
+        <translation key="value_time_separator">
+            <note>Used in the most reports to format general values, </note>
+            <variant>@</variant>
+        </translation>
+    </section>
+    <section id="com/controlj/green/web/reports/enhancedreporting/formatter/field/AlarmDetailsFormatter.java">
+        <note>Used in the alarms report</note>
+        <translation key="Ack_By_">
+            <note>Used in the alarms report</note>
+            <note>Message indicating an alarm has been acknowledged.  Param 0 is an operator name, param 1 is the date and time</note>
+            <variant>{0} at {1}</variant>
+        </translation>
+        <translation key="Acknowledged">
+            <note>Used in the alarms report</note>
+            <note>Message indicating an alarm has been acknowledged.</note>
+            <variant>Acknowledged</variant>
+        </translation>
+        <translation key="Unacknowledged">
+            <note>Used in the alarms report</note>
+            <note>Message indicating alarm has not been acknowledged</note>
+            <variant>Unacknowledged</variant>
+        </translation>
+        <translation key="Not_Required">
+            <note>Used in the alarms report</note>
+            <note>Message indicating alarm acknowledgement is not required</note>
+            <variant>Not Required</variant>
+        </translation>
+        <translation key="Source">
+            <note>Used in the alarms report</note>
+            <note>Field header for name of alarm source</note>
+            <variant>Source</variant>
+        </translation>
+        <translation key="To_Do">
+            <note>Used in the alarms report</note>
+            <note>Field header for alarm to do field</note>
+            <variant>To Do</variant>
+        </translation>
+        <translation key="Category">
+            <note>Used in the alarms report</note>
+            <note>Field header for alarm Category</note>
+            <variant>Category</variant>
+        </translation>
+        <translation key="Current_State">
+            <note>Used in the alarms report</note>
+            <note>Field header for alarm Current State field</note>
+            <variant>Current State</variant>
+        </translation>
+        <translation key="Long_Text">
+            <note>Used in the alarms report</note>
+            <note>Field header for alarm Long Text</note>
+            <variant>Long Text</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.query.ReportQueryBuilder.java">
+        <note>Used in formatting of options shown at the top of various reports</note>
+        <translation key="and">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>and</variant>
+        </translation>
+        <translation key="is-physical-point">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Physical points</variant>
+        </translation>
+        <translation key="is-bacnet-point">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>BACnet points</variant>
+        </translation>
+        <translation key="network-visible">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Network visible</variant>
+        </translation>
+        <translation key="point-not-checked-out">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <note>Shown at top of point list report header.  Indicates that only points that have not gone through
+      marked as checked out (complete) should show</note>
+            <variant>Not checked out</variant>
+        </translation>
+        <translation key="point-enabled">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <note>Shown at top of point list report header.  Indicates that only points that are enabled should show</note>
+            <variant>Enabled points</variant>
+        </translation>
+        <translation key="mapping-enabled">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <note>Shown at top of a protocol maapping report header.  Indicates that only mappings that are enabled should show</note>
+            <variant>Enabled protocol mappings</variant>
+        </translation>
+        <translation key="equipment-not-checked-out">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <note>Shown at top of equipment checkout report header.  Indicates that only equipment that has not gone through
+      marked as checked out (complete) should show</note>
+            <variant>Not checked out</variant>
+        </translation>
+        <translation key="schedule_category_restrict">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Schedule category of {0}</variant>
+        </translation>
+        <translation key="eff_date">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Effective date of {0}</variant>
+        </translation>
+        <translation key="today">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Today</variant>
+        </translation>
+        <translation key="category-list-restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>in one of the categories: {0}</variant>
+        </translation>
+        <translation key="in-alarm">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>In Alarm</variant>
+        </translation>
+        <translation key="has_errors">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Points with errors</variant>
+        </translation>
+        <translation key="trend_filter_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Trend sources where enabled is {0}</variant>
+        </translation>
+        <translation key="historian_filter_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Trend sources where historian enabled is {0}</variant>
+        </translation>
+        <translation key="operator_name_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Operator named {0}</variant>
+        </translation>
+        <translation key="system_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Administration and System Changes</variant>
+        </translation>
+        <translation key="schedule_groups_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Schedule Group Changes</variant>
+        </translation>
+        <translation key="location_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Location Changes</variant>
+        </translation>
+        <translation key="before_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Date on or before {0}</variant>
+        </translation>
+        <translation key="after_restriction">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <variant>Date on or after {0}</variant>
+        </translation>
+        <translation key="Operator_Group">
+            <note>Used in formatting of options shown at the top of various reports</note>
+            <note>Operator / Group - indicates what operator was chosen</note>
+            <variant>Operator/Group</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.formatter.SecurityAssignmentFormatter.java">
+        <translation key="Group">
+            <variant>Group</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.formatter.AlarmMessageFormatter.java">
+        <note> Used in Alarm prefix and details reports</note>
+        <translation key="Message_Prefix">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>Message Prefix</variant>
+        </translation>
+        <translation key="Message_Details">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>Message Details</variant>
+        </translation>
+        <translation key="Added_to_beginning">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>Added to beginning</variant>
+        </translation>
+        <translation key="Add_to_end_of_alarm">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>Add to end of alarm</variant>
+        </translation>
+        <translation key="Add_to_end_of_return">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>Add to end of return</variant>
+        </translation>
+        <translation key="In_Categories">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>In Categories</variant>
+        </translation>
+        <translation key="For_Alarm_Sources">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>For Alarm Sources</variant>
+        </translation>
+        <translation key="ALL">
+            <note> Used in Alarm prefix and details reports</note>
+            <variant>ALL</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.formatter.AlarmActionFormatter.java">
+        <note>Used in Alarm action reports</note>
+        <translation key="PopupRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Alarm Popup</variant>
+        </translation>
+        <translation key="AlphaPagerRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Send an Alpha Page</variant>
+        </translation>
+        <translation key="RunProgramRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Run External Program</variant>
+        </translation>
+        <translation key="PrintRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Print</variant>
+        </translation>
+        <translation key="SnmpRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Send SNMP Trap</variant>
+        </translation>
+        <translation key="WritePropertyRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Write Property</variant>
+        </translation>
+        <translation key="DatabaseWriteRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Write to Database</variant>
+        </translation>
+        <translation key="FileWriteRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Write to File</variant>
+        </translation>
+        <translation key="EMailRA">
+            <note>Used in Alarm action reports</note>
+            <note>A type of Alarm action</note>
+            <variant>Send E-mail</variant>
+        </translation>
+        <translation key="File_Name">
+            <note>Used in Alarm action reports</note>
+            <variant>File Name</variant>
+        </translation>
+        <translation key="Synchronize">
+            <note>Used in Alarm action reports</note>
+            <variant>Synchronize</variant>
+        </translation>
+        <translation key="Expression">
+            <note>Used in Alarm action reports</note>
+            <variant>Expression</variant>
+        </translation>
+        <translation key="Write_Value">
+            <note>Used in Alarm action reports</note>
+            <variant>Write Value</variant>
+        </translation>
+        <translation key="Custom_DB">
+            <note>Used in Alarm action reports</note>
+            <variant>Custom DB</variant>
+        </translation>
+        <translation key="Database_Connect_String">
+            <note>Used in Alarm action reports</note>
+            <variant>Database Connect String</variant>
+        </translation>
+        <translation key="Insert_SQL">
+            <note>Used in Alarm action reports</note>
+            <variant>Insert SQL</variant>
+        </translation>
+        <translation key="Printer_Name">
+            <note>Used in Alarm action reports</note>
+            <variant>Printer Name</variant>
+        </translation>
+        <translation key="Trap_Number_">
+            <note>Used in Alarm action reports</note>
+            <note>SNMP trap number X(param 0) sent to address list Y(param =1)</note>
+            <variant>Trap Number: {0} to {1}</variant>
+        </translation>
+        <translation key="To">
+            <note>Used in Alarm action reports</note>
+            <note>label before list of addresses like - To: 172.4.23.12, 143.23.1.14</note>
+            <variant>To</variant>
+        </translation>
+        <translation key="Value_to_write">
+            <note>Used in Alarm action reports</note>
+            <variant>Value to write</variant>
+        </translation>
+        <translation approved="false" key="Web_Service_Request" new="true">
+            <note>Used in Alarm action reports</note>
+            <variant>Web Service Request</variant>
+        </translation>
+        <translation approved="false" key="Web_Service_Request_Parameters" new="true">
+            <note>Used in Alarm action reports</note>
+            <variant>Request Parameters</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.formatter.Formatter.java">
+        <translation key="Location">
+            <note>In header of reports - location the report was run from</note>
+            <variant>Location</variant>
+        </translation>
+        <translation key="Run_Date">
+            <note>In header of reports - time/date report was run</note>
+            <variant>Run Date</variant>
+        </translation>
+        <translation key="Filters">
+            <note>In header of reports - description of report filters</note>
+            <variant>Filters</variant>
+        </translation>
+        <translation key="Equipment_Filter">
+            <note>In header of reports - description of report filters</note>
+            <variant>Control Program</variant>
+        </translation>
+        <translation key="max_count_limit">
+            <note>In footer of reports - indicates that report was limited by the choice on the option page.  Param is an integer number</note>
+            <variant>Report content limited to {0} rows.  Raise this limit on the Options tab to see more rows.</variant>
+        </translation>
+        <translation key="report_no_data">
+            <note>This message appears in reports if they result in no data</note>
+            <variant>No results found using the current options</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.formatter.NestedTreeFormatter.java">
+        <translation key="Ignored_Above">
+            <note>Used on schedule instance and security assignement reports to show where an ignore above transition is.
+      This indicates that hierarchical information from above this location in the tree will not
+      propagate below this point.
+      </note>
+            <variant>Ignored Above</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.web.reports.enhancedreporting.pdf.PdfPTableBorder.java">
+        <translation key="page_x_of_y">
+            <note>Footer for PDF reports.  Param 0 is the current page number.  This must be layed out so that the total number of pages will occur after this string.</note>
+            <variant>Page {0} of</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.core.pagebuilders.ViewFileInfo">
+        <translation key="File_created_by_incorrect_version_of_ViewBuilder">
+            <note>Informs user that the file was not created by the correct version of ViewBuilder.</note>
+            <variant>Unable to display graphic file because it is not valid. It was either created by an incorrect version of ViewBuilder or edited outside of ViewBuilder.</variant>
+        </translation>
+    </section>
+    <section id="com.controlj.green.core.trend.TrendHistorianProcessor">
+        <translation key="excess_trend_samples_short_text">
+            <note>Short text for a system alarm that is generated (for iVu Plus) when the system has excessive historical trends</note>
+            <variant>The system has excessive number of historical trend samples</variant>
+        </translation>
+        <translation key="excess_trend_samples_long_text">
+            <note>Long text for a system alarm that is generated (for iVu Plus) when the system has excessive historical trends</note>
+            <variant>Please reduce the number of trend samples that are historically stored. Otherwise, the system performance will degrade over time</variant>
+        </translation>
+        <translation key="excess_db_size_short_text">
+            <note>Short text for a system alarm that is generated (for iVu Plus) when the size of system datafiles exceed the expected limits</note>
+            <variant>The size of system database files exceed the expected limits</variant>
+        </translation>
+        <translation key="excess_db_size_long_text">
+            <note>Long text for a system alarm that is generated (for iVu Plus) when the size of system datafiles exceed the expected limits</note>
+            <variant>Please compact the system databases using the Management Tool. Otherwise, the system performance will degrade over time</variant>
+        </translation>
+    </section>
+    <section id="time_machine">
+        <translation key="TimelineActive_NotAllowed">
+            <note>shown when a function is invoked that is not allowed while time machine is active</note>
+            <variant>Not allowed while viewing the timeline.</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

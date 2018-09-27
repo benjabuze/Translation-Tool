@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="logicbuilder-should-be-common" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="find-replace">
+        <translation key="find-replace-search-complete-found-many-items">
+            <note>"Search for 'xxxx' complete. Found y matching items." where xxxx is the sought text. y is how many matching items we found.</note>
+            <variant>Search for ''{0}'' complete. Found {1} matching items.</variant>
+        </translation>
+        <translation key="find-replace-search-complete-found-one-item">
+            <note>"Search for 'xxx' complete. Found 1 matching item." where xxx is what was searched for. This means our search returned a single match.</note>
+            <variant>Search for ''{0}'' complete. Found 1 matching item.</variant>
+        </translation>
+        <translation key="find-replace-search-complete-found-no-items">
+            <note>"Search for 'xxx' complete. No matching items found." where xxx is what was searched for. This means our search returned no results.</note>
+            <variant>Search for ''{0}'' complete. No matching items found.</variant>
+        </translation>
+        <translation key="general-close">
+            <note>Close as in close a dialog.</note>
+            <variant>Close</variant>
+        </translation>
+        <translation key="find-replace-what">
+            <note>name of a (in a find/replace dialog) field to specify what to search for.</note>
+            <variant>Find What</variant>
+        </translation>
+        <translation key="find-replace-where">
+            <note>name of a (in a find/replace dialog) field to specify where to search. This is meant to be very general-purpose so many things could be searched.</note>
+            <variant>Find Where</variant>
+        </translation>
+        <translation key="find-replace-found-items">
+            <note>header for a list of items that were found in a find/replace dialog.</note>
+            <variant>Found Items</variant>
+        </translation>
+        <translation key="find-replace-check-all">
+            <note>Text on a button that will check all checkboxes in a list of found items.</note>
+            <variant>Check All</variant>
+        </translation>
+        <translation key="find-replace-uncheck-all">
+            <note>Text on a button that will uncheck all checkboxes in a list of found items.</note>
+            <variant>Uncheck All</variant>
+        </translation>
+        <translation key="find-replace-with">
+            <note>Header for a field that specifies</note>
+            <variant>Replace With</variant>
+        </translation>
+        <translation key="find-replace-replace-complete">
+            <note>"Replacement of 'xxxx' with 'yyyy' complete." where xxxx is what was searched for and yyyy is what it was replaced with.</note>
+            <variant>Replacement of ''{0}'' with ''{1}'' complete.</variant>
+        </translation>
+        <translation key="find-replace-title">
+            <note>Title for the dialog if it does searching and replacing (opposed to only searching)</note>
+            <variant>Find/Replace</variant>
+        </translation>
+        <translation key="find-only-title">
+            <note>Title for the dialog if it only does a search (opposed to search and replace).</note>
+            <variant>Find</variant>
+        </translation>
+        <translation key="find-replace-case-sensitive">
+            <note>Text on a check box to specify case sensitive (versus case insensitive) searches.</note>
+            <variant>Case Sensitive</variant>
+        </translation>
+        <translation key="find-replace-match-entire-text">
+            <note>Text on a check box to specify whether searches should match the full text exactly (versus a partial match). Note: this still uses the 'case sensitive' option so it's NOT 'matches exactly' since we may not consider case.</note>
+            <variant>Match Full Text</variant>
+        </translation>
+        <translation key="find-replace-replace-button">
+            <note>Text on a button that initiates the replace. Will be done after Find.</note>
+            <variant>Replace</variant>
+        </translation>
+        <translation key="find-replace-find-button">
+            <note>Text on a button that initiates the find.</note>
+            <variant>Find</variant>
+        </translation>
+    </section>
+    <section id="languages">
+        <translation key="common-locale-column-name">
+            <note>a column header for the locale column when associating fonts with locales</note>
+            <variant>Locale</variant>
+        </translation>
+        <translation key="common-application-column-name">
+            <note>a column header for the column that specifies which is the current font that the application is using when associating fonts with locales. This also specifies what the default locale is when you next create something.</note>
+            <variant>Default</variant>
+        </translation>
+        <translation key="common-font-column-name">
+            <note>a column header for the font column when associating fonts with locales</note>
+            <variant>Font</variant>
+        </translation>
+        <translation key="common-font-size-column-name">
+            <note>a column header for the font size column when associating fonts with locales</note>
+            <variant>Size</variant>
+        </translation>
+    </section>
+    <section id="html-viewer-panel">
+        <translation key="html-viewer-instructions">
+            <note/>
+            <variant>To view help, you must identify the location of your HTML Viewer. Click Browse to locate this file.</variant>
+        </translation>
+        <translation key="browse-button-text">
+            <note/>
+            <variant>Browse...</variant>
+        </translation>
+        <translation key="test-html-viewer">
+            <note/>
+            <variant>Test</variant>
+        </translation>
+        <translation key="select-button-text">
+            <note/>
+            <variant>Select</variant>
+        </translation>
+        <translation key="html-viewer-confirmation-title">
+            <note/>
+            <variant>Information</variant>
+        </translation>
+        <translation key="html-viewer-confirmation">
+            <note/>
+            <variant>You should have seen the application's help pages appear in another window. 'Help' will not work properly without identifying a valid HTML browser.</variant>
+        </translation>
+        <translation key="html-viewer-path">
+            <note/>
+            <variant>HTML Viewer Location:</variant>
+        </translation>
+        <translation key="html-viewer-title">
+            <note/>
+            <variant>HTML Viewer</variant>
+        </translation>
+        <translation key="html-viewer-not-set-title">
+            <note>This is the title of a dialog that appears to request that the user set an HTML Viewer. This occurs if they go to help and we don't know their browser location. Usually only happens once if at all (we set it to a decent default).</note>
+            <variant>Please Set an HTML Viewer Location</variant>
+        </translation>
+    </section>
+    <section id="print-dialog">
+        <translation key="print-dialog">
+            <note>the print dialog title text</note>
+            <variant>Print</variant>
+        </translation>
+        <translation key="print-preview">
+            <note>the print preview dialog title text</note>
+            <variant>Print Preview</variant>
+        </translation>
+        <translation key="name">
+            <note>label for the printer name field</note>
+            <variant>Name</variant>
+        </translation>
+        <translation key="status">
+            <note>label for the printer status field for whether it is accepting print jobs</note>
+            <variant>Status</variant>
+        </translation>
+        <translation key="type">
+            <note>this is the label for the printer type field</note>
+            <variant>Type</variant>
+        </translation>
+        <translation key="printer">
+            <note>label for the printer fiels title box</note>
+            <variant>Printer</variant>
+        </translation>
+        <translation key="general">
+            <note>Label for a general tab</note>
+            <variant>General</variant>
+        </translation>
+        <translation key="page-setup">
+            <note>label for the page setup tab</note>
+            <variant>Page Setup</variant>
+        </translation>
+        <translation key="print-range">
+            <note>label for title of box with page numbers to print</note>
+            <variant>Print Range</variant>
+        </translation>
+        <translation key="pages">
+            <note>label for page range field</note>
+            <variant>Pages</variant>
+        </translation>
+        <translation key="all">
+            <note>label for field to print all pages</note>
+            <variant>All</variant>
+        </translation>
+        <translation key="to">
+            <note>label between lower and higher page range, as in "1 to 3"</note>
+            <variant>To</variant>
+        </translation>
+        <translation key="close">
+            <note/>
+            <variant>Close</variant>
+        </translation>
+        <translation key="print">
+            <note/>
+            <variant>Print</variant>
+        </translation>
+        <translation key="current-view">
+            <note>print the view currently on the screen</note>
+            <variant>Current View</variant>
+        </translation>
+        <translation key="number-of-copies">
+            <note/>
+            <variant>Number of Copies</variant>
+        </translation>
+        <translation key="copies">
+            <note/>
+            <variant>Copies</variant>
+        </translation>
+        <translation key="collate">
+            <note/>
+            <variant>Collate</variant>
+        </translation>
+        <translation key="media">
+            <note/>
+            <variant>Media</variant>
+        </translation>
+        <translation key="size">
+            <note/>
+            <variant>Size</variant>
+        </translation>
+        <translation key="source">
+            <note/>
+            <variant>Source</variant>
+        </translation>
+        <translation key="portrait">
+            <note/>
+            <variant>Portrait</variant>
+        </translation>
+        <translation key="landscape">
+            <note/>
+            <variant>Landscape</variant>
+        </translation>
+        <translation key="margins">
+            <note/>
+            <variant>Margins</variant>
+        </translation>
+        <translation key="left">
+            <note/>
+            <variant>Left (in)</variant>
+        </translation>
+        <translation key="right">
+            <note/>
+            <variant>Right (in)</variant>
+        </translation>
+        <translation key="top">
+            <note/>
+            <variant>Top (in)</variant>
+        </translation>
+        <translation key="bottom">
+            <note/>
+            <variant>Bottom (in)</variant>
+        </translation>
+        <translation key="color-appearance">
+            <note/>
+            <variant>Color Appearance</variant>
+        </translation>
+        <translation key="monochrome">
+            <note/>
+            <variant>Monochrome</variant>
+        </translation>
+        <translation key="color">
+            <note/>
+            <variant>Color</variant>
+        </translation>
+        <translation key="orientation">
+            <note/>
+            <variant>Orientation</variant>
+        </translation>
+        <translation key="accepting-jobs">
+            <note>message that tells that a printer is accepting print jobs</note>
+            <variant>Accepting Jobs</variant>
+        </translation>
+        <translation key="not-accepting-jobs">
+            <note>message that tells that a printer is not accepting print jobs</note>
+            <variant>Not accepting Jobs</variant>
+        </translation>
+        <translation key="page">
+            <note>Page used as in 'Page 1 of 4'. Should be capitalized.</note>
+            <variant>Page</variant>
+        </translation>
+        <translation key="of">
+            <note/>
+            <variant>of</variant>
+        </translation>
+        <translation key="at">
+            <note/>
+            <variant>at</variant>
+        </translation>
+        <translation key="first">
+            <note/>
+            <variant>First</variant>
+        </translation>
+        <translation key="first-tooltip">
+            <note/>
+            <variant>Go to the first page</variant>
+        </translation>
+        <translation key="next">
+            <note/>
+            <variant>Next</variant>
+        </translation>
+        <translation key="next-tooltip">
+            <note/>
+            <variant>Next page</variant>
+        </translation>
+        <translation key="previous">
+            <note/>
+            <variant>Previous</variant>
+        </translation>
+        <translation key="previous-tooltip">
+            <note/>
+            <variant>Previous page</variant>
+        </translation>
+        <translation key="last">
+            <note/>
+            <variant>Last</variant>
+        </translation>
+        <translation key="last-tooltip">
+            <note/>
+            <variant>Go to the last page</variant>
+        </translation>
+        <translation key="thumbnail-dialog">
+            <note/>
+            <variant>Thumbnail Preview</variant>
+        </translation>
+        <translation key="thumbnail-preview">
+            <note/>
+            <variant>Thumbnail</variant>
+        </translation>
+        <translation key="thumbnail-tooltip">
+            <note/>
+            <variant>Thumbnail preview</variant>
+        </translation>
+        <translation key="preview-tooltip">
+            <note/>
+            <variant>Print preview</variant>
+        </translation>
+        <translation key="print-preview">
+            <note/>
+            <variant>Preview</variant>
+        </translation>
+        <translation key="printing">
+            <note/>
+            <variant>Printing </variant>
+        </translation>
+        <translation key="percent">
+            <note/>
+            <variant>%</variant>
+        </translation>
+    </section>
+    <!-- end print dialog section-->
+    <section id="tip-of-the-day">
+        <translation key="previous-tip">
+            <note>button text to move to the previous tip</note>
+            <variant>Previous Tip</variant>
+        </translation>
+        <translation key="next-tip">
+            <note>button text to move to the next tip</note>
+            <variant>Next Tip</variant>
+        </translation>
+        <translation key="show-tips-on-startup">
+            <note>checkbox text to show this dialog each time the application is run</note>
+            <variant>Show tips on startup</variant>
+        </translation>
+        <translation key="tip-of-the-day-title">
+            <note>Title of this dialog. I called it "Did You Know" instead of "tip of the day" because it actually gets called each time you run it and not necessarily once each day.</note>
+            <variant>Did You Know?</variant>
+        </translation>
+        <translation key="did-you-know">
+            <note>A (sort of) header for this dialog. It just says "Did you know?" above the tip.</note>
+            <variant>Did you know ...?</variant>
+        </translation>
+    </section>
+    <!--end tip of the day section-->
+    <section id="plugins">
+        <translation key="plugins-configure-main-menu">
+            <note>main menu for plugins</note>
+            <variant>Tools</variant>
+        </translation>
+        <translation key="plugins-configure-menu-item">
+            <note>Menu item to display the configure plugins dialogs.</note>
+            <variant>Configure Tools...</variant>
+        </translation>
+        <translation key="plugins-configure-title">
+            <note>Title of the dialog to configure plugins. I call it tool instead of plugin because that's what we've been calling it in other applications.</note>
+            <variant>Configure Tools</variant>
+        </translation>
+        <translation key="plugins-configure">
+            <note>Button text to configure our plugins</note>
+            <variant>Configure</variant>
+        </translation>
+        <translation key="plugins-has-nothing-to-configure">
+            <note>message that a selected plugin has nothing to configure</note>
+            <variant>This plugin has nothing to configure.</variant>
+        </translation>
+        <translation key="plugins-no-new-plugins">
+            <note>message that a selected file has no new plugins (it may have some, but we've already loaded them)</note>
+            <variant>No new plugins were found in ''{0}''</variant>
+        </translation>
+        <translation key="plugins-invalid-jar-file">
+            <note>message that the selected file is not a valid file.</note>
+            <variant>Either the file is an illegal plugin or the plugin is already loaded.</variant>
+        </translation>
+        <translation key="plugins-error">
+            <note>Title for a dialog when a general error occures while processing plugins</note>
+            <variant>Error</variant>
+        </translation>
+        <translation key="plugins-count-not-load-plugin">
+            <note>Error that we could not load the plugin file</note>
+            <variant>Could not load plugin</variant>
+        </translation>
+        <translation key="plugins-prerelease-warning-title">
+            <note>Title for a warning that the plugin is only for pre-releases</note>
+            <variant>Pre-release Warning</variant>
+        </translation>
+        <translation key="plugins-prerelease-warning-text">
+            <note>Text for a warning message that the plugin is for pre-releases only.</note>
+            <variant>This contains only pre-release plugins. These are only for {0} internal purposes, may contain bugs and are not supported.</variant>
+        </translation>
+        <translation key="plugins-add">
+            <note>Button to add a plugin</note>
+            <variant>Add</variant>
+        </translation>
+        <translation key="plugins-remove">
+            <note>buton text to remove a plugin</note>
+            <variant>Remove</variant>
+        </translation>
+    </section>
+    <!--end plugins section-->
+    <section id="apply-update">
+        <translation key="apply-update-menu-item">
+            <note/>
+            <variant>Apply Update...</variant>
+        </translation>
+        <translation key="apply-update-title">
+            <note/>
+            <variant>Apply Update</variant>
+        </translation>
+        <translation key="update-file-header">
+            <note>header for the field where the user can enter the name of the update (patch) file.</note>
+            <variant>Update File:</variant>
+        </translation>
+        <translation key="description-header">
+            <note>header for a description field</note>
+            <variant>Description:</variant>
+        </translation>
+        <translation key="notes-header">
+            <note>header for a field that shows extra info (notes) about the selected update file.</note>
+            <variant>Notes:</variant>
+        </translation>
+        <translation key="apply-and-restart-now">
+            <note>Button for the option to apply the update and then restart the app immediately (the restart will be automatic)</note>
+            <variant>Apply and Restart Now</variant>
+        </translation>
+        <translation key="update-with-restart-later">
+            <note>Button for the option to apply the update and the user will manually restart the app later.</note>
+            <variant>Update with Restart Later</variant>
+        </translation>
+        <translation key="apply-update-now">
+            <note>Button for the option to apply the update immediately (without a restart).</note>
+            <variant>Apply Update</variant>
+        </translation>
+        <translation key="this-update-requires-a-restart">
+            <note>Message informing the user that the selected update requires the app to be reset before it will take affect.</note>
+            <variant>NOTE: You must restart this application for the update to take effect.</variant>
+        </translation>
+        <translation key="update-already-applied">
+            <note>Message informing the user that the update has already occured.</note>
+            <variant>The update has already been applied.</variant>
+        </translation>
+        <translation key="update-not-for-this-version">
+            <note>Message informing the user that the update doesn't apply to this version.</note>
+            <variant>The update is not for this product version.</variant>
+        </translation>
+        <translation key="update-not-for-this-product">
+            <note>message informing the user that the update doesn't apply to this product</note>
+            <variant>The update is not for this product.</variant>
+        </translation>
+        <translation key="unknown-error-occured-during-update">
+            <note>message informing the user that an unknown error occured. The update didn't work.</note>
+            <variant>An Unknown Error occured. The update was not applied.</variant>
+        </translation>
+        <translation key="could-not-read-update-file">
+            <note>message informing the user that the update file couldn't be read. This is a file system issue.</note>
+            <variant>Could not read the update file.</variant>
+        </translation>
+        <translation key="not-a-valid-update-file">
+            <note>The file chosen by the user is not a valid update file.</note>
+            <variant>This is not a valid update file.</variant>
+        </translation>
+        <translation key="update-file-filter-description">
+            <note>The description of the update file types. This shows up in the file chooser dialog allowing you to select only update files.</note>
+            <variant>Update Files</variant>
+        </translation>
+    </section>
+    <!--end apply update section-->
+    <section id="should-be-common">
+        <translation key="timed-override-minutes">
+            <note>Name of a field where a user enters how long pressing a physical button (on a physical sensor, not our UI) will override unoccupancy. That is: if a building is unoccupied and you hit this button, it will be considered occupied by the HVAC system for X minutes.</note>
+            <variant>Timed override minutes</variant>
+        </translation>
+        <translation key="second-press-cancels-override">
+            <note>Name of field that relates to timed-override-minutes. Does hitting that same button again cancel the override?</note>
+            <variant>Second press cancels override</variant>
+        </translation>
+        <translation key="finish">
+            <note/>
+            <variant>Finish</variant>
+        </translation>
+        <translation key="minutes-lower-case">
+            <note/>
+            <variant>minutes</variant>
+        </translation>
+        <translation key="editpriv">
+            <note/>
+            <variant>Editing Privilege</variant>
+        </translation>
+        <translation key="property-page-text">
+            <note/>
+            <variant>Property Page Text</variant>
+        </translation>
+        <translation key="maintain-continuous-through-power-fail">
+            <note/>
+            <variant>Maintain continuous through power fail</variant>
+        </translation>
+        <translation key="tlo-operating-sequence">
+            <note/>
+            <variant>TLO Operating Sequence</variant>
+        </translation>
+        <translation key="name">
+            <note/>
+            <variant>Name</variant>
+        </translation>
+        <translation key="stroke">
+            <note/>
+            <variant>Damper Travel Time</variant>
+        </translation>
+        <translation key="notification_threshold">
+            <note/>
+            <variant>Notification Threshold</variant>
+        </translation>
+        <translation key="input_type">
+            <note/>
+            <variant>Input Type</variant>
+        </translation>
+        <translation key="zone_temp_units">
+            <note/>
+            <variant>Zone Temp Units</variant>
+        </translation>
+        <translation key="min_pres_value">
+            <note/>
+            <variant>Minimum Value</variant>
+        </translation>
+        <translation key="Thermistor_TS_5700_850_10KOhm_with_11K_Shunt_deg_C">
+            <note/>
+            <variant>Thermistor, TS-5700-850, 10KOhm with 11K Shunt, deg C</variant>
+        </translation>
+        <translation key="RTD_TS_8000_Balco_46_to_121_deg_C">
+            <note/>
+            <variant>RTD, TS-8000 Balco, -46 to 121 deg C</variant>
+        </translation>
+        <translation key="Setpoint_adjust_slide_pot_100k">
+            <note/>
+            <variant>Setpoint adjust slide pot (100k)</variant>
+        </translation>
+        <translation key="RS_Disp_None">
+            <note/>
+            <variant>no-units</variant>
+        </translation>
+        <translation key="RS_Disp_DegF">
+            <note/>
+            <variant>°F</variant>
+        </translation>
+        <translation key="RS_Disp_DegC">
+            <note/>
+            <variant>°C</variant>
+        </translation>
+        <translation key="RS_Disp_RHum">
+            <note/>
+            <variant>% relative humidity</variant>
+        </translation>
+        <translation key="fan_speed_0">
+            <note/>
+            <variant>0,1,2,3,4,0,1,2,3,4</variant>
+        </translation>
+        <translation key="fan_speed_1">
+            <note/>
+            <variant>0,1,2,3,4,3,2,1,0,1 </variant>
+        </translation>
+        <translation key="max_pres_value">
+            <note/>
+            <variant>Maximum Value</variant>
+        </translation>
+        <translation key="buffer_size">
+            <note/>
+            <variant>Number of samples</variant>
+        </translation>
+        <translation key="alarm_source">
+            <note/>
+            <variant>Potential alarm source</variant>
+        </translation>
+        <translation key="return_enabled">
+            <note/>
+            <variant>Return Enabled</variant>
+        </translation>
+        <translation key="fault_enabled">
+            <note/>
+            <variant>Fault Enabled</variant>
+        </translation>
+        <translation key="alarm_acked">
+            <note/>
+            <variant>Alarm requires acknowledge</variant>
+        </translation>
+        <translation key="return_acked">
+            <note/>
+            <variant>Return requires acknowledge</variant>
+        </translation>
+        <translation key="simulation-value">
+            <note/>
+            <variant>Simulation Value</variant>
+        </translation>
+        <translation key="100-percent-equal">
+            <note/>
+            <variant>100% =</variant>
+        </translation>
+        <translation key="maintain-contact-closure-if-output-equal-0-or-100-percent">
+            <note/>
+            <variant>Maintain contact closure if output = 0 or 100%</variant>
+        </translation>
+        <translation key="0-percent-equal">
+            <note/>
+            <variant>0% =</variant>
+        </translation>
+        <translation key="alarm_enabled">
+            <note/>
+            <variant>Alarm Enabled?</variant>
+        </translation>
+        <translation key="enabled">
+            <note/>
+            <variant>Enabled?</variant>
+        </translation>
+        <translation key="pneumatic-output">
+            <note/>
+            <variant>Pneumatic Output</variant>
+        </translation>
+        <translation key="scheduled-duration">
+            <note/>
+            <variant>Scheduled Duration</variant>
+        </translation>
+        <translation key="scheduler">
+            <note/>
+            <variant>Scheduler</variant>
+        </translation>
+        <translation key="min_pulse">
+            <note/>
+            <variant>Min Pulse Width</variant>
+        </translation>
+        <translation key="state_text">
+            <note/>
+            <variant>State Text</variant>
+        </translation>
+        <translation key="accesscontrol_critical">
+            <note/>
+            <variant>Access Critical</variant>
+        </translation>
+        <translation key="accesscontrol_general">
+            <note/>
+            <variant>Access General</variant>
+        </translation>
+        <translation key="accesscontrol_maintenance">
+            <note/>
+            <variant>Access Maintenance</variant>
+        </translation>
+        <translation key="firesystem_critical">
+            <note/>
+            <variant>Fire Critical</variant>
+        </translation>
+        <translation key="firesystem_general">
+            <note/>
+            <variant>Fire General</variant>
+        </translation>
+        <translation key="firesystem_maintenance">
+            <note/>
+            <variant>Fire Maintenance</variant>
+        </translation>
+        <translation key="hvac_critical">
+            <note/>
+            <variant>HVAC Critical</variant>
+        </translation>
+        <translation key="hvac_general">
+            <note/>
+            <variant>HVAC General</variant>
+        </translation>
+        <translation key="hvac_maintenance">
+            <note/>
+            <variant>HVAC Maintenance</variant>
+        </translation>
+        <translation key="lightingsystem_critical">
+            <note/>
+            <variant>Lighting Critical</variant>
+        </translation>
+        <translation key="lightingsystem_general">
+            <note/>
+            <variant>Lighting General</variant>
+        </translation>
+        <translation key="lightingsystem_maintenance">
+            <note/>
+            <variant>Lighting Maintenance</variant>
+        </translation>
+        <translation key="general_alarm">
+            <note/>
+            <variant>General Alarm</variant>
+        </translation>
+        <translation key="general_message">
+            <note/>
+            <variant>General Message</variant>
+        </translation>
+        <translation key="window">
+            <note/>
+            <variant>Pulse Window</variant>
+        </translation>
+        <translation key="mode">
+            <note/>
+            <variant>Input mode</variant>
+        </translation>
+        <translation key="mode_2">
+            <note/>
+            <variant>Mode</variant>
+        </translation>
+        <translation key="override-duration">
+            <note/>
+            <variant>Override Duration</variant>
+        </translation>
+        <translation key="read-cell">
+            <note/>
+            <variant>Read Cell</variant>
+        </translation>
+        <translation key="period">
+            <note/>
+            <variant>Period</variant>
+        </translation>
+        <translation key="actual-flow">
+            <note/>
+            <variant>Actual Flow</variant>
+        </translation>
+        <translation key="swap_time">
+            <note/>
+            <variant>Swap lead output after</variant>
+        </translation>
+        <translation key="Swap_based_on_runtime">
+            <note/>
+            <variant>Swap based on runtime?</variant>
+        </translation>
+        <translation key="override-value">
+            <note/>
+            <variant>Override Value</variant>
+        </translation>
+        <translation key="respond">
+            <note/>
+            <variant>Respond</variant>
+        </translation>
+        <translation key="p_gain">
+            <note/>
+            <variant>Proportional</variant>
+        </translation>
+        <translation key="i_gain">
+            <note/>
+            <variant>Integral</variant>
+        </translation>
+        <translation key="d_gain">
+            <note/>
+            <variant>Derivative</variant>
+        </translation>
+        <translation key="is-valid">
+            <note/>
+            <variant>Is Valid</variant>
+        </translation>
+        <translation key="feedback_delay">
+            <note/>
+            <variant>Feedback Delay</variant>
+        </translation>
+        <translation key="debounce_time">
+            <note/>
+            <variant>Debounce Time</variant>
+        </translation>
+        <translation key="bavgmaxmin">
+            <note/>
+            <variant>Zone Temp Method</variant>
+        </translation>
+        <translation key="oat_input_present">
+            <note/>
+            <variant>OAT Input</variant>
+        </translation>
+        <translation key="setpoint-adjustment-value">
+            <note/>
+            <variant>Setpoint Adjustment Value</variant>
+        </translation>
+        <translation key="tlo-value">
+            <note/>
+            <variant>TLO Value</variant>
+        </translation>
+        <translation key="number-of-samples">
+            <note/>
+            <variant>Number of Samples</variant>
+        </translation>
+        <translation key="zone-temp-value">
+            <note/>
+            <variant>Zone Temp Value</variant>
+        </translation>
+        <translation key="unoccupied_heating">
+            <note/>
+            <variant>Unoccupied Heating</variant>
+        </translation>
+        <translation key="occupied_heating">
+            <note/>
+            <variant>Occupied Heating</variant>
+        </translation>
+        <translation key="occupied_cooling">
+            <note/>
+            <variant>Occupied Cooling</variant>
+        </translation>
+        <translation key="unoccupied_cooling">
+            <note/>
+            <variant>Unoccupied Cooling</variant>
+        </translation>
+        <translation key="heating_shed3">
+            <note/>
+            <variant>Heating Shed Demand 3</variant>
+        </translation>
+        <translation key="cooling_shed3">
+            <note/>
+            <variant>Cooling Shed Demand 3</variant>
+        </translation>
+        <translation key="heating_shed2">
+            <note/>
+            <variant>Heating Shed Demand 2</variant>
+        </translation>
+        <translation key="cooling_shed2">
+            <note/>
+            <variant>Cooling Shed Demand 2</variant>
+        </translation>
+        <translation key="heating_shed1">
+            <note/>
+            <variant>Heating Shed Demand 1</variant>
+        </translation>
+        <translation key="cooling_shed1">
+            <note/>
+            <variant>Cooling Shed Demand 1</variant>
+        </translation>
+        <translation key="heating_alarm_respond">
+            <note/>
+            <variant>Heating Alarm</variant>
+        </translation>
+        <translation key="heating_trim">
+            <note/>
+            <variant>Heating Trim</variant>
+        </translation>
+        <translation key="cooling_trim">
+            <note/>
+            <variant>Cooling Trim</variant>
+        </translation>
+        <translation key="cooling_alarm_respond">
+            <note/>
+            <variant>Cooling Alarm</variant>
+        </translation>
+        <translation key="version">
+            <note/>
+            <variant>Version</variant>
+        </translation>
+        <translation key="dated">
+            <note/>
+            <variant>Dated</variant>
+        </translation>
+        <translation key="Cancel_override_if_input_close">
+            <note>This is followed by a numeric field and the text 'sec.'</note>
+            <variant>Cancel override if input closed for &gt;</variant>
+        </translation>
+        <translation key="Each_pulse_plus_or_minus">
+            <note/>
+            <variant>Each pulse = ±</variant>
+        </translation>
+        <translation key="maximum-accumulation">
+            <variant>Maximum Accumulation</variant>
+        </translation>
+        <translation key="Trending_enabled">
+            <note>Whether or not trending is turned on or off (trending: gathering historical information).</note>
+            <variant>Trending enabled?</variant>
+        </translation>
+        <translation key="Trend_Interval_Units">
+            <note>wether the trending interval is specified in minutes or seconds</note>
+            <variant>Units</variant>
+        </translation>
+        <translation key="Delay_Seconds">
+            <note>number of seconds to delay an alarm.</note>
+            <variant>Delay Seconds</variant>
+        </translation>
+        <translation key="trip_point">
+            <note>a value (point) that triggers (trips) this microblock into action.</note>
+            <variant>Trip Point</variant>
+        </translation>
+        <translation key="max_adjust_plus_or_minus">
+            <note/>
+            <variant>Max adjust = ±</variant>
+        </translation>
+        <translation key="Clear_adjustment_when_unoccupi">
+            <note/>
+            <variant>Clear adjustment when unoccupied?</variant>
+        </translation>
+        <translation key="TLO_Override">
+            <note/>
+            <variant>TLO Override</variant>
+        </translation>
+        <translation key="Trim_by">
+            <note>part of the sentance: Trim by x and respond by y but no more than z.</note>
+            <variant>Trim by</variant>
+        </translation>
+        <translation key="and_respond_by">
+            <note>part of the sentance: Trim by x and respond by y but no more than z.</note>
+            <variant>and respond by</variant>
+        </translation>
+        <translation approved="false" key="but_no_more_than" new="true">
+            <note>part of the sentence: Trim by x and respond by y but do not respond by more than z.</note>
+            <variant>But do not respond by more than</variant>
+        </translation>
+        <translation key="Initial_Setpoints">
+            <note/>
+            <variant>Initial Setpoints</variant>
+        </translation>
+        <translation key="Maintain_Setpoints">
+            <note/>
+            <variant>Maintain Setpoints ±</variant>
+        </translation>
+        <translation key="Simulation">
+            <note>header for grouping of simulation values the user can edit.</note>
+            <variant>Simulation</variant>
+        </translation>
+        <translation key="Input_From">
+            <note>The numerator part of a ratio fraction. [input] from/to equals [output] from/to. We don't want to use mathmatical terminology however.</note>
+            <variant>Input From</variant>
+        </translation>
+        <translation key="Input_To">
+            <note>The denominator part of a ratio fraction. [input] from/to equals [output] from/to. We don't want to use mathmatical terminology however.</note>
+            <variant>Input To</variant>
+        </translation>
+        <translation key="Output_From">
+            <note>The numerator part of a ratio fraction. [input] from/to equals [output] from/to. We don't want to use mathmatical terminology however.</note>
+            <variant>Output From</variant>
+        </translation>
+        <translation key="Output_To">
+            <note>The numerator part of a ratio fraction. [input] from/to equals [output] from/to. We don't want to use mathmatical terminology however.</note>
+            <variant>Output To</variant>
+        </translation>
+        <translation key="Input_Open_0_00">
+            <note/>
+            <variant>Input Open = 0:00</variant>
+        </translation>
+        <translation key="No_Accumulation">
+            <note/>
+            <variant>No Accumulation</variant>
+        </translation>
+        <translation key="Secondary_Address">
+            <note/>
+            <variant>Secondary Address</variant>
+        </translation>
+        <translation key="Begin_Time">
+            <note/>
+            <variant>Begin Time</variant>
+        </translation>
+        <translation key="Locked_Value_Open">
+            <note/>
+            <variant>Locked Value (Open)</variant>
+        </translation>
+        <translation key="Locked_Value_Close">
+            <note/>
+            <variant>Locked Value (Close)</variant>
+        </translation>
+        <translation key="Locked_Open">
+            <note/>
+            <variant>Locked (Open)</variant>
+        </translation>
+        <translation key="Locked_Close">
+            <note/>
+            <variant>Locked (Close)</variant>
+        </translation>
+        <translation key="Expander_Open">
+            <note/>
+            <variant>Expander (Open)</variant>
+        </translation>
+        <translation key="Expander_Close">
+            <note/>
+            <variant>Expander (Close)</variant>
+        </translation>
+        <translation key="Output_Type_Close">
+            <note/>
+            <variant>Output Type (Close)</variant>
+        </translation>
+        <translation key="Output_Type_Open">
+            <note/>
+            <variant>Output Type (Open)</variant>
+        </translation>
+        <translation key="Output_Number_Close">
+            <note/>
+            <variant>Output Number (Close)</variant>
+        </translation>
+        <translation key="Output_Number_Open">
+            <note/>
+            <variant>Output Number (Open)</variant>
+        </translation>
+        <translation key="Increase_mm_ss">
+            <note>a stand-alone label representing the field 'x' in 'increase y every x mm:ss'</note>
+            <variant>Increase (mm:ss)</variant>
+        </translation>
+        <translation key="Decrease_mm_ss">
+            <note>a stand-alone label representing the field 'x' in 'decrease y every x mm:ss'</note>
+            <variant>Decrease (mm:ss)</variant>
+        </translation>
+        <translation key="Preset_Runtime_Value">
+            <note/>
+            <variant>Preset Runtime Value</variant>
+        </translation>
+        <translation key="begin_at">
+            <note/>
+            <variant>Begin at</variant>
+        </translation>
+        <translation key="time">
+            <note/>
+            <variant>time</variant>
+        </translation>
+        <translation key="duty_cycle">
+            <note>the first part of the sentence 'duty cycle xxx % ON time' where xxx is a variable</note>
+            <variant>Duty cycle</variant>
+        </translation>
+        <translation key="percent_on_time">
+            <note>the last part of the sentence 'duty cycle xxx % ON time' where xxx is a variable. ON is emphasized by making it upper case.</note>
+            <variant>% ON time</variant>
+        </translation>
+        <translation key="full_cycle_every">
+            <note>the first part of the sentence 'Full cycle every xxx mm:ss' where xxx is a variable</note>
+            <variant>Full cycle every</variant>
+        </translation>
+        <translation key="Preset_Runtime_Value">
+            <note/>
+            <variant>Preset Runtime Value</variant>
+        </translation>
+        <translation key="time">
+            <note/>
+            <variant>time</variant>
+        </translation>
+        <translation key="Not_Used">
+            <note/>
+            <variant>Not Used</variant>
+        </translation>
+        <translation key="Pulse_Acc_Cancel">
+            <note/>
+            <variant>Pulse Acc / Cancel</variant>
+        </translation>
+        <translation key="Continuous_On_Cancel">
+            <note/>
+            <variant>Continuous On / Cancel</variant>
+        </translation>
+        <translation key="Pulse_Acc_Continuous_On_Cancel">
+            <note/>
+            <variant>Pulse Acc / Continuous On / Cancel</variant>
+        </translation>
+        <translation key="Continuous_On_Cancel_Pulse_Acc">
+            <note/>
+            <variant>Continuous On / Cancel / Pulse Acc</variant>
+        </translation>
+        <translation key="previous-notify-time">
+            <note/>
+            <variant>Previous Notify Time</variant>
+        </translation>
+        <translation key="current-notify-time">
+            <note/>
+            <variant>Current Notify Time</variant>
+        </translation>
+        <translation key="Latitude_Degrees">
+            <note/>
+            <variant>Latitude Degrees</variant>
+        </translation>
+        <translation key="Latitude_Minutes">
+            <note/>
+            <variant>Latitude Minutes</variant>
+        </translation>
+        <translation key="Longitude_Degrees">
+            <note/>
+            <variant>Longitude Degrees</variant>
+        </translation>
+        <translation key="Longitude_Minutes">
+            <note/>
+            <variant>Longitude Minutes</variant>
+        </translation>
+        <translation key="locked-value-flow-input">
+            <note/>
+            <variant>Locked Value (Flow Input)</variant>
+        </translation>
+        <translation key="locked-flow-input">
+            <note/>
+            <variant>Locked (Flow Input)</variant>
+        </translation>
+        <translation key="present-value-flow-input">
+            <note/>
+            <variant>Present Value (Flow Input)</variant>
+        </translation>
+        <translation key="description-flow-input">
+            <note/>
+            <variant>Description (Flow Input)</variant>
+        </translation>
+        <translation key="resolution-flow-input">
+            <note/>
+            <variant>Resolution (Flow Input)</variant>
+        </translation>
+        <translation key="cov-increment-flow-input">
+            <note/>
+            <variant>COV Increment (Flow Input)</variant>
+        </translation>
+        <translation key="cov-threshold">
+            <note/>
+            <variant>COV Threshold</variant>
+        </translation>
+        <translation key="locked-value-flow-setpoint">
+            <note/>
+            <variant>Locked Value (Flow Setpoint)</variant>
+        </translation>
+        <translation key="locked-flow-setpoint">
+            <note/>
+            <variant>Locked (Flow Setpoint)</variant>
+        </translation>
+        <translation key="present-value-flow-setpoint">
+            <note/>
+            <variant>Present Value (Flow Setpoint)</variant>
+        </translation>
+        <translation key="relinquish-default-flow-setpoint">
+            <note/>
+            <variant>Relinquish Default (Flow Setpoint)</variant>
+        </translation>
+        <translation key="description-flow-setpoint">
+            <note/>
+            <variant>Description (Flow Setpoint)</variant>
+        </translation>
+        <translation key="resolution-flow-setpoint">
+            <note/>
+            <variant>Resolution (Flow Setpoint)</variant>
+        </translation>
+        <translation key="cov-increment-flow-setpoint">
+            <note/>
+            <variant>COV Increment (Flow Setpoint)</variant>
+        </translation>
+        <translation key="locked-value-Fan-Control">
+            <note/>
+            <variant>Locked Value (Fan Control)</variant>
+        </translation>
+        <translation key="locked-Fan-Control">
+            <note/>
+            <variant>Locked (Fan Control)</variant>
+        </translation>
+        <translation key="present-value-Fan-Control">
+            <note/>
+            <variant>Present Value (Fan Control)</variant>
+        </translation>
+        <translation key="relinquish-default-Fan-Control">
+            <note/>
+            <variant>Relinquish Default (Fan Control)</variant>
+        </translation>
+        <translation key="description-Fan-Control">
+            <note/>
+            <variant>Description (Fan Control)</variant>
+        </translation>
+        <translation key="present-value-Damper-Cycle">
+            <note/>
+            <variant>Present Value (Damper Cycle)</variant>
+        </translation>
+        <translation key="description-Damper-Cycle">
+            <note/>
+            <variant>Description (Damper Cycle)</variant>
+        </translation>
+        <translation key="cov-increment-Damper-Cycle">
+            <note/>
+            <variant>COV Increment (Damper Cycle)</variant>
+        </translation>
+        <translation key="Units_Zone_Temp">
+            <note/>
+            <variant>Units (Zone Temp)</variant>
+        </translation>
+        <translation key="Locked_Value_Zone_Temp">
+            <note/>
+            <variant>Locked Value (Zone Temp)</variant>
+        </translation>
+        <translation key="Locked_Zone_Temp">
+            <note/>
+            <variant>Locked (Zone Temp)</variant>
+        </translation>
+        <translation key="Present_Value_Zone_Temp">
+            <note/>
+            <variant>Present Value (Zone Temp)</variant>
+        </translation>
+        <translation key="Description_Zone_Temp">
+            <note/>
+            <variant>Description (Zone Temp)</variant>
+        </translation>
+        <translation key="Network_Visible_Zone_Temp">
+            <note/>
+            <variant>Newtwork Visible (Zone Temp)</variant>
+        </translation>
+        <translation key="Units_Override">
+            <note/>
+            <variant>Units (Override)</variant>
+        </translation>
+        <translation key="Locked_Value_Override">
+            <note/>
+            <variant>Locked Value (Override)</variant>
+        </translation>
+        <translation key="Locked_Override">
+            <note/>
+            <variant>Locked (Override)</variant>
+        </translation>
+        <translation key="Present_Value_Override">
+            <note/>
+            <variant>Present Value (Override)</variant>
+        </translation>
+        <translation key="Description_Override">
+            <note/>
+            <variant>Description (Override)</variant>
+        </translation>
+        <translation key="Network_Visible_Override">
+            <note/>
+            <variant>Newtwork Visible (Override)</variant>
+        </translation>
+        <translation key="RS_Sensor_Fan">
+            <note/>
+            <variant>RS Zone Sensor with Fan Control</variant>
+        </translation>
+        <translation key="historial-trending-enabled-flow-input">
+            <note>whether historical trending is enabled for the flow input</note>
+            <variant>Historical Trending Enabled (Flow Input)</variant>
+        </translation>
+        <translation key="historial-trending-enabled-flow-setpoint">
+            <note>whether historical trending is enabled for the flow setpoint</note>
+            <variant>Historical Trending Enabled (Flow Setpoint)</variant>
+        </translation>
+        <translation key="historial-trending-enabled-fan-control">
+            <note>whether historical trending is enabled for the fan control</note>
+            <variant>Historical Trending Enabled (Fan Control)</variant>
+        </translation>
+        <translation key="historial-trending-enabled-damper-cycle">
+            <note>whether historical trending is enabled for the damper cycle</note>
+            <variant>Historical Trending Enabled (Damper Cycle)</variant>
+        </translation>
+        <translation key="auxilliary-analog-input-1">
+            <note/>
+            <variant>Aux Analog Input 1</variant>
+        </translation>
+        <translation key="auxilliary-analog-input-2">
+            <note/>
+            <variant>Aux Analog Input 2</variant>
+        </translation>
+        <translation key="auxilliary-binary-input-1">
+            <note/>
+            <variant>Aux Binary Input 1</variant>
+        </translation>
+        <translation key="auxilliary-binary-input-2">
+            <note/>
+            <variant>Aux Binary Input 2</variant>
+        </translation>
+        <translation key="fan_speed_adjust">
+            <note/>
+            <variant>Fan Speed Adjust</variant>
+        </translation>
+        <translation key="Num_of_speeds">
+            <note/>
+            <variant>Number of speeds</variant>
+        </translation>
+        <translation key="Order_of_Speeds">
+            <note/>
+            <variant>Order of Speeds</variant>
+        </translation>
+        <translation key="0_Auto">
+            <note/>
+            <variant>(0 = Auto)</variant>
+        </translation>
+        <translation key="Only_Allow_Auto_on_Unoccupied">
+            <note/>
+            <variant>Only Allow Auto on Unoccupied</variant>
+        </translation>
+        <translation key="Speed">
+            <note/>
+            <variant>Speed</variant>
+        </translation>
+        <translation key="Mode_Sensor_Display">
+            <note/>
+            <variant>Mode/Sensor Display</variant>
+        </translation>
+        <translation key="Modes_Available">
+            <note/>
+            <variant>Modes Available</variant>
+        </translation>
+        <translation key="Mode_0_Auto">
+            <note/>
+            <variant>(Mode 0 = Auto)</variant>
+        </translation>
+        <translation key="Maintain_Mode_Through_Power_Fa">
+            <note/>
+            <variant>Maintain Mode Through Power Failure</variant>
+        </translation>
+        <translation key="Reset_Mode_to">
+            <note/>
+            <variant>Reset Mode to</variant>
+        </translation>
+        <translation key="During_Unoccupied">
+            <note/>
+            <variant>During Unoccupied</variant>
+        </translation>
+        <translation key="Small_Text_Display">
+            <note/>
+            <variant>Small Text Display</variant>
+        </translation>
+        <translation key="fan_speed">
+            <note/>
+            <variant>Fan Speed</variant>
+        </translation>
+        <translation key="mode_1">
+            <note/>
+            <variant>Mode 1</variant>
+        </translation>
+        <translation key="mode_2">
+            <note/>
+            <variant>Mode 2</variant>
+        </translation>
+        <translation key="mode_3">
+            <note/>
+            <variant>Mode 3</variant>
+        </translation>
+        <translation key="mode_4">
+            <note/>
+            <variant>Mode 4</variant>
+        </translation>
+        <translation key="occ_unocc">
+            <note/>
+            <variant>Occupied/Unoccupied</variant>
+        </translation>
+        <translation key="heat_cool">
+            <note/>
+            <variant>Heat/Cool</variant>
+        </translation>
+        <translation key="large_text">
+            <note/>
+            <variant>Large Text</variant>
+        </translation>
+        <translation key="Optional_Inputs">
+            <note/>
+            <variant>Optional Inputs</variant>
+        </translation>
+        <translation key="Alarm_Input">
+            <note/>
+            <variant>Alarm Input</variant>
+        </translation>
+        <translation key="Primary_Use">
+            <note/>
+            <variant>Primary Use</variant>
+        </translation>
+        <translation key="preset-edit-privilege">
+            <note/>
+            <variant>Preset</variant>
+        </translation>
+        <translation key="setpoints-edit-privilege">
+            <note/>
+            <variant>Setpoints</variant>
+        </translation>
+        <translation key="tuning-and-logic-edit-privilege">
+            <note/>
+            <variant>Tuning and Logic</variant>
+        </translation>
+        <translation key="manual-override-edit-privilege">
+            <note/>
+            <variant>Manual Override</variant>
+        </translation>
+        <translation key="point-setup-edit-privilege">
+            <note/>
+            <variant>Point Setup</variant>
+        </translation>
+        <translation key="restricted-edit-privilege">
+            <note/>
+            <variant>Restricted</variant>
+        </translation>
+        <translation key="admin-only-edit-privilege">
+            <note/>
+            <variant>Admin Only</variant>
+        </translation>
+        <translation key="history-reset-edit-privilege">
+            <note/>
+            <variant>History Reset</variant>
+        </translation>
+        <translation key="trend-setup-edit-privilege">
+            <note/>
+            <variant>Trend Setup</variant>
+        </translation>
+        <translation key="calibration-edit-privilege">
+            <note/>
+            <variant>Calibration</variant>
+        </translation>
+        <translation key="critical-configuration-edit-privilege">
+            <note/>
+            <variant>Critical Configuration</variant>
+        </translation>
+        <translation key="user-preset-object-id">
+            <note>This is a label for a field that specifies whether or not the Object ID is user-defined or auto-generated.</note>
+            <variant>Is user-preset Object Instance</variant>
+        </translation>
+        <translation key="auto-assign-object-id">
+            <note>Option that the object id will be auto-generated in SiteBuilder.</note>
+            <variant>Auto-assign</variant>
+        </translation>
+        <translation key="use-specific-object-id">
+            <note>Option that the object id will be specified by the user and not auto-generated in SiteBuilder.</note>
+            <variant>Use specific value</variant>
+        </translation>
+        <translation key="trend-hundreths">
+            <note/>
+            <variant>Hundreths</variant>
+        </translation>
+        <translation key="trend-seconds">
+            <note/>
+            <variant>Seconds</variant>
+        </translation>
+        <translation key="trend-minutes">
+            <note/>
+            <variant>Minutes</variant>
+        </translation>
+        <translation key="trend-hours">
+            <note/>
+            <variant>Hours</variant>
+        </translation>
+        <translation key="Direction_cw_equals_close">
+            <note/>
+            <variant>Direction: CW = </variant>
+        </translation>
+        <translation key="inactive">
+            <note/>
+            <variant>Inactive</variant>
+        </translation>
+        <translation key="active">
+            <note/>
+            <variant>Active</variant>
+        </translation>
+        <translation key="rsf-hi">
+            <note>This is an abbreviation for high. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Hi</variant>
+        </translation>
+        <translation key="rsf-lo">
+            <note>This is an abbreviation for low. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Lo</variant>
+        </translation>
+        <translation key="rsf-au">
+            <note>This is an abbreviation for auto. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Au</variant>
+        </translation>
+        <translation key="rsf-of">
+            <note>This is an abbreviation for off. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Of</variant>
+        </translation>
+        <translation key="rsf-on">
+            <note>This is on (or an an abbreviation for on). This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>On</variant>
+        </translation>
+        <translation key="rsf-ye">
+            <note>This is an abbreviation for yes. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Ye</variant>
+        </translation>
+        <translation key="rsf-no">
+            <note>This no ( or an abbreviation for no). This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>No</variant>
+        </translation>
+        <translation key="rsf-op">
+            <note>This is an abbreviation for open. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>Op</variant>
+        </translation>
+        <translation key="rsf-cl">
+            <note>This is an abbreviation for closed. This can only be 2 letters and they MUST be representable in a seven-segment LED.</note>
+            <variant>CL</variant>
+        </translation>
+        <translation key="zone-temp-object-id">
+            <note/>
+            <variant>Zone Temp Object ID</variant>
+        </translation>
+        <translation key="zone-temp-is-user-preset-object-id">
+            <note/>
+            <variant>Zone Temp is user-preset Object ID</variant>
+        </translation>
+        <translation key="override-object-id">
+            <note/>
+            <variant>Override Object ID</variant>
+        </translation>
+        <translation key="override-is-user-preset-object-id">
+            <note/>
+            <variant>Override is user-preset Object ID</variant>
+        </translation>
+        <translation key="flow-input-object-id">
+            <note/>
+            <variant>Flow Input Object ID</variant>
+        </translation>
+        <translation key="flow-input-is-user-preset-object-id">
+            <note/>
+            <variant>Flow Input is user-preset Object ID</variant>
+        </translation>
+        <translation key="flow-setpoint-object-id">
+            <note/>
+            <variant>Flow Setpoint Object ID</variant>
+        </translation>
+        <translation key="flow-setpoint-is-user-preset-object-id">
+            <note/>
+            <variant>Flow Setpoint is user-preset Object ID</variant>
+        </translation>
+        <translation key="fan-control-object-id">
+            <note/>
+            <variant>Fan Control Object ID</variant>
+        </translation>
+        <translation key="fan-control-is-user-preset-object-id">
+            <note/>
+            <variant>Fan Control is user-preset Object ID</variant>
+        </translation>
+        <translation key="damper-cycle-count-object-id">
+            <note/>
+            <variant>Damper Cycle Count Object ID</variant>
+        </translation>
+        <translation key="damper-cycle-count-is-user-preset-object-id">
+            <note/>
+            <variant>Damper Cycle Count is user-preset Object ID</variant>
+        </translation>
+        <translation key="effective_period">
+            <note/>
+            <variant>Effective Period</variant>
+        </translation>
+        <translation key="log_deviceobjectproperty">
+            <note/>
+            <variant>Log DeviceObjectProperty</variant>
+        </translation>
+        <translation key="buffer_size">
+            <note/>
+            <variant>Buffer Size</variant>
+        </translation>
+        <translation key="log_buffer">
+            <note/>
+            <variant>Log Buffer</variant>
+        </translation>
+        <translation key="total_record_count">
+            <note/>
+            <variant>Total Record Count</variant>
+        </translation>
+        <translation key="records_since_notification">
+            <note/>
+            <variant>Records Since Notification</variant>
+        </translation>
+        <!-- Missing property keys -->
+        <translation key="ZN_V_Built_In">
+            <note>Selection value for flow sensor.</note>
+            <variant>ZN V+ Built In</variant>
+        </translation>
+        <translation key="ZASF">
+            <note>Selection value for flow sensor.</note>
+            <variant>ZASF</variant>
+        </translation>
+        <translation key="External">
+            <note>Selection value for flow sensor.</note>
+            <variant>External</variant>
+        </translation>
+        <translation key="time">
+            <note/>
+            <variant>time</variant>
+        </translation>
+        <translation key="day_of_week">
+            <note/>
+            <variant>day of week</variant>
+        </translation>
+        <translation key="day_of_month">
+            <note/>
+            <variant>day of month</variant>
+        </translation>
+        <translation key="minute">
+            <note/>
+            <variant>minute</variant>
+        </translation>
+        <translation key="hour">
+            <note/>
+            <variant>hour</variant>
+        </translation>
+        <translation key="month">
+            <note/>
+            <variant>month</variant>
+        </translation>
+        <translation key="year">
+            <note/>
+            <variant>year</variant>
+        </translation>
+        <translation key="seconds">
+            <note/>
+            <variant>seconds</variant>
+        </translation>
+        <translation key="read_error">
+            <note/>
+            <variant>read error</variant>
+        </translation>
+        <translation key="write_error">
+            <note/>
+            <variant>write error</variant>
+        </translation>
+        <translation key="point_locked">
+            <note/>
+            <variant>point locked</variant>
+        </translation>
+        <translation key="Momentary">
+            <note/>
+            <variant>Momentary</variant>
+        </translation>
+        <translation key="Text_Defined_Below">
+            <note/>
+            <variant>Text Defined Below</variant>
+        </translation>
+        <translation key="on_off">
+            <note/>
+            <variant>On / Off</variant>
+        </translation>
+        <translation key="yes_no">
+            <note/>
+            <variant>Yes / No</variant>
+        </translation>
+        <translation key="open_closed">
+            <note/>
+            <variant>Open / Closed</variant>
+        </translation>
+        <translation key="open2">
+            <note>a choice that is either open or closed. This one is open. I appended a 2 to this because there's already numerous derivatives of open/close resources and they have different cases.</note>
+            <variant>open</variant>
+        </translation>
+        <translation key="closed2">
+            <note>a choice that is either open or closed. This one is closed. I appended a 2 to this because there's already numerous derivatives of open/close resources and they have different cases.</note>
+            <variant>closed</variant>
+        </translation>
+        <translation key="true_false">
+            <note/>
+            <variant>True / False</variant>
+        </translation>
+        <translation key="ok_dirty">
+            <note/>
+            <variant>OK / Dirty</variant>
+        </translation>
+        <translation key="Bias">
+            <note> The fixed voltage applied to an electrode.</note>
+            <variant>Bias</variant>
+        </translation>
+        <translation key="no_units">
+            <note>Selection option to tell the user no units have been selected</note>
+            <variant>no units</variant>
+        </translation>
+        <translation key="other">
+            <note/>
+            <variant>other</variant>
+        </translation>
+        <translation key="other_unsigned">
+            <note/>
+            <variant>other unsigned</variant>
+        </translation>
+        <translation key="printer-not-found">
+            <note>Error message telling the user that there were no printers found</note>
+            <variant>No printer's were found. Check your system to see if you have a printer configured.</variant>
+        </translation>
+        <translation key="variable">
+            <note/>
+            <variant>Variable</variant>
+        </translation>
+        <translation key="schedule_number">
+            <note/>
+            <variant>CCN Schedule Number</variant>
+        </translation>
+        <translation key="disable_idle_button">
+            <note/>
+            <variant>Disable idle button</variant>
+        </translation>
+        <!-- end missing property keys (but not the end of the section)-->
+        <translation key="show_property_text">
+            <note/>
+            <variant>Show Property Page Text</variant>
+        </translation>
+        <translation key="hour-units">
+            <note/>
+            <variant>hours</variant>
+        </translation>
+        <translation key="editable">
+            <note/>
+            <variant>Editable</variant>
+        </translation>
+        <translation key="read-from-field">
+            <note/>
+            <variant>Read from Field</variant>
+        </translation>
+        <translation key="write-to-field">
+            <note/>
+            <variant>Write to Field</variant>
+        </translation>
+        <translation key="hours-minutes-seconds-in-parethesis">
+            <note>This represents a field that shows the user the format of a duration is in hours, minutes and seconds</note>
+            <variant>(hh:mm:ss)</variant>
+        </translation>
+        <translation key="minutes-seconds-in-parenthesis">
+            <note>This represents a field that shows the user the format of a duration is in minutes and seconds (opposed to hours and minutes)</note>
+            <variant>(mm:ss)</variant>
+        </translation>
+        <translation key="setpoint-control">
+            <note>Name of the setpoint control in ViewBuilder.</note>
+            <variant>Setpoint Control</variant>
+        </translation>
+        <translation key="thermostat-control">
+            <note>Name of the thermostat control in ViewBuilder</note>
+            <variant>Thermostat Control</variant>
+        </translation>
+        <translation key="multi-state">
+            <note>Name of a choice for modeled schedule microblocks</note>
+            <variant>Multi-State</variant>
+        </translation>
+        <translation key="any">
+            <note>Name of a choice for modeled schedule microblocks</note>
+            <variant>Any</variant>
+        </translation>
+        <translation key="device-alias">
+            <note>This is a label for a text field for an alternate way to refer to a device used to simplify setup.</note>
+            <variant>Device Alias</variant>
+        </translation>
+        <translation key="register-type">
+            <note/>
+            <variant>Register Type</variant>
+        </translation>
+        <translation key="register-number">
+            <note/>
+            <variant>Register Number</variant>
+        </translation>
+        <translation key="property-page-text">
+            <note/>
+            <variant>Property Page Text</variant>
+        </translation>
+        <translation key="snvt-index">
+            <note/>
+            <variant>SNVT Index</variant>
+        </translation>
+        <translation key="snvt-type">
+            <note/>
+            <variant>SNVT Type</variant>
+        </translation>
+        <translation key="snvt-name">
+            <note/>
+            <variant>SNVT Name</variant>
+        </translation>
+        <translation key="error-title">
+            <note/>
+            <variant>ERROR</variant>
+        </translation>
+        <translation key="import-failed-reading-column-values">
+            <note/>
+            <variant>The import failed because some or all of the column names did not match what we expected.</variant>
+        </translation>
+        <translation key="import-failed-malformed-rowdata">
+            <note/>
+            <variant>The import failed because data on row ''{0}'' was malformed.\nNOTE: All rows must contain the same number of values, even if some values are left blank.</variant>
+        </translation>
+        <translation key="import-failed-bad-prog-id">
+            <note/>
+            <variant>The import failed because the program id data was not found or was malformed.\nThe field may be empty, but the label must be present.</variant>
+        </translation>
+        <translation key="import-failed-bad-self-doc">
+            <note/>
+            <variant>The import failed because the self doc string data was not found or was malformed.\nThe field may be empty, but the label must be present.</variant>
+        </translation>
+        <translation key="error-reading-file">
+            <note/>
+            <variant>A file I/O error occurred. The import has been aborted.</variant>
+        </translation>
+    </section>
+</resource-base>

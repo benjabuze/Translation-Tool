@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="network-messages" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <note>This text is used to label various buttons throughout WebCTRL.</note>
+    <section id="download-stages">
+        <note>Resources for the different stages of download.</note>
+        <translation key="NetworkStage_None">
+            <note>Resources for the different stages of download.</note>
+            <variant/>
+        </translation>
+        <translation key="NetworkStage_InitializeDownload">
+            <note>Resources for the different stages of download.</note>
+            <variant>Initializing</variant>
+        </translation>
+        <translation key="NetworkStage_VerifyDeviceServiceStatus">
+            <note>Resources for the different stages of download.</note>
+            <variant>Verifying controller status</variant>
+        </translation>
+        <translation key="NetworkStage_ValidateDownload">
+            <note>Resources for the different stages of download.</note>
+            <variant>Checking the controller type</variant>
+        </translation>
+        <translation key="NetworkStage_ValidateSourceFiles">
+            <note>Resources for the different stages of download.</note>
+            <variant>Checking source files</variant>
+        </translation>
+        <translation key="NetworkStage_AcquireConnection">
+            <note>Resources for the different stages of download.</note>
+            <variant>Connecting to controller</variant>
+        </translation>
+        <translation key="NetworkStage_ValidateDriverFile">
+            <note>Resources for the different stages of download.</note>
+            <variant>Checking for driver/controller mismatch</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadCMnetMemory">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading Memory</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadMpxBoot">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading BOOT content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadMpxMain">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading MAIN content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadDriverSourceFiles">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading driver source content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadDriverParameters">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading driver parameters</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadLocalesFile">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading locales</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadScreen">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading screen content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadMarquee">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading marquee content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadScreenSourceFiles">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading screen source content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadEquipmentProgram">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading control programs</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadEquipmentParameters">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading control program parameters</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadEquipmentValueSetFiles">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading control program value sets</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadEquipmentSourceFiles">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading control program source content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadIndexSourceFile">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading source file index</variant>
+        </translation>
+        <translation key="NetworkStage_ColdStartModule">
+            <note>Resources for the different stages of download.</note>
+            <variant>Restarting controller</variant>
+        </translation>
+        <translation key="NetworkStage_WarmStartModule">
+            <note>Resources for the different stages of download.</note>
+            <variant>Restarting controller</variant>
+        </translation>
+        <translation key="NetworkStage_TimeSyncModule">
+            <note>Resources for the different stages of download.</note>
+            <variant>Timesynching controller</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadSchedules">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading schedules</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadBBMD">
+            <note>Resources for the different stages of download.</note>
+            <variant>Downloading BBMD tables</variant>
+        </translation>
+        <translation key="NetworkStage_SaveUploadParameters">
+            <note>Resources for the different stages of download.</note>
+            <variant>Saving special parameters</variant>
+        </translation>
+        <translation key="NetworkStage_UploadParameters">
+            <note>Resources for the different stages of download.</note>
+            <variant>Uploading parameters</variant>
+        </translation>
+        <translation key="NetworkStage_UploadSchedules">
+            <note>Resources for the different stages of download.</note>
+            <variant>Uploading schedules</variant>
+        </translation>
+        <translation key="NetworkStage_UploadHistoricalTrends">
+            <note>Resources for the different stages of download.</note>
+            <variant>Saving historical trends</variant>
+        </translation>
+        <translation key="NetworkStage_EndDownload">
+            <note>Resources for the different stages of download.</note>
+            <variant>Download complete</variant>
+        </translation>
+        <translation key="NetworkStage_SavePreservedParameters">
+            <note>Resources for the different stages of download.</note>
+            <variant>Saving preserved parameters</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadFirmware_Preprocessing">
+            <note>Resources for the different stages of download.</note>
+            <variant>preparing device for new firmware</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadFirmware">
+            <note>Resources for the different stages of download.</note>
+            <variant>downloading firmware content</variant>
+        </translation>
+        <translation key="NetworkStage_DownloadFirmware_Postprocessing">
+            <note>Resources for the different stages of download.</note>
+            <variant>controller is applying changes</variant>
+        </translation>
+    </section>
+    <section id="download-failure-types">
+        <note>Resources for the general types of download failure.</note>
+        <translation key="NetworkFailureType_None">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>General Failure</variant>
+        </translation>
+        <translation key="NetworkFailureType_Critical">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Critical Failure</variant>
+        </translation>
+        <translation key="NetworkFailureType_LimitExceeded">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Limits Exceeded</variant>
+        </translation>
+        <translation key="NetworkFailureType_Database">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Misconfiguration</variant>
+        </translation>
+        <translation key="NetworkFailureType_DatabaseCritical">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Database Error</variant>
+        </translation>
+        <translation key="NetworkFailureType_Communications">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Communications Failed</variant>
+        </translation>
+        <translation key="NetworkFailureType_OutOfService">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Out of Service</variant>
+        </translation>
+        <translation key="NetworkFailureType_Permissions">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>No Permission</variant>
+        </translation>
+        <translation key="NetworkFailureType_ScheduleValidation">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Invalid Schedules</variant>
+        </translation>
+        <translation key="NetworkFailureType_SchedulesIncomplete">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Schedule Download Incomplete</variant>
+        </translation>
+        <translation key="NetworkFailureType_FileError">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Invalid File</variant>
+        </translation>
+        <translation key="NetworkFailureType_DriverValidation">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Wrong Driver</variant>
+        </translation>
+        <translation key="NetworkFailureType_ControllerValidation">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Controller Failure</variant>
+        </translation>
+        <translation key="NetworkFailureType_EquipmentConfiguration">
+            <note>Resources for the general types of download failure.</note>
+            <note>label - summary error message when a download fails</note>
+            <variant>Equipment Configuration Failure</variant>
+        </translation>
+    </section>
+    <section id="download-failures">
+        <note>Resources for specific download failures.</note>
+        <translation key="Stored_Network_Failure_Message">
+            <note>Resources for specific download failures.</note>
+            <note>label - error message when a download fails. This contains the failure details (0) and stage (1) that the failure occurred</note>
+            <variant>{0}.  Failed while {1}</variant>
+        </translation>
+        <translation key="Active_Task_Not_Modifiable">
+            <note>Resources for specific download failures.</note>
+            <note>label - error message when trying to modify an active task</note>
+            <variant>Active tasks can not be modified</variant>
+        </translation>
+        <translation key="Illegal_network_task_X_for_Y">
+            <note>Resources for specific download failures.</note>
+            <note>label - error message when trying to modify an active task</note>
+            <variant>{0} can not be added for {1}</variant>
+        </translation>
+        <translation key="No_download_privilege">
+            <note>Resources for specific download failures.</note>
+            <note>label - error message when trying to modify an active task</note>
+            <variant>No privilege to Download Controllers</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_UnexpectedError">
+            <note>Resources for specific download failures.</note>
+            <variant>An unexpected error occurred, see logs for details. Programmer error</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InteropNotSupported">
+            <note>Resources for specific download failures.</note>
+            <variant>Interop memory download is not supported</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FieldDatasessionNotSupported">
+            <note>Resources for specific download failures.</note>
+            <variant>Trying to download using a session that contains a field data session. Programmer error</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidDownloadOption">
+            <note>Resources for specific download failures.</note>
+            <variant>Unexpected download option "{0}". Programmer error</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_TooManyPrograms">
+            <note>Resources for specific download failures.</note>
+            <variant>Too many control programs ({0}) are attached to controller. Maximum is ({1}) including the driver</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_TooManyCcnPrograms">
+            <note>Resources for specific download failures.</note>
+            <variant>Too many CCN controllers ({0}) on serial bus. The limit is ({1})</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControlProgramNotAttached">
+            <note>Resources for specific download failures.</note>
+            <variant>Control program "{0}" is not attached to a controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BadCmnetIPAddress">
+            <note>Resources for specific download failures.</note>
+            <variant>IP settings are not set up appropriately. Set up the IP settings on the parameters page for this controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidControlProgramsForDevice">
+            <note>Resources for specific download failures.</note>
+            <variant>These control programs are not allowed on the controller: {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_DuplicateControlProgramNames">
+            <note>Resources for specific download failures.</note>
+            <variant>Control programs ({0}, {1}) have the same base reference name. Please rename one of the control programs before downloading</variant>
+        </translation>
+        <translation approved="false" key="NetworkFailureDetail_MissingScheduleCategory" new="true">
+            <note>Resources for specific download failures.</note>
+            <variant>Missing schedule category in database that this equipment {0} needs</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BadHSScheduleMessage">
+            <note>Resources for specific download failures.</note>
+            <variant>Could not create message to send schedules to child server</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BadCmnetAddressingInformation">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to get addressing information</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_TimestampNotSaved">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to save download time stamp</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NoValueSet">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to find value set information</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerNotFound">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to find controller in database</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToOpenDatabase">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to open database</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_CorruptParameters">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to create parameters for {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_CorruptProgram">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to create program for {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_SiteNotFound">
+            <note>Resources for specific download failures.</note>
+            <variant>Could not find site</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BbmdSetup">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to set up BBMD Tables</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_RnetConnectionNotFound">
+            <note>Resources for specific download failures.</note>
+            <variant>Rnet connection not found</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_RnetConnectionNotFunctional">
+            <note>Resources for specific download failures.</note>
+            <variant>Rnet connection not functioning</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ConnectionsNotInitialized">
+            <note>Resources for specific download failures.</note>
+            <variant>Connections have not been initialized.  Are you in design mode?</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ConnectionNoConnect">
+            <note>Resources for specific download failures.</note>
+            <variant>Connection type is NO-CONNECT. Cannot download in this connection mode</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ConnectionNotConnected">
+            <note>Resources for specific download failures.</note>
+            <variant>Connection is not CONNECTED</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ConnectionInvalid">
+            <note>Resources for specific download failures.</note>
+            <variant>Connection is invalid. Check the connection settings</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerFailedToRespond">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to respond</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerFailedToRespondDetailed">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to respond {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerRespondedWithErrorDetail">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller responded with error {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ChildServerFailedToRespond">
+            <note>Resources for specific download failures.</note>
+            <variant>Child server failed to respond</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BindToControllerFailed">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to bind to controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_OutOfService">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller or router to controller has been marked out of service</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NoPermissionsFound">
+            <note>Resources for specific download failures.</note>
+            <variant>Unable to determine permissions for controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NotPermitted">
+            <note>Resources for specific download failures.</note>
+            <variant>Not permitted to download, permission is required from "{0}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_DownloadNotPermitted">
+            <note>Resources for specific download failures.</note>
+            <variant>One or more source files do not permit download"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidVendorPermissionDevice">
+            <note>Resources for specific download failures.</note>
+            <variant>Not permitted to download, source product channel not supported by device</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidVendorPermissionLicense">
+            <note>Resources for specific download failures.</note>
+            <variant>Not permitted to download, invalid product channel</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_AllSourceNotFromSameVendor">
+            <note>Resources for specific download failures.</note>
+            <variant>All source files must be from the same Vendor. These are different</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ScheduleUnsupportedCategory">
+            <note>Resources for specific download failures.</note>
+            <variant>Schedule category "{0}" is not supported</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ScheduleValidation">
+            <note>Resources for specific download failures.</note>
+            <variant>Schedules are not valid for download. {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ScheduleDownload">
+            <note>Resources for specific download failures.</note>
+            <variant>Could not download schedules. {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ScheduleIncomplete">
+            <note>Resources for specific download failures.</note>
+            <variant>The schedule memory available in the controller has been exceeded. Reduce the number of schedules and try again</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BadDriver">
+            <note>Resources for specific download failures.</note>
+            <variant>Invalid or corrupt driver "{0}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_BadScreen">
+            <note>Resources for specific download failures.</note>
+            <variant>Invalid or corrupt screen file "{0}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToPrepare">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to prepare "{0}" file for download {1}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_SourceFilesTooLarge">
+            <note>Resources for specific download failures.</note>
+            <variant>Source files will not fit in controller. {0}% of space</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_MissingFileWithLog">
+            <note>Resources for specific download failures.</note>
+            <variant>Missing file "{0}" see "{1}" for details</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToPrepareMany">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to prepare files for download</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_MissingFile">
+            <note>Resources for specific download failures.</note>
+            <variant>Missing file "{0}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_IllegalWAPFileForSourceDownload">
+            <note>Resources for specific download failures.</note>
+            <variant>WAP files cannot be downloaded to controllers. Please unassign these files from control program "{0}" prior to downloading</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_IllegalJSPFileForSourceDownload">
+            <note>Resources for specific download failures.</note>
+            <variant>JSP files cannot be downloaded to controllers. Please unassign these files from control program "{0}" prior to downloading</variant>
+        </translation>
+        <translation approved="false" key="NetworkFailureDetail_UnsupportedScreen" new="true">
+            <note>Resources for specific download failures.</note>
+            <variant>Unsupported screen file type "{0}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_WrongDriverVersion">
+            <note>Resources for specific download failures.</note>
+            <variant>Wrong driver for controller, expected "{0}" but got "{1}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_WrongDriverForController">
+            <note>Resources for specific download failures.</note>
+            <variant>Wrong driver for controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NotEnoughRAM">
+            <note>Resources for specific download failures.</note>
+            <variant>Driver requires more memory than available in controller</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ModelNameNotFoundInDriver">
+            <note>Resources for specific download failures.</note>
+            <variant>"Model Name "{0}" not found in driver."</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_RnetConnectionUnconfigured">
+            <note>Resources for specific download failures.</note>
+            <variant>The Rnet Host is unconfigured. You must download ONLY the host controller when it is unconfigured</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NoControllerStatus">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to obtain controller status</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToSetCMnetRouterAddress">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to set gateway addressing information</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerStatusNotOperational">
+            <note>Resources for specific download failures.</note>
+            <variant>Check controller status. Controller is not operational as expected</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_ControllerStatusNotOperationalTimeout">
+            <note>Resources for specific download failures.</note>
+            <variant>Check controller status. Controller is not operational as expected. Try adjusting property {0}</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidControllerVersion">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller has invalid version information</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_InvalidControllerVersionAfterDownload">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller has invalid version "{0}" after download</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToUpdateControllerVersion">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to update version from "{0}" to "{1}"</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToColdStart">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to respond to a cold start request</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToWarmStart">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to respond to a warm start request</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToGetControllerVersion">
+            <note>Resources for specific download failures.</note>
+            <variant>Failed to get controller version information</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToPrepareControllerForDownload">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to prepare for memory download</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_FailedToPrepareControllerForDownloadFlash">
+            <note>Resources for specific download failures.</note>
+            <variant>Controller failed to prepare for memory download, Flash memory didn't erase successfully</variant>
+        </translation>
+        <translation key="NetworkFailureDetail_NetworkVisibleNotSet">
+            <note>Resources for specific download failures.</note>
+            <variant>Network Visible flag for "{0}" must be set before you can preserve the value of properties before download</variant>
+        </translation>
+    </section>
+    <section id="download-task-sets">
+        <note>Resources for the different permutations of download tasks.</note>
+        <translation key="TaskSet_MP--S-">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download All Content</variant>
+        </translation>
+        <translation key="TaskSet_MP--SB">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download All Content</variant>
+        </translation>
+        <translation key="TaskSet_-P--S-">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Parameters and Schedules</variant>
+        </translation>
+        <translation key="TaskSet_-P---B">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Parameters and BBMD</variant>
+        </translation>
+        <translation key="TaskSet_-P----">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Parameters</variant>
+        </translation>
+        <translation key="TaskSet_-P--SB">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Parameters, Schedules and BBMD</variant>
+        </translation>
+        <translation key="TaskSet_----SB">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Schedules and BBMD</variant>
+        </translation>
+        <translation key="TaskSet_----S-">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download Schedules</variant>
+        </translation>
+        <translation key="TaskSet_-----B">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Download BBMD</variant>
+        </translation>
+        <translation key="TaskSet_--U---">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Upload Parameters</variant>
+        </translation>
+        <translation key="TaskSet_---V--">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Resolve Parameters</variant>
+        </translation>
+        <translation key="TaskSet_-P-V--">
+            <note>Resources for the different permutations of download tasks.</note>
+            <variant>Resolve Parameters</variant>
+        </translation>
+    </section>
+    <section id="download-wait-states">
+        <note>Resources for the wait states a task can be in.</note>
+        <translation key="NetworkWaitState_active">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Active</variant>
+        </translation>
+        <translation key="NetworkWaitState_cancelled">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Canceled</variant>
+        </translation>
+        <translation key="NetworkWaitState_Detail_active">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Controller is downloading now</variant>
+        </translation>
+        <translation key="NetworkWaitState_pending">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Pending</variant>
+        </translation>
+        <translation key="NetworkWaitState_Detail_pending">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Controller will download when resources are available</variant>
+        </translation>
+        <translation key="NetworkWaitState_suspended">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>On Hold</variant>
+        </translation>
+        <translation key="NetworkWaitState_Detail_suspended">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Controller is on-hold until an operator starts it</variant>
+        </translation>
+        <translation key="NetworkWaitState_failure">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Failed</variant>
+        </translation>
+        <translation key="NetworkWaitState_Detail_failure">
+            <note>Resources for the wait states a task can be in.</note>
+            <variant>Controller failed to download</variant>
+        </translation>
+    </section>
+    <section id="controller-status-short-messages">
+        <note>Resources for short controller status messages.</note>
+        <translation key="controller_status_short_unsupported_device">
+            <note>Resources for short controller status messages.</note>
+            <variant>Unsupported Controller</variant>
+        </translation>
+        <translation key="controller_status_short_not_uploadable">
+            <note>Resources for short controller status messages.</note>
+            <note>The controller is not set up to upload all content or does not have the capability</note>
+            <variant>Not Uploadable</variant>
+        </translation>
+        <translation key="controller_status_short_no_upload_permission">
+            <note>Resources for short controller status messages.</note>
+            <variant>Upload Not Permitted</variant>
+        </translation>
+        <translation key="controller_status_short_no_download_permission">
+            <note>Resources for short controller status messages.</note>
+            <variant>Download Not Permitted</variant>
+        </translation>
+        <translation key="controller_status_short_download_failed">
+            <note>Resources for short controller status messages.</note>
+            <variant>Download Failed</variant>
+        </translation>
+        <translation key="controller_status_short_confirmed">
+            <note>Resources for short controller status messages.</note>
+            <variant/>
+        </translation>
+        <translation key="controller_status_short_unknown">
+            <note>Resources for short controller status messages.</note>
+            <variant/>
+        </translation>
+        <translation key="controller_status_short_new_device">
+            <note>Resources for short controller status messages.</note>
+            <variant>New Controller</variant>
+        </translation>
+        <translation key="controller_status_short_needs_discovery">
+            <note>Resources for short controller status messages.</note>
+            <variant>Network Ready to Find Devices</variant>
+        </translation>
+        <translation key="controller_status_short_blank_module">
+            <note>Resources for short controller status messages.</note>
+            <variant>Unprogrammed Controller</variant>
+        </translation>
+        <translation key="controller_status_short_needs_download_scheds">
+            <note>Resources for short controller status messages.</note>
+            <variant>Download Schedule</variant>
+        </translation>
+        <translation key="controller_status_short_needs_download_params">
+            <note>Resources for short controller status messages.</note>
+            <variant>Download Parameters</variant>
+        </translation>
+        <translation key="controller_status_short_needs_resolve_equip_params">
+            <note>Resources for short controller status messages.</note>
+            <variant>Parameter Mismatch</variant>
+        </translation>
+        <translation key="controller_status_short_needs_resolve_driver_params">
+            <note>Resources for short controller status messages.</note>
+            <variant>Driver Parameter Mismatch</variant>
+        </translation>
+        <translation key="controller_status_short_needs_import">
+            <note>Resources for short controller status messages.</note>
+            <variant>Upload All Content</variant>
+        </translation>
+        <translation approved="false" key="controller_status_short_mismatch_upload_only_device" new="true">
+            <note>Resources for short controller status messages.</note>
+            <variant>Upload All Content</variant>
+        </translation>
+        <translation key="controller_status_short_needs_download">
+            <note>Resources for short controller status messages.</note>
+            <variant>Download All Content</variant>
+        </translation>
+        <translation key="controller_status_short_needs_resolve_memory">
+            <note>Resources for short controller status messages.</note>
+            <variant>Program Mismatch</variant>
+        </translation>
+        <translation key="controller_status_short_module_replaced">
+            <note>Resources for short controller status messages.</note>
+            <variant>Controller Replaced</variant>
+        </translation>
+        <translation key="controller_status_short_module_offline">
+            <note>Resources for short controller status messages.</note>
+            <note>The controller has the offline color</note>
+            <variant>Controller Offline</variant>
+        </translation>
+        <translation key="controller_status_short_module_disabled">
+            <note>Resources for short controller status messages.</note>
+            <note>The controller is out of service</note>
+            <variant>Out of Service</variant>
+        </translation>
+        <translation key="controller_status_short_no_connection">
+            <note>Resources for short controller status messages.</note>
+            <note>Communications to the controller have been disabled</note>
+            <variant>Connection Disabled</variant>
+        </translation>
+        <translation key="controller_status_short_failed_connection">
+            <note>Resources for short controller status messages.</note>
+            <note>Communications to the controller failed</note>
+            <variant>Connection Error</variant>
+        </translation>
+        <translation key="controller_status_short_no_comm">
+            <note>Resources for short controller status messages.</note>
+            <variant>Communications Error</variant>
+        </translation>
+        <translation key="controller_status_short_unplugged">
+            <note>Resources for short controller status messages.</note>
+            <variant>USB Unplugged</variant>
+        </translation>
+        <translation key="controller_status_short_missing_files">
+            <note>Resources for short controller status messages.</note>
+            <variant>Missing Files</variant>
+        </translation>
+        <translation key="controller_status_short_error">
+            <note>Resources for short controller status messages.</note>
+            <variant>Error</variant>
+        </translation>
+        <translation key="controller_status_short_canceled">
+            <note>Resources for short controller status messages.</note>
+            <variant>Cancelled</variant>
+        </translation>
+        <translation key="controller_status_short_processing">
+            <note>Resources for short controller status messages.</note>
+            <variant>Pending</variant>
+        </translation>
+        <translation key="controller_status_short_downloading">
+            <note>Resources for short controller status messages.</note>
+            <variant>Downloading</variant>
+        </translation>
+        <translation key="controller_status_short_uploading">
+            <note>Resources for short controller status messages.</note>
+            <variant>Uploading</variant>
+        </translation>
+        <translation key="controller_status_short_busy">
+            <note>Resources for short controller status messages.</note>
+            <variant>Busy</variant>
+        </translation>
+        <translation key="controller_status_short_processing_clipping">
+            <note>Resources for short controller status messages.</note>
+            <variant>Processing Clipping</variant>
+        </translation>
+    </section>
+    <section id="controller-discovery-phase">
+        <note>Resources for detailed controller status messages.</note>
+        <translation key="Deep_Scanning_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Checking controller status</variant>
+        </translation>
+        <translation key="Uploading_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Uploading from controllers</variant>
+        </translation>
+        <translation key="Downloading_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Downloading to controllers</variant>
+        </translation>
+        <translation key="Discovering_Routers_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Finding routers</variant>
+        </translation>
+        <translation key="Searching_for_Routers_on_Network">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Searching for Routers on Network {0}</variant>
+        </translation>
+        <translation key="Discovering_Controllers_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Finding controllers</variant>
+        </translation>
+        <translation key="Discovery_Invalid_Connection">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Invalid connection</variant>
+        </translation>
+        <translation key="Find_Devices_Is_Missing_Child_Network">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>No network exists for finding devices</variant>
+        </translation>
+        <translation key="Status_Check_Phase">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Checking controller status</variant>
+        </translation>
+        <translation key="controller_discovery_deep_scanning_phase_started">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Checking controller status on network {0}</variant>
+        </translation>
+        <translation key="controller_discovery_uploading_phase_started">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Uploading from controllers on network {0}</variant>
+        </translation>
+        <translation key="controller_discovery_downloading_phase_started">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Downloading to controllers on network {0}</variant>
+        </translation>
+        <translation key="controller_discovery_deep_scanning_phase_complete">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Finished checking controller status on network {0}</variant>
+        </translation>
+        <translation key="controller_discovery_uploading_phase_complete">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Finished uploading from controllers on network {0}</variant>
+        </translation>
+        <translation key="controller_discovery_downloading_phase_complete">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Finished downloading to controllers on network {0}</variant>
+        </translation>
+        <translation key="Download_Schedules_Below">
+            <note>Resources for detailed controller status messages.</note>
+            <note> label - There is a schedule that has been changed and must be downloaded - used as informative text at area and group schedule pages</note>
+            <variant>Schedules need to be downloaded to {0} controllers under this location</variant>
+        </translation>
+        <translation key="Downloading_Schedules_Below">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Downloading schedules for {0} controllers under this location</variant>
+        </translation>
+    </section>
+    <section id="controller-discovery-errors">
+        <translation key="Rnet_Connection_is_busy">
+            <variant>Local Access connection is busy</variant>
+        </translation>
+        <translation key="Rnet_Connection_is_busy_percent">
+            <variant>Local Access connection is busy - {0}% complete</variant>
+        </translation>
+        <translation key="Discovery_Router_is_not_on_ip_network">
+            <variant>Router {2} at {1} on network {0} will not be uploaded. It is not on the current search network.</variant>
+        </translation>
+        <translation key="Discovery_Router_has_wrong_vendor_id">
+            <variant>Router {3} at {2} on network {1} will not be uploaded. Upload of {0} is not supported.</variant>
+        </translation>
+        <translation key="Discovered_Device_ID_is_not_configured">
+            <variant>{2} at {1} on network {0} will not be uploaded. It''s BACnet Device Id is invalid.</variant>
+        </translation>
+        <translation key="Discovery_Device_Creation_Failed">
+            <variant>Failed to create {0}. {1}</variant>
+        </translation>
+        <translation key="Discovery_Upload_Failed">
+            <variant>Failed to upload {0}. {1}</variant>
+        </translation>
+        <translation key="Discovery_Upload_System_Limit_Reached">
+            <variant>Can not upload {0}. No more controllers are allowed in this system.</variant>
+        </translation>
+        <translation key="Discovery_Upload_Device_Limit_Reached">
+            <variant>Can not upload {0}. No more controllers are allowed on this network.</variant>
+        </translation>
+        <translation key="Discovery_Upload_Equipment_Limit_Reached">
+            <variant>Can not upload {0}. No more control programs are allowed in this controller.</variant>
+        </translation>
+        <translation key="Discovery_Progress_Failed">
+            <variant>Failed to get progress from {0}. {1}</variant>
+        </translation>
+        <translation key="Discovery_Download_Failed">
+            <variant>Failed to download to {0}. {1}</variant>
+        </translation>
+        <translation key="Discovery_Parameter_Upload_Failed">
+            <variant>Failed to upload parameters from {0}. {1}</variant>
+        </translation>
+        <translation key="Discovery_Scan_Failed">
+            <variant>Failed to determine status of {0}. {1}</variant>
+        </translation>
+        <translation key="Failed_To_Assign_View">
+            <variant>Failed to assign view(s) to {0}. {1}</variant>
+        </translation>
+        <translation key="Device_With_This_Device_Id_Already_Exists">
+            <variant>Failed to create controller {0}:{1}. Controller with Device ID {2} already exists in the system.</variant>
+        </translation>
+    </section>
+    <section id="controller-status-detail-messages">
+        <note>Resources for detailed controller status messages.</note>
+        <translation key="controller_status_detail_unsupported_device">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller does not support content upload.</variant>
+        </translation>
+        <translation key="controller_status_detail_not_uploadable">
+            <note>Resources for detailed controller status messages.</note>
+            <note>The controller is not set up to upload all content or does not have the capability</note>
+            <variant>This controller is not configured for content upload.</variant>
+        </translation>
+        <translation key="controller_status_detail_no_upload_permission">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller is not permitted to upload.</variant>
+        </translation>
+        <translation key="controller_status_detail_no_download_permission">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller is not permitted to download.</variant>
+        </translation>
+        <translation key="controller_status_detail_download_failed">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Failed to download to the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_confirmed">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller is ok</variant>
+        </translation>
+        <translation key="controller_status_detail_unknown">
+            <note>Resources for detailed controller status messages.</note>
+            <variant/>
+        </translation>
+        <translation key="controller_status_detail_new_device">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>A new controller was found and added to the system.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_discovery">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>To find devices on this network, select the router in the tree.</variant>
+        </translation>
+        <translation key="controller_status_detail_blank_module">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This is a programmable controller. To add control programs, click on the "Add Control Program" button at the top of the screen.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_download_scheds">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>To download schedules, highlight row and select "Schedules" from the Download Action menu and click "Download"</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_download_params">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>To download parameters, highlight row and select "Parameters" from the Download Action menu and click "Download"</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_resolve_equip_params">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Control Program parameter differences detected. Click link to resolve or display parameter differences in the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_resolve_driver_params">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Driver parameter differences detected. Click link to resolve or display parameter differences in the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_import">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Please upload all content from the controller.</variant>
+        </translation>
+        <translation approved="false" key="controller_status_detail_mismatch_upload_only_device" new="true">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Please upload all content from the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_download">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Please download all content to the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_needs_resolve_memory">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Content differences detected. Upload all content from the controller or download all content to the controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_module_replaced">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller has been replaced by another controller in the field.</variant>
+        </translation>
+        <translation key="controller_status_detail_module_offline">
+            <note>Resources for detailed controller status messages.</note>
+            <note>The controller has the offline color</note>
+            <variant>This controller may be offline.</variant>
+        </translation>
+        <translation key="controller_status_detail_module_disabled">
+            <note>Resources for detailed controller status messages.</note>
+            <note>The module is marked as out of service</note>
+            <variant>This controller is out of service</variant>
+        </translation>
+        <translation key="controller_status_detail_no_connection">
+            <note>Resources for detailed controller status messages.</note>
+            <note>Communications to the controller have been disabled</note>
+            <variant>The connection for this controller has been disabled.</variant>
+        </translation>
+        <translation key="controller_status_detail_failed_connection">
+            <note>Resources for detailed controller status messages.</note>
+            <note>Communications to the controller failed</note>
+            <variant>The connection for this controller failed to start.</variant>
+        </translation>
+        <translation key="controller_status_detail_no_comm">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Cannot communicate with this controller.</variant>
+        </translation>
+        <translation key="controller_status_detail_unplugged">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Cannot communicate with controller because the USB cable is unplugged.</variant>
+        </translation>
+        <translation key="controller_status_detail_missing_files">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Upload failed. Server is missing source files.</variant>
+        </translation>
+        <translation key="controller_status_detail_error">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>An unknown error has occurred.</variant>
+        </translation>
+        <translation key="controller_status_detail_canceled">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>The last operation on this controller was cancelled</variant>
+        </translation>
+        <translation key="controller_status_detail_processing">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller is waiting to be processed.</variant>
+        </translation>
+        <translation key="controller_status_detail_busy">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>This controller is busy, communications may be disabled</variant>
+        </translation>
+        <translation key="controller_status_detail_processing_clipping">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>Clipping operation in progress. Do not make changes, as they may corrupt your system.</variant>
+        </translation>
+        <translation key="controller_status_detail_downloading">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>The controller is downloading, communications may be disabled</variant>
+        </translation>
+        <translation key="controller_status_detail_uploading">
+            <note>Resources for detailed controller status messages.</note>
+            <variant>The controller is uploading, communications may be disabled</variant>
+        </translation>
+    </section>
+    <section id="controller-status-page-messages">
+        <note>Resources for detailed controller status messages shown in page headers.</note>
+        <translation key="controller_status_page_confirmed">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <variant>This controller is ok</variant>
+        </translation>
+        <translation key="controller_status_page_unknown">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <variant/>
+        </translation>
+        <translation key="controller_status_page_new_device">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>A controller is new to the system and files must be uploaded into the database before it can be used</note>
+            <variant>This controller is new and must upload content before configuring.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_resolve_memory">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The configuration files in the controller itself differ from those in the database.</note>
+            <variant>Content differences detected. Upload contents from controller, download content to controller, or press details for more information.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_download">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>There are no files in the controller but there are in the system. The use can only download.</note>
+            <variant>The controller's programming has changed. Please download all content to update programs in the controller.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_import">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller has configuration files but the system does not. The use can only upload.</note>
+            <variant>The controller has not been uploaded. Please upload to access controller content in the system.</variant>
+        </translation>
+        <translation approved="false" key="controller_status_page_mismatch_upload_only_device" new="true">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>This controller is out of sync with the server. This particular controller only allows upload.</note>
+            <variant>This controller has a mismatch with the system. Please upload to access controller content.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_discovery">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>This router has been uploaded but no controllers have been discovered under it</note>
+            <variant>Go to the Devices Manage page to find the controllers under this router.</variant>
+        </translation>
+        <translation key="controller_status_page_module_replaced">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The user must press resolve to clear up differences between a previously installed controller and its replacement</note>
+            <variant>This controller has been replaced by another controller in the field. Either upload all content from controller, download all content to controller, or press details for more information.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_resolve_equip_params">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The parameters in the field controller differ from those in the system.</note>
+            <variant>Control Program parameter differences detected.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_resolve_driver_params">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The parameters in the field controller differ from those in the system.</note>
+            <variant>Driver parameter differences detected.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_download_params">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The control program or controller is marked for parameter download.</note>
+            <variant>Parameter download required.</variant>
+        </translation>
+        <translation key="controller_status_page_needs_download_scheds">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The control program or controller is marked for schedule download.</note>
+            <variant>Schedule download required.</variant>
+        </translation>
+        <translation key="controller_status_page_unsupported_device">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>An unsupported controller exists but cannot be used in the system</note>
+            <variant>This controller does not support upload.</variant>
+        </translation>
+        <translation key="controller_status_page_not_uploadable">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is not set up to upload programs or does not have the capability</note>
+            <variant>This controller is not configured for content upload.</variant>
+        </translation>
+        <translation key="controller_status_page_no_upload_permission">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>A controller exists but it's control programs cannot be used in the system</note>
+            <variant>This controller is not permitted to upload content.</variant>
+        </translation>
+        <translation key="controller_status_page_no_download_permission">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The control programs cannot be used in the controller</note>
+            <variant>This controller is not permitted to download.</variant>
+        </translation>
+        <translation key="controller_status_page_download_failed">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <variant>Failed to download the controller.</variant>
+        </translation>
+        <translation key="controller_status_page_blank_module">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>A programmable module exists which does not have any equipment added to it yet.</note>
+            <variant>This is a programmable controller. To add a control program, go to the Devices Manage page and click on the "Add Control Program" button on the top.</variant>
+        </translation>
+        <translation key="controller_status_page_module_offline">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller has the offline color</note>
+            <variant>Controller may be offline.</variant>
+        </translation>
+        <translation key="controller_status_page_module_disabled">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The module is disabled</note>
+            <variant>The controller is out of service. Go to the controller properties page to put it back in service.</variant>
+        </translation>
+        <translation key="controller_status_page_no_connection">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>Communications to the controller have been disabled</note>
+            <variant>The connection for this controller has been disabled.</variant>
+        </translation>
+        <translation key="controller_status_page_failed_connection">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>Communications to the controller failed</note>
+            <variant>The connection for this controller failed to start.</variant>
+        </translation>
+        <translation key="controller_status_page_no_comm">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>Communications have been lost to the controller.</note>
+            <variant>Cannot communicate with controller.</variant>
+        </translation>
+        <translation key="controller_status_page_unplugged">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>Communications have been lost to the usb controller.</note>
+            <variant>USB cable is unplugged.</variant>
+        </translation>
+        <translation key="controller_status_page_busy">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is currently being modified by some process.</note>
+            <variant>This network is in use. {0}% complete. {1}</variant>
+        </translation>
+        <translation key="controller_status_page_processing_clipping">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The system is importing or creating a clipping.</note>
+            <variant>Clipping operation in progress. Do not make changes, as they may corrupt your system.</variant>
+        </translation>
+        <translation key="controller_status_page_processing">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is in the list of pending download/upload tasks.</note>
+            <variant>The controller is waiting to be processed</variant>
+        </translation>
+        <translation key="controller_status_page_downloading">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is currently being downloaded.</note>
+            <variant>Downloading controller - {0}% complete. {1}</variant>
+        </translation>
+        <translation key="controller_status_page_uploading">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is currently being uploaded.</note>
+            <variant>Uploading controller - {0}% complete. {1}</variant>
+        </translation>
+        <translation key="controller_status_page_scanning">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller is currently being scanned.</note>
+            <variant>Checking controller status - {0}% complete. {1}</variant>
+        </translation>
+        <translation key="controller_status_page_missing_files">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller failed to upload because of missing source files. {0}</note>
+            <variant>The controller failed to upload because the server is missing source files. {0}</variant>
+        </translation>
+        <translation key="controller_status_page_error">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <note>The controller state is unknown due to an error. The user can press the details button for more information.</note>
+            <variant>The controller state cannot be determined. Press the Details button for more information.</variant>
+        </translation>
+        <translation key="controller_status_page_canceled">
+            <note>Resources for detailed controller status messages shown in page headers.</note>
+            <variant>The last operation on this controller was cancelled</variant>
+        </translation>
+    </section>
+    <section id="controller-status-log-messages">
+        <note>Resources for detailed controller status messages shown in the log popup.</note>
+        <translation key="controller_status_log_blank_module">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is an unprogrammed controller</variant>
+        </translation>
+        <translation key="controller_status_log_uploading">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is uploading</variant>
+        </translation>
+        <translation key="controller_status_log_downloading">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is downloading</variant>
+        </translation>
+        <translation key="controller_status_log_busy">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is busy</variant>
+        </translation>
+        <translation key="controller_status_log_confirmed">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is ok</variant>
+        </translation>
+        <translation key="controller_status_log_unknown">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant/>
+        </translation>
+        <translation key="controller_status_log_missing_files">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} failed to upload because the server is missing source files. {1}</variant>
+        </translation>
+        <translation key="controller_status_log_error">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>Failed to create controller {0} : {1}</variant>
+        </translation>
+        <translation key="controller_status_log_module_replaced">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} has been replaced with another controller of the same type.</variant>
+        </translation>
+        <translation key="controller_status_log_needs_download">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires a content download</variant>
+        </translation>
+        <translation key="controller_status_log_needs_import">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires a content upload</variant>
+        </translation>
+        <translation approved="false" key="controller_status_log_mismatch_upload_only_device" new="true">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires a content upload</variant>
+        </translation>
+        <translation key="controller_status_log_needs_resolve_memory">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires content differences between controller and system resolved</variant>
+        </translation>
+        <translation key="controller_status_log_needs_resolve_equip_params">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires parameter differences between controller and system to be resolved</variant>
+        </translation>
+        <translation key="controller_status_log_needs_resolve_driver_params">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires parameter differences between controller driver and system driver to be resolved</variant>
+        </translation>
+        <translation key="controller_status_log_needs_download_params">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires parameter download</variant>
+        </translation>
+        <translation key="controller_status_log_needs_download_scheds">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} requires schedule download</variant>
+        </translation>
+        <translation key="controller_status_log_new_device">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} discovered</variant>
+        </translation>
+        <translation key="controller_status_log_module_offline">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <note>The controller has the offline color</note>
+            <variant>{0} may be offline</variant>
+        </translation>
+        <translation key="controller_status_log_module_disabled">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <note>The module is out of service</note>
+            <variant>{0} is out of service</variant>
+        </translation>
+        <translation key="controller_status_log_no_connection">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <note>Communications to the controller have been disabled</note>
+            <variant>{0} The connection has been disabled</variant>
+        </translation>
+        <translation key="controller_status_log_failed_connection">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <note>Communications to the controller failed</note>
+            <variant>{0} The connection failed to start</variant>
+        </translation>
+        <translation key="controller_status_log_no_comm">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} communications error</variant>
+        </translation>
+        <translation key="controller_status_log_unplugged">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} usb cable is unplugged</variant>
+        </translation>
+        <translation key="controller_status_log_network_conflicts">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} has network conflicts. {1}</variant>
+        </translation>
+        <translation key="controller_status_log_canceled">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} operation cancelled</variant>
+        </translation>
+        <translation key="controller_status_log_unsupported_device">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} was not created because it is not supported</variant>
+        </translation>
+        <translation key="controller_status_log_not_uploadable">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <note>The controller is not set up to upload programs or does not have the capability</note>
+            <variant>{0} is not configured for content upload.</variant>
+        </translation>
+        <translation key="controller_status_log_no_upload_permission">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is not permitted to upload, permission is required from {1}</variant>
+        </translation>
+        <translation key="controller_status_log_no_download_permission">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} is not permitted to download, permission is required from {1}</variant>
+        </translation>
+        <translation key="controller_status_log_download_failed">
+            <note>Resources for detailed controller status messages shown in the log popup.</note>
+            <variant>{0} failed to {1}. {2}</variant>
+        </translation>
+    </section>
+    <section id="debug-mode-messages">
+        <translation key="Debug_Mode_Header_Msg">
+            <variant>DEBUG MODE - Do NOT leave the controller in this state.</variant>
+        </translation>
+        <translation key="Debug_Mode_Controller_Status_Msg">
+            <note>This status is appended to the equipment status on the devices manage page when controller in debug mode</note>
+            <variant>DEBUG MODE</variant>
+        </translation>
+    </section>
+</resource-base>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Copyright (c) 1999 - 2010 AUTOMATED LOGIC CORPORATION. All Rights Reserved. This document contains confidential/proprietary information. This notice does not evidence any actual or intended publication of this document.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- master format -->

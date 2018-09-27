@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="HoverText" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="PROTOCOL_MAPPING_HOVER_TEXT">
+        <note>This section is for hover text used on the protocol mapping page</note>
+        <translation key="lonworks">
+            <note>This section is for hover text used on the protocol mapping page</note>
+            <variant>Lonworks Protocol Mapping</variant>
+        </translation>
+        <translation key="modbus">
+            <note>This section is for hover text used on the protocol mapping page</note>
+            <variant>Modbus Protocol Mapping</variant>
+        </translation>
+        <translation key="n2">
+            <note>This section is for hover text used on the protocol mapping page</note>
+            <variant>N2 Protocol Mapping</variant>
+        </translation>
+    </section>
+    <section id="AIRFLOW_HOVER_TEXT">
+        <note>Hover text used on the airflow microblock details page</note>
+        <translation key="copy_current_sensor_reading">
+            <note>Hover text used on the airflow microblock details page</note>
+            <variant>Copy current sensor reading status to the sensor reading calibration parameter.</variant>
+        </translation>
+        <translation key="global_damper_command">
+            <note>Hover text used on the airflow microblock details page</note>
+            <variant>Command the dampers for the units under this air source to a specific position.</variant>
+        </translation>
+    </section>
+    <section id="REPORTS_HOVER_TEXT">
+        <note>Hover text used on the custom equipment and trend reports pages</note>
+        <translation key="Shift_row_up">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Shift row up</variant>
+        </translation>
+        <translation key="Shift_row_down">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Shift row down</variant>
+        </translation>
+        <translation key="Shift_column_left">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Shift column left</variant>
+        </translation>
+        <translation key="Shift_column_right">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Shift column right</variant>
+        </translation>
+        <translation key="PDF_Export_Hovertext">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Converts report to .pdf format</variant>
+        </translation>
+        <translation key="Excel_Export_Hovertext">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Converts to .xls file format</variant>
+        </translation>
+        <translation key="CSV_Export_Hovertext">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Generates report as .csv file. To enable, select "Support CSV text format" on Reports &gt; Options tab</variant>
+        </translation>
+        <translation key="Save_Report_Design_Hover">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Saved designs can be selected when creating a new report.</variant>
+        </translation>
+        <translation key="Delete_Report_Hover">
+            <note>Hover text used on the custom equipment and trend reports pages</note>
+            <variant>Delete the report from this location.</variant>
+        </translation>
+    </section>
+    <section id="COMMON_HOVER_TEXT">
+        <note>Hover text used through out the system</note>
+        <translation key="copy_to_clipboard">
+            <note>Hover text used through out the system</note>
+            <note>hover text for the copy icon</note>
+            <variant>Copy to the clipboard</variant>
+        </translation>
+        <translation key="Copy_Path_to_">
+            <note>Hover text used through out the system</note>
+            <note>hover text for the copy icon on CCN tables</note>
+            <variant>Copy path to the clipboard</variant>
+        </translation>
+        <translation key="Archive_files_hover">
+            <note>Hover text used through out the system</note>
+            <variant>Gathers up files used by this system into a single file for export</variant>
+        </translation>
+        <translation key="Apply_archive_files_hover">
+            <note>Hover text used through out the system</note>
+            <variant>Applies archived files back to the system.</variant>
+        </translation>
+        <translation key="Set_by_Alarm_Template">
+            <note>Hover text used through out the system</note>
+            <variant>Set by Alarm Template</variant>
+        </translation>
+        <translation key="Value_is_locked">
+            <note>Hover text used through out the system</note>
+            <note>The field is an overridden value that is locked - highlighted with a border</note>
+            <variant>Value is locked</variant>
+        </translation>
+        <translation key="Value_is_forced">
+            <note>Hover text used through out the system</note>
+            <note>The field is an overridden value that is forced - highlighted with a border</note>
+            <variant>Value is forced</variant>
+        </translation>
+        <translation key="Parameter_needs_downloading">
+            <note>Hover text used through out the system</note>
+            <note>The field is a parameter that was modified but not yet written to the controller - highlighted with a border</note>
+            <variant>Parameter needs downloading</variant>
+        </translation>
+        <translation key="Database_Par">
+            <note>Hover text used through out the system</note>
+            <note>Shows the database parameter value - will render above "Controller_Par" translation string in same popup</note>
+            <variant>Database value: {0}</variant>
+        </translation>
+        <translation key="Controller_Par">
+            <note>Hover text used through out the system</note>
+            <note>Shows the controller parameter value - will render below "Database_Par" translation string in same popup</note>
+            <variant>Controller value: {0}</variant>
+        </translation>
+    </section>
+    <section id="FACET_HOVER_TEXT">
+        <note>Hover text used through out the system</note>
+        <translation key="GEO">
+            <note>Hover text used through out the system</note>
+            <variant>Geographic</variant>
+        </translation>
+        <translation key="NET">
+            <note>Hover text used through out the system</note>
+            <variant>Network</variant>
+        </translation>
+        <translation key="GRP">
+            <note>Hover text used through out the system</note>
+            <variant>Schedule Groups</variant>
+        </translation>
+        <translation key="CFG">
+            <note>Hover text used through out the system</note>
+            <variant>System Configuration</variant>
+        </translation>
+        <translation key="Trend_Graph_View">
+            <note>Hover text used through out the system</note>
+            <variant>View a trend graph</variant>
+        </translation>
+        <translation key="Trend_Graph_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Set up trend graph display</variant>
+        </translation>
+        <translation key="Point_Trend_View">
+            <note>Hover text used through out the system</note>
+            <variant>View a trend graph</variant>
+        </translation>
+        <translation key="Point_Trend_Configure">
+            <note>Hover text used through out the system</note>
+            <variant>Set up trend graph display</variant>
+        </translation>
+        <translation key="Point_Trend_Enable">
+            <note>Hover text used through out the system</note>
+            <variant>Set up trend logging</variant>
+        </translation>
+        <translation key="Trend_Graph_Details">
+            <note>Hover text used through out the system</note>
+            <variant>Set up trend logging</variant>
+        </translation>
+        <translation key="I_O_Points_Report">
+            <note>Hover text used through out the system</note>
+            <variant>Set up and check out points</variant>
+        </translation>
+        <translation key="Alarms_Report">
+            <note>Hover text used through out the system</note>
+            <variant>Set up and check out alarms</variant>
+        </translation>
+        <translation key="Trends_Report">
+            <note>Hover text used through out the system</note>
+            <variant>Set up and check out trends</variant>
+        </translation>
+        <translation key="Network_Points_Report">
+            <note>Hover text used through out the system</note>
+            <variant>Set up and check out network points</variant>
+        </translation>
+        <translation key="Points_List_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Select report options</variant>
+        </translation>
+        <translation key="Points_List_View">
+            <note>Hover text used through out the system</note>
+            <variant>View a points list</variant>
+        </translation>
+        <translation key="Netstat_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Select report options</variant>
+        </translation>
+        <translation key="Netstat_View">
+            <note>Hover text used through out the system</note>
+            <variant>View network status</variant>
+        </translation>
+        <translation key="Modver_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Select report options</variant>
+        </translation>
+        <translation key="Modver_View">
+            <note>Hover text used through out the system</note>
+            <variant>View controller version</variant>
+        </translation>
+        <translation key="Reports_Facet">
+            <note>Hover text used through out the system</note>
+            <variant>Link to related reports</variant>
+        </translation>
+        <translation key="Security_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Select operator</variant>
+        </translation>
+        <translation key="Security_View">
+            <note>Hover text used through out the system</note>
+            <variant>View operator privileges for current location</variant>
+        </translation>
+        <translation key="System_General">
+            <note>Hover text used through out the system</note>
+            <variant>View or set up general system properties</variant>
+        </translation>
+        <translation key="System_Security">
+            <note>Hover text used through out the system</note>
+            <variant>Set up system security</variant>
+        </translation>
+        <translation key="System_Communications">
+            <note>Hover text used through out the system</note>
+            <variant>Set up field communications</variant>
+        </translation>
+        <translation key="System_Scheduled_Tasks">
+            <note>Hover text used through out the system</note>
+            <variant>Set up tasks to run at specific times each day</variant>
+        </translation>
+        <translation key="System_Daylight_Saving">
+            <note>Hover text used through out the system</note>
+            <variant>Set up daylight saving time</variant>
+        </translation>
+        <translation key="Other_Apps">
+            <note>Hover text used through out the system</note>
+            <variant>Set up other applications that work in conjunction with the server</variant>
+        </translation>
+        <translation key="My_Settings">
+            <note>Hover text used through out the system</note>
+            <variant>View or edit your settings</variant>
+        </translation>
+        <translation key="Operators">
+            <note>Hover text used through out the system</note>
+            <variant>View or set up operators</variant>
+        </translation>
+        <translation key="Security">
+            <note>Hover text used through out the system</note>
+            <variant>Set operator and password security</variant>
+        </translation>
+        <translation key="SystemInfo">
+            <note>Hover text used through out the system</note>
+            <variant>View or edit your system's setup</variant>
+        </translation>
+        <translation key="Update">
+            <note>Hover text used through out the system</note>
+            <variant>Apply an update to your system</variant>
+        </translation>
+        <translation key="Update_Library">
+            <note>Hover text used through out the system</note>
+            <variant>Apply a library update to your system</variant>
+        </translation>
+        <translation key="Update_control_program_from_library">
+            <note>Hover text used through out the system</note>
+            <variant>Update control program from library</variant>
+        </translation>
+        <translation key="Update_controller_from_library">
+            <note>Hover text used through out the system</note>
+            <variant>Update controller from library</variant>
+        </translation>
+        <translation key="My_Contact_Info">
+            <note>Hover text used through out the system</note>
+            <variant>Set up my contact information</variant>
+        </translation>
+        <translation key="Schedule_View">
+            <note>Hover text used through out the system</note>
+            <variant>View schedules for a week</variant>
+        </translation>
+        <translation key="Schedule_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Set up schedules</variant>
+        </translation>
+        <translation key="CCN_Schedule_Numbers">
+            <note>Hover text used through out the system</note>
+            <variant>CCN schedule numbers</variant>
+        </translation>
+        <translation key="Schedule_Report">
+            <note>Hover text used through out the system</note>
+            <variant>Report all schedules that apply to this location or below</variant>
+        </translation>
+        <translation key="Alarm_View">
+            <note>Hover text used through out the system</note>
+            <variant>View alarm messages</variant>
+        </translation>
+        <translation key="Alarm_Messages">
+            <note>Hover text used through out the system</note>
+            <variant>Add prefixes or details to alarm messages</variant>
+        </translation>
+        <translation key="Alarm_Actions">
+            <note>Hover text used through out the system</note>
+            <variant>Set up actions to run when an alarm is triggered</variant>
+        </translation>
+        <translation key="Alarm_Enable">
+            <note>Hover text used through out the system</note>
+            <variant>Enable or disable alarm sources</variant>
+        </translation>
+        <translation key="Alarm_Category">
+            <note>Hover text used through out the system</note>
+            <variant>Change the category of alarm sources</variant>
+        </translation>
+        <translation key="Alarm_Template">
+            <note>Hover text used through out the system</note>
+            <variant>Change the template of alarm sources</variant>
+        </translation>
+        <translation key="Connections_View">
+            <note>Hover text used through out the system</note>
+            <variant>View current connections</variant>
+        </translation>
+        <translation key="Connections_Config">
+            <note>Hover text used through out the system</note>
+            <variant>Set up connections</variant>
+        </translation>
+        <translation key="Comm_Statistics">
+            <note>Hover text used through out the system</note>
+            <variant>View communication statistics</variant>
+        </translation>
+        <translation key="Interop_Parameters">
+            <note>Hover text used through out the system</note>
+            <variant>Edit microblock properties</variant>
+        </translation>
+        <translation key="Status">
+            <note>Hover text used through out the system</note>
+            <variant>View microblock properties</variant>
+        </translation>
+        <translation key="Setpoint">
+            <note>Hover text used through out the system</note>
+            <variant>View or edit setpoint</variant>
+        </translation>
+        <translation key="System">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View loaded properties and system version information</variant>
+        </translation>
+        <translation key="Console">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Console</variant>
+        </translation>
+        <translation key="Tracer">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View trace information</variant>
+        </translation>
+        <translation key="Gen5Stats">
+            <note>Hover text used through out the system</note>
+            <note>Next Gen5 Stats - Access Specifiers info</note>
+            <variant>Gen5 Stats</variant>
+        </translation>
+        <translation key="Network_Logging">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Log network traffic to a file for debugging</variant>
+        </translation>
+        <translation key="Page_Expressions">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View page expressions</variant>
+        </translation>
+        <translation key="Browse_DB">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Browse the database system</variant>
+        </translation>
+        <translation key="Core_Status">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View core data session information</variant>
+        </translation>
+        <translation key="File_Browser">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Browse the product's file system</variant>
+        </translation>
+        <translation key="Reports_Debug">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Tools for debugging reports</variant>
+        </translation>
+        <translation key="DeferredList">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Tools for debugging field data requests</variant>
+        </translation>
+        <translation key="TimeMachine">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>Tools for debugging time lapse data</variant>
+        </translation>
+        <translation key="Security_Check">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View the browser security settings</variant>
+        </translation>
+        <translation key="Font_Check">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View the fonts used by various UI pages</variant>
+        </translation>
+        <translation key="MSXML">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>ActiveX component compatibility test</variant>
+        </translation>
+        <translation key="HTTP_Info">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in debug popup window</note>
+            <variant>View all the http request and session information</variant>
+        </translation>
+        <translation key="Microblock">
+            <note>Hover text used through out the system</note>
+            <note>Hover text for the microblock tab of the logic page Jump To dialog</note>
+            <variant>Select a microblock to highlight</variant>
+        </translation>
+        <translation key="Section">
+            <note>Hover text used through out the system</note>
+            <note>Hover text for the section tab of the logic page Jump To dialog</note>
+            <variant>Select a section (text with a line through it) to scroll to</variant>
+        </translation>
+        <translation key="Label">
+            <note>Hover text used through out the system</note>
+            <note>Hover text for the label tab of the logic page Jump To dialog</note>
+            <variant>Select a set of labels to highlight</variant>
+        </translation>
+        <translation key="Add_ons">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in system settings</note>
+            <variant>Diagnose and deploy add-ons</variant>
+        </translation>
+        <translation key="BACnet_Discovery">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in bacnet discovery tab</note>
+            <variant>Controller discovery</variant>
+        </translation>
+        <translation key="Controller_Status">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in bacnet discovery tab</note>
+            <variant>Controller Status</variant>
+        </translation>
+        <translation key="Controller_Advanced_Settings">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in bacnet discovery tab</note>
+            <variant>Detailed controller information</variant>
+        </translation>
+        <translation key="Network_Tasks_Failure_Info">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in network task tab</note>
+            <variant>Failure Information</variant>
+        </translation>
+        <translation key="CCN_Discovery">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in bacnet discovery tab</note>
+            <variant>CCN controller discovery</variant>
+        </translation>
+        <translation key="CCN_Setup_Hover">
+            <note>Hover text used through out the system</note>
+            <note>Hover text used in bacnet discovery tab</note>
+            <variant>CCN Gateway Setup</variant>
+        </translation>
+    </section>
+    <section id="ALARM_BUTTON_HOVER_TEXT">
+        <note>Hover text used in Alarms</note>
+        <translation key="Select_All_Categories">
+            <note>Hover text used in Alarms</note>
+            <variant>Select all categories</variant>
+        </translation>
+        <translation key="Select_All_Sources">
+            <note>Hover text used in Alarms</note>
+            <variant>Select all sources</variant>
+        </translation>
+        <translation key="View_Selected_Sources">
+            <note>Hover text used in Alarms</note>
+            <variant>View all occurrences of selected sources</variant>
+        </translation>
+        <translation key="Alarm_View_Ack">
+            <note>Hover text used in Alarms</note>
+            <variant>Acknowledge the selected alarm</variant>
+        </translation>
+        <translation key="Alarm_View_Force">
+            <note>Hover text used in Alarms</note>
+            <variant>Force a return to normal for the selected alarm</variant>
+        </translation>
+        <translation key="Alarm_View_Delete">
+            <note>Hover text used in Alarms</note>
+            <variant>Delete the selected alarm</variant>
+        </translation>
+        <translation key="Alarm_View_Add">
+            <note>Hover text used in Alarms</note>
+            <variant>Perform additional actions on the alarms list</variant>
+        </translation>
+        <translation key="AlarmView_TimeLapse">
+            <note>Hover text used in Alarms</note>
+            <variant>View alarm in Time-lapse</variant>
+        </translation>
+        <translation key="Alarm_View_Top">
+            <note>Hover text used in Alarms</note>
+            <variant>Go to the oldest alarm</variant>
+        </translation>
+        <translation key="Alarm_View_PU">
+            <note>Hover text used in Alarms</note>
+            <variant>Page up to see older alarms</variant>
+        </translation>
+        <translation key="Alarm_View_LU">
+            <note>Hover text used in Alarms</note>
+            <variant>Go to the previous alarm</variant>
+        </translation>
+        <translation key="Alarm_View_Bottom">
+            <note>Hover text used in Alarms</note>
+            <variant>Go to the most recent alarm</variant>
+        </translation>
+        <translation key="Alarm_View_Next">
+            <note>Hover text used in Alarms</note>
+            <variant>Next 50</variant>
+        </translation>
+        <translation key="Alarm_View_Newest">
+            <note>Hover text used in Alarms</note>
+            <variant>Newest</variant>
+        </translation>
+        <translation key="Alarm_View_Previous">
+            <note>Hover text used in Alarms</note>
+            <variant>Previous 50</variant>
+        </translation>
+        <translation key="Alarm_View_Oldest">
+            <note>Hover text used in Alarms</note>
+            <variant>Oldest</variant>
+        </translation>
+        <translation key="Alarm_View_PD">
+            <note>Hover text used in Alarms</note>
+            <variant>Page down to see more recent alarms</variant>
+        </translation>
+        <translation key="Alarm_View_LD">
+            <note>Hover text used in Alarms</note>
+            <variant>Go to the next alarm</variant>
+        </translation>
+        <translation key="Alarm_Add_AckAll">
+            <note>Hover text used in Alarms</note>
+            <variant>Acknowledge all alarms in the current view</variant>
+        </translation>
+        <translation key="Alarm_Add_DelIns">
+            <note>Hover text used in Alarms</note>
+            <variant>Delete all closed incident groups in the current view</variant>
+        </translation>
+        <translation key="Alarm_Add_DelSys">
+            <note>Hover text used in Alarms</note>
+            <variant>Delete all system alarms in the current view</variant>
+        </translation>
+        <translation key="Alarm_Add_DelAll">
+            <note>Hover text used in Alarms</note>
+            <variant>Delete all alarms in the current view</variant>
+        </translation>
+        <translation key="Alarm_Add_Search">
+            <note>Hover text used in Alarms</note>
+            <variant>Show the next 50 alarms from this date/time.</variant>
+        </translation>
+        <translation key="PointAlarm_SimAlarm">
+            <note>Hover text used in Alarms</note>
+            <variant>Simulate receipt of an alarm</variant>
+        </translation>
+        <translation key="PointAlarm_SimReturn">
+            <note>Hover text used in Alarms</note>
+            <variant>Simulate receipt of a return to normal</variant>
+        </translation>
+    </section>
+    <section id="ACTION_HOVER_TEXT">
+        <note>Hover text used with action buttons</note>
+        <translation key="Action_Hover_Welcome">
+            <note>Hover text used with action buttons</note>
+            <variant>Getting started</variant>
+        </translation>
+        <translation key="Action_Hover_Graphics">
+            <note>Hover text used with action buttons</note>
+            <variant>View graphics</variant>
+        </translation>
+        <translation key="Action_Hover_Properties">
+            <note>Hover text used with action buttons</note>
+            <variant>View or edit properties</variant>
+        </translation>
+        <translation key="Action_Hover_Options">
+            <note>Hover text used with action buttons</note>
+            <variant>View or edit options</variant>
+        </translation>
+        <translation key="Action_Hover_Alarms">
+            <note>Hover text used with action buttons</note>
+            <variant>View or set up alarms</variant>
+        </translation>
+        <translation key="Action_Hover_Reports">
+            <note>Hover text used with action buttons</note>
+            <variant>View or run reports</variant>
+        </translation>
+        <translation key="Action_Hover_Tools">
+            <note>Hover text used with action buttons</note>
+            <variant>Engineering tools</variant>
+        </translation>
+        <translation key="Action_Hover_Schedules">
+            <note>Hover text used with action buttons</note>
+            <variant>View or set up schedules</variant>
+        </translation>
+        <translation key="Action_Hover_Trends">
+            <note>Hover text used with action buttons</note>
+            <variant>View or set up trends</variant>
+        </translation>
+        <translation key="Action_Hover_Logic">
+            <note>Hover text used with action buttons</note>
+            <variant>View program for this control program</variant>
+        </translation>
+        <translation key="Action_Hover_Members">
+            <note>Hover text used with action buttons</note>
+            <variant>Set up members of this schedule group</variant>
+        </translation>
+        <translation key="Action_Hover_Privileges">
+            <note>Hover text used with action buttons</note>
+            <variant>View or assign privileges</variant>
+        </translation>
+        <translation key="Action_Hover_Airflow_Config">
+            <note>Hover text used with action buttons</note>
+            <variant>Configure Airflow Microblock Parameters</variant>
+        </translation>
+        <translation key="Action_Hover_Point_Checkout">
+            <note>Hover text used with action buttons</note>
+            <variant>Configure Points</variant>
+        </translation>
+        <translation key="Action_Hover_MySettings">
+            <note>Hover text used with action buttons</note>
+            <variant>Set up my settings</variant>
+        </translation>
+        <translation key="Action_Hover_Operators">
+            <note>Hover text used with action buttons</note>
+            <variant>Set up operators</variant>
+        </translation>
+        <translation key="Action_Hover_Security">
+            <note>Hover text used with action buttons</note>
+            <variant>Set up security</variant>
+        </translation>
+        <translation key="Action_Hover_SystemInfo">
+            <note>Hover text used with action buttons</note>
+            <variant>Set up system info settings</variant>
+        </translation>
+        <translation key="Action_Hover_Update">
+            <note>Hover text used with action buttons</note>
+            <variant>Update</variant>
+        </translation>
+        <translation key="Action_Hover_Discovery">
+            <note>Hover text used with action buttons</note>
+            <variant>Discover controllers in the system</variant>
+        </translation>
+        <translation key="Action_Hover_Download">
+            <note>Hover text used with action buttons</note>
+            <variant>Download routers and controllers</variant>
+        </translation>
+        <translation key="Action_Hover_Manage">
+            <note>Hover text used with action buttons</note>
+            <variant>View controller status and take action on issues</variant>
+        </translation>
+        <translation key="Action_Hover_Driver_Settings">
+            <note>Hover text used with action buttons</note>
+            <variant>Configure driver properties</variant>
+        </translation>
+        <translation key="Action_Hover_Driver_Update">
+            <note>Hover text used with action buttons</note>
+            <variant>Update Driver</variant>
+        </translation>
+        <translation approved="false" key="Delete_Existing_Schedules" new="true">
+            <note>Hover text used with action buttons</note>
+            <variant>Cannot Disable Scheduling. Please delete all existing Schedules</variant>
+        </translation>
+        <translation key="Previous_Month">
+            <note>Hover text used with action buttons</note>
+            <variant>Previous Month</variant>
+        </translation>
+        <translation key="Next_Month">
+            <note>Hover text used with action buttons</note>
+            <variant>Next Month</variant>
+        </translation>
+        <translation key="mainbar_Alarms">
+            <note>Hover text used with action buttons</note>
+            <variant>System-Level Alarms</variant>
+        </translation>
+        <translation key="mainbar_Print">
+            <note>Hover text used with action buttons</note>
+            <variant>Print</variant>
+        </translation>
+        <translation key="mainbar_Maximize_Minimize">
+            <note>Hover text used with action buttons</note>
+            <variant>Minimize/Maximize</variant>
+        </translation>
+        <translation key="mainbar_Help">
+            <note>Hover text used with action buttons</note>
+            <variant>Help</variant>
+        </translation>
+        <translation key="mainbar_System_Menu">
+            <note>Hover text used with action buttons</note>
+            <note>This is the mainbar command menu</note>
+            <variant>System Menu</variant>
+        </translation>
+        <translation key="mainbar_Show_Schedules_Alarms">
+            <note>Hover text used with action buttons</note>
+            <variant>Show schedules and alarms</variant>
+        </translation>
+        <translation key="Action_Hover_Utilities">
+            <note>Hover text used with action buttons</note>
+            <note>This is the text for the button in the debug popup window</note>
+            <variant>Debug utilities</variant>
+        </translation>
+        <translation key="Action_Hover_Dev_Utilities">
+            <note>Hover text used with action buttons</note>
+            <note>This is the text for the button in the debug popup window</note>
+            <variant>Developer debug utilities</variant>
+        </translation>
+        <translation key="Action_Hover_Support_Utilities">
+            <note>Hover text used with action buttons</note>
+            <note>This is the text for the button in the debug popup window</note>
+            <variant>Support debug utilities</variant>
+        </translation>
+        <translation key="Action_Hover_Browser_Test">
+            <note>Hover text used with action buttons</note>
+            <note>This is the text for the button in the debug popup window</note>
+            <variant>These tests are used to collect information about the browser and the server</variant>
+        </translation>
+        <translation key="Download_Tasks_Hover">
+            <note>Hover text used with action buttons</note>
+            <variant>The queue of download tasks to monitor or manage</variant>
+        </translation>
+        <translation key="Download_Actions_Hover">
+            <note>Hover text used with action buttons</note>
+            <variant>Check controller status and initiate actions</variant>
+        </translation>
+        <translation key="properties_physical_report">
+            <note>Hover text used with action buttons</note>
+            <variant>I/O Points</variant>
+        </translation>
+        <translation key="Calibration_Export_Hover">
+            <note>Hover text used with action buttons</note>
+            <variant>To save calibration data</variant>
+        </translation>
+        <translation key="Calibration_Import_Hover">
+            <note>Hover text used with action buttons</note>
+            <variant>To apply calibration data to equipment</variant>
+        </translation>
+        <translation key="properties_event_report">
+            <note>Hover text used with action buttons</note>
+            <variant>Alarm Sources</variant>
+        </translation>
+        <translation key="properties_trend_report">
+            <note>Hover text used with action buttons</note>
+            <variant>Trend Sources</variant>
+        </translation>
+        <translation key="properties_modeled_report">
+            <note>Hover text used with action buttons</note>
+            <variant>Display Points</variant>
+        </translation>
+        <translation key="properties_object_report">
+            <note>Hover text used with action buttons</note>
+            <variant>BACnet Objects</variant>
+        </translation>
+        <translation key="properties_rnetnetwork_report">
+            <note>Hover text used with action buttons</note>
+            <variant>Rnet Points</variant>
+        </translation>
+        <translation key="properties_protocol_mapping">
+            <note>Hover text used with action buttons</note>
+            <variant>Protocol Mapping</variant>
+        </translation>
+        <translation key="properties_equipment">
+            <note>Hover text used with action buttons</note>
+            <variant>Equipment Checkout</variant>
+        </translation>
+        <translation key="properties_network_report">
+            <note>Hover text used with action buttons</note>
+            <variant>Network Points</variant>
+        </translation>
+        <translation key="properties_defaultactionpage">
+            <note>Hover text used with action buttons</note>
+            <variant>Control Program</variant>
+        </translation>
+    </section>
+    <section id="DISCOVERY_HOVER_TEXT">
+        <note>This is the text for the buttons on the BACnet discovery page</note>
+        <translation key="Discovery_Import">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Upload the selected controllers content into the system</variant>
+        </translation>
+        <translation key="Discovery_Download_Memory">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Download the selected controllers content</variant>
+        </translation>
+        <translation key="Discovery_Check_Status">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Check the current status of the selected controller</variant>
+        </translation>
+        <translation key="Discovery_Delete">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Delete the controller and everything under it</variant>
+        </translation>
+        <translation key="Discovery_Locate_Devices">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Find devices under this tree location</variant>
+        </translation>
+        <translation key="Discovery_Locate_Routers">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Find devices under this tree location</variant>
+        </translation>
+        <translation key="Discovery_Add_Equipment">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Add a control program to a programmable controller</variant>
+        </translation>
+        <translation key="Discovery_Cancel">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Puts the pending tasks on hold, they can be started later</variant>
+        </translation>
+        <translation key="Discovery_Info">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Click to view history for this session</variant>
+        </translation>
+        <translation key="Time_Sync_Hover">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Synchronize time of controllers</variant>
+        </translation>
+        <translation approved="false" key="Test_Connection_Hover" new="true">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Test connection with email server</variant>
+        </translation>
+        <translation key="DST_Update_Hover">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Update the DST transitions for all controllers in the system</variant>
+        </translation>
+        <translation key="Clear_InfoMessages">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Clear the info messages for this router</variant>
+        </translation>
+        <translation key="Discovery_Header_Status">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Controller Status</variant>
+        </translation>
+        <translation key="Discovery_Header_Address">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Address from the dial on the controller</variant>
+        </translation>
+        <translation key="Discovery_Header_IP_Address">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>IP Address of the router or controller</variant>
+        </translation>
+        <translation key="Discovery_Header_Controllers">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Number of controllers on this router</variant>
+        </translation>
+        <translation key="Discovery_Header_Name">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Name of the Control Program or Controller</variant>
+        </translation>
+        <translation key="Discovery_Header_Model">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Model name for the controller</variant>
+        </translation>
+        <translation key="Discovery_Header_Version">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Library assigned version number for the Control Program</variant>
+        </translation>
+        <translation key="Discovery_Header_View">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>View file for this Control Program</variant>
+        </translation>
+        <translation key="Discovery_Header_Auto">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Use the auto assigned Device Id?</variant>
+        </translation>
+        <translation key="Discovery_Header_DeviceId">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>BACnet Device Identifier</variant>
+        </translation>
+        <translation key="Discovery_Header_RouterToNetwork">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>The network number the router controls</variant>
+        </translation>
+        <translation key="Discovery_Header_Driver">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Driver version</variant>
+        </translation>
+        <translation key="Discovery_Header_Network">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>The network this controller is on</variant>
+        </translation>
+        <translation key="Discovery_Header_BACview">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>BACview version</variant>
+        </translation>
+        <translation key="Discovery_Header_DownloadOption">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Download full source to the controller when all content is downloaded?</variant>
+        </translation>
+        <translation key="Discovery_Set_DownloadOption">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Change the download option for the selected controllers.</variant>
+        </translation>
+        <translation key="NetworkTask_Header_State">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>The type of task and its status</variant>
+        </translation>
+        <translation key="NetworkTask_Header_Location">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Where the controller or control program is in the system.</variant>
+        </translation>
+        <translation key="NetworkTask_Header_Model">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>The model name of the controller.</variant>
+        </translation>
+        <translation key="Download_CCN">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Download all CCN Gateways and Bridges that require download.</variant>
+        </translation>
+    </section>
+    <section id="SETUP_HOVER_TEXT">
+        <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+        <translation key="Add_Area">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Add Area</variant>
+        </translation>
+        <translation key="Add_Equipment">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Add Control Program</variant>
+        </translation>
+        <translation key="Import_Clipping">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Import Clipping</variant>
+        </translation>
+        <translation key="Cut">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Cut</variant>
+        </translation>
+        <translation key="Paste">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Paste</variant>
+        </translation>
+        <translation key="Move_Up">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Move Up</variant>
+        </translation>
+        <translation key="Move_Down">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Move Down</variant>
+        </translation>
+        <translation key="Delete">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Delete</variant>
+        </translation>
+        <translation key="Rename">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Rename</variant>
+        </translation>
+        <translation key="Configure">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Configure ...</variant>
+        </translation>
+        <translation key="Exit_System_Setup">
+            <note>This is the text for the buttons to the left of the tree in the system setup dialog (c-View)</note>
+            <variant>Exit System Setup</variant>
+        </translation>
+    </section>
+    <section id="DESIGN_PROPERTIES_TEXT">
+        <translation key="Copy_Files_From_Server">
+            <variant>Get files from server to edit</variant>
+        </translation>
+        <translation key="Copy_Files_To_Server">
+            <variant>Send files to server to add or replace</variant>
+        </translation>
+        <translation key="ERL_Export_Hover">
+            <variant>To save file to make changes</variant>
+        </translation>
+        <translation key="ERL_Import_Hover">
+            <variant>To apply changed file</variant>
+        </translation>
+        <translation key="Delete_Unused_Drivers">
+            <variant>Removes unused driver files</variant>
+        </translation>
+        <translation key="Delete_Unused_Views">
+            <variant>Removes unused view files</variant>
+        </translation>
+        <translation key="Delete_Unused_Equipment">
+            <variant>Removes unused control program files</variant>
+        </translation>
+    </section>
+    <section id="NETWORK_TASKS_HOVER_TEXT">
+        <note>This is the text for the buttons on the BACnet discovery page</note>
+        <translation key="Network_Tasks_Hold">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Puts the selected tasks on hold, they can be started later</variant>
+        </translation>
+        <translation key="Network_Tasks_Start">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Starts selected on hold or failed tasks</variant>
+        </translation>
+        <translation key="Network_Tasks_Remove">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Removes selected tasks, the tasks will not be executed. Active tasks cannot be removed</variant>
+        </translation>
+        <translation key="Network_Tasks_Move_to_Top">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Move the selected tasks to the top of the task list</variant>
+        </translation>
+        <translation key="Network_Tasks_Move_to_Bottom">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Move the selected tasks to the bottom of the task list</variant>
+        </translation>
+        <translation key="Network_Tasks_Add_Task">
+            <note>This is the text for the buttons on the BACnet discovery page</note>
+            <variant>Add new tasks to the list</variant>
+        </translation>
+    </section>
+    <section id="SET_COLOR">
+        <translation key="CB_Grey">
+            <variant>1 (Grey)</variant>
+        </translation>
+        <translation key="CB_White">
+            <variant>10 (White)</variant>
+        </translation>
+        <translation key="CB_Low_Red">
+            <variant>2 (Red)</variant>
+        </translation>
+        <translation key="CB_DkBlue">
+            <variant>3 (Dark Blue)</variant>
+        </translation>
+        <translation key="CB_LtBlue">
+            <variant>4 (Light Blue)</variant>
+        </translation>
+        <translation key="CB_Green">
+            <variant>5 (Green)</variant>
+        </translation>
+        <translation key="CB_LtGreen">
+            <variant>6 (Speckled Green)</variant>
+        </translation>
+        <translation key="CB_Yellow">
+            <variant>7 (Yellow)</variant>
+        </translation>
+        <translation key="CB_Orange">
+            <variant>8 (Orange)</variant>
+        </translation>
+        <translation key="CB_High_Red">
+            <variant>9 (Red)</variant>
+        </translation>
+        <translation key="CB_Coral">
+            <variant>13 (Coral)</variant>
+        </translation>
+    </section>
+    <section id="time_machine_console">
+        <note>Resources for the Time-lapse console.</note>
+        <translation key="Playback">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Start Playback</variant>
+        </translation>
+        <translation key="Pause">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Pause playback</variant>
+        </translation>
+        <translation key="Fast_forward">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Fast forward</variant>
+        </translation>
+        <translation key="Rewind">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Rewind</variant>
+        </translation>
+        <translation key="Later_time_range">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Shift to later time range</variant>
+        </translation>
+        <translation key="Earlier_time_range">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Shift to earlier time range</variant>
+        </translation>
+        <translation key="Exit_historical_view">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Exit Time-lapse</variant>
+        </translation>
+        <translation key="show_historical_view_options">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Change the start date/time and range</variant>
+        </translation>
+        <translation key="Increment">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Step Forward</variant>
+        </translation>
+        <translation key="Decrement">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Step Backward</variant>
+        </translation>
+        <translation key="timeLapseHover">
+            <note>Resources for the Time-lapse console.</note>
+            <variant>Time-lapse</variant>
+        </translation>
+    </section>
+    <section id="Common_header_Button_Hover_Text">
+        <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+        <translation key="Resolve_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Automatically resolve differences between the database and the controller</variant>
+        </translation>
+        <translation key="Import_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Upload from the controller</variant>
+        </translation>
+        <translation approved="false" key="Upload_hover" new="true">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Upload from the controller</variant>
+        </translation>
+        <translation key="Export_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Download to the controller</variant>
+        </translation>
+        <translation key="Download_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Download to the controller</variant>
+        </translation>
+        <translation key="Details_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Show differences</variant>
+        </translation>
+        <translation key="Cancel_hover">
+            <note>Resources for CommonHeaderButton such as shown on parameter mismatch. The key is based on button key + "_hover"</note>
+            <variant>Cancel the action to the controller</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="TimeZone" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="all files">
+        <note>Label - Identifies a time zone.</note>
+        <translation key="workStationTimeZone">
+            <note>Label - Identifies a time zone.</note>
+            <note>The site uses Work Station's time zone</note>
+            <variant>Operating System Time Zone</variant>
+        </translation>
+        <translation key="Pacific/Honolulu">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Hawaii Standard Time</variant>
+        </translation>
+        <translation key="America/Anchorage">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Alaska Standard Time</variant>
+        </translation>
+        <translation key="America/Los_Angeles">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Pacific Standard Time</variant>
+        </translation>
+        <translation key="America/Denver">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Mountain Standard Time</variant>
+        </translation>
+        <translation key="America/Chicago">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Central Standard Time</variant>
+        </translation>
+        <translation key="America/New_York">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Eastern Standard Time</variant>
+        </translation>
+        <translation key="America/St_Johns">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Newfoundland Standard Time</variant>
+        </translation>
+        <translation key="Europe/London">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Greenwich Mean Time</variant>
+        </translation>
+        <translation key="CET">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Central European Standard Time</variant>
+        </translation>
+        <translation key="Asia/Shanghai">
+            <note>Label - Identifies a time zone.</note>
+            <variant>China Standard Time</variant>
+        </translation>
+        <translation key="Asia/Tokyo">
+            <note>Label - Identifies a time zone.</note>
+            <variant>Japan Standard Time</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->

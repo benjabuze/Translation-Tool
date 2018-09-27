@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="common" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="common-resources">
+        <translation key="ipconfig.label.ipaddress">
+            <variant>IP Address:</variant>
+        </translation>
+        <translation key="ipconfig.label.subnetmask">
+            <variant>Subnet Mask:</variant>
+        </translation>
+        <translation key="ipconfig.label.defaultgateway">
+            <variant>Default Gateway:</variant>
+        </translation>
+        <translation key="ipconfig.label.bacnetport">
+            <variant>BACnet Port:</variant>
+        </translation>
+        <translation key="ipconfig.button.apply">
+            <variant>Apply</variant>
+        </translation>
+        <translation key="ipconfig.button.cancel">
+            <variant>Cancel</variant>
+        </translation>
+        <translation key="ipconfig.border.title.current">
+            <variant>Current</variant>
+        </translation>
+        <translation key="ipconfig.border.title.new">
+            <variant>New</variant>
+        </translation>
+        <translation key="ipconfig.validation-tip.numeric-values-only">
+            <variant>numeric values only</variant>
+        </translation>
+        <translation key="ipconfig.validation-tip.above-boundary">
+            <variant>must be less than {0}</variant>
+        </translation>
+        <translation key="ipconfig.validation-tip.below-boundary">
+            <variant>must be greater than {0}</variant>
+        </translation>
+        <translation key="connection.connection-type.title">
+            <variant>Connection Type</variant>
+        </translation>
+        <translation key="connection.connection-type.rent">
+            <variant>Rnet</variant>
+        </translation>
+        <translation key="connection.connection-type.ip">
+            <variant>IP</variant>
+        </translation>
+        <translation key="connection.connection-type.rnet.title">
+            <variant>Rnet</variant>
+        </translation>
+        <translation key="connection.connection-type.rnet.access-port">
+            <variant>Access Port:</variant>
+        </translation>
+        <translation key="connection.connection-type.rnet.baud-rate">
+            <variant>Baud Rate:</variant>
+        </translation>
+        <translation key="connection.connection-type.ip.title">
+            <variant>IP</variant>
+        </translation>
+        <translation key="connection.connection-type.ip.ip-address">
+            <variant>IP Address:</variant>
+        </translation>
+        <translation key="connection.button.connect">
+            <variant>Connect</variant>
+        </translation>
+        <translation key="connection.button.cancel">
+            <variant>Cancel</variant>
+        </translation>
+    </section>
+</resource-base>

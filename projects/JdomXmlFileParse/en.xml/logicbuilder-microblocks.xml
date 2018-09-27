@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="logicbuilder-microblocks" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="microblocks">
+        <translation key="microblock-palette-display">
+            <note/>
+            <variant>Display</variant>
+        </translation>
+        <translation key="microblock-palette-display-2">
+            <note/>
+            <variant>Display 2</variant>
+        </translation>
+        <translation key="microblock-palette-sys-in">
+            <note/>
+            <variant>Sys In</variant>
+        </translation>
+        <translation key="microblock-palette-io">
+            <note/>
+            <variant>I/O Pts</variant>
+        </translation>
+        <translation key="microblock-palette-carrier">
+            <note/>
+            <variant>Carrier</variant>
+        </translation>
+        <translation key="microblock-palette-misc">
+            <note/>
+            <variant>Misc</variant>
+        </translation>
+        <translation key="microblock-palette-math2">
+            <note/>
+            <variant>Math 2</variant>
+        </translation>
+        <translation key="microblock-palette-net-io">
+            <note/>
+            <variant>Net I/O</variant>
+        </translation>
+        <translation key="microblocks-macroblock-io">
+            <note/>
+            <variant>Macroblock I/O</variant>
+        </translation>
+        <translation key="microblocks-binary">
+            <note/>
+            <variant>Binary</variant>
+        </translation>
+        <translation key="microblock-palette-relay">
+            <note/>
+            <variant>Relay</variant>
+        </translation>
+        <translation key="microblock-palette-convert">
+            <note/>
+            <variant>Convert</variant>
+        </translation>
+        <translation key="all-microblocks">
+            <note/>
+            <variant>All Microblocks</variant>
+        </translation>
+        <translation key="microblock-palette-log">
+            <note/>
+            <variant>Log</variant>
+        </translation>
+        <translation key="microblock-palette-sys-out">
+            <note/>
+            <variant>Sys Out</variant>
+        </translation>
+        <translation key="microblock-palette-control">
+            <note/>
+            <variant>Control</variant>
+        </translation>
+        <translation key="microblock-palette-logic">
+            <note/>
+            <variant>Logic</variant>
+        </translation>
+        <translation key="microblock-palette-limit">
+            <note/>
+            <variant>Limit</variant>
+        </translation>
+        <translation key="microblock-palette-math">
+            <note/>
+            <variant>Math 1</variant>
+        </translation>
+        <translation key="microblocks-analog">
+            <note/>
+            <variant>Analog</variant>
+        </translation>
+        <translation key="BACnet_Analog_Clock">
+            <note/>
+            <variant>Analog clock</variant>
+        </translation>
+        <translation key="PID_Reverse_Acting">
+            <note/>
+            <variant>PID-Reverse Acting</variant>
+        </translation>
+        <translation key="Log">
+            <note/>
+            <variant>Log</variant>
+        </translation>
+        <translation key="Subtract_Constant">
+            <note/>
+            <variant>Subtract Constant from Variable</variant>
+        </translation>
+        <translation key="Lead_Standby">
+            <note/>
+            <variant>Lead/Standby</variant>
+        </translation>
+        <translation key="Analog_Trend">
+            <note/>
+            <variant>Analog Trend</variant>
+        </translation>
+        <translation key="Binary_Network_Output">
+            <note/>
+            <variant>Binary Network Output</variant>
+        </translation>
+        <translation key="Wet_Bulb_Temperature_Calculator">
+            <note/>
+            <variant>Wet Bulb Temperature Calculator</variant>
+        </translation>
+        <translation key="BACnet_Time_Clock_with_TLO">
+            <note/>
+            <variant>BACnet Time Clock with TLO</variant>
+        </translation>
+        <translation key="Analog_Wire_Lock">
+            <note/>
+            <variant>Analog Wire Lock</variant>
+        </translation>
+        <translation key="BACnet_Alarm">
+            <note/>
+            <variant>BACnet Alarm</variant>
+        </translation>
+        <translation key="Maximum_On_Timer">
+            <note/>
+            <variant>Maximum "On" Timer</variant>
+        </translation>
+        <translation key="Runtime_Monitor">
+            <note/>
+            <variant>Runtime Monitor</variant>
+        </translation>
+        <translation key="Binary_Status">
+            <note/>
+            <variant>Binary Status</variant>
+        </translation>
+        <translation key="Sunrise_Sunset">
+            <note/>
+            <variant>Sunrise Sunset</variant>
+        </translation>
+        <translation key="Delay_on_Make">
+            <note/>
+            <variant>Delay On Make</variant>
+        </translation>
+        <translation key="Add_Two_Variables">
+            <note/>
+            <variant>Add</variant>
+        </translation>
+        <translation key="BACnet_Analog_Value_Status">
+            <note/>
+            <variant>BACnet Analog Value Status</variant>
+        </translation>
+        <translation key="Average">
+            <note/>
+            <variant>Average</variant>
+        </translation>
+        <translation key="Set_Color">
+            <note/>
+            <variant>Set Color</variant>
+        </translation>
+        <translation key="True_If_equalto_Constant">
+            <note/>
+            <variant>True if = Constant</variant>
+        </translation>
+        <translation key="Digital_Trend">
+            <note/>
+            <variant>Digital Trend</variant>
+        </translation>
+        <translation key="Object_Instance">
+            <note/>
+            <variant>Object Instance</variant>
+        </translation>
+        <translation key="True_If_greater_Second_Input">
+            <note/>
+            <variant>True if &gt; Variable</variant>
+        </translation>
+        <translation key="Toggle">
+            <note/>
+            <variant>Toggle</variant>
+        </translation>
+        <translation key="Exclusive_Or_XOR">
+            <note/>
+            <variant>Exclusive Or</variant>
+        </translation>
+        <translation key="Variable_Low_Signal_Selector">
+            <note/>
+            <variant>Variable Low Signal Selector</variant>
+        </translation>
+        <translation key="Total_Analog_Properties">
+            <note/>
+            <variant>Total Analog</variant>
+        </translation>
+        <translation key="m$sysvar">
+            <note/>
+            <variant>Get System Variable</variant>
+        </translation>
+        <translation key="m$mbee">
+            <note/>
+            <variant>BACnet Event Enrollment Display Object</variant>
+        </translation>
+        <translation key="Multi_State_BACnet_Time_Clock">
+            <note/>
+            <variant>Multi-state BACnet Time Clock</variant>
+        </translation>
+        <translation key="Delay_on_Break">
+            <note/>
+            <variant>Delay On Break</variant>
+        </translation>
+        <translation key="Multiply_Variable_by_Constant">
+            <note/>
+            <variant>Multiply Constant Times Variable</variant>
+        </translation>
+        <translation key="Dewpoint_Temperature_Calculator">
+            <note/>
+            <variant>Dewpoint Temperature Calculator</variant>
+        </translation>
+        <translation key="m$mbmsv">
+            <note/>
+            <variant>BACnet Multi-state Value Display Object</variant>
+        </translation>
+        <translation key="Latch">
+            <note/>
+            <variant>Latch</variant>
+        </translation>
+        <translation key="Version_Microblock">
+            <note/>
+            <variant>Version Microblock</variant>
+        </translation>
+        <translation key="Text_Microblock">
+            <note/>
+            <variant>Version Microblock</variant>
+        </translation>
+        <translation key="Analog_Trend_with_Sample_Trigger">
+            <note/>
+            <variant>Analog Trend with Sample Trigger</variant>
+        </translation>
+        <translation key="Binary_Constant">
+            <note/>
+            <variant>Binary Constant</variant>
+        </translation>
+        <translation key="m$syssta">
+            <note/>
+            <variant>Get System Status</variant>
+        </translation>
+        <translation key="m$ocl">
+            <note/>
+            <variant>OCL</variant>
+        </translation>
+        <translation key="Zone_Controller">
+            <note/>
+            <variant>Zone Controller</variant>
+        </translation>
+        <translation key="m$mbmso">
+            <note/>
+            <variant>BACnet Multi-state Output Display Object</variant>
+        </translation>
+        <translation key="Zone_Setpoint_with_Demand_and_Learning_Adaptive_Optimal_Start">
+            <note/>
+            <variant>Zone Setpoint With Demand and Learning Adaptive Optimal Start</variant>
+        </translation>
+        <translation key="Zone_Setpoint_BACnet_with_Opt_Learning_Adaptive_Optimal_Start">
+            <note/>
+            <variant>BACnet Zone Setpoint With Learning Adaptive Optimal Start</variant>
+        </translation>
+        <translation key="zone-linkage">
+            <note/>
+            <variant>Zone Linkage</variant>
+        </translation>
+        <translation key="air-source-linkage">
+            <note/>
+            <variant>Air Source Linkage</variant>
+        </translation>
+        <translation key="min-setpoint-width">
+            <note/>
+            <variant>Minimum Setpoint Separation</variant>
+        </translation>
+        <translation key="use-orphan-trend-net-visible">
+            <note/>
+            <variant>Use Orphan Trend Network Visible</variant>
+        </translation>
+        <translation key="m$mbmsi">
+            <note/>
+            <variant>BACnet Multi-state Input Display Object</variant>
+        </translation>
+        <translation key="Natural_Log">
+            <note/>
+            <variant>Natural Log</variant>
+        </translation>
+        <translation key="Truncate">
+            <note/>
+            <variant>Truncate</variant>
+        </translation>
+        <translation key="Zone_Setpoint_Plus">
+            <note/>
+            <variant>Zone Setpoint - Plus</variant>
+        </translation>
+        <translation key="BACnet_Time_Clock">
+            <note/>
+            <variant>BACnet Time Clock</variant>
+        </translation>
+        <translation key="Ramp_Up_Down_Control">
+            <note/>
+            <variant>Ramp Up/Down Control</variant>
+        </translation>
+        <translation key="Or">
+            <note/>
+            <variant>Or</variant>
+        </translation>
+        <translation key="Runtime_Accumulation">
+            <note/>
+            <variant>Runtime Accumulation</variant>
+        </translation>
+        <translation key="Cosine">
+            <note/>
+            <variant>Cosine</variant>
+        </translation>
+        <translation key="Analog_Network_Output">
+            <note/>
+            <variant>Analog Network Output</variant>
+        </translation>
+        <translation key="Zone_Setpoint">
+            <note/>
+            <variant>Zone Setpoint</variant>
+        </translation>
+        <translation key="Digital_to_Analog_Converter">
+            <note/>
+            <variant>Digital to Analog Converter</variant>
+        </translation>
+        <translation key="m$para">
+            <note/>
+            <variant>Analog Parameter</variant>
+        </translation>
+        <translation key="m$mbasv">
+            <note/>
+            <variant>BACnet Analog Value Display Object</variant>
+        </translation>
+        <translation key="Sine">
+            <note/>
+            <variant>Sine</variant>
+        </translation>
+        <translation key="Variable_High_Signal_Selector">
+            <note/>
+            <variant>Variable High Signal Selector</variant>
+        </translation>
+        <translation key="Digital_Wire_Lock">
+            <note/>
+            <variant>Digital Wire Lock</variant>
+        </translation>
+        <translation key="Zone_Setpoint_1_Plus_with_Learning_Adaptive_Optimal_Start">
+            <note/>
+            <variant>Zone Setpoint - Plus with Learning Adaptive Optimal Start</variant>
+        </translation>
+        <translation key="Pulse_to_Analog_Input">
+            <note/>
+            <variant>Pulse to Analog Input</variant>
+        </translation>
+        <translation key="Switch_Normally_Closed_to_Variable">
+            <note/>
+            <variant>Switch-NC to Variable</variant>
+        </translation>
+        <translation key="m$mbbv">
+            <note/>
+            <variant>BACnet Binary Value Display Object</variant>
+        </translation>
+        <translation key="Zone_Setpoint_1">
+            <note/>
+            <variant>Zone Setpoint with Learning Adaptive Optimal Start</variant>
+        </translation>
+        <translation key="Average_Analog_Properties">
+            <note/>
+            <variant>Average Analog</variant>
+        </translation>
+        <translation key="m$mbbo">
+            <note/>
+            <variant>BACnet Binary Output Display Object</variant>
+        </translation>
+        <translation key="BACnet_Binary_Value_Status">
+            <note/>
+            <variant>BACnet Binary Value Status</variant>
+        </translation>
+        <translation key="m$mbbi">
+            <note/>
+            <variant>BACnet Binary Input Display Object</variant>
+        </translation>
+        <translation key="Linear_Converter">
+            <note/>
+            <variant>Linear Converter</variant>
+        </translation>
+        <translation key="Minimum_Analog_Properties">
+            <note/>
+            <variant>Minimum Analog</variant>
+        </translation>
+        <translation key="LogiStat_Zone_Sensor_with_Optional_OAT_Display">
+            <note/>
+            <variant>LogiStat Zone Sensor</variant>
+        </translation>
+        <translation key="RS_Sensor">
+            <note/>
+            <variant>RS Zone Sensor</variant>
+        </translation>
+        <translation key="PID_Direct_Acting">
+            <note/>
+            <variant>PID-Direct Acting</variant>
+        </translation>
+        <translation key="Floating_Motor">
+            <note/>
+            <variant>Floating Motor</variant>
+        </translation>
+        <translation key="m$mbnc">
+            <note/>
+            <variant>BACnet Notification Class Display Object</variant>
+        </translation>
+        <translation key="m$mbav">
+            <note/>
+            <variant>BACnet Analog Value Display Object</variant>
+        </translation>
+        <translation key="Constant_Low_Signal_Selector">
+            <note/>
+            <variant>Constant Low Signal Selector</variant>
+        </translation>
+        <translation key="m$mbao">
+            <note/>
+            <variant>BACnet Analog Output Display Object</variant>
+        </translation>
+        <translation key="True_If_equalto_Second_Input">
+            <note/>
+            <variant>True if = Variable</variant>
+        </translation>
+        <translation key="m$stata">
+            <note/>
+            <variant>Analog Status</variant>
+        </translation>
+        <translation key="m$mbai">
+            <note/>
+            <variant>BACnet Analog Input Display Object</variant>
+        </translation>
+        <translation key="BACnet_Binary_Output">
+            <note/>
+            <variant>BACnet Binary Output</variant>
+        </translation>
+        <translation key="Round_Up_Down">
+            <note/>
+            <variant>Round Up/Down</variant>
+        </translation>
+        <translation key="Add_Constant">
+            <note/>
+            <variant>Add Constant to Variable</variant>
+        </translation>
+        <translation key="Time_Status">
+            <note/>
+            <variant>Time Status</variant>
+        </translation>
+        <translation key="Divide_Variable_by_Constant">
+            <note/>
+            <variant>Divide Variable by Constant</variant>
+        </translation>
+        <translation key="m$mbtrend">
+            <note/>
+            <variant>BACnet Trend Log Display Object</variant>
+        </translation>
+        <translation key="Linear_Converter_for_Variable_Inputs">
+            <note/>
+            <variant>Linear Converter for Variable Inputs</variant>
+        </translation>
+        <translation key="Set_Color_If_True">
+            <note/>
+            <variant>Set Color if True</variant>
+        </translation>
+        <translation key="Variable_Duty_Cycle">
+            <note/>
+            <variant>Variable Duty Cycle</variant>
+        </translation>
+        <translation key="Modulo">
+            <note/>
+            <variant>Modulus</variant>
+        </translation>
+        <translation key="Add_Three_Variables">
+            <note/>
+            <variant>Add 3</variant>
+        </translation>
+        <translation key="Variable_Low_Limit">
+            <note/>
+            <variant>Variable Low Limit</variant>
+        </translation>
+        <translation key="True_If_less_Constant">
+            <note/>
+            <variant>True if &lt; Constant</variant>
+        </translation>
+        <translation key="Square_Root">
+            <note/>
+            <variant>Square Root</variant>
+        </translation>
+        <translation key="Constant_Low_Limit">
+            <note/>
+            <variant>Constant Low Limit</variant>
+        </translation>
+        <translation key="Zone_Setpoint_with_Demand">
+            <note/>
+            <variant>Zone Setpoint With Demand</variant>
+        </translation>
+        <translation key="Binary_Trend_with_Sample_Trigger">
+            <note/>
+            <variant>Digital Trend with Sample Trigger</variant>
+        </translation>
+        <translation key="History_Recorder">
+            <note/>
+            <variant>History Recorder</variant>
+        </translation>
+        <translation key="m$bmckx1">
+            <note/>
+            <variant>Multi-state BACnet Time Clock</variant>
+        </translation>
+        <translation key="Two_Variables_Switch">
+            <note/>
+            <variant>Switch</variant>
+        </translation>
+        <translation key="Variable_High_Limit">
+            <note/>
+            <variant>Variable High Limit</variant>
+        </translation>
+        <translation key="Low_Peak_Recorder">
+            <note/>
+            <variant>Low Peak Recorder</variant>
+        </translation>
+        <translation key="Analog_Network_Output_2">
+            <note/>
+            <variant>Analog Network Output 2</variant>
+        </translation>
+        <translation key="Multipy_Two_Variables">
+            <note/>
+            <variant>Multiply</variant>
+        </translation>
+        <translation key="Binary_Parameter">
+            <note/>
+            <variant>Binary Parameter</variant>
+        </translation>
+        <translation key="Time_Constant">
+            <note/>
+            <variant>Time Constant</variant>
+        </translation>
+        <translation key="DO_DI_Proof">
+            <note/>
+            <variant>DO/DI Proof</variant>
+        </translation>
+        <translation key="Integrator">
+            <note/>
+            <variant>Integrator</variant>
+        </translation>
+        <translation key="And">
+            <note/>
+            <variant>And</variant>
+        </translation>
+        <translation key="Binary_Network_Output_2">
+            <note/>
+            <variant>Binary Network Output 2</variant>
+        </translation>
+        <translation key="Tangent">
+            <note/>
+            <variant>Tangent</variant>
+        </translation>
+        <translation key="Analog_Network_Input">
+            <note/>
+            <variant>Analog Network Input</variant>
+        </translation>
+        <translation key="Divide_Two_Variables">
+            <note/>
+            <variant>Divide</variant>
+        </translation>
+        <translation key="BACnet_Analog_Input">
+            <note/>
+            <variant>BACnet Analog Input</variant>
+        </translation>
+        <translation key="m$mbsched$binary">
+            <note/>
+            <variant>BACnet Schedule Display Object</variant>
+        </translation>
+        <translation key="True_If_greater_Constant">
+            <note/>
+            <variant>True if &gt; Constant</variant>
+        </translation>
+        <translation key="True_If_less_Second_Input">
+            <note/>
+            <variant>True if &lt; Variable</variant>
+        </translation>
+        <translation key="Prime_Variable">
+            <note/>
+            <variant>Prime Variable</variant>
+        </translation>
+        <translation key="High_Peak_Recorder">
+            <note/>
+            <variant>High Peak Recorder</variant>
+        </translation>
+        <translation key="Airflow_Control">
+            <note/>
+            <variant>U-Line Airflow Control</variant>
+        </translation>
+        <translation key="Timed_Local_Override">
+            <note/>
+            <variant>Timed Local Override</variant>
+        </translation>
+        <translation key="Enthalpy_Calculator">
+            <note/>
+            <variant>Enthalpy Calculator</variant>
+        </translation>
+        <translation key="Exponent">
+            <note/>
+            <variant>Exponent</variant>
+        </translation>
+        <translation key="Binary_Network_Input">
+            <note/>
+            <variant>Binary Network Input</variant>
+        </translation>
+        <translation key="Add_Four_Variables">
+            <note/>
+            <variant>Add 4</variant>
+        </translation>
+        <translation key="m$mbsched">
+            <note/>
+            <variant>BACnet Schedule Display Object</variant>
+        </translation>
+        <translation key="m$mbcal">
+            <note/>
+            <variant>BACnet Calendar Display Object</variant>
+        </translation>
+        <translation key="Setpoint_Optimization">
+            <note/>
+            <variant>Setpoint Optimization</variant>
+        </translation>
+        <translation key="Minimum_On_Off_Timer">
+            <note/>
+            <variant>Minimum On/Off Timer</variant>
+        </translation>
+        <translation key="Constant_High_Limit">
+            <note/>
+            <variant>Constant High Limit</variant>
+        </translation>
+        <translation key="Constant_Duty_Cycle">
+            <note/>
+            <variant>Constant Duty Cycle</variant>
+        </translation>
+        <translation key="m$mbprg">
+            <note/>
+            <variant>BACnet Program Display Object</variant>
+        </translation>
+        <translation key="Time_Parameter">
+            <note/>
+            <variant>Time Parameter</variant>
+        </translation>
+        <translation key="m$mbbsv">
+            <note/>
+            <variant>BACnet Binary Value Display Object</variant>
+        </translation>
+        <translation key="Constant_High_Signal_Selector">
+            <note/>
+            <variant>Constant High Signal Selector</variant>
+        </translation>
+        <translation key="m$consta">
+            <note/>
+            <variant>Analog Constant</variant>
+        </translation>
+        <translation key="BACnet_Analog_Value_Parameter">
+            <note/>
+            <variant>BACnet Analog Value Parameter</variant>
+        </translation>
+        <translation key="Subtract_Two_Variables">
+            <note/>
+            <variant>Subtract</variant>
+        </translation>
+        <translation key="Analog_to_Digital_Converter">
+            <note/>
+            <variant>Analog to Digital Converter</variant>
+        </translation>
+        <translation key="Up_Down_Counter">
+            <note/>
+            <variant>Up/Down Counter</variant>
+        </translation>
+        <translation key="Analog_Network_Input_2">
+            <note/>
+            <variant>Analog Network Input 2</variant>
+        </translation>
+        <translation key="Pulse_Width_Output">
+            <note/>
+            <variant>Pulse-Width Output</variant>
+        </translation>
+        <translation key="Switch_Normally_Closed_to_Constant">
+            <note/>
+            <variant>Switch-NC to Constant</variant>
+        </translation>
+        <translation key="True_If_Color">
+            <note/>
+            <variant>True if Color = </variant>
+        </translation>
+        <translation key="Binary_Network_Input_2">
+            <note/>
+            <variant>Binary Network Input 2</variant>
+        </translation>
+        <translation key="Modulo_Divide_by_Constant">
+            <note/>
+            <variant>Modulo Divide by Constant</variant>
+        </translation>
+        <translation key="BACnet_Airflow_Control">
+            <note/>
+            <variant>Airflow Control</variant>
+        </translation>
+        <translation key="BACnet_Analog_Output">
+            <note/>
+            <variant>BACnet Analog Output</variant>
+        </translation>
+        <translation key="BACnet_Binary_Value_Parameter">
+            <note/>
+            <variant>BACnet Binary Value Parameter</variant>
+        </translation>
+        <translation key="m$mbdev">
+            <note/>
+            <variant>BACnet Device Display Object</variant>
+        </translation>
+        <translation key="Absolute_Value">
+            <note/>
+            <variant>Absolute Value</variant>
+        </translation>
+        <translation key="Change_Sign">
+            <note/>
+            <variant>Change Sign</variant>
+        </translation>
+        <translation key="Maximum_Analog_Properties">
+            <note/>
+            <variant>Maximum Analog</variant>
+        </translation>
+        <translation key="BACnet_Binary_Input">
+            <note/>
+            <variant>BACnet Binary Input</variant>
+        </translation>
+        <translation key="Not">
+            <note/>
+            <variant>Not</variant>
+        </translation>
+        <translation key="active-1">
+            <note>This is an option to make a binary parameter 'active'. It has a (1) after it to let you know that as a binary parameter this is equivalent to 1.</note>
+            <variant>Active (1)</variant>
+        </translation>
+        <translation key="inactive-0">
+            <note>This is an option to make a binary parameter 'inactive'. It has a (0) after it to let you know that as a binary parameter this is equivalent to 0.</note>
+            <variant>Inactive (0)</variant>
+        </translation>
+        <translation key="Zone_Setpoint_BACnet_with_Learning_Adaptive_Optimal_Start">
+            <variant>Zone Setpoint BACnet with Learning Adaptive Optimal Start</variant>
+        </translation>
+        <translation key="occupied-cooling-setpoint">
+            <variant>Occupied Cooling</variant>
+        </translation>
+        <translation key="unoccupied-cooling-setpoint">
+            <variant>Unoccupied Cooling</variant>
+        </translation>
+        <translation key="occupied-heating-setpoint">
+            <variant>Occupied Heating</variant>
+        </translation>
+        <translation key="unoccupied-heating-setpoint">
+            <variant>Unoccupied Heating</variant>
+        </translation>
+        <translation key="cooling-adjustment-setpoint">
+            <variant>Cooling Adjustment</variant>
+        </translation>
+        <translation key="heating-adjustment-setpoint">
+            <variant>Heating Adjustment</variant>
+        </translation>
+        <translation key="effective-cooling-setpoint">
+            <variant>Effective Cooling</variant>
+        </translation>
+        <translation key="effective-heating-setpoint">
+            <variant>Effective Heating</variant>
+        </translation>
+        <translation key="effective-cooling-trend-log">
+            <variant>Effective Cooling Trend Log</variant>
+        </translation>
+        <translation key="effective-heating-trend-log">
+            <variant>Effective Heating Trend Log</variant>
+        </translation>
+        <translation key="zone-temp-trend-log">
+            <variant>Zone Temperature Trend Log</variant>
+        </translation>
+        <translation key="occupied-status-trend-log">
+            <variant>Occupied Status Trend Log</variant>
+        </translation>
+        <translation key="demand_limiting">
+            <variant>Demand Limiting</variant>
+        </translation>
+        <translation key="capacity_limit">
+            <variant>Capacity Limit</variant>
+        </translation>
+        <translation key="ccn_linkage">
+            <variant>CCN Linkage</variant>
+        </translation>
+        <!--Object Name-->
+        <translation key="occupied_cooling_object_name">
+            <variant>Occupied Cooling Object Name</variant>
+        </translation>
+        <translation key="occupied_heating_object_name">
+            <variant>Occupied Heating Object Name</variant>
+        </translation>
+        <translation key="unoccupied_heating_object_name">
+            <variant>Unoccupied Heating Object Name</variant>
+        </translation>
+        <translation key="unoccupied_cooling_object_name">
+            <variant>Unoccupied Cooling Object Name</variant>
+        </translation>
+        <translation key="cooling_adjustment_object_name">
+            <variant>Cooling Adjustment Object Name</variant>
+        </translation>
+        <translation key="heating_adjustment_object_name">
+            <variant>Heating Adjustment Object Name</variant>
+        </translation>
+        <translation key="effective_cooling_object_name">
+            <variant>Effective Cooling Object Name</variant>
+        </translation>
+        <translation key="effective_heating_object_name">
+            <variant>Effective Heating Object Name</variant>
+        </translation>
+        <translation key="effective_cooling_trend_log_object_name">
+            <variant>Effective Cooling Trend Log Object Name</variant>
+        </translation>
+        <translation key="effective_heating_trend_log_object_name">
+            <variant>Effective Heating Trend Log Object Name</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_object_name">
+            <variant>Zone Temp Trend Log Object Name</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_object_name">
+            <variant>Occupied Status Trend Log Object Name</variant>
+        </translation>
+        <!--Description-->
+        <translation key="occupied_cooling_description">
+            <variant>Occupied Cooling Description</variant>
+        </translation>
+        <translation key="occupied_heating_description">
+            <variant>Occupied Heating Description</variant>
+        </translation>
+        <translation key="unoccupied_heating_description">
+            <variant>Unoccupied Heating Description</variant>
+        </translation>
+        <translation key="unoccupied_cooling_description">
+            <variant>Unoccupied Cooling Description</variant>
+        </translation>
+        <translation key="cooling_adjustment_description">
+            <variant>Cooling Adjustment Description</variant>
+        </translation>
+        <translation key="heating_adjustment_description">
+            <variant>Heating Adjustment Description</variant>
+        </translation>
+        <translation key="effective_cooling_description">
+            <variant>Effective Cooling Description</variant>
+        </translation>
+        <translation key="effective_heating_description">
+            <variant>Effective Heating Description</variant>
+        </translation>
+        <translation key="effective_cooling_trend_log_description">
+            <variant>Effective Cooling Trend Log Description</variant>
+        </translation>
+        <translation key="effective_heating_trend_log_description">
+            <variant>Effective Heating Trend Log Description</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_description">
+            <variant>Zone Temp Trend Log Description</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_description">
+            <variant>Occupied Status Trend Log Description</variant>
+        </translation>
+        <!--Network Visible-->
+        <translation key="occupied_cooling_network_visible">
+            <variant>Occupied Cooling Network Visible</variant>
+        </translation>
+        <translation key="occupied_heating_network_visible">
+            <variant>Occupied Heating Network Visible</variant>
+        </translation>
+        <translation key="unoccupied_heating_network_visible">
+            <variant>Unoccupied Heating Network Visible</variant>
+        </translation>
+        <translation key="unoccupied_cooling_network_visible">
+            <variant>Unoccupied Cooling Network Visible</variant>
+        </translation>
+        <translation key="cooling_adjustment_network_visible">
+            <variant>Cooling Adjustment Network Visible</variant>
+        </translation>
+        <translation key="heating_adjustment_network_visible">
+            <variant>Heating Adjustment Network Visible</variant>
+        </translation>
+        <translation key="effective_cooling_network_visible">
+            <variant>Effective Cooling Network Visible</variant>
+        </translation>
+        <translation key="effective_heating_network_visible">
+            <variant>Effective Heating Network Visible</variant>
+        </translation>
+        <!--Network Visible-->
+        <translation key="cool_max_damper_pos_network_visible">
+            <variant>Cooling Max Damper Position Network Visible</variant>
+        </translation>
+        <translation key="cool_min_damper_pos_network_visible">
+            <variant>Cooling Min Damper Position Network Visible</variant>
+        </translation>
+        <translation key="heat_max_damper_pos_network_visible">
+            <variant>Heating Max Damper Position Network Visible</variant>
+        </translation>
+        <translation key="heat_min_damper_pos_network_visible">
+            <variant>Heating Min Damper Position Network Visible</variant>
+        </translation>
+        <translation key="reheat_min_damper_pos_network_visible">
+            <variant>Reheat Min Damper Position Network Visible</variant>
+        </translation>
+        <translation key="vent_position_network_visible">
+            <variant>Vent Position Network Visible</variant>
+        </translation>
+        <!--Description-->
+        <translation key="cool_max_damper_pos_description">
+            <variant>Cooling Max Damper Position Description</variant>
+        </translation>
+        <translation key="cool_min_damper_pos_description">
+            <variant>Cooling Min Damper Position Description</variant>
+        </translation>
+        <translation key="heat_max_damper_pos_description">
+            <variant>Heating Max Damper Position Description</variant>
+        </translation>
+        <translation key="heat_min_damper_pos_description">
+            <variant>Heating Min Damper Position Description</variant>
+        </translation>
+        <translation key="reheat_min_damper_pos_description">
+            <variant>Reheat Min Damper Position Description</variant>
+        </translation>
+        <translation key="vent_position_description">
+            <variant>Vent Position Description</variant>
+        </translation>
+        <!--Object Name-->
+        <translation key="cool_max_damper_pos_object_name">
+            <variant>Cooling Max Damper Position Object Name</variant>
+        </translation>
+        <translation key="cool_min_damper_pos_object_name">
+            <variant>Cooling Min Damper Position Object Name</variant>
+        </translation>
+        <translation key="heat_max_damper_pos_object_name">
+            <variant>Heating Max Damper Position Object Name</variant>
+        </translation>
+        <translation key="heat_min_damper_pos_object_name">
+            <variant>Heating Min Damper Position Object Name</variant>
+        </translation>
+        <translation key="reheat_min_damper_pos_object_name">
+            <variant>Reheat Min Damper Position Object Name</variant>
+        </translation>
+        <translation key="vent_position_object_name">
+            <variant>Vent Position Object Name</variant>
+        </translation>
+        <translation key="cool_max_damper_pos">
+            <variant>Cooling Max</variant>
+        </translation>
+        <translation key="cool_min_damper_pos">
+            <variant>Cooling Min</variant>
+        </translation>
+        <translation key="heat_max_damper_pos">
+            <variant>Heating Max</variant>
+        </translation>
+        <translation key="heat_min_damper_pos">
+            <variant>Heating Min</variant>
+        </translation>
+        <translation key="reheat_min_damper_pos">
+            <variant>Reheat Min</variant>
+        </translation>
+        <translation key="vent_position">
+            <variant>Vent Position</variant>
+        </translation>
+        <!--COV increment-->
+        <translation key="cooling_adjustment_cov_increment">
+            <variant>Cooling Adjustment COV Increment</variant>
+        </translation>
+        <translation key="heating_adjustment_cov_increment">
+            <variant>Heating Adjustment COV Increment</variant>
+        </translation>
+        <translation key="effective_cooling_cov_increment">
+            <variant>Effective Cooling COV Increment</variant>
+        </translation>
+        <translation key="effective_heating_cov_increment">
+            <variant>Effective Heating COV Increment</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_enable">
+            <variant>Zone Temp Trend Log Enable</variant>
+        </translation>
+        <translation key="effective-cooling_trend_log_enable">
+            <variant>Effective Cooling Trend Log Enable</variant>
+        </translation>
+        <translation key="effective-heating_trend_log_enable">
+            <variant>Effective Heating Trend Log Enable</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_enable">
+            <variant>Occupied Status Trend Log Enable</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_interval">
+            <variant>Zone Temp Trend Log Interval</variant>
+        </translation>
+        <translation key="effective-cooling_trend_log_interval">
+            <variant>Effective Cooling Trend Log Interval</variant>
+        </translation>
+        <translation key="effective-heating_trend_log_interval">
+            <variant>Effective Heating Trend Log Interval</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_interval">
+            <variant>Occupied Status Trend Log Interval</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_number_of_samples">
+            <variant>Zone Temp Trend Log Buffer Size</variant>
+        </translation>
+        <translation key="effective-cooling_trend_log_number_of_samples">
+            <variant>Effective Cooling Trend Log Buffer Size</variant>
+        </translation>
+        <translation key="effective-heating_trend_log_number_of_samples">
+            <variant>Effective Heating Trend Log Buffer Size</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_number_of_samples">
+            <variant>Occupied Status Trend Log Buffer Size</variant>
+        </translation>
+        <translation key="zone_temp_trend_log_enable_trend_historian">
+            <variant>Zone Temp Trend Log Enable Trend Historian</variant>
+        </translation>
+        <translation key="effective-cooling_trend_log_enable_trend_historian">
+            <variant>Effective Cooling Trend Log Enable Trend Historian</variant>
+        </translation>
+        <translation key="effective-heating_trend_log_enable_trend_historian">
+            <variant>Effective Heating Trend Log Enable Trend Historian</variant>
+        </translation>
+        <translation key="occupied-status_trend_log_enable_trend_historian">
+            <variant>Occupied Status Trend Log Enable Trend Historian</variant>
+        </translation>
+        <translation key="zone_temp-days-to-keep-historical-trends">
+            <variant>Zone Temp Days to Keep Historical Trends</variant>
+        </translation>
+        <translation key="effective-cooling-days-to-keep-historical-trends">
+            <variant>Effective Cooling Days to Keep Historical Trends</variant>
+        </translation>
+        <translation key="effective-heating-days-to-keep-historical-trends">
+            <variant>Effective Heating Days to Keep Historical Trends</variant>
+        </translation>
+        <translation key="occupied-status-days-to-keep-historical-trends">
+            <variant>Occupied Status Days to Keep Historical Trends</variant>
+        </translation>
+        <translation key="BACnet_Press_Dep_Control">
+            <variant>BACnet Pressure Dependent Control</variant>
+        </translation>
+        <translation key="Vent_Mode">
+            <variant>Vent Mode</variant>
+        </translation>
+        <translation key="Minimum">
+            <variant>Minimum</variant>
+        </translation>
+        <translation key="Additional_percent">
+            <variant>Additional % x __</variant>
+        </translation>
+        <translation key="Event_Time_Stamps">
+            <variant>Event Time Stamps</variant>
+        </translation>
+        <translation key="Last_Notify_Record">
+            <variant>Last Notify Record</variant>
+        </translation>
+        <translation key="Schedule_Default">
+            <variant>Schedule Default</variant>
+        </translation>
+        <translation key="List_of_Group_Members">
+            <variant>List of Group Members</variant>
+        </translation>
+        <translation key="Scale">
+            <variant>Scale</variant>
+        </translation>
+        <translation key="Prescale">
+            <variant>Prescale</variant>
+        </translation>
+        <translation key="Value_Change_Time">
+            <variant>Value Change Time</variant>
+        </translation>
+        <translation key="Value_Before_Change">
+            <variant>Value Before Change</variant>
+        </translation>
+        <translation key="Value_Set">
+            <variant>Value Set</variant>
+        </translation>
+        <translation key="Logging_Record">
+            <variant>Logging Record</variant>
+        </translation>
+        <translation key="Logging_Object">
+            <variant>Logging Object</variant>
+        </translation>
+        <translation key="Pulse_Rate">
+            <variant>Pulse Rate</variant>
+        </translation>
+        <translation key="Limit_Monitoring_Interval">
+            <variant>Limit Monitoring Interval</variant>
+        </translation>
+        <translation key="Input_range">
+            <note>This goes along with change_in_input_that_results_in below</note>
+            <variant>Input range</variant>
+        </translation>
+        <translation key="change_in_input_that_results_in">
+            <note>This is another way to edit the 'proportional' field in a PID loop. We're representing it here as a precentage so we're saying the value (output) is going from 0 to 100.</note>
+            <variant>(change in input that results in P output of 0-100%)</variant>
+        </translation>
+        <translation key="device_name_header">
+            <variant>Device Name</variant>
+        </translation>
+        <translation key="writable">
+            <note>This indicates whether devices on other networks (i.e. BACnet, Modbus, N2, etc) are allowed write-access to the associated object. If this is not selected, the corresponding object is Read-Only.</note>
+            <variant>Writable</variant>
+        </translation>
+        <translation key="fixed_force_level">
+            <note>This indicates a fixed 'CCN Force Level' used to relay a CCN write to devices on a CCN network. 'CCN Force Level' is a numerical priority that a write will be performed at.  </note>
+            <variant>CCN Force Level</variant>
+        </translation>
+        <translation key="BACnet_Collector">
+            <variant>BACnet Collector</variant>
+        </translation>
+        <translation key="BACnet_Provider">
+            <variant>BACnet Provider</variant>
+        </translation>
+        <translation key="BACnetPID">
+            <note>This is the BACnet-exposed PID Microblock's name. PID stands for Proportional, Integral, and Derivative which is a well known control algorithm in HVAC and Process controls. </note>
+            <variant>BACnetPID</variant>
+        </translation>
+        <translation key="limit_pid_rate_of_change">
+            <note>This is the minimum amount of time to allow the PID to go from 0-100%. This is used to prevent the PID output from changing faster than an actuator can move from 0 to 100%. </note>
+            <variant>Min Ramp Time to transition between 0 and 100%</variant>
+        </translation>
+        <translation key="per_interval">
+            <note>This is the output update Interval of a PID Microblock.  </note>
+            <variant>per interval</variant>
+        </translation>
+        <translation key="calculate_continually">
+            <note>This option instructs the PID to continually recalculate the Proportional Contribution of the PID MB, vs only recalculating it on the Loop refresh Interval when the Integral and Derivative are calculated. </note>
+            <variant>Calculate continually</variant>
+        </translation>
+        <translation key="pid_out">
+            <note>This is the output value of the PID Microblock.  </note>
+            <variant>PID Out</variant>
+        </translation>
+        <translation key="output_update_interval">
+            <note>This is the output update Interval of a PID Microblock.  </note>
+            <variant>Output Update Interval</variant>
+        </translation>
+        <translation key="pidout_throttling">
+            <note>This is an optional input to the PID MB that is the Slew Rate control value.   </note>
+            <variant>Ramp Time</variant>
+        </translation>
+        <translation key="BACnet_Bypass_Control">
+            <variant>BACnet Bypass Control</variant>
+        </translation>
+        <translation key="maximum_number_of_addresses">
+            <variant>Maximum Number of Addresses</variant>
+        </translation>
+        <translation key="unscheduled_value">
+            <note>This is the value to use when there are no schedules entered.  (for all schedule microblocks)</note>
+            <variant>Unscheduled Value</variant>
+        </translation>
+        <translation key="bacnet_writable">
+            <note>Marks this field as able to be changed by other BACnet controllers.</note>
+            <variant>BACnet Writable</variant>
+        </translation>
+        <translation key="Aux_Heat_output_=_aux_heat_input">
+            <note>The auxiliary heat output is the same as the auxiliary heat input</note>
+            <variant>Aux Heat output = aux heat input</variant>
+        </translation>
+        <translation key="area_1">
+            <note>Name of an area at index = 1 in a table</note>
+            <variant>Area 1</variant>
+        </translation>
+        <translation key="network_type_1">
+            <note>Network type at index = 1 in a table</note>
+            <variant>Network Type 1</variant>
+        </translation>
+        <translation key="address_1">
+            <note>Address at index = 1 in a table</note>
+            <variant>Address 1</variant>
+        </translation>
+        <translation key="disable_edits_1">
+            <note>Checkbox that prevents user from editing values. Shown at index = 1 in a table.</note>
+            <variant>Disable Edits 1</variant>
+        </translation>
+        <translation key="sensor_editable_1">
+            <note>Checkbox that enables the sensor shown at index = 1 in a table.</note>
+            <variant>Sensor Editable 1</variant>
+        </translation>
+        <translation key="area_2">
+            <note>Name of an area at index = 2 in a table</note>
+            <variant>Area 2</variant>
+        </translation>
+        <translation key="network_type_2">
+            <note>Network type at index = 2 in a table</note>
+            <variant>Network Type 2</variant>
+        </translation>
+        <translation key="address_2">
+            <note>Address at index = 2 in a table</note>
+            <variant>Address 2</variant>
+        </translation>
+        <translation key="disable_edits_2">
+            <note>Checkbox that prevents user from editing values. Shown at index = 2 in a table.</note>
+            <variant>Disable Edits 2</variant>
+        </translation>
+        <translation key="sensor_editable_2">
+            <note>Checkbox that enables the sensor shown at index = 2 in a table.</note>
+            <variant>Sensor Editable 2</variant>
+        </translation>
+        <translation key="area_3">
+            <note>Name of an area at index = 3 in a table</note>
+            <variant>Area 3</variant>
+        </translation>
+        <translation key="network_type_3">
+            <note>Network type at index = 3 in a table</note>
+            <variant>Network Type 3</variant>
+        </translation>
+        <translation key="address_3">
+            <note>Address at index = 3 in a table</note>
+            <variant>Address 3</variant>
+        </translation>
+        <translation key="disable_edits_3">
+            <note>Checkbox that prevents user from editing values. Shown at index = 3 in a table.</note>
+            <variant>Disable Edits 3</variant>
+        </translation>
+        <translation key="sensor_editable_3">
+            <note>Checkbox that enables the sensor shown at index = 3 in a table.</note>
+            <variant>Sensor Editable 3</variant>
+        </translation>
+        <translation key="area_4">
+            <note>Name of an area at index = 4 in a table</note>
+            <variant>Area 4</variant>
+        </translation>
+        <translation key="network_type_4">
+            <note>Network type at index = 4 in a table</note>
+            <variant>Network Type 4</variant>
+        </translation>
+        <translation key="address_4">
+            <note>Address at index = 4 in a table</note>
+            <variant>Address 4</variant>
+        </translation>
+        <translation key="disable_edits_4">
+            <note>Checkbox that prevents user from editing values. Shown at index = 4 in a table.</note>
+            <variant>Disable Edits 4</variant>
+        </translation>
+        <translation key="sensor_editable_4">
+            <note>Checkbox that enables the sensor shown at index = 4 in a table.</note>
+            <variant>Sensor Editable 4</variant>
+        </translation>
+        <translation key="area_5">
+            <note>Name of an area at index = 5 in a table</note>
+            <variant>Area 5</variant>
+        </translation>
+        <translation key="network_type_5">
+            <note>Network type at index = 5 in a table</note>
+            <variant>Network Type 5</variant>
+        </translation>
+        <translation key="address_5">
+            <note>Address at index = 5 in a table</note>
+            <variant>Address 5</variant>
+        </translation>
+        <translation key="disable_edits_5">
+            <note>Checkbox that prevents user from editing values. Shown at index = 5 in a table.</note>
+            <variant>Disable Edits 5</variant>
+        </translation>
+        <translation key="sensor_editable_5">
+            <note>Checkbox that enables the sensor shown at index = 5 in a table.</note>
+            <variant>Sensor Editable 5</variant>
+        </translation>
+        <translation key="Enable_RNet_Functionality">
+            <note>Checkbox that turns on/off rnet sensor capabilities for this microblock.</note>
+            <variant>Enable Rnet</variant>
+        </translation>
+        <translation key="not_compatible_with_all_systems_see_help">
+            <variant>Not compatible with all system and driver versions. See Help below.</variant>
+        </translation>
+    </section>
+    <!--end microblock names section-->
+</resource-base>

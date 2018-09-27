@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-base id="MessageLanguageResource" version="1.0" xml:lang="en" xmlns="http://www.controlj.com/rbase1.0">
+    <section id="UNCATEGORIZED ERRORS">
+        <note>This is an uncategorized error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e0">
+            <note>This is an uncategorized error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Error</variant>
+        </translation>
+        <translation key="e1">
+            <note>This is an uncategorized error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error</variant>
+        </translation>
+    </section>
+    <section id="SYSTEM (core) ERRORS">
+        <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e1000">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown System Error</variant>
+        </translation>
+        <translation key="e1001">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Missing System Resource</variant>
+        </translation>
+        <translation key="e1002">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Database Integrity Error</variant>
+        </translation>
+        <translation key="e1003">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Control Program Error</variant>
+        </translation>
+        <translation key="e1004">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Database Operation Failed</variant>
+        </translation>
+        <translation key="e1005">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Control Program Resource Error</variant>
+        </translation>
+        <translation key="e1006">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Driver Definition Error</variant>
+        </translation>
+        <translation key="e1007">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Classification information mismatch between driver and control program</variant>
+        </translation>
+        <translation key="e1008">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Control program Operation Failed</variant>
+        </translation>
+        <translation key="e1009">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Controller Operation Failed</variant>
+        </translation>
+        <translation key="e1010">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Internal Error</variant>
+        </translation>
+        <translation key="e1011">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Static Bindings Enabled</variant>
+        </translation>
+        <translation key="e1012">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - this item cannot be attached to this modeled or 3rd party device - used in error message notification</note>
+            <variant>Cannot Attach to Modeled Controller</variant>
+        </translation>
+        <translation key="e1013">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - Microblocks cannot be associated with this hardware device - used in error message notification</note>
+            <variant>Controller Does Not Support Microblock(s)</variant>
+        </translation>
+        <translation key="e1014">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - operator cannot be given this privilege - used in error message notification</note>
+            <variant>Privilege denied</variant>
+        </translation>
+        <translation key="e1015">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - communication problem accessing the database - used in error message notification</note>
+            <variant>Database Communication Error</variant>
+        </translation>
+        <translation key="e1015_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - communication problem accessing the database - used in error message notification</note>
+            <variant>Database Communication Error</variant>
+        </translation>
+        <translation key="e1016">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Maximum number of assigned control programs exceeded</variant>
+        </translation>
+        <translation key="e1017">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user entered an invalid username or password.</note>
+            <variant>The username or password that you entered is incorrect.</variant>
+        </translation>
+        <translation key="e1017_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user entered an invalid username or password.</note>
+            <variant>Invalid username or password.</variant>
+        </translation>
+        <translation key="e1018">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the password does not satisfy the password policy requirements.</note>
+            <variant>The password does not satisfy the password policy requirements.</variant>
+        </translation>
+        <translation key="e1018_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the password does not satisfy the password policy requirements.</note>
+            <variant>The password policy for this account has changed. Log in to {0} to resolve.</variant>
+        </translation>
+        <translation key="e1019">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user has a temporary password that must be changed.</note>
+            <variant>You have a temporary password that must be changed.</variant>
+        </translation>
+        <translation key="e1019_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user has a temporary password that must be changed.</note>
+            <variant>You have a temporary password that must be changed. Log in to {0} to resolve.</variant>
+        </translation>
+        <translation key="e1020">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user password has expired</note>
+            <variant>Your password has expired and needs to be changed.</variant>
+        </translation>
+        <translation key="e1020_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user password has expired</note>
+            <variant>You have an expired password that must be changed. Log in to {0} to resolve.</variant>
+        </translation>
+        <translation key="e1021">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the user is locked out of program</note>
+            <variant>This account has been locked due to excessive login failures.</variant>
+        </translation>
+        <translation key="e1021_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the user is locked out of program</note>
+            <variant>This account has been locked due to excessive login failures.</variant>
+        </translation>
+        <translation key="e1022">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the user cannot use that password again for XX times</note>
+            <variant>That password has been used in the past and cannot be reused at this time.</variant>
+        </translation>
+        <translation key="e1023">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the password cannot be the same as the login name</note>
+            <variant>The password cannot be the same as the login name.</variant>
+        </translation>
+        <translation key="e1023_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the password cannot be the same as the login name</note>
+            <variant>Your username cannot match the password. Log in to {0} to resolve.</variant>
+        </translation>
+        <translation key="e1025">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Network number is invalid.</variant>
+        </translation>
+        <translation key="e1026">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Device id is not unique.</variant>
+        </translation>
+        <translation key="e1027_addon">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the someone is already logged into the session using a different username</note>
+            <variant>You are already logged in using a different name.</variant>
+        </translation>
+        <translation key="e1028">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the user password has expired</note>
+            <variant>Your password has expired and needs to be changed. Please contact your administrator.</variant>
+        </translation>
+        <translation key="e1029">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that device doesn't support control programs - user cannot attach any</note>
+            <variant>DEvice does not support control programs.</variant>
+        </translation>
+        <translation key="e1030">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message indicating that the current password is invalid - used when changing password during login process</note>
+            <variant>The current password that you entered is incorrect.</variant>
+        </translation>
+        <translation key="e1900">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>General Service Error</variant>
+        </translation>
+        <translation key="e1901">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Bad Service Request</variant>
+        </translation>
+        <translation key="e1902">
+            <note>This is a general system type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Service Request Timed Out</variant>
+        </translation>
+    </section>
+    <section id="SERVLET ERRORS">
+        <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e2000">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Servlet Error</variant>
+        </translation>
+        <translation key="e2001">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error in TreeRequestServlet</variant>
+        </translation>
+        <translation key="e2002">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error in TreeUpdateServlet</variant>
+        </translation>
+        <translation key="e2003">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Not enough information to plot trends check details</variant>
+        </translation>
+        <translation key="e2004">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No authorization to create the selected node type</variant>
+        </translation>
+        <translation key="e2005">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No authorization to delete the selected node type</variant>
+        </translation>
+        <translation key="e2006">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>{0} is not a valid location from your current position. No change has occurred.</variant>
+        </translation>
+        <translation key="e2007">
+            <note>This is a Java servlet error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant> Access denied </variant>
+        </translation>
+    </section>
+    <section id="UI ERRORS">
+        <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e3000">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown UI Error</variant>
+        </translation>
+        <translation key="e3001">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>You are not authorized to execute the command "{0}".</variant>
+        </translation>
+        <translation key="e3002">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>A JSP or SERVLET runtime exception has occurred</variant>
+        </translation>
+        <translation key="e3003">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Trend Graph cannot be created at this location</variant>
+        </translation>
+        <translation key="e3004">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The expression "{0}" cannot be evaluated.</variant>
+        </translation>
+        <translation key="e3005">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The primitive id "{0}" has already been used and cannot be defined again.</variant>
+        </translation>
+        <translation key="e3006">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The expression "{0}" is not accessible.</variant>
+        </translation>
+        <translation key="e3007">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>This is an invalid PrimitiveExpression format: "{0}" </variant>
+        </translation>
+        <translation key="e3008">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The expression constructed from blockname: "{0}" and primname: "{1}" evaluated to the wrong data type for a "{2}" control</variant>
+        </translation>
+        <translation key="e3009">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error creating popup control for an alertid, substituting regular text control.</variant>
+        </translation>
+        <translation key="e3010">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid value - blockname= "{0}" primname= "{1}"</variant>
+        </translation>
+        <translation key="e3011">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Format string cannot be null.</variant>
+        </translation>
+        <translation key="e3012">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not parse expression: "{0}"</variant>
+        </translation>
+        <translation key="e3013">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid property index number: "{0}" found.</variant>
+        </translation>
+        <translation key="e3014">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Must specify a name for a property.</variant>
+        </translation>
+        <translation key="e3015">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid property: "{0}" found.</variant>
+        </translation>
+        <translation key="e3016">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Invalid Control [ "{0}" ] : Invalid path "{1}"</variant>
+        </translation>
+        <translation key="e3017">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Invalid Control [ "{0}" ] : Expression "{1}" evaluated to wrong data type.</variant>
+        </translation>
+        <translation key="e3018">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error creating droplist items - no set definition found.</variant>
+        </translation>
+        <translation key="e3019">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The set definition "{0}" is not accessible.</variant>
+        </translation>
+        <translation key="e3020">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The set definition expression "{0}" cannot be evaluated.</variant>
+        </translation>
+        <translation key="e3021">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No set definition is specified for location: "{0}".</variant>
+        </translation>
+        <translation key="e3022">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The set definition for location "{0}" is not found.</variant>
+        </translation>
+        <translation key="e3023">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>One of the expression sets for a ColorMap was improperly formatted.</variant>
+        </translation>
+        <translation key="e3024">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The colormap with the image "{0}" has the following errors:</variant>
+        </translation>
+        <translation key="e3025">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Failure in "{0}" control.</variant>
+        </translation>
+        <translation key="e3026">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Invalid Control [ "{0}" ] : Set definition error.</variant>
+        </translation>
+        <translation key="e3027">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Microblock and mode parameters must both be entered for Setpoint control.</variant>
+        </translation>
+        <translation key="e3028">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Showdemands parameter must be "false" if mode parameter is set to "effective" for Setpoint control.</variant>
+        </translation>
+        <translation key="e3029">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Error accessing current location when attempting to create Setpoint control parameters.</variant>
+        </translation>
+        <translation key="e3030">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Mode parameter must be "actual" for Setpoint control on legacycontrol program.</variant>
+        </translation>
+        <translation key="e3031">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error : Either primname or alternatedata parameter must be provided for the SetDefinition tag.</variant>
+        </translation>
+        <translation key="e3032">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the user timed out while trying to change their password</note>
+            <variant>You have waited too long to change your password.  Please close this window and try again.</variant>
+        </translation>
+        <translation key="e3033">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the password cannot be changed for some reason.</note>
+            <variant>Password cannot be changed.</variant>
+        </translation>
+        <translation key="e3034">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that the equipment file was not found by the reload command.</note>
+            <variant>Control program file was not found.</variant>
+        </translation>
+        <translation key="e3035">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that reload control program is not allowed when SiteBuilder is open or another
+            user is viewing any pages at or below any equipment that are defined with this control program.</note>
+            <variant>Cannot reload : "{0}" is open or another user is viewing pages associated with this control program.</variant>
+        </translation>
+        <translation key="e3036">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> errormessage indicating that path to the microblock for the setpoint is incorrect.</note>
+            <variant>Microblock parameter "{0}" contains an invalid path for a setpoint.</variant>
+        </translation>
+        <translation key="e3037">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message used for displaying invalid ViewBuilder control issues.</note>
+            <variant>ViewBuilder control of type "{0}" requires further information for display : {1}</variant>
+        </translation>
+        <translation key="e3038">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message when attempting to display microblock popup for something not under a microblock</note>
+            <variant>No microblock found for location: {0}</variant>
+        </translation>
+        <translation key="e3039">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message when trying to add a report</note>
+            <variant>Error adding report</variant>
+        </translation>
+        <translation key="e3040">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message when trying to delete a report</note>
+            <variant>Error deleting report</variant>
+        </translation>
+        <translation key="e3041">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> error message when trying to update a report</note>
+            <variant>Error updating report</variant>
+        </translation>
+        <translation key="e3042">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> Unexpected error condition while trying to run a report</note>
+            <variant>Error running report</variant>
+        </translation>
+        <translation key="e3043">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> Bad Report Definition while trying to run a report - most likely due to
+            incomplete custom definition that an end user has not finished with yet
+     </note>
+            <variant>Report design incomplete - please return to the design tab and correct any errors marked in red.</variant>
+        </translation>
+        <translation key="e3044">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Error message for an invalid reference name, could be caused by invalid characters.</note>
+            <variant>Reference name "{0}" is invalid.</variant>
+        </translation>
+        <translation key="e3045">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Generic error message for validation errors on an accept</note>
+            <variant>Could not accept changes</variant>
+        </translation>
+        <translation key="e3046">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Unknown error accepting changes</note>
+            <variant>Could not accept value of "{1}" for {0}: {2}</variant>
+        </translation>
+        <translation key="e3047">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Error if valuebinder attribute for a tag results in the wrong type of binder.  The parameter is a string describing the particular control.</note>
+            <variant>Bad valuebinder for {0}</variant>
+        </translation>
+        <translation key="e3048">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error changing Control Program</variant>
+        </translation>
+        <translation key="e3049">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not attach view</variant>
+        </translation>
+        <translation key="e3050">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error modifying information for discovered controller</variant>
+        </translation>
+        <translation key="e3051">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not perform make fresh on table</variant>
+        </translation>
+        <translation key="e3052">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not store table changes</variant>
+        </translation>
+        <translation key="e3053">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error discovering controller at {0} : {1}</variant>
+        </translation>
+        <translation key="e3054">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There are no protocol mappings used in this controller. Return to the properties page to build the mappings.</variant>
+        </translation>
+        <translation key="e3055">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error discovering controller: {0}</variant>
+        </translation>
+        <translation key="e3056">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while initializing tree</variant>
+        </translation>
+        <translation key="e3057">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while requesting children</variant>
+        </translation>
+        <translation key="e3058">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while processing the client request to add a node</variant>
+        </translation>
+        <translation key="e3059">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while processing the client request to delete a node</variant>
+        </translation>
+        <translation key="e3060">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while processing the client request to move a node</variant>
+        </translation>
+        <translation key="e3061">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while processing the client request to update a content attribute of a node</variant>
+        </translation>
+        <translation key="e3062">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error occurred while attempting to assign a control program to a network controller</variant>
+        </translation>
+        <translation key="e3063">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The criteria used to select control programs for this report did not find any matching control programs.</variant>
+        </translation>
+        <translation key="e3064">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No starting locations specified - please return to the design tab and select control programs for this report or provide criteria for matching control programs.</variant>
+        </translation>
+        <translation key="e3065">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Error message for a duplicate reference name</note>
+            <variant>Reference name "{0}" already exists.</variant>
+        </translation>
+        <translation key="e3066">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Error message for a duplicate UDP Port Number</note>
+            <variant>Duplicate UDP Port Number.</variant>
+        </translation>
+        <translation key="e3067">
+            <note>This is a User Interface type error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Error message for a UDP Port Number out of range</note>
+            <variant>UDP Port Number is out of range.</variant>
+        </translation>
+    </section>
+    <section id="FIELD ERRORS">
+        <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e4000">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Field Error</variant>
+        </translation>
+        <translation key="e4001">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Client Other</variant>
+        </translation>
+        <translation key="e4002">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Controller</variant>
+        </translation>
+        <translation key="e4003">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Object</variant>
+        </translation>
+        <translation key="e4004">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No Response</variant>
+        </translation>
+        <translation key="e4005">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Address Not Bound</variant>
+        </translation>
+        <translation key="e4006">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Segmentation not supported</variant>
+        </translation>
+        <translation key="e4007">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unrecognized service request</variant>
+        </translation>
+        <translation key="e4008">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid array index</variant>
+        </translation>
+        <translation key="e4009">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Service request denied</variant>
+        </translation>
+        <translation key="e4010">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid data type</variant>
+        </translation>
+        <translation key="e4011">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Property</variant>
+        </translation>
+        <translation key="e4012">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>File Error</variant>
+        </translation>
+        <translation key="e4013">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error in Response</variant>
+        </translation>
+        <translation key="e4014">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Encoding Error</variant>
+        </translation>
+        <translation key="e4015">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Request Addressing error</variant>
+        </translation>
+        <translation key="e4016">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Socket could not be initialized or request could not be sent.</variant>
+        </translation>
+        <translation key="e4017">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Protocol Stack error</variant>
+        </translation>
+        <translation key="e4019">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Read/Write access is denied by the controller.</variant>
+        </translation>
+        <translation key="e4020">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>ASNcoder encode error.</variant>
+        </translation>
+        <translation key="e4021">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Serial port error.</variant>
+        </translation>
+        <translation key="e4022">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Modem error.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="e4023">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Parameter upload error.</variant>
+        </translation>
+        <translation key="e4024">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Connection error.</variant>
+        </translation>
+        <translation key="e4025">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Rnet Host needs to be downloaded.</variant>
+        </translation>
+        <translation key="e4901">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Failed</variant>
+        </translation>
+        <translation key="e4902">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Reinitialize controller error</variant>
+        </translation>
+        <translation key="e4903">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Bind controller error</variant>
+        </translation>
+        <translation key="e4904">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>RP make definition warning</variant>
+        </translation>
+        <translation key="e4905">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Driver Parameters Failed</variant>
+        </translation>
+        <translation key="e4906">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download RP Failed</variant>
+        </translation>
+        <translation key="e4907">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download CP Failed</variant>
+        </translation>
+        <translation key="e4908">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Microblock</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="e4909">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Memory Failed</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="e4910">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Parameter Failed</variant>
+        </translation>
+        <translation key="e4911">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Schedule Failed</variant>
+        </translation>
+        <translation key="e4912">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Schedule Encoding Failed</variant>
+        </translation>
+        <translation key="e4913">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Too Many Exception Schedules</variant>
+        </translation>
+        <translation key="e4914">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Invalid Access Type, Currently MPX1 is the only type supported.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="e4915">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Mark for memory download failed</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="e4916">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Mark for parameter download failed</variant>
+        </translation>
+        <translation key="e4917">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Exception Schedule Failed</variant>
+        </translation>
+        <translation key="e4918">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download Weekly Schedule Failed</variant>
+        </translation>
+        <translation key="e4919">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Control Program Validation Error</variant>
+        </translation>
+        <translation key="e4920">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Mark for download failed</variant>
+        </translation>
+        <translation key="e4921">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - this Microblock cannot be downloaded (only uploaded) - used in error message notification</note>
+            <variant>Not a Downloadable Microblock</variant>
+        </translation>
+        <translation key="e4922">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download of screen file failed</variant>
+        </translation>
+        <translation key="e4923">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download incomplete</variant>
+        </translation>
+        <translation key="i4923">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Download incomplete</variant>
+        </translation>
+        <translation key="e4924">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Schedule download incomplete</variant>
+        </translation>
+        <translation key="e4925">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There are no schedulable points for this controller.</variant>
+        </translation>
+        <translation key="e4926">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Schedule upload only supports one schedule microblock, this controller has {0}.</variant>
+        </translation>
+        <translation key="e4127">
+            <note>This is an error encountered while communicating with the modules in the field.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Schedule upload only supports BOOL schedules, this controller has {0} schedules.</variant>
+        </translation>
+    </section>
+    <section id="EVENT ERRORS">
+        <note>This is an Alarms error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e5000">
+            <note>This is an Alarms error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The alarm could not be generated.</variant>
+        </translation>
+        <translation key="e5001">
+            <note>This is an Alarms error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Event Manager Error</variant>
+        </translation>
+    </section>
+    <section id="RA ERRORS">
+        <note>This is an alarm action error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e6000">
+            <note>This is an alarm action error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The alarm action could not be executed.</variant>
+        </translation>
+    </section>
+    <section id="TREND ERRORS">
+        <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e7000">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Trend Manager Error</variant>
+        </translation>
+        <translation key="e7001">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unknown Trend Source</variant>
+        </translation>
+        <translation key="e7002">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Failed to save trend data to the database.</variant>
+        </translation>
+        <translation key="e7003">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Auto-deletion has been disabled.</variant>
+        </translation>
+        <translation key="e7004">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Can not log trends as requested because the trend log node could not be found.</variant>
+        </translation>
+        <translation key="e7005">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not determine if CMnet controller has unread trends.</variant>
+        </translation>
+        <translation key="e7006">
+            <note>This is a trend error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>A time change sample value has a value outside of the time sync threshold.</variant>
+        </translation>
+    </section>
+    <section id="DISCOVERY ERRORS">
+        <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="e9000">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Discovery Error</variant>
+        </translation>
+        <translation key="e9001">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Found router in the database while expected to find controller.</variant>
+        </translation>
+        <translation key="e9002">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Found controller in the database while expected to find router.</variant>
+        </translation>
+        <translation key="e9003">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The element number of the gateway in the database does not match the element number of the gateway in the field ({0}) for network ({1}).</variant>
+        </translation>
+        <translation key="e9004">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Could not communicate to the gateway.</variant>
+        </translation>
+        <translation key="e9005">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Service for CCN IP connection is not found</variant>
+        </translation>
+        <translation key="e9006">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Equipment Builder failed to start up</variant>
+        </translation>
+        <translation key="e9007">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>CCN Connection is not available</variant>
+        </translation>
+        <translation key="e9008">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Couldn't find a single site in the system</variant>
+        </translation>
+        <translation key="e9009">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Cannot find gateway for CCN network in the system</variant>
+        </translation>
+        <translation key="e9010">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Failed to apply user changes for controller {0}</variant>
+        </translation>
+        <translation key="e9011">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error not defined</variant>
+        </translation>
+        <translation key="e9012">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Control Program Limit Exceeded</variant>
+        </translation>
+        <translation key="e9013">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Scanning {0} is not supported.</variant>
+        </translation>
+        <translation key="e9014">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Scanning {0} is not supported in this product.</variant>
+        </translation>
+        <translation key="e9015">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Scanning {0} is not supported. Use SiteBuilder or find and upload from the Devices / Manage page instead.</variant>
+        </translation>
+        <translation approved="false" key="e9016" new="true">
+            <note>This is an auto discovery error.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Upgrade from SAL is not supported with this Operator or License.</variant>
+        </translation>
+    </section>
+    <section id="HS SYNC ERRORS">
+        <note>This is hierarchical server synchronization error.</note>
+        <translation key="e9100">
+            <note>This is hierarchical server synchronization error.</note>
+            <variant>Error processing request to synchronize roles, operators or operator groups.</variant>
+        </translation>
+    </section>
+    <section id="SEMANTICS ARCHIVE ERRORS">
+        <note>This is a semantics archive read related error.</note>
+        <translation approved="false" key="e9200" new="true">
+            <note>This is a semantics archive read related error.</note>
+            <variant>Semantics archive file appears to be in a corrupt state! Unable to read file!</variant>
+        </translation>
+        <translation approved="false" key="e9201" new="true">
+            <note>This is a semantics archive read related error.</note>
+            <variant>Unsupported semantics file version! Get the latest software release.</variant>
+        </translation>
+        <translation approved="false" key="e9202" new="true">
+            <note>This is a semantics archive read related error.</note>
+            <variant>Semantics archive file is in an invalid state! Unable to process!</variant>
+        </translation>
+        <translation approved="false" key="e9203" new="true">
+            <note>This is a semantics archive read related error.</note>
+            <variant>Error attempting to write to the Semantics archive file! Unable to update!</variant>
+        </translation>
+    </section>
+    <section id="UNCATEGORIZED MESSAGES">
+        <note>This is an uncategorized information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i0">
+            <note>This is an uncategorized information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Something happened, I don't know what.</variant>
+        </translation>
+    </section>
+    <section id="SYSTEM (core) MESSAGES">
+        <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i1000">
+            <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Something happened in the system.</variant>
+        </translation>
+        <translation key="i1001">
+            <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>System update failed.</variant>
+        </translation>
+        <translation key="i1002">
+            <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>System update already applied.</variant>
+        </translation>
+        <translation key="i1003">
+            <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>System update failed - wrong product version.</variant>
+        </translation>
+        <translation key="i1004">
+            <note>This is a general system type information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>System update failed - wrong product.</variant>
+        </translation>
+    </section>
+    <section id="SERVLET MESSAGES">
+        <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i2000">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Something happened in a servlet.</variant>
+        </translation>
+        <translation key="i2003">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Not enough information to plot trends check details</variant>
+        </translation>
+        <translation key="i2004">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Wrong path entered in the Trend Tag control / use relative path from location or absolute path</variant>
+        </translation>
+        <translation key="i2005">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Error parsing Trend Graph Parameters</variant>
+        </translation>
+        <translation key="i2006">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No dataseries selected / check details</variant>
+        </translation>
+        <translation key="i2007">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Wrong datasource value</variant>
+        </translation>
+        <translation key="i2008">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Dataseries not of same type / check details</variant>
+        </translation>
+        <translation key="i2009">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>More DataPoints Required for trending / Please Refresh</variant>
+        </translation>
+        <translation key="i2010">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Field Communication failed, using historical data only.</variant>
+        </translation>
+        <translation key="i2011">
+            <note>This is a general servlet information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>No authorization to delete the selected node type</variant>
+        </translation>
+    </section>
+    <section id="UI MESSAGES">
+        <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i3000">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Something happened in the UI.</variant>
+        </translation>
+        <translation key="i3001">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The datasource path evaluated to a trend node.</variant>
+        </translation>
+        <translation key="i3002">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The datasource path did not evaluate to a trend node.</variant>
+        </translation>
+        <translation key="i3003">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Broadcast Message</variant>
+        </translation>
+        <translation key="i3004">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - user cannot allowed to access this area  - used in error message notification</note>
+            <variant>Access denied. Insufficient access privileges.</variant>
+        </translation>
+        <translation key="i3005">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>Manual command finished its work.</note>
+            <variant>Manual command is completed.</variant>
+        </translation>
+        <translation key="i3006">
+            <note>This is a general User Interface information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note>You must be at a certain location level to perform the command.</note>
+            <variant>You must be at a certain location level to perform this command.</variant>
+        </translation>
+    </section>
+    <section id="FIELD MESSAGES">
+        <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+        <translation key="i4000">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Something happened in the field.</variant>
+        </translation>
+        <translation key="i4001">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>BACnet Address conflict.</variant>
+        </translation>
+        <translation key="i4002">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>BACnet Network number conflict.</variant>
+        </translation>
+        <translation key="i4100">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Initiating Dialup, please wait...</variant>
+        </translation>
+        <translation key="i4101">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Dialup failed.</variant>
+        </translation>
+        <translation key="i4102">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Dialup complete.</variant>
+        </translation>
+        <translation key="i4003">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field communications have been disabled.</variant>
+        </translation>
+        <translation key="i4003s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Communications disabled</variant>
+        </translation>
+        <translation key="i4004">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field access disabled since this controller uses a No Connect connection.</variant>
+        </translation>
+        <translation key="i4004s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>No connection</variant>
+        </translation>
+        <translation key="i4005">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field access disabled since the connection for this controller has been stopped.</variant>
+        </translation>
+        <translation key="i4005s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Connection stopped</variant>
+        </translation>
+        <translation key="i4006">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Controller needs download to resume communications.</variant>
+        </translation>
+        <translation key="i4006s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Programs download needed</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="i4007">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field write disabled since this controller has been marked for parameter download.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="i4007s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter download needed</variant>
+        </translation>
+        <translation key="i4008">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter mismatch detected. You must upload from the controller or download to the controller.</variant>
+        </translation>
+        <translation key="i4008s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter mismatch</variant>
+        </translation>
+        <translation key="i4009">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Cannot obtain controller's status</variant>
+        </translation>
+        <translation key="i4009s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Unknown status</variant>
+        </translation>
+        <translation key="i4010">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Accessed field controller with no errors.</variant>
+        </translation>
+        <translation key="i4010s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Good</variant>
+        </translation>
+        <translation key="i4011">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Communicated with field controller with no errors.</variant>
+        </translation>
+        <translation key="i4011s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Good</variant>
+        </translation>
+        <translation key="i4012">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field write disabled since this control program has been marked for parameter download.</variant>
+        </translation>
+        <!-- "We probably should not be using these message anymore. Check if a corresponding 
+message from network-messages.xml can be used instead"-->
+        <translation key="i4012s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter download needed</variant>
+        </translation>
+        <translation key="i4013">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Control Program Version mismatch detected with the field.</variant>
+        </translation>
+        <translation key="i4013s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Control Program mismatch</variant>
+        </translation>
+        <translation key="i4014">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <note> label - There is a schedule that has been added and must be downloaded to this device - used in information message notification</note>
+            <variant>Schedules need to be downloaded to this controller.</variant>
+        </translation>
+        <translation key="i4014s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Download schedules</variant>
+        </translation>
+        <translation key="i4015">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <note> label - There is a schedule that has been added and must be downloaded  - used in information message notification</note>
+            <variant>Schedules need to be downloaded to the following controllers:</variant>
+        </translation>
+        <translation key="i4016">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <note>label - red banner at top of properties pages when the device or router are 'disabled'</note>
+            <variant>Controller or router to controller has been taken out of service. Communications have been disabled to this controller.</variant>
+        </translation>
+        <translation key="i4016s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Out of service</variant>
+        </translation>
+        <translation key="i4017">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Field access disabled because connection is in the FAILED state.</variant>
+        </translation>
+        <translation key="i4017s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Connection Failed</variant>
+        </translation>
+        <translation key="i4018">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Connection is downloading. Cannot get values from the field. Please try again later.</variant>
+        </translation>
+        <translation key="i4018s">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Connection downloading</variant>
+        </translation>
+        <translation key="i4025">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Rnet Host needs to be downloaded.</variant>
+        </translation>
+        <translation key="i4026">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Controller may be offline.</variant>
+        </translation>
+        <translation key="i4027">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Downloading changes. Communications will resume shortly.</variant>
+        </translation>
+        <translation key="i4028">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Please rescan this controller in Setup to show its current state. A table edit has been made.</variant>
+        </translation>
+        <translation key="i4029">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Download failed. Controller needs download to resume communications.</variant>
+        </translation>
+        <translation key="i4030">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Data checksum mismatch.  Try to send again.</variant>
+        </translation>
+        <translation key="i4031">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Client service is not running.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="i4110">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter upload starting.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="i4111">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter upload failed.</variant>
+        </translation>
+        <translation key="i4112">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter value changed.</variant>
+        </translation>
+        <translation key="i4113">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Variable value changed.</variant>
+        </translation>
+        <translation key="i4114">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Other parameter value changed.</variant>
+        </translation>
+        <!--"We probably should not be using these message anymore. See if a corresponding
+message from network-messages.xml can be used instead"-->
+        <translation key="i4115">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Parameter upload successful.</variant>
+        </translation>
+        <translation key="i4900">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Download Complete</variant>
+        </translation>
+        <translation key="i4901">
+            <note>This is an information message to inform the user of a condition when communicating to a field module.
+     The key is simply an identifier - has nothing to do with the text.  The ones ending in "S" (ex: "i4003s")
+     are the short form used in reporting</note>
+            <variant>Nothing to download</variant>
+        </translation>
+    </section>
+    <section id="EVENT MESSAGES">
+        <note>This is an Alarms information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i5000">
+            <note>This is an Alarms information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The alarm will be logged from an UNKNOWN event source.</variant>
+        </translation>
+        <translation key="i5001">
+            <note>This is an Alarms information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Selected object must be Network Visible to generate events.</variant>
+        </translation>
+        <translation key="i5002">
+            <note>This is an Alarms information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Event is Not Enabled for this object.</variant>
+        </translation>
+    </section>
+    <section id="TREND MESSAGES">
+        <note>This is a Trends information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i6000">
+            <note>This is a Trends information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Trends deleted for changed Trend Log object.</variant>
+        </translation>
+        <translation key="i6001">
+            <note>This is a Trends information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Trend data has been saved to the database.</variant>
+        </translation>
+    </section>
+    <section id="REPORTING ACTION MESSAGES">
+        <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i7000">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Alarm action error.</variant>
+        </translation>
+        <translation key="i7001">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Alarm action failed to launch.</variant>
+        </translation>
+        <translation key="i7002">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>File Write alarm action failed.</variant>
+        </translation>
+        <translation key="i7003">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Print alarm action failed.</variant>
+        </translation>
+        <translation key="i7004">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>E-Mail alarm action failed.</variant>
+        </translation>
+        <translation key="i7005">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>SNMP alarm action failed.</variant>
+        </translation>
+        <translation key="i7006">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Run External Program alarm action failed.</variant>
+        </translation>
+        <translation key="i7007">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Write Property alarm action failed.</variant>
+        </translation>
+        <translation key="i7008">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Alphanumeric Pager alarm action failed.</variant>
+        </translation>
+        <translation key="i7009">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>WAP notify alarm action failed.</variant>
+        </translation>
+        <translation key="i7010">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - an alarm action of type 'Database Write' failed to execute properly - used in information message notification</note>
+            <variant>Database Write alarm action failed.</variant>
+        </translation>
+        <translation key="i7011">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - an alarm action of type 'Popup Notification' failed to execute properly - used in information message notification</note>
+            <variant>Alarm Popup action failed.</variant>
+        </translation>
+        <translation key="i7012">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - an alarm action of type 'Propagate To Server' failed to execute properly - used in information message notification</note>
+            <variant>Propagate To Server alarm action failed.</variant>
+        </translation>
+        <translation approved="false" key="i7013" new="true">
+            <note>This is an alarm action information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - an alarm action of type 'Send Webservice Request' failed to execute properly - used in information message notification</note>
+            <variant>Send Webservice Request alarm action failed.</variant>
+        </translation>
+    </section>
+    <section id="SOURCE ASSIGN ERROR STRINGS">
+        <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i8000">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} network point microblock parameter has already been assigned!</variant>
+        </translation>
+        <translation key="i8001">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} given identifier does not match any of the source control program's microblock reference names!</variant>
+        </translation>
+        <translation key="i8002">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} given identifier is not unique among the source control program's microblock reference names and it must be.</variant>
+        </translation>
+        <translation key="i8003">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} parameter was not found in the source control program's microblock!</variant>
+        </translation>
+        <translation key="i8004">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} parameter is not unique in the source control program's microblock and it must be.</variant>
+        </translation>
+        <translation key="i8005">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Exceeded the number of available source assignments for 'Tot/Avg/Min/Max' microblocks identified by the given wildcard reference name - {0}.</variant>
+        </translation>
+        <translation key="i8006">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} given identifier is not a subset of any of the source control program's microblock reference names!</variant>
+        </translation>
+        <translation key="i8007">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unable to retrieve the CMNet address information for the parent piece of equipment!</variant>
+        </translation>
+        <translation key="i8008">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} microblock is not a valid CMNet microblock!</variant>
+        </translation>
+        <translation key="i8009">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Parent MB reference name must be blank for a 'Interop' microblock type.</variant>
+        </translation>
+        <translation key="i8010">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Data target MB location must be 'child' for the 'Interop' microblock type.</variant>
+        </translation>
+        <translation key="i8011">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There are no source tree rules for this tree.</variant>
+        </translation>
+        <translation key="i8012">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Unable to assign source control program! Parent node is invalid for source tree.</variant>
+        </translation>
+        <translation key="i8013">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There has been an internal error applying the rules to the source tree!</variant>
+        </translation>
+        <translation key="i8014">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There has been an internal error unapplying the rules to the source tree!</variant>
+        </translation>
+        <translation key="i8015">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There has been an internal error assigning the control program!</variant>
+        </translation>
+        <translation key="i8016">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>There has been an internal error unassigning the control program!</variant>
+        </translation>
+        <translation key="i8017">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Internal error saving Source Tree Rules!</variant>
+        </translation>
+        <translation key="i8018">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <note> label - A merge failed because the tree it was to be extracted from did not exist - used in information message notification</note>
+            <variant>Cannot merge, source tree must exist.</variant>
+        </translation>
+        <translation key="i8019">
+            <note>This is a SiteBuilder information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>The {0} identifier does not match the right microblock type!</variant>
+        </translation>
+    </section>
+    <section id="LOGIC PAGE GRAPHIC CREATION MESSAGES">
+        <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+        <translation key="i8100">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Missing or possible problems with system files needed for creation of Interop Logic Page's Graphic!</variant>
+        </translation>
+        <translation key="i8101">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Missing or possible problems with converted interop files needed in the creation of the Interop Logic Page's Graphic!</variant>
+        </translation>
+        <translation key="i8102">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Problem creating Logic Page Graphic file {0}!</variant>
+        </translation>
+        <translation key="i8103">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Problem drawing {0} element identified in the control program during creation of Interop Logic Page's Graphic!</variant>
+        </translation>
+        <translation key="i8104">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Problem with files used in Interop Logic Page Graphic creation!</variant>
+        </translation>
+        <translation key="i8105">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Problem retrieving microblock image for the {0} microblock symbol specified in the {1} control program!</variant>
+        </translation>
+        <translation key="i8106">
+            <note>This is a SiteBuilder logic page creation information message.  The key is simply an identifier - has nothing to do with the text.</note>
+            <variant>Logic pages cannot be created for control program ''{0}''. It must be converted with the latest InterOp Conversion Wizard.</variant>
+        </translation>
+    </section>
+</resource-base>
+<!-- master format -->
