@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.xml.ws.Response;
 import java.util.List;
 
 @RestController
@@ -26,5 +27,13 @@ public class KeysController {
 
         HttpHeaders headers = new HttpHeaders();
         return new ResponseEntity<>(response, headers, HttpStatus.OK);
+    }
+
+    @CrossOrigin
+    @PostMapping(value="/updateKey")
+    public boolean updateKey(@RequestParam(value="tableName") String tableName,
+                                                  @RequestParam(value="updateKey") String updatedVariant) {
+        boolean result = this.keysService.updateKeys(tableName, updatedVariant);
+        return result;
     }
 }

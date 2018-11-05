@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { StatisticsService } from '../../services/statistics/statistics.service';
+import { VersionService } from '../../services/versions/versions.service';
+import { LanguagesService } from '../../services/languages/languages.service';
 
 @Component({
   selector: 'app-admin-dash',
   templateUrl: './admin.dash.component.html'
 })
-export class AdminDashboardComponent implements OnInit {  firstNewKeys: string;
+export class AdminDashboardComponent implements OnInit {
+    firstNewKeys: string;
   firstApprovedKeys: string;
   firstTotalKeys: string;
   secondNewKeys: string;
@@ -14,11 +17,34 @@ export class AdminDashboardComponent implements OnInit {  firstNewKeys: string;
   firstVersion: string;
   secondVersion: string;
 
+  model: any = {};
+  currVersion = '';
+  currLanguage = '';
+  languages: any = {};
+
   constructor(
     private statisticsService: StatisticsService,
+    private versionService: VersionService,
+    private languageService: LanguagesService,
   ) { }
 
-  ngOnInit() {
+  async ngOnInit() {
+    await this.getVersions();
+    await this.getLanguages();
+  }
+  async getVersions() {
+    const versions = await this.versionService.getAll().toPromise();
+    this.model.versions = versions;
+    this.currVersion = this.model.versions[0].verNum;
+    console.log(this.currVersion);
+  }
+
+  async getLanguages() {
+    const languages = await this.languageService.getAll().toPromise();
+    this.languages.lang = languages;
+    console.log(languages);
+    this.currLanguage = this.languages.lang[0].langCode;
+    console.log(this.currLanguage);
   }
 
   viewStatistics(language: string, versionNumber: string) {

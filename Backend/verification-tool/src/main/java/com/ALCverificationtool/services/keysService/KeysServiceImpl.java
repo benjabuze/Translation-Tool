@@ -21,4 +21,9 @@ public class KeysServiceImpl implements KeysService {
         List<TranslationResourceRec> results = keysDao.getKeys(tableName);
         return results;
     }
+
+    @Override
+    boolean updateKeys(String tableName, String updatedVariant) {
+        boolean results = keysDao.updateKey()
+    }
 }
