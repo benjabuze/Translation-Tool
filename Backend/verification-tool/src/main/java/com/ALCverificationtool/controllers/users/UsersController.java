@@ -23,7 +23,6 @@ public class UsersController {
     @CrossOrigin
     @PostMapping("/authorizeUser")
     public ResponseEntity<AuthUserResponse> authUser(@RequestBody AuthUserRequest request) {
-
         AuthUserResponse response = service.authByUsernamePassword(request.getUsername(), request.getPassword());
 
         HttpHeaders headers = new HttpHeaders();

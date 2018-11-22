@@ -6,6 +6,7 @@ import { KeysService } from '../../services/keys/keys.service';
 import { Version } from 'src/app/models/Version';
 import { Language } from 'src/app/models/Language';
 import { StatisticsService } from '../../services/statistics/statistics.service';
+import { CookieService } from 'angular2-cookie/services/cookies.service';
 
 
 @Component({
@@ -39,6 +40,7 @@ export class KeyViewComponent implements OnInit {
     sectionNote: 'none',
     fileName: 'none',
     fileNotes: 'none',
+    username: 'none'
   };
 
   //current Data
@@ -57,6 +59,7 @@ export class KeyViewComponent implements OnInit {
     private languageService: LanguagesService,
     private keySevice: KeysService,
     private statisticsService: StatisticsService,
+    private cookies: CookieService
   ) { }
 
   async ngOnInit() {
@@ -182,6 +185,9 @@ export class KeyViewComponent implements OnInit {
   }
 
   updateKeys() {
+    let username = this.cookies.get('username');
+    this.currKey.username = username;
+
     this.currKey.languageCode = this.currLanguage;
     this.currKey.languageVersion = this.currVersion;
     let tempString = this.currVersion;
