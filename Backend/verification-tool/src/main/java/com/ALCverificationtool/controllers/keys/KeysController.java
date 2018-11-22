@@ -21,7 +21,7 @@ public class KeysController {
                                                    @RequestParam(value="versionNumber") String versionNumber) {
         String tableName = language + "_" + versionNumber;
         List<TranslationResourceRec> keysList = this.keysService.getKeys(tableName);
-
+        System.out.println(tableName);
         KeysResponse response = new KeysResponse(keysList);
         System.out.println("get keys");
         HttpHeaders headers = new HttpHeaders();

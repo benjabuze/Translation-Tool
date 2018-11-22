@@ -184,6 +184,11 @@ export class KeyViewComponent implements OnInit {
   updateKeys() {
     this.currKey.languageCode = this.currLanguage;
     this.currKey.languageVersion = this.currVersion;
+    let tempString = this.currVersion;
+    if (this.currVersion.indexOf('.') > -1) {
+      tempString = tempString.replace(/\./g, '_');
+    }
+    this.currKey.languageVersion = tempString;
     this.keySevice.updateKey(this.currKey).toPromise();
     this.viewStatistics();
     this.getKeyList();
