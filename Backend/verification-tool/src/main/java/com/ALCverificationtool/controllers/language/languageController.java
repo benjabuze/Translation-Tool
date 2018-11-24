@@ -56,7 +56,4 @@ public class languageController {
 
         return new ResponseEntity<>(langRecResults, headers, HttpStatus.OK);
     }
-
-
-
 }

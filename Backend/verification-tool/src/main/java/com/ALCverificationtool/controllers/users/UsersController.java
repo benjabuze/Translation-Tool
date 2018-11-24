@@ -86,6 +86,19 @@ public class UsersController {
     }
 
     @CrossOrigin
+    @GetMapping("/username/{username}")
+    public ResponseEntity<GetUserDetailResponse> getLangByUsername(@PathVariable("username") String username) {
+
+        Optional<UserRec> userRecResult = this.service.getLangByName(username);
+        GetUserDetailResponse response = new GetUserDetailResponse(new User(userRecResult));
+
+        HttpHeaders headers = new HttpHeaders();
+
+        return new ResponseEntity<>(response, headers, HttpStatus.OK);
+    }
+
+
+    @CrossOrigin
     @PutMapping("/user/{userId}")
     public ResponseEntity<UpdateUserResponse> updateUser(@PathVariable("userId") String userId,
                                                          @RequestBody UpdateUserRequest request) {

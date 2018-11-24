@@ -3,6 +3,7 @@ import { Observable, of } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Http, Headers, RequestOptions } from '@angular/Http';
 import { LanguageKey } from '../../models/LanguageKey';
+import { CookieService } from 'angular2-cookie/services/cookies.service';
 
 const httpOptions = {
   headers: new HttpHeaders()

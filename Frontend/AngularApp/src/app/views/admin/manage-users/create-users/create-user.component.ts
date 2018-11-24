@@ -62,7 +62,7 @@ export class CreateUserComponent implements OnInit {
         newUser.isActive = this.model.active;
         newUser.typeAsStr = this.model.role;
         newUser.languages = [];
-
+        console.log(newUser.languages)
         this.model.languages.forEach((element) => {
             if (element.checked) {
                 newUser.languages.push(new Language(element));

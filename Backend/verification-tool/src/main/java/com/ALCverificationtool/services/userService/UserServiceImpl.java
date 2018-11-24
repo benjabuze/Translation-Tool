@@ -4,11 +4,8 @@ import com.ALCverificationtool.controllers.users.AuthUserResponse;
 import com.ALCverificationtool.dao.authentication.UserAuthenticationRepository;
 import com.ALCverificationtool.dao.logs.LogsRepository;
 import com.ALCverificationtool.dao.users.UserRepository;
-import com.ALCverificationtool.models.Logs;
-import com.ALCverificationtool.models.ResetToken;
+import com.ALCverificationtool.models.*;
 import com.ALCverificationtool.controllers.users.User;
-import com.ALCverificationtool.models.UserAuthentication;
-import com.ALCverificationtool.models.UserRec;
 import com.ALCverificationtool.services.authResetService.AuthResetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -314,4 +311,7 @@ public class UserServiceImpl implements UserService {
             return false;
         }
     }
+
+    @Override
+    public Optional<UserRec> getLangByName(String username) { return this.userDao.findByUsername(username); }
 }

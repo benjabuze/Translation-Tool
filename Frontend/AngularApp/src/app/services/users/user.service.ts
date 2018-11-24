@@ -123,6 +123,33 @@ export class UserService {
             }));
     }
 
+    public getByUsername(username: string): Observable<User> {
+        // Add in JSON header and access token header
+        const headers = new Headers({
+            'Content-Type': 'application/Json',
+            'access-token': this.userLoginService.accessToken
+        });
+        const options = new RequestOptions({ headers: headers});
+        const URL = 'http://localhost:8080/username'
+        return this.http.get(`${URL}/${username}`, options)
+        .pipe(
+            map((resp: any) => {
+                // find the user from the response body
+                if (resp && resp != null) {
+                    const respBody: any = resp.json();
+                    if (respBody && respBody != null) {
+                        const { userDetail } = respBody;
+
+                        if (userDetail && userDetail != null) {
+                            return User.fromJsonObject(userDetail);
+                        }
+                    }
+                }
+                // no response so no user
+                return null;
+            }));
+    }
+
     public update(userId: string, userDetail: User): Observable<boolean> {
 
         if (!this.userLoginService.isLoggedIn) {
