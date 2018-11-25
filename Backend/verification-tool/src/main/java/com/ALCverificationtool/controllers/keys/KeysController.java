@@ -34,7 +34,8 @@ public class KeysController {
     public boolean updateKey(@RequestBody TranslationResourceRec key){
         key.setKeyApproved(true);
         key.setKeyNew(false);
-        String tableName = key.getLanguageCode() + "_" + key.getLanguageVersion();
+        String tmp = key.getLanguageVersion().replaceAll("\\.", "_");
+        String tableName = key.getLanguageCode() + "_" + tmp;
         keysService.updateKeys(tableName, key);
         return true;
     }

@@ -291,6 +291,7 @@ public class KeysRepositoryImpl implements KeysRepository {
                 keyData.getSectionNote(),
                 keyData.getKeyId()
         };
+
         int i = jdbcTemplate.update(UPDATE, parameters);
 
         //Log approved key
