@@ -49,8 +49,8 @@
         <div *ngFor="let lang of model.languages" class="container">
 
             <div style="position: relative; display: inline-block"><label >{{lang.langCode}}
-                <input 
-                    type="checkbox" 
+                <input
+                    type="checkbox"
                     checked="checked"
                     name="languages"
                     [(ngModel)]="lang.checked">
