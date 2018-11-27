@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
+    console.log(this.loggedIn);
     this.loggedIn = this.userLoginService.isLoggedIn;
     this.isAdmin = this.userLoginService.isUserType(UserTypes.admin);
     this.router.events.subscribe((val) => {
