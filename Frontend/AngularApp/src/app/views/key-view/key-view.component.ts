@@ -67,6 +67,8 @@ export class KeyViewComponent implements OnInit {
   newKeys: String;
   totalKeys: String;
   approvedKeys: String;
+  dupString: String;
+  duplicateKeys = 0;
 
 
   criteria = '';
@@ -193,6 +195,9 @@ export class KeyViewComponent implements OnInit {
       }
     }
     var bool = true;
+    this.duplicateKeys = 0;
+    this.keys2 = [];
+    this.keys4 = [];
 
 
      //remove duplicate keys of same key name
@@ -200,6 +205,7 @@ export class KeyViewComponent implements OnInit {
       for(let key2 of this.keys4){
         if(key.keyName === key2.keyName){
           bool = false;
+          this.duplicateKeys = +this.duplicateKeys + 1;
           break;
         }
         else{
@@ -211,6 +217,7 @@ export class KeyViewComponent implements OnInit {
       }
       this.keys4.push(key);
     }
+    this.dupString = '' + this.duplicateKeys;
     //this.keys2 = this.keys3;
     console.log('keys:');
     console.log(this.keys);
@@ -307,6 +314,7 @@ export class KeyViewComponent implements OnInit {
     this.viewStatistics();
     this.getKeyList();
     var alert = document.getElementById("success-alert");
+
     //alert.hidden = false;
     setTimeout(function () {
       alert.hidden = false;

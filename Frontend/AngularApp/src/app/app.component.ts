@@ -10,7 +10,7 @@ import { LocalStorageService, SessionStorageService } from 'ngx-webstorage';
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  title = 'Translation Verification ';
+  title = 'Translation Verification Tool ';
   loggedIn = false;
   isAdmin = false;
 
