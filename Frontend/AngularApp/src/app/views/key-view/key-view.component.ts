@@ -23,8 +23,11 @@ export class KeyViewComponent implements OnInit {
   keys = []; // keylist must be static
   keys2 = [];  // this keylist can change
   keys3 = [];
+  keys4 = [];
 
   userLanguages: User;
+
+  available = true;
 
   resetKeysList = [];
   englishKeys = [];
@@ -189,7 +192,26 @@ export class KeyViewComponent implements OnInit {
         this.currLanguageFull = ' in ' + lang.langName;
       }
     }
-    this.keys2 = this.keys3;
+    var bool = true;
+
+
+     //remove duplicate keys of same key name
+    for(let key of this.keys3){
+      for(let key2 of this.keys4){
+        if(key.keyName === key2.keyName){
+          bool = false;
+          break;
+        }
+        else{
+          bool = true;
+        }
+      }
+      if(bool == true) {
+        this.keys2.push(key);
+      }
+      this.keys4.push(key);
+    }
+    //this.keys2 = this.keys3;
     console.log('keys:');
     console.log(this.keys);
   }
@@ -353,6 +375,25 @@ openModal(){
     this.approvalSelection = 'All'
     let modal = document.getElementById('changeVersion');
     modal.style.display = 'none';
+
+    this.currKey = {
+      keyId: -1,
+      languageCode: 'none',
+      languageVersion: 'none',
+      keyName: 'none',
+      keyApproved: false,
+      keyNew: false,
+      keyVariant: 'none',
+      keyNote: 'none',
+      sectionId: 'none',
+      sectionNote: 'none',
+      fileName: 'none',
+      fileNotes: 'none',
+      username: 'none'
+    };
+    this.englishTranslation = 'none';
+    this.available = true;
+
   }
    async getResetKey(key: LanguageKey){
   }
