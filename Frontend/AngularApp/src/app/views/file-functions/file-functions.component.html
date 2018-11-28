@@ -1,5 +1,5 @@
 
-<div>
+<div style="position: relative;left: 25%; width: 50%">
   <file-drop headertext="Drop files here" (onFileDrop)="dropped($event)"
   (onFileOver)="fileOver($event)" (onFileLeave)="($event)">
   </file-drop>
@@ -65,7 +65,7 @@
                 <tr *ngFor="let version of model.versions">
                   <td>{{version.verNum}}</td>    
                   <td>
-                    <a class="btn btn-danger" attr.data-vernum="{{version.verNum}}" (click)="deleteVersion($event)" >
+                    <a class="btn btn-danger" attr.data-vernum="{{version.verNum}}" (click)="deleteVersion($event)"  style="float: right">
                       Drop Version
                     </a>
                   </td>                      

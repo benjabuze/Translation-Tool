@@ -118,6 +118,7 @@ export class StatisticsComponent implements OnInit {
   }
 
   async compareVersions(language: string, versionNumber: string) {
+    this.viewStatistics(this.language, this.currVersion);
     this.secondVersion = versionNumber;
     // Statistics for second version
     let keys1 = await this.statisticsService.getNewKeys(language, versionNumber).toPromise();

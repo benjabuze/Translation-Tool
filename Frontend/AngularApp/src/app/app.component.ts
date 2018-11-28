@@ -4,6 +4,7 @@ import { UserTypes } from './models/User';
 import { Router } from '@angular/router';
 import { CookieService } from 'angular2-cookie/services/cookies.service';
 import { LocalStorageService, SessionStorageService } from 'ngx-webstorage';
+const REMEMBERED_USERNAME = 'remembered_username';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,9 @@ export class AppComponent implements OnInit {
   title = 'Translation Verification ';
   loggedIn = false;
   isAdmin = false;
+
+  temp = false;
+  currUser = '';
 
   constructor(private userLoginService: UserLoginService,
               private router: Router ) {}
