@@ -20,7 +20,8 @@ export class LoginFormComponent implements OnInit {
   constructor(private router: Router,
     private userLoginService: UserLoginService,
     private comp: AppComponent, 
-    private cookies: CookieService
+    private cookies: CookieService,
+    private flashMessage: FlashMessagesService
     ) { }
 
   ngOnInit() {
@@ -79,6 +80,8 @@ export class LoginFormComponent implements OnInit {
             // unsuccessfull login path
             localStorage.removeItem(REMEMBERED_USERNAME);
             console.log('Login failed');
+              // display a flash message
+            this.flashMessage.show('Login failed', {cssClass: 'alert alert-danger', timeout: 5000});
           }
         },
         (err: any) => {
