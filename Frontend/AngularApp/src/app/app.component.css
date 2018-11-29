@@ -1,3 +1,7 @@
+
+
+
+
 .image {
   background-image:url("../assets/Auto_Logic_Minimum_Web.png");
   background-position: center;
@@ -13,12 +17,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-
-.navbar-nav > li > a {
-  /* (80px - line-height of 27px) / 2 = 26.5px */
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
-  line-height: 20px;
 }
