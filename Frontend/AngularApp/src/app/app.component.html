@@ -24,6 +24,7 @@
           <div style="background-color: red; height: 40px">
             <div style="text-align: center; padding-top: 10px">
             <a class="nav-link" routerLink="/admin/manageUsers" routerLinkActive="active" style="margin-right: 1%; color: white">Manage Users</a>
+              <a class="nav-link" routerLink="/admin/manageLanguages" routerLinkActive="active" style="margin-right: 1%; color: white">Manage languages</a>
             <a class="nav-link" routerLink="/admin/importFile" routerLinkActive="active" style="margin-right: 1%; color: white">Import XML Files</a>
             <a class="nav-link" routerLink="/admin/exportFile" routerLinkActive="active" style="margin-right: 1%; color: white">Export into XML File</a>
             <a class="nav-link" routerLink="/admin/statistics" routerLinkActive="active" style="margin-right: 1%; color: white">Statistics</a>
@@ -36,17 +37,22 @@
         </div> 
         <ng-template #notAdmin>
           <div>
-            <img src="../assets/Auto_Logic_Minimum_bar.png" style="position: relative; left: 8%">
+            <img src="../assets/Auto_Logic_Minimum_bar.png" style="position: relative; left: 28%">
             <h5 style="display: inline-block; position: relative; left: 56%">Access: Dealer</h5>
+          </div>
+          <div style="background-color: red; height: 40px; padding-top: 10px">
+            <div style="position: relative; left: 95%">
+            <a class="nav-link" routerLink="/logout" routerLinkActive="active" style="margin-right: 1%; color: white">Logout</a>
+            </div>
           </div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <ul class="navbar-nav nav">
-              <li class="nav-item"><a class="nav-link" routerLink="/dealer/keyView" routerLinkActive="active">Translaton Tool</a></li>
-              <li class="nav-item"><a class="nav-link" routerLink="/logout" routerLinkActive="active">Logout</a></li>
+              <li class="nav-item"></li>
             </ul>
           </nav>
         </ng-template>
       </div>
+      <div *ngIf="temp == true">
       <ng-template #notLoggedIn >
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -58,6 +64,7 @@
           </ul>
         </nav>
       </ng-template>
+      </div>
     </div>
 
 

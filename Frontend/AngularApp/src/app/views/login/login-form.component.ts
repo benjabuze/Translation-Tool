@@ -64,10 +64,10 @@ export class LoginFormComponent implements OnInit {
             // now navigate to the the correct route
             switch (this.userLoginService.getUserType) {
               case UserTypes.admin:
-                this.router.navigate(['admin']);
+                this.router.navigate(['admin/statistics']);
                 break;
               case UserTypes.dealer:
-                this.router.navigate(['dealer']);
+                this.router.navigate(['dealer/keyView']);
                 break;
               default:
                 this.router.navigate(['error-page']);

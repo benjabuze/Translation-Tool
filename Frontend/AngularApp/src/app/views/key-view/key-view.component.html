@@ -3,19 +3,27 @@
 <div id="changeVersion" class="modal">
   <div class="modal-content">
     <div style="position: relative;">
-      <p>Version</p>
+
+      <div>
+        <p>Version</p>
       <select class="form-control" style="width: 80px;   display: inline-block"
               [(ngModel)]="currVersion"  #lang="ngModel" name="verselect">
         <option *ngFor="let ver of model.versions">{{ver.verNum}}</option>
       </select>
+      </div>
+      <div style="padding-top: 10px">
+        <p>Language</p>
       <select class="form-control" style="width: 80px;  display: inline-block"
               [(ngModel)]="currLanguage"  #lang="ngModel" name="langselect">
         <option *ngFor="let lang of languages.lang">{{lang.langCode}}</option>
       </select>
+      </div>
 
     </div>
+    <div style="padding-top: 10px">
     <button class="btn btn-primary" (click)="submitTable()">Submit</button>
     <button class="btn btn-primary" (click)="closeModal()">Cancel</button>
+    </div>
   </div>
 </div>
 

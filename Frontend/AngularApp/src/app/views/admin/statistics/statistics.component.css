@@ -3,6 +3,9 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+tr:nth-child(even) {
+  background-color: #e0e3e6;
+}
 
 .column{
   width: 100px;
