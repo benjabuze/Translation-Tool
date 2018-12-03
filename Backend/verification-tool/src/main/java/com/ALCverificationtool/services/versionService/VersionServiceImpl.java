@@ -68,9 +68,6 @@ public class VersionServiceImpl implements VersionService{
             throw new ServiceException("could not create new version number");
         }
 
-        // now create the tables
-        //keysDao.createKeyTable();
-
         // first get a list of the available language codes
         List<LangRec> languages = langDao.findAll();
 
