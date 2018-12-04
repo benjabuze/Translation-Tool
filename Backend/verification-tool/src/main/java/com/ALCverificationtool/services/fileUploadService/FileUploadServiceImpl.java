@@ -82,16 +82,14 @@ public class FileUploadServiceImpl implements FileUploadService {
         String keyName = "";
         String keyVariant = "";
         String keyNote = "";
-        //keyData.setFileNotes("");
         for (int i = 0; i < list.getLength(); i++) {
             Node childNode = list.item(i);
             boolean keyApproved = false;
             boolean keyNew = false;
 
+            // New file
             if (childNode.getNodeName().equals("resource-base")) {
-                fileName = (((Element) childNode).getAttribute("id"));
                 keyData.setFileName(((Element) childNode).getAttribute("id"));
-                language = (((Element) childNode).getAttribute("xml:lang"));
                 keyData.setLanguageCode(((Element) childNode).getAttribute("xml:lang"));
             }
 
@@ -104,7 +102,6 @@ public class FileUploadServiceImpl implements FileUploadService {
             }
 
             if (childNode.getNodeName().equals("section")) {
-                sectionName = ((Element) childNode).getAttribute("id");
                 keyData.setSectionId(((Element) childNode).getAttribute("id"));
             }
             if (childNode.getNodeName().equals("note") && childNode.getParentNode().getNodeName().equals("section")) {
@@ -115,6 +112,7 @@ public class FileUploadServiceImpl implements FileUploadService {
                 keyData.setSectionNote("");
             }
 
+            // Get translation key name
             if (childNode.getNodeName().equals("translation")) {
                 String translationKeyApproved = ((Element) childNode).getAttribute("approved");
                 if (translationKeyApproved.equals("true")) {
@@ -128,11 +126,9 @@ public class FileUploadServiceImpl implements FileUploadService {
                     keyNew = true;
                 }
                 keyData.setKeyNew(keyNew);
-                keyName = ((Element) childNode).getAttribute("key");
                 keyData.setKeyName(((Element) childNode).getAttribute("key"));
             }
             if (childNode.getNodeName().equals("note") && childNode.getParentNode().getNodeName().equals("translation")) {
-                keyNote = childNode.getTextContent();
                 keyData.setKeyNote(childNode.getTextContent());
             }
             if (keyData.getKeyNote() == null) {
